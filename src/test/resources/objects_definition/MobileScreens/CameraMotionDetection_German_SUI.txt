@@ -1,0 +1,7 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+MotionDetectionToggle	XPATH	//*[@content-desc='Bewegungserkennung']	XPATH	//*[@content-desc='Bewegungserkennung']	XPATH	//*[@content-desc='Bewegungserkennung']	name	Motion Detection_toggle	name	Motion Detection_toggle	name	Motion Detection_toggle
+Off	XPATH	//*[@text='Aus']	XPATH	//*[@text='Aus']	XPATH	//*[@text='Aus']						
+BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//*[contains(@name,'ZUR')]"	XPATH	"//*[contains(@name,'ZUR')]"	XPATH	"//*[contains(@name,'ZUR')]"
+Low	XPATH	//*[@text='Gering']	XPATH	//*[@text='Gering']	XPATH	//*[@text='Gering']						
+Normal	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']						
+High	XPATH	//*[@text='Hoch']	XPATH	//*[@text='Hoch']	XPATH	//*[@text='Hoch']						

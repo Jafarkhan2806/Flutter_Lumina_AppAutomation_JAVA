@@ -1,0 +1,13 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+Editexistingaddress	id	diy_cancel_button	id	diy_cancel_button	id	diy_cancel_button	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item
+LocationName	id	setting_location_details_location_name_textview	id	setting_location_details_location_name_textview	id	setting_location_details_location_name_textview	name	Location	name	Location	name	Location
+DeleteLocation	id	setting_delete_location	id	setting_delete_location	id	setting_delete_location	name	Delete Location	name	Delete Location	name	Delete Location
+StreetAddress	id	setting_location_details_street_address_textview	id	setting_location_details_street_address_textview	id	setting_location_details_street_address_textview	name	Location_subTitle	name	Location_subTitle	name	Location_subTitle
+cityStatezipcode	id	setting_location_details_city_state_zip_textview	id	setting_location_details_city_state_zip_textview	id	setting_location_details_city_state_zip_textview	name	Location_subTitle	name	Location_subTitle	name	Location_subTitle
+CountryName	id	setting_location_details_country_textview	id	setting_location_details_country_textview	id	setting_location_details_country_textview	name	Location_subTitle	name	Location_subTitle	name	Location_subTitle
+DeleteLocationPopupLabel	XPATH	//*[@text='Delete Location?']	XPATH	//*[@text='Delete Location?']	XPATH	//*[@text='Delete Location?']	name	Delete Location?	name	Delete Location?	name	Delete Location?
+DeleteLocationPopupMsg	id	message	id	message	id	message	name	Are you sure you want to delete this location?	name	Are you sure you want to delete this location?	name	Are you sure you want to delete this location?
+CancelButton	id	button2	id	button2	id	button2	name	NO	name	NO	name	NO
+DeleteButton	id	button1	id	button1	id	button1	name	YES	name	YES	name	YES
+BackButton	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+RegCountryName	id	fragment_register_country	id	fragment_register_country	id	fragment_register_country	name	Location_subTitle	name	Location_subTitle	name	Location_subTitle

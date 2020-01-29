@@ -1,0 +1,121 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+BackArrowInSelectANewDeviceHeader	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	NAME	Cancel	NAME	Cancel	NAME	Cancel
+AddNewDeviceHeader	XPATH	//*[@value='Add New Device']	XPATH	//*[@value='Add New Device']	XPATH	//*[@value='Add New Device']	XPATH	//*[@value='Add New Device']	XPATH	//*[@value='Add New Device']	XPATH	//*[@value='Add New Device']
+SmartHomeSecurity	XPATH	//*[@text='Smart Home Security']	XPATH	//*[@text='Smart Home Security']	XPATH	//*[@text='Smart Home Security']	NAME	Smart Home Security	NAME	Smart Home Security	NAME	Smart Home Security
+ChooseLocationHeaderTitle	XPATH	//*[@text='Choose Location']	XPATH	//*[@text='Choose Location']	XPATH	//*[@text='Choose Location']	XPATH	//*[@value='Choose Location']	XPATH	//*[@value='Choose Location']	XPATH	//*[@value='Choose Location']
+CancelButton	ID	diy_cancel_button	ID	diy_cancel_button	ID	diy_cancel_button	NAME	Cancel	NAME	Cancel	NAME	Cancel
+CancelButtonInSetUp	ID	diy_cancel_button	ID	diy_cancel_button	ID	diy_cancel_button	XPATH	(//XCUIElementTypeButton[@name='Cancel'])[2]	XPATH	(//XCUIElementTypeButton[@name='Cancel'])[2]	XPATH	(//XCUIElementTypeButton[@name='Cancel'])[2]
+CancelPopupTitle	XPATH	//*[@text='Cancel Setup?']	XPATH	//*[@text='Cancel Setup?']	XPATH	//*[@text='Cancel Setup?']	NAME	Cancel Setup?	NAME	Cancel Setup?	NAME	Cancel Setup?
+YesButtonInCancelSetUpPopup	ID	button1	ID	button1	ID	button1	NAME	Yes	NAME	Yes	NAME	Yes
+NoButtonInCancelSetUpPopup	ID	button2	ID	button2	ID	button2	NAME	No	NAME	No	NAME	No
+SelectHomeLocation	XPATH	//android.widget.Button[@text='Home']	XPATH	//android.widget.Button[@text='Home']	XPATH	//android.widget.Button[@text='Home']	NAME	Home	NAME	Home	NAME	Home
+CustomeLocationTextField	ID	custom_generic_edit	ID	custom_generic_edit	ID	custom_generic_edit	NAME	Add Home	NAME	Add Home	NAME	Add Home
+ConfirmYourAddressZipCodeTitle	XPATH	//*[@text='Confirm your address ZIP Code']	XPATH	//*[@text='Confirm your address ZIP Code']	XPATH	//*[@text='Confirm your address ZIP Code']	XPATH	"//*[contains(@name, 'ZIP Code')]"	XPATH	"//*[contains(@name, 'ZIP Code')]"	XPATH	"//*[contains(@name, 'ZIP Code')]"
+ZipCodeTextField	ID	custom_generic_edit	ID	custom_generic_edit	ID	custom_generic_edit	NAME	ZIP Code	NAME	ZIP Code	NAME	ZIP Code
+InvalidZipCodeErrorPopup	ID	message	ID	message	ID	message	NAME	Error	NAME	Error	NAME	Error
+OKButtonInInvalidZipCodeErrorPopup	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	NAME	OK	NAME	OK	NAME	OK
+NameYourBaseStationHeaderTitle	XPATH	//*[@text='Name Your Base Station']	XPATH	//*[@text='Name Your Base Station']	XPATH	//*[@text='Name Your Base Station']	XPATH	//*[@value='Name Your Base Station']	XPATH	//*[@value='Name Your Base Station']	XPATH	//*[@value='Name Your Base Station']
+SelectLivingRoomBaseStation	XPATH	//android.widget.Button[@text='Living Room']	XPATH	//android.widget.Button[@text='Living Room']	XPATH	//android.widget.Button[@text='Living Room']	NAME	Living Room	NAME	Living Room	NAME	Living Room
+SelectKitchenInNameYourBaseStation	XPATH	//android.widget.Button[@text='Kitchen']	XPATH	//android.widget.Button[@text='Kitchen']	XPATH	//android.widget.Button[@text='Kitchen']	NAME	Kitchen	NAME	Kitchen	NAME	Kitchen
+CustomNameTextField	ID	custom_generic_edit	ID	custom_generic_edit	ID	custom_generic_edit	NAME	Custom	NAME	Custom	NAME	Custom
+PowerYourBaseStationHeaderTitle	XPATH	//*[@text='Power Base Station']	XPATH	//*[@text='Power Base Station']	XPATH	//*[@text='Power Base Station']	XPATH	//*[@value='Power Base Station']	XPATH	//*[@value='Power Base Station']	XPATH	//*[@value='Power Base Station']
+NextButton	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	RightButton	NAME	RightButton	NAME	RightButton
+RightButton	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	XPATH	(//XCUIElementTypeButton[@name='RightButton'])[2]	XPATH	(//XCUIElementTypeButton[@name='RightButton'])[2]	XPATH	(//XCUIElementTypeButton[@name='RightButton'])[2]
+LeftButton	ID	horizontal_button_previous	ID	horizontal_button_previous	ID	horizontal_button_previous	XPATH	(//XCUIElementTypeButton[@name='LeftButton'])[2]	XPATH	(//XCUIElementTypeButton[@name='LeftButton'])[2]	XPATH	(//XCUIElementTypeButton[@name='LeftButton'])[2]
+BackButtonInPowerBaseStationScreen	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	NAME	Back	NAME	Back	NAME	Back
+LookingForBaseStationLoadingSpinner	ID	progressBar	ID	progressBar	ID	progressBar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+BaseStationNotFounPopupTitle	XPATH	//*[@text='Base Station Not Found']	XPATH	//*[@text='Base Station Not Found']	XPATH	//*[@text='Base Station Not Found']	NAME	Base Station  Not Found	NAME	Base Station  Not Found	NAME	Base Station  Not Found
+OKButtonInBaseStationNotFounPopup	ID	button2	ID	button2	ID	button2	XPATH	//*[@name='OK']	XPATH	//*[@name='OK']	XPATH	//*[@name='OK']
+RetryButtonInBaseStationNotFoundPopup	ID	button1	ID	button1	ID	button1	XPATH	//*[@name='Retry']	XPATH	//*[@name='Retry']	XPATH	//*[@name='Retry']
+RegisterBaseStationHeaderTitle	XPATH	//*[@text='Register Base Station']	XPATH	//*[@text='Register Base Station']	XPATH	//*[@text='Register Base Station']	XPATH	//*[@value='Register Base Station']	XPATH	//*[@value='Register Base Station']	XPATH	//*[@value='Register Base Station']
+MultipleBaseStationsScreenSubHeaderTitle	XPATH	//*[@text='Multiple Base Stations found']	XPATH	//*[@text='Multiple Base Stations found']	XPATH	//*[@text='Multiple Base Stations found']	NAME	Multiple Base stations Found	NAME	Multiple Base stations Found	NAME	Multiple Base stations Found
+BaseStationMACID	XPATH	//*[@text='B8:2C:A0:00:07:D8']	XPATH	//*[@text='B8:2C:A0:00:07:D8']	XPATH	//*[@text='B8:2C:A0:00:07:D8']	XPATH	//*[@value='B8:2C:A0:00:07:D8']	XPATH	//*[@value='B8:2C:A0:00:07:D8']	XPATH	//*[@value='B8:2C:A0:00:07:D8']
+QRCode	ID	qrcode_icon	ID	qrcode_icon	ID	qrcode_icon	xpath	//XCUIElementTypeImage	xpath	//XCUIElementTypeImage	xpath	//XCUIElementTypeImage
+RegisterBaseStationQRCodeScanText	XPATH	"//*[contains(@text, 'Scan this code by showing it to your Base Station')]"	XPATH	"//*[contains(@text, 'Scan this code by showing it to your Base Station')]"	XPATH	"//*[contains(@text, 'Scan this code by showing it to your Base Station')]"	XPATH	"//*[contains(@name, 'Scan this code by showing it to your Base Station')]"	XPATH	"//*[contains(@name, 'Scan this code by showing it to your Base Station')]"	XPATH	"//*[contains(@name, 'Scan this code by showing it to your Base Station')]"
+RefreshButtonInSelectBaseStationScreen	ID	fragment_diy_refresh	ID	fragment_diy_refresh	ID	fragment_diy_refresh	NAME	Refresh	NAME	Refresh	NAME	Refresh
+QRCodeScanningFailurePopupTitle	XPATH	//*[@text='Scanning Failure']	XPATH	//*[@text='Scanning Failure']	XPATH	//*[@text='Scanning Failure']	XPATH	//*[@name='Scanning Failure']	XPATH	//*[@name='Scanning Failure']	XPATH	//*[@name='Scanning Failure']
+OKButtonInQRCodeScanningFailurePopup	ID	button2	ID	button2	ID	button2	XPATH	//*[@name='Retry']	XPATH	//*[@name='Retry']	XPATH	//*[@name='Retry']
+BackArrowInRegisterBaseStationHeader	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	NAME	Cancel	NAME	Cancel	NAME	Cancel
+LookingForNetworkConnectionLoadingSpinner	ID	progressBar	ID	progressBar	ID	progressBar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+ConnectoNetworkHeaderTitle	XPATH	//*[@text='Connect to Network']	XPATH	//*[@text='Connect to Network']	XPATH	//*[@text='Connect to Network']	XPATH	//*[@value='Connect']	XPATH	//*[@value='Connect']	XPATH	//*[@value='Connect']
+ConnectoNetworkHeaderDesc	ID	header_view_description	ID	header_view_description	ID	header_view_description	NAME	Select your Wi-Fi network	NAME	Select your Wi-Fi network	NAME	Select your Wi-Fi network
+WiFiList	ID	diy_wld_list	ID	diy_wld_list	ID	diy_wld_list	XPATH	//XCUIElementTypeCollectionView	XPATH	//XCUIElementTypeCollectionView	XPATH	//XCUIElementTypeCollectionView
+WiFiPasswordTextField	ID	wifi_password	ID	wifi_password	ID	wifi_password	NAME	Password	NAME	Password	NAME	Password
+AddANetworkButton	ID	add_wifi_network	ID	add_wifi_network	ID	add_wifi_network	NAME	Add A Network	NAME	Add A Network	NAME	Add A Network
+AddANetworkScreenTitle	XPATH	//*[@text='Connect to Network']	XPATH	//*[@text='Connect to Network']	XPATH	//*[@text='Connect to Network']	NAME	Connect	NAME	Connect	NAME	Connect
+CancelButtonInAddANetworkScreen	ID	diy_cancel_button	ID	diy_cancel_button	ID	diy_cancel_button	NAME	Cancel	NAME	Cancel	NAME	Cancel
+EnterWiFIPasswordScreenSubTitle	ID	header_view_description	ID	header_view_description	ID	header_view_description	NAME	Enter your Wi-Fi password	NAME	Enter your Wi-Fi password	NAME	Enter your Wi-Fi password
+WiFiConnectionFailedPopupTitle	XPATH	//*[@text='Wi-Fi Connection failed']	XPATH	//*[@text='Wi-Fi Connection failed']	XPATH	//*[@text='Wi-Fi Connection failed']	NAME	Wi-Fi Connection failed	NAME	Wi-Fi Connection failed	NAME	Wi-Fi Connection failed
+OKButtonInWiFiConnectionFailedPopup	ID	button1	ID	button1	ID	button1	NAME	OK	NAME	OK	NAME	OK
+JoinButtonInConnectToNetworkScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	Next	NAME	Next	NAME	Next
+ConnectingSmartHomeSecurityLoadingSpinner	ID	progressBar	ID	progressBar	ID	progressBar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+SmartHomeSecuritySuccessHeaderTitle	XPATH	//*[@text='Smart Home Security']	XPATH	//*[@text='Smart Home Security']	XPATH	//*[@text='Smart Home Security']	XPATH	//*[@value='Smart Home Security']	XPATH	//*[@value='Smart Home Security']	XPATH	//*[@value='Smart Home Security']
+NoButtonInSmartHomeSecuritySuccessScreen	ID	horizontal_button_previous	ID	horizontal_button_previous	ID	horizontal_button_previous	NAME	LeftButton	NAME	LeftButton	NAME	LeftButton
+YesButtonInSmartHomeSecuritySuccessScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	RightButton	NAME	RightButton	NAME	RightButton
+SetUpAccessoriesScreenTitle	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']
+SensorSetUpButton	ID	sensor_setup_text	ID	sensor_setup_text	ID	sensor_setup_text	NAME	SetupAccessories_1_0_rightButton	NAME	SetupAccessories_1_0_rightButton	NAME	SetupAccessories_1_0_rightButton
+OverviewScreenTitle	XPATH	//*[@text='Overview']	XPATH	//*[@text='Overview']	XPATH	//*[@text='Overview']	NAME	Here's how it works	NAME	Here's how it works	NAME	Here's how it works
+InProgressLoadingSpinnerText	ID	progress	ID	progress	ID	progress	NAME	In progress	NAME	In progress	NAME	In progress
+LocateSensorScreenTitle	XPATH	//*[@text='Locate Sensor']	XPATH	//*[@text='Locate Sensor']	XPATH	//*[@text='Locate Sensor']	NAME	Find the lit sensor	NAME	Find the lit sensor	NAME	Find the lit sensor
+NameSensorScreenTitle	XPATH	//*[@text='Name Sensor']	XPATH	//*[@text='Name Sensor']	XPATH	//*[@text='Name Sensor']	NAME	Select sensor location	NAME	Select sensor location	NAME	Select sensor location
+DoorOptionInNameSensorScreen	ID	door	ID	door	ID	door	XPATH	//*[@value='Door']	XPATH	//*[@value='Door']	XPATH	//*[@value='Door']
+FrontDoorOptionInNameSensorScreen	XPATH	//*[@text='Front Door']	XPATH	//*[@text='Front Door']	XPATH	//*[@text='Front Door']	NAME	Front Door	NAME	Front Door	NAME	Front Door
+SavingSensorLoadingSpinnerText	ID	progress	ID	progress	ID	progress	NAME	Saving Sensor…	NAME	Saving Sensor…	NAME	Saving Sensor…
+CheckLocationScreenTitle	XPATH	//*[@text='Check Location']	XPATH	//*[@text='Check Location']	XPATH	//*[@text='Check Location']	XPATH	//*[@value='Check Location']	XPATH	//*[@value='Check Location']	XPATH	//*[@value='Check Location']
+CloseDoorSubHeaderTextInCheckLocationScreen	ID	header_view_subtitle	ID	header_view_subtitle	ID	header_view_subtitle	NAME	Close door	NAME	Close door	NAME	Close door
+CheckLocationSignalScreenTitle	XPATH	//*[@text='Check signal near your door']	XPATH	//*[@text='Check signal near your door']	XPATH	//*[@text='Check signal near your door']	XPATH	//*[@value='Check signal near your door']	XPATH	//*[@value='Check signal near your door']	XPATH	//*[@value='Check signal near your door']
+SignalStrengthLabelInCheckLocationScreen	ID	signal_strength_view	ID	signal_strength_view	ID	signal_strength_view	NAME	MountSensor_1_0_subTitle	NAME	MountSensor_1_0_subTitle	NAME	MountSensor_1_0_subTitle
+PrepareSensorScreenTitle	XPATH	//*[@text='Prepare Sensor']	XPATH	//*[@text='Prepare Sensor']	XPATH	//*[@text='Prepare Sensor']	XPATH	//*[@value='Prepare Sensor']	XPATH	//*[@value='Prepare Sensor']	XPATH	//*[@value='Prepare Sensor']
+UnEvenButtonInPrepareSensorScreen	ID	horizontal_button_previous	ID	horizontal_button_previous	ID	horizontal_button_previous	NAME	LeftButton	NAME	LeftButton	NAME	LeftButton
+EvenButtonInPrepareSensorScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	RightButton	NAME	RightButton	NAME	RightButton
+PlaceAdhesiveStripsScreenTitle	ID	header_view_subtitle	ID	header_view_subtitle	ID	header_view_subtitle	NAME	Place adhesive strips	NAME	Place adhesive strips	NAME	Place adhesive strips
+MountSensorScreenTitle	XPATH	//*[@text='Mount Sensor']	XPATH	//*[@text='Mount Sensor']	XPATH	//*[@text='Mount Sensor']	XPATH	//*[@value='Mount Sensor']	XPATH	//*[@value='Mount Sensor']	XPATH	//*[@value='Mount Sensor']
+MountSensorScreenSubHeaderTitle	ID	header_view_subtitle	ID	header_view_subtitle	ID	header_view_subtitle	NAME	Mount halves	NAME	Mount halves	NAME	Mount halves
+VerifyingLoadingSpinnerText	ID	verify_text	ID	verify_text	ID	verify_text	NAME	Verifying…	NAME	Verifying…	NAME	Verifying…
+SensorReadyScreenTitle	XPATH	//*[@text='Sensor Ready']	XPATH	//*[@text='Sensor Ready']	XPATH	//*[@text='Sensor Ready']	XPATH	//*[@value='Sensor Ready']	XPATH	//*[@value='Sensor Ready']	XPATH	//*[@value='Sensor Ready']
+SuccessLabelInSensorReadyScren	ID	header_view_subtitle	ID	header_view_subtitle	ID	header_view_subtitle	NAME	Success!	NAME	Success!	NAME	Success!
+SetUpAccessoriesConfiguredScreenTitle	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@text='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']	XPATH	//*[@value='Set Up Accessories']
+ConfiguredLabelInSetUpAccessoriesScreen	ID	access_sensor_name	ID	access_sensor_name	ID	access_sensor_name	NAME	SetupAccessories_1_0_value	NAME	SetupAccessories_1_0_value	NAME	SetupAccessories_1_0_value
+SaveButtonInSetUpAccessoriesScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	RightButton	NAME	RightButton	NAME	RightButton
+FinishingUpLoadingSpinnerText	ID	progress	ID	progress	ID	progress	NAME	Finishing up	NAME	Finishing up	NAME	Finishing up
+GeoFencingHeaderTitle	XPATH	//*[@text='Just Come and Go']	XPATH	//*[@text='Just Come and Go']	XPATH	//*[@text='Just Come and Go']	XPATH	//*[@value='Just Come and Go']	XPATH	//*[@value='Just Come and Go']	XPATH	//*[@value='Just Come and Go']
+SkipButtonInGeoFencingScreen	ID	horizontal_button_previous	ID	horizontal_button_previous	ID	horizontal_button_previous	NAME	Skip	NAME	Skip	NAME	Skip
+EnableButtonInGeoFencingScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	Enable	NAME	Enable	NAME	Enable
+EnablingGeoFencingLoadingSpinner	ID	progress	ID	progress	ID	progress	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+CancelButtonInGeoFenceScreen	ID	diy_cancel_button	ID	diy_cancel_button	ID	diy_cancel_button	NAME	Navigation_Left_Bar_Item	NAME	Navigation_Left_Bar_Item	NAME	Navigation_Left_Bar_Item
+GeoFenceScreenHeaderTitle	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@value='Geofence']	XPATH	//*[@value='Geofence']	XPATH	//*[@value='Geofence']
+UseLocationButtonInGeoFenceScreen	ID	fragment_geofence_find_my_location	ID	fragment_geofence_find_my_location	ID	fragment_geofence_find_my_location	NAME	ic use location	NAME	ic use location	NAME	ic use location
+SaveButtonInGeoFenceScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	Save	NAME	Save	NAME	Save
+GeoFenceEnabledScreenHeaderTitle	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	XPATH	//*[@value='Geofence']	XPATH	//*[@value='Geofence']	XPATH	//*[@value='Geofence']
+GeoFenceEnabledScreenSubHeaderTitle	XPATH	//*[@text='Geofence Enabled!']	XPATH	//*[@text='Geofence Enabled!']	XPATH	//*[@text='Geofence Enabled!']	NAME	Geofence Enabled!	NAME	Geofence Enabled!	NAME	Geofence Enabled!
+SaveButtonInGeoFenceEnabledScreen	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	RightButton	NAME	RightButton	NAME	RightButton
+AmazonAlexaHeaderTitle	XPATH	//*[@text='Amazon Alexa']	XPATH	//*[@text='Amazon Alexa']	XPATH	//*[@text='Amazon Alexa']	XPATH	//*[@value='Amazon Alexa']	XPATH	//*[@value='Amazon Alexa']	XPATH	//*[@value='Amazon Alexa']
+SkipButtonInAmazonAlexa	ID	horizontal_button_previous	ID	horizontal_button_previous	ID	horizontal_button_previous	NAME	Skip	NAME	Skip	NAME	Skip
+SetUpButtonInAmazonAlexa	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	NAME	Set Up	NAME	Set Up	NAME	Set Up
+IncreaseSecurityPopup	ID	title_security_txt	ID	title_security_txt	ID	title_security_txt	XPATH	//*[@value='Amazon Alexa']	XPATH	//*[@name='Before you can continue using Lyric…']	XPATH	//*[@name='Before you can continue using Lyric…']
+DontUseButtonInIncreaseSecurityPopup	ID	dont_use_txt	ID	dont_use_txt	ID	dont_use_txt						
+AddSecurityButtonInIncreaseSecurityPopup	ID	add_security_txt	ID	add_security_txt	ID	add_security_txt	NAME	Create Passcode	NAME	Create Passcode	NAME	Create Passcode
+CreateAPasscodeTitle	id	security_pin_title_tv	id	security_pin_title_tv	id	security_pin_title_tv	NAME	Create a Passcode	NAME	Create a Passcode	NAME	Create a Passcode
+PasscodeTextBox	id	pin_editbox	id	pin_editbox	id	pin_editbox	NAME	Verify Passcode	NAME	Verify Passcode	NAME	Verify Passcode
+VerifyPasscodeTitle							NAME	Verify Passcode	NAME	Verify Passcode	NAME	Verify Passcode
+PasscodePopUpTitle	id	title_security_txt	id	title_security_txt	id	title_security_txt	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"
+CreatePasscodeButton	id	add_security_txt	id	add_security_txt	id	add_security_txt	name	Create Passcode	name	Create Passcode	name	Create Passcode
+PasscodePopUpTitle	id	title_security_txt	id	title_security_txt	id	title_security_txt	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"	xpath	"//*[contains(@name,'Before you can continue using Lyric')]"
+GotItButtonInAccessMoreInfoPopup	ID	btn_positive_got_it	ID	btn_positive_got_it	ID	btn_positive_got_it	NAME	Got It	XPATH	Got It	XPATH	Got It
+GotItButtonInQuickControlsPopup	ID	btn_positive_got_it	ID	btn_positive_got_it	ID	btn_positive_got_it	NAME	Got It	XPATH	Got It	XPATH	Got It
+GlobalDrawerButton	XPATH	//android.widget.ImageButton[@content-desc='Global Drawer']	XPATH	//android.widget.ImageButton[@content-desc='Global Drawer']	XPATH	//android.widget.ImageButton[@content-desc='Global Drawer']	name	menu	name	menu	name	menu
+GlobalDrawerIconList	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text						
+BaseStationSettingsOption	xpath	//*[@text='Base Station Settings']	xpath	//*[@text='Base Station Settings']	xpath	//*[@text='Base Station Settings']	XPATH	//*[@value='Base Station Settings']	XPATH	//*[@value='Base Station Settings']	XPATH	//*[@value='Base Station Settings']
+DeleteDASDeviceButton	id	delete_das_button	id	delete_das_button	id	delete_das_button	NAME	Delete Base Station	NAME	Delete Base Station	NAME	Delete Base Station
+YesButton	xpath	//*[@text='Yes' or @text='YES'] 	xpath	//*[@text='Yes' or @text='YES'] 	xpath	//*[@text='Yes' or @text='YES'] 	NAME	YES	NAME	YES	NAME	YES
+DevicesList	id	fragment_add_new_device_list	id	fragment_add_new_device_list	id	fragment_add_new_device_list	NAME	Select a device to install_SectionHeader	NAME	Select a device to install_SectionHeader	NAME	Select a device to install_SectionHeader
+LocationDetailsInSettings	XPATH	"//*[contains(@text, 'Details')]"	XPATH	"//*[contains(@text, 'Details')]"	XPATH	"//*[contains(@text, 'Details')]"	NAME	details	NAME	details	NAME	details
+DeleteLocation	ID	setting_delete_location	ID	setting_delete_location	ID	setting_delete_location	NAME	Delete Location	NAME	Delete Location	NAME	Delete Location
+DeleteLocationPopupTitle	XPATH	//*[@text='Delete Location?']	XPATH	//*[@text='Delete Location?']	XPATH	//*[@text='Delete Location?']	NAME	Delete Location?	NAME	Delete Location?	NAME	Delete Location?
+NoButtonInDeleteLocationPopup	ID	button2	ID	button2	ID	button2	NAME	NO	NAME	NO	NAME	NO
+YesButtonInDeleteLocationPopup	ID	button1	ID	button1	ID	button1	NAME	YES	NAME	YES	NAME	YES
+DeletingLocationLoadingSpinner	ID	progress	ID	progress	ID	progress	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+DoneButtonInKeyboard							NAME	Done	NAME	Done	NAME	Done
+ReturnButtonInKeyboard							ID	Return	ID	Return	ID	Return
+CameraNameTitle	XPATH	"//*[contains(@text, 'Camera Name')]"	XPATH	"//*[contains(@text, 'Camera Name')]"	XPATH	"//*[contains(@text, 'Camera Name')]"	NAME	Camera Name	NAME	Camera Name	NAME	Camera Name
+ConnectTitle	XPATH	"//*[contains(@text, 'Connect')]"	XPATH	"//*[contains(@text, 'Connect')]"	XPATH	"//*[contains(@text, 'Connect')]"	NAME	Connect	NAME	Connect	NAME	Connect

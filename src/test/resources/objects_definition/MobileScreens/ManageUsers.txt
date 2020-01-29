@@ -1,0 +1,19 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+UsersList	ID	list_item_lyric_subtext_primary_text_view	ID	list_item_lyric_subtext_primary_text_view	ID	list_item_lyric_subtext_primary_text_view	XPATH	//*[@type='UIAStaticText']	XPATH	//*[@type='UIAStaticText']	XPATH	//*[@type='UIAStaticText']
+UserEmail	ID	fragment_invite_user_email_edit_text	ID	fragment_invite_user_email_edit_text	ID	fragment_invite_user_email_edit_text	XPATH	//*[@value='Type Email']	XPATH	//*[@value='Type Email']	XPATH	//*[@value='Type Email']
+AddUser	ID	settings_menu_invite_user	ID	settings_menu_invite_user	ID	settings_menu_invite_user	NAME	Add User	NAME	Add User	NAME	Add User
+Send	ID	fragment_invite_user_send_button	ID	fragment_invite_user_send_button	ID	fragment_invite_user_send_button	NAME	SEND	NAME	SEND	NAME	SEND
+InvitedUsers	ID	linear_parent_row_devices	ID	linear_parent_row_devices	ID	linear_parent_row_devices	name	icon close	name	icon close	name	icon close
+ManageUsersbutton 	xpath	//*[@text='Manage Users']										
+AddUsersbutton	id	settings_menu_invite_user					NAME	Add User	NAME	Add User	NAME	Add User
+InviteUseremailtextbox	id	fragment_invite_user_email_edit_text					XPATH	//*[@value='Type Email']	XPATH	//*[@value='Type Email']	XPATH	//*[@value='Type Email']
+sendbutton	id	fragment_invite_user_send_button					NAME	SEND	NAME	SEND	NAME	SEND
+WrongFormatEmailText	id	fragment_invite_user_email_invalid_error					XPATH	//*[@value='syed@gmail']	XPATH	//*[@value='syed@gmail']	XPATH	//*[@value='syed@gmail']
+OkButton	id	button1	id	button1	id	button1	name	OK	name	OK	name	OK
+NavigateBackbutton	xpath	//*[@content-desc='Navigate Up']					XPATH	//*[@type='UIAButton']	XPATH	//*[@type='UIAButton']	XPATH	//*[@type='UIAButton']
+InvitedUserDisplayList	id	linear_parent_row_devices					XPATH	//*[@type='UIAStaticText']	XPATH	//*[@type='UIAStaticText']	XPATH	//*[@type='UIAStaticText']
+RemoveUserButton	id	title					NAME	Remove	NAME	Remove	NAME	Remove
+CloseButtonIOS							NAME	invited_user_0_0_rightButton	NAME	invited_user_0_0_rightButton	NAME	invited_user_0_0_rightButton
+UserRemove	id	button1	id	button1	id	button1						
+Cancel Remove	id	button2	id	button2	id	button2						
+BackButton	xpath	//*[@class='android.widget.ImageButton']	xpath	//*[@class='android.widget.ImageButton']	xpath	//*[@class='android.widget.ImageButton']	NAME	Back				

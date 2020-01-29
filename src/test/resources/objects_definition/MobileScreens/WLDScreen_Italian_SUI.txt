@@ -1,0 +1,15 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+DissmissButton	id	general_alert_dismiss_button	id	general_alert_dismiss_button	id	general_alert_dismiss_button						
+ActionSettingButton	id	action_settings	id	action_settings	id	action_settings	name	action_settings	name	action_settings	name	action_settings
+ManageAlerts	xpath	"//*[contains(@text,'Gestisci gli')]"	xpath	"//*[contains(@text,'Gestisci gli')]"	xpath	"//*[contains(@text,'Gestisci gli')]"	name	AlertSettings_title	name	AlertSettings_title	name	AlertSettings_title
+EmailContacts	xpath	"//*[contains(@text,'Contatti e-mail')]"	xpath	"//*[contains(@text,'Contatti e-mail')]"	xpath	"//*[contains(@text,'Contatti e-mail')]"	name	Email_Contacts_title	name	Email_Contacts_title	name	Email_Contacts_title
+LeakDetectorConfig	xpath	"//*[contains(@text,'Configurazione')]"	xpath	"//*[contains(@text,'Configurazione')]"	xpath	"//*[contains(@text,'Configurazione')]"	name	WLDConfiguration_title	name	WLDConfiguration_title	name	WLDConfiguration_title
+UpdateFrequency	xpath	"//*[contains(@text,'Aggiorna frequenza')]"	xpath	"//*[contains(@text,'Aggiorna frequenza')]"	xpath	"//*[contains(@text,'Aggiorna frequenza')]"	name	UpdateFrequency_title	name	UpdateFrequency_title	name	UpdateFrequency_title
+BackButton	xpath	"//*[contains(@content-desc,'Naviga verso')]"	XPATH	"//*[contains(@content-desc,'Naviga verso')]"	xpath	"//*[contains(@content-desc,'Naviga verso')]"	name	Back	name	Back	name	Back
+UpdateFrequencytext	id	toolbar_title	id	toolbar_title	id	toolbar_title	name	Location Name	name	Location Name	name	Location Name
+LeakDetectorbutton	id	btn_delete_device	id	btn_delete_device	id	btn_delete_device	name	Delete Leak Detector	name	Delete Leak Detector	name	Delete Leak Detector
+Emailcontactstext	xpath	"//*[contains(@text,'Email Contacts')]"	xpath	"//*[contains(@text,'Email Contacts')]"	xpath	"//*[contains(@text,'Email Contacts')]"	name	Email_Contacts_cell	name	Email_Contacts_cell	name	Email_Contacts_cell
+CloseButton	xpath	"//*[contains(@text,'Close')]"	xpath	"//*[contains(@text,'Close')]"	xpath	"//*[contains(@text,'Close')]"						
+InvitedEmailId	id	list_item_lyric_horizontal_text_view_primary_text	id	list_item_lyric_horizontal_text_view_primary_text	id	list_item_lyric_horizontal_text_view_primary_text						
+AcceptedInvitation	id	list_item_lyric_horizontal_text_view_subtext	id	list_item_lyric_horizontal_text_view_subtext	id	list_item_lyric_horizontal_text_view_subtext						
+Email	xpath	//*[(@class='android.widget.EditText')]	xpath	//*[(@class='android.widget.EditText')]	xpath	//*[(@class='android.widget.EditText')]						

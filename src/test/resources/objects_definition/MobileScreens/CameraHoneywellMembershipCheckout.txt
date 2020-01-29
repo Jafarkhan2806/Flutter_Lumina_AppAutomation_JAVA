@@ -1,0 +1,19 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+CardNumberField	XPATH	"//android.view.View[contains(@text,'CARD NUMBER')]"	XPATH	"//android.view.View[contains(@text,'CARD NUMBER')]"	XPATH	"//android.view.View[contains(@text,'CARD NUMBER')]"						
+CardHolderNameField	XPATH	"//android.view.View[contains(@text,'CARD HOLDER NAME')]"	XPATH	"//android.view.View[contains(@text,'CARD HOLDER NAME')]"	XPATH	"//android.view.View[contains(@text,'CARD HOLDER NAME')]"						
+CardExpirationField	XPATH	"//android.view.View[contains(@text,'EXP')]"	XPATH	"//android.view.View[contains(@text,'EXP')]"	XPATH	"//android.view.View[contains(@text,'EXP')]"						
+CVCField	XPATH	"//android.view.View[contains(@text,'CVC')]"	XPATH	"//android.view.View[contains(@text,'CVC')]"	XPATH	"//android.view.View[contains(@text,'CVC')]"						
+ZipcodeField	XPATH	"//android.view.View[contains(@text,'ZIP')]"	XPATH	"//android.view.View[contains(@text,'ZIP')]"	XPATH	"//android.view.View[contains(@text,'ZIP')]"						
+PayNowbutton	XPATH	"//*[contains(@text,'Pay Now')]"	XPATH	"//*[contains(@text,'Pay Now')]"	XPATH	"//*[contains(@text,'Pay Now')]"						
+CheckoutPage	XPATH	"//*[contains(@text,'Checkout')]"	XPATH	"//*[contains(@text,'Checkout')]"	XPATH	"//*[contains(@text,'Checkout')]"						
+PurchaseAgreementDesc	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS')]"	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS')]"	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS')]"						
+Summary	XPATH	//*[@text='Summary']	XPATH	//*[@text='Summary']	XPATH	//*[@text='Summary']						
+UnableToMsg	id	heading_text	id	heading_text	id	heading_text						
+UnableToDesc	id	detail_text	id	detail_text	id	detail_text						
+InvalidCard	XPATH	"//*[contains(@text,'Your card number is invalid.')]"	XPATH	"//*[contains(@text,'Your card number is invalid.')]"	XPATH	"//*[contains(@text,'Your card number is invalid.')]"						
+OKButton	id	done	id	done	id	done						
+TryAgainButton	id	try_again	id	try_again	id	try_again						
+BackButton	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']						
+PayNowbutton2	id	payment	id	payment	id	payment						
+PaymentDetails	XPATH	"//android.view.View[contains(@text,'Payment details')]"	XPATH	"//android.view.View[contains(@text,'Payment details')]"	XPATH	"//android.view.View[contains(@text,'Payment details')]"						
+PaymentDetailsDesc	XPATH	//*[@text='Complete your payment by entering your card details.']	XPATH	//*[@text='Complete your payment by entering your card details.']	XPATH	//*[@text='Complete your payment by entering your card details.']						

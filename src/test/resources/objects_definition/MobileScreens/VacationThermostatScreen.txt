@@ -1,0 +1,27 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+VacationOptionOnGlobalDrawer	XPATH	//*[@text='Vacation']	XPATH	//*[@text='Vacation']	XPATH	//*[@text='Vacation']	NAME	Vacation	NAME	Vacation	NAME	Vacation
+UsesVacationSettingsSwitch	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	name	uses_vacation_settings_toggle	name	uses_vacation_settings_toggle	name	uses_vacation_settings_toggle
+ToolbarTitle	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title						
+UsesVacationText	XPATH	//*[@text='Uses Vacation Settings']	XPATH	//*[@text='Uses Vacation Settings']	XPATH	//*[@text='Uses Vacation Settings']	XPATH	//*[@value='Uses Vacation Settings']	XPATH	//*[@value='Uses Vacation Settings']	XPATH	//*[@value='Uses Vacation Settings']
+VacationMinimumText	XPATH	//*[@text='Minimum Temperature']	XPATH	//*[@text='Minimum Temperature']	XPATH	//*[@text='Minimum Temperature']	XPATH	//*[@value='Minimum Temperature']	XPATH	//*[@value='Minimum Temperature']	XPATH	//*[@value='Minimum Temperature']
+VacationMaximumText	XPATH	//*[@text='Maximum Temperature']	XPATH	//*[@text='Maximum Temperature']	XPATH	//*[@text='Maximum Temperature']	XPATH	//*[@value='Maximum Temperature']	XPATH	//*[@value='Maximum Temperature']	XPATH	//*[@value='Maximum Temperature']
+StatName	ID	list_item_lyric_subtext_primary_text_view	ID	list_item_lyric_subtext_primary_text_view	ID	list_item_lyric_subtext_primary_text_view						
+ReviewVacationSetPoints	ID	list_item_lyric_subtext_sub_text_view	ID	list_item_lyric_subtext_sub_text_view	ID	list_item_lyric_subtext_sub_text_view						
+BackButton	XPATH	//*[@contentDesc='Navigate Up']	XPATH	//*[@contentDesc='Navigate Up']	XPATH	//*[@contentDesc='Navigate Up']	NAME	BACK	NAME	BACK	NAME	BACK
+VacationBackButton	XPATH	//*[@contentDesc='Navigate Up']	XPATH	//*[@contentDesc='Navigate Up']	XPATH	//*[@contentDesc='Navigate Up']	NAME	nav bar back	NAME	nav bar back	NAME	nav bar back
+CoolTemp	XPATH	//*[@contentDesc='Cool']	XPATH	//*[@contentDesc='Cool']	XPATH	//*[@contentDesc='Cool']	NAME	coolTemperatureLabel	NAME	coolTemperatureLabel	NAME	coolTemperatureLabel
+CoolTempUp	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up	NAME	temp stepper up	NAME	temp stepper up	NAME	temp stepper up
+CoolTempDown	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down	NAME	temp stepper down	NAME	temp stepper down	NAME	temp stepper down
+HeatTemp	XPATH	//*[@contentDesc='Heat']	XPATH	//*[@contentDesc='Heat']	XPATH	//*[@contentDesc='Heat']	NAME	heatTemperatureLabel	NAME	heatTemperatureLabel	NAME	heatTemperatureLabel
+HeatTempUp	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up	NAME	temp stepper up	NAME	temp stepper up	NAME	temp stepper up
+HeatTempDown	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down	NAME	temp stepper down	NAME	temp stepper down	NAME	temp stepper down
+TemperatureUp_Android	ID	btn_temp_up_layout	ID	btn_temp_up_layout	ID	btn_temp_up_layout						
+TemperatureDown_Android	ID	btn_temp_down_layout	ID	btn_temp_down_layout	ID	btn_temp_down_layout						
+TempPoints	id	current_temp_value	id	current_temp_value	id	current_temp_value	NAME	Dialer	NAME	Dialer	NAME	Dialer
+CoolSetPoints												
+HeatSetPoints												
+DHWUsesVacationSettingsSwitch	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	name	uses_vacation_settings_toggle	name	uses_vacation_settings_toggle	name	uses_vacation_settings_toggle
+PriorityText	XPATH	//*[@text='PRIORITY' or @text='Priority']	XPATH	//*[@text='PRIORITY' or @text='Priority']	XPATH	//*[@text='PRIORITY' or @text='Priority']	xpath	//*[@label='Priority']	xpath	//*[@label='Priority']	xpath	//*[@label='Priority']
+FanMode	XPATH	//*[@text='FAN' or @text='Fan']	XPATH	//*[@text='FAN' or @text='Fan']	XPATH	//*[@text='FAN' or @text='Fan']	xpath	//*[@label='Fan_Mode' or @name='From_subTitle']	xpath	//*[@label='Fan_Mode' or @name='From_subTitle']	xpath	//*[@label='Fan_Mode' or @name='From_subTitle']
+FanModeOption	id	fan_text	id	fan_text	id	fan_text	XPATH	//*[@label='From_value']	XPATH	//*[@label='From_value']	XPATH	//*[@label='From_value']
+PriorityOption	id	priority_text	id	priority_text	id	priority_text	XPATH	//*[@label='From_value']	XPATH	//*[@label='From_value']	XPATH	//*[@label='From_value']

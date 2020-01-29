@@ -1,0 +1,62 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+FollowingSchedule	XPATH	"//*[contains(@text,'programm')]"	XPATH	"//*[contains(@text,'programm')]"	XPATH	"//*[contains(@text,'programm')]"	XPATH	"//*[contains(@name,'PROGRAMMA')]"	XPATH	"//*[contains(@name,'PROGRAMMA')]"	XPATH	"//*[contains(@name,'PROGRAMMA')]"
+Alwayson	XPATH	"//*[contains(@text,'attivo')]"	XPATH	"//*[contains(@text,'attivo')]"	XPATH	"//*[contains(@text,'attivo')]"	name	icon Mode AlwaysOn Deselected	name	icon Mode AlwaysOn Deselected	name	icon Mode AlwaysOn Deselected
+AlwaysOFF	XPATH	"//*[contains(@text,'disattivo')]"	XPATH	"//*[contains(@text,'disattivo')]"	XPATH	"//*[contains(@text,'disattivo')]"	name	icon Mode AlwaysOff Deselected	name	icon Mode AlwaysOff Deselected	name	icon Mode AlwaysOff Deselected
+CancelButton	ID	Navigate up	ID	Navigate up	ID	Navigate up	XPATH	//*[@value='Cancel']	XPATH	//*[@value='Cancel']	XPATH	//*[@value='Cancel']
+ModeButton	ID	dhw_mode_button	ID	dhw_mode_button	ID	dhw_mode_button	XPATH	"//*[contains(@name,'icon ')]"	XPATH	"//*[contains(@name,'icon ')]"	XPATH	"//*[contains(@name,'icon ')]"
+DHWStatus	ID	dhw_status_textview	ID	dhw_status_textview	ID	dhw_status_textview	NAME	DHWState	NAME	DHWState	NAME	DHWState
+DHWStatusDetail	ID	dhw_status_details_textview	ID	dhw_status_details_textview	ID	dhw_status_details_textview	NAME	DHWStateTimeInfo	NAME	DHWStateTimeInfo	NAME	DHWStateTimeInfo
+ScheduleButton	ID	dhw_schedule_button	ID	dhw_schedule_button	ID	dhw_schedule_button	NAME	 SCHEDULE	NAME	icon DHW Schedule Img	NAME	icon DHW Schedule Img
+options	ID	actionbar_schedule_options_textview	ID	actionbar_schedule_options_textview	ID	actionbar_schedule_options_textview	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item
+Scheduleheader	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title						
+hwname	ID	toolbar_device_name	ID	toolbar_device_name	ID	toolbar_device_name						
+HoriTab	ID	sliding_tabs_view_schedule	ID	sliding_tabs_view_schedule	ID	sliding_tabs_view_schedule						
+everyday	XPATH	//*[@text='Every Day']	XPATH	//*[@text='Every Day']	XPATH	//*[@text='Every Day']						
+PeriodTitle	ID	scheduling_period_title	ID	scheduling_period_title	ID	scheduling_period_title	name	DHWSchedule_subTitle	name	DHWSchedule_subTitle	name	DHWSchedule_subTitle
+PeriodTime	ID	scheduling_period_time	ID	scheduling_period_time	ID	scheduling_period_time						
+GeofenceToggle	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	XPATH	//*[@label='_toggle']	XPATH	//*[@label='_toggle']	XPATH	//*[@label='_toggle']
+hwVacationSwitch	ID	hot_water_vacation_switch	ID	hot_water_vacation_switch	ID	hot_water_vacation_switch	NAME	StatusLabelValue	NAME	DHWVacation_toggle	NAME	DHWVacation_toggle
+DHWicon	ID	dhw_device	ID	dhw_device	ID	dhw_device	XPATH	"//*[contains(@label,'dhw')]"	XPATH	"//*[contains(@label,'dhw')]"	XPATH	"//*[contains(@label,'dhw')]"
+AddPeriod	XPATH	//*[@text='Add Period']	XPATH	//*[@text='Add Period']	XPATH	//*[@text='Add Period']						
+GeofenceText												
+Geofencesubtext												
+schedulecancel	ID	view_action_sheet_selector_cancel	ID	view_action_sheet_selector_cancel	ID	view_action_sheet_selector_cancel	name	Annulla	name	Annulla	name	Annulla
+optionslist	ID	action_sheet_item_name	ID	action_sheet_item_name	ID	action_sheet_item_name	XPATH	//*[@label='Create New Schedule']	XPATH	//*[@label='Create New Schedule']	XPATH	//*[@label='Create New Schedule']
+EverydayScheduleButton	ID	schedule_time_everySchedule_button	ID	schedule_time_everySchedule_button	ID	schedule_time_everySchedule_button	XPATH	//*[@label='EVERYDAY SCHEDULE']	XPATH	//*[@label='EVERYDAY SCHEDULE']	XPATH	//*[@label='EVERYDAY SCHEDULE']
+TimeChooser	ID	start_time_chooser	ID	start_time_chooser	ID	start_time_chooser						
+TimeChooserEndTime	ID	end_time_chooser	ID	end_time_chooser	ID	end_time_chooser						
+SaveButton	ID	save_action_sheet_btn	ID	save_action_sheet_btn	ID	save_action_sheet_btn	name	Salva	name	Salva	name	Salva
+WeekdayandWeekendScheduleButton	ID	schedule_time_weekend_and_weekdays_button	ID	schedule_time_weekend_and_weekdays_button	ID	schedule_time_weekend_and_weekdays_button	XPATH	//*[@label='WEEKDAY & WEEKEND']	XPATH	//*[@label='WEEKDAY & WEEKEND']	XPATH	//*[@label='WEEKDAY & WEEKEND']
+DoneButton	ID	btn_done	ID	btn_done	ID	btn_done	XPATH	//*[@label='RightButton']	XPATH	//*[@label='RightButton']	XPATH	//*[@label='RightButton']
+PeriodTime	ID	scheduling_period_time	ID	scheduling_period_time	ID	scheduling_period_time						
+PeriodTitle	ID	scheduling_period_title	ID	scheduling_period_title	ID	scheduling_period_title	name	DHWSchedule_subTitle	name	DHWSchedule_subTitle	name	DHWSchedule_subTitle
+SingleDay	XPATH	"//*[contains(@text,'SINGOLO')]"	XPATH	"//*[contains(@text,'SINGOLO')]"	XPATH	"//*[contains(@text,'SINGOLO')]"	XPATH	"//*[contains(@label,'SINGOLO')]"	XPATH	"//*[contains(@label,'SINGOLO')]"	XPATH	"//*[contains(@label,'SINGOLO')]"
+Boost30	XPATH	//*[@text='Boost for 30 minutes']	XPATH	//*[@text='Boost for 30 minutes']	XPATH	//*[@text='Boost for 30 minutes']	XPATH	//*[@value='Boost for 30 minutes']	XPATH	//*[@value='Boost for 30 minutes']	XPATH	//*[@value='Boost for 30 minutes']
+Boost60	XPATH	//*[@text='Boost for 60 minutes']	XPATH	//*[@text='Boost for 60 minutes']	XPATH	//*[@text='Boost for 60 minutes']	XPATH	//*[@value='Boost for 60 minutes']	XPATH	//*[@value='Boost for 60 minutes']	XPATH	//*[@value='Boost for 60 minutes']
+Boost90	XPATH	//*[@text='Boost for 90 minutes']	XPATH	//*[@text='Boost for 90 minutes']	XPATH	//*[@text='Boost for 90 minutes']	XPATH	//*[@value='Boost for 90 minutes']	XPATH	//*[@value='Boost for 90 minutes']	XPATH	//*[@value='Boost for 90 minutes']
+BoostOn	ID	option_switch_on	ID	option_switch_on	ID	option_switch_on	NAME	icon_hot_water_on	NAME	icon_hot_water_on	NAME	icon_hot_water_on
+BoostOff	ID	option_switch_off	ID	option_switch_off	ID	option_switch_off	NAME	icon_hot_water_off	NAME	icon_hot_water_off	NAME	icon_hot_water_off
+ResumeSchedule	XPATH	//*[@text='Resume Schedule']	XPATH	//*[@text='Resume Schedule']	XPATH	//*[@text='Resume Schedule']	XPATH	//*[@value='Resume Schedule']	XPATH	//*[@value='Resume Schedule']	XPATH	//*[@value='Resume Schedule']
+dhwmodeview	ID	dhw_mode_view	ID	dhw_mode_view	ID	dhw_mode_view	NAME	statusLabelValue	NAME	statusLabelValue	NAME	statusLabelValue
+Password	ID	fragment_login_password	ID	fragment_login_password	ID	fragment_login_password	NAME	Login_Password	NAME	Login_Password	NAME	Login_Password
+InfoButton	XPATH	//*[@text='Info']	XPATH	//*[@text='Info']	XPATH	//*[@text='Info']						
+CancelBoost	ID	dhw_cancel_boost	ID	dhw_cancel_boost	ID	dhw_cancel_boost	name	Annulla	name	Annulla	name	Annulla
+StartTime	ID	start_time_chooser	ID	start_time_chooser	ID	start_time_chooser						
+EndTime	ID	end_time_chooser	ID	end_time_chooser	ID	end_time_chooser						
+TimePicker	ID	mdtp_time_display	ID	mdtp_time_display	ID	mdtp_time_display	NAME	radial_picker				
+OkButton	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	NAME	Ok	NAME	Ok	NAME	Ok
+TimeHours	ID	mdtp_hours	ID	mdtp_hours	ID	mdtp_hours	XPATH	"//*[contains(@value,'clock')]"	XPATH	"//*[contains(@value,'clock')]"	XPATH	"//*[contains(@value,'clock')]"
+TimeMinutes	ID	mdtp_minutes	ID	mdtp_minutes	ID	mdtp_minutes	XPATH	"//*[contains(@value,'minutes')]"	XPATH	"//*[contains(@value,'minutes')]"	XPATH	"//*[contains(@value,'minutes')]"
+TimeAM	ID	mdtp_am_label	ID	mdtp_am_label	ID	mdtp_am_label	XPATH	//*[@value='AM']	XPATH	//*[@value='AM']	XPATH	//*[@value='AM']
+TimePM	ID	mdtp_pm_label	ID	mdtp_pm_label	ID	mdtp_pm_label	XPATH	//*[@value='PM']	XPATH	//*[@value='PM']	XPATH	//*[@value='PM']
+DeviceList	ID	dashboard_device_name	ID	dashboard_device_name	ID	dashboard_device_name	name	title	name	title	name	title
+SelectOption	ID	action_sheet_item_title	ID	action_sheet_item_title	ID	action_sheet_item_title						
+Save	ID	save_action_sheet_btn	ID	save_action_sheet_btn	ID	save_action_sheet_btn	name	Salva	name	Salva	name	Salva
+ShowerIcon	XPATH	"//*[contains(@content-desc,'DhwSwitchOn')]"	XPATH	"//*[contains(@content-desc,'DhwSwitchOn')]"	XPATH	"//*[contains(@content-desc,'DhwSwitchOn')]"	name	icon_DHW_On_selected	name	icon_DHW_On_selected	name	icon_DHW_On_selected
+Close	XPATH	"//*[contains(@content-desc,'Revenir en haut de')]"	XPATH	"//*[contains(@content-desc,'Revenir en haut de')]"	XPATH	"//*[contains(@content-desc,'Revenir en haut de')]"						
+ModeOption	XPATH	"//*[contains(@text,'MODA')]"	XPATH	"//*[contains(@text,'MODA')]"	XPATH	"//*[contains(@text,'MODA')]"	XPATH	"//*[contains(@name,'icon FollowSchedule') or contains(@name,'con AlwaysOn')  or contains(@name,'icon AlwaysOff')]"	XPATH	"//*[contains(@name,'icon FollowSchedule') or contains(@name,'con AlwaysOn')  or contains(@name,'icon AlwaysOff')]"	XPATH	"//*[contains(@name,'icon FollowSchedule') or contains(@name,'con AlwaysOn')  or contains(@name,'icon AlwaysOff')]"
+ScheduleOption	XPATH	"//*[contains(@text,'PIANIFICA')]"	XPATH	"//*[contains(@text,'PIANIFICA')]"	XPATH	"//*[contains(@text,'PIANIFICA')]"	name	iconScheduling	name	iconScheduling	name	iconScheduling
+Back	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	name	btn close normal	name	btn close normal	name	btn close normal
+ShowerOnButton	ID	option_switch_on	ID	option_switch_on	ID	option_switch_on	name	icon_DHW_On_selected	name	icon_DHW_On_selected	name	icon_DHW_On_selected
+ShowerOffButton	ID	option_switch_off	ID	option_switch_off	ID	option_switch_off	name	icon_DHW_Off_unselected	name	icon_DHW_Off_unselected	name	icon_DHW_Off_unselected
+PeriodSaveButton	ID	horizontal_button_next	ID	horizontal_button_next	ID	horizontal_button_next	name	Enregistrer	name	Enregistrer	name	Enregistrer

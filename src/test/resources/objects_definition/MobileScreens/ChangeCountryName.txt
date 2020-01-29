@@ -1,0 +1,5 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SaveButton	id	view_save_address	id	view_save_address	id	view_save_address	name	RightButton	name	RightButton	name	RightButton
+CountrySearch	XPATH	"//*[contains(@text,'Search')]"	XPATH	"//*[contains(@text,'Search')]"	XPATH	"//*[contains(@text,'Search')]"	XPATH	"//*[contains(@value,'Search')]"	XPATH	"//*[contains(@value,'Search')]"	XPATH	"//*[contains(@value,'Search')]"
+CountryList	id	list_item_country_text	id	list_item_country_text	id	list_item_country_text						
+Accept	id	fragment_new_eula_accept_button	id	fragment_new_eula_accept_button	id	fragment_new_eula_accept_button						

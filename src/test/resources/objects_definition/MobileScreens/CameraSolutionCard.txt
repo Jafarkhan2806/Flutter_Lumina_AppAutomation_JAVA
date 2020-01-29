@@ -1,0 +1,14 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SettingsIcon	ID	action_settings	ID	action_settings	ID	action_settings	XPATH	//*[contains(@name,'Settings')]	XPATH	//*[contains(@name,'Settings')]	name	action_settings
+CameraON	XPATH	//*[(@content-desc='Camera is on') or (@content-desc='CAMERA IS ON') or (@text='LIVE') or (@text='Tap to continue live feed')]	XPATH	//*[(@content-desc='Camera is on') or (@content-desc='CAMERA IS ON') or (@text='LIVE') or (@text='Tap to continue live feed')]	XPATH	//*[(@content-desc='Camera is on') or (@content-desc='CAMERA IS ON') or (@text='LIVE') or (@text='Tap to continue live feed')]	XPATH	//*[@value='Online']	XPATH	//*[@value='Online']	XPATH	//*[@value='Online']
+CameraOFF	XPATH	//*[(@content-desc='Camera is off') or (@content-desc='CAMERA IS OFF') or (@text='Camera Off')]	XPATH	//*[(@content-desc='Camera is off') or (@content-desc='CAMERA IS OFF') or (@text='Camera Off')]	XPATH	//*[(@content-desc='Camera is off') or (@content-desc='CAMERA IS OFF') or (@text='Camera Off')]	XPATH	//*[@value='Offline']	XPATH	//*[@value='Offline']	XPATH	//*[@value='Offline']
+BackButton	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+LocName	ID	toolbar_device_name	ID	toolbar_device_name	ID	toolbar_device_name						
+StatName	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title						
+LocAndStatNameIOS							name	Location Name	name	Location Name	name	Location Name
+CameraModeStateIOS							name	Selected_State	name	Selected_State	name	Selected_State
+CameraIsOff	XPATH	//*[@text='Camera Off']	XPATH	//*[@text='Camera Off']	XPATH	//*[@text='Camera Off']	xpath	"//*[contains(@name,'Camera Off')]"	xpath	"//*[contains(@name,'Camera Off')]"	xpath	"//*[contains(@name,'Camera Off')]"
+CameraIsOn	XPATH	//*[@content-desc='Camera is on']	XPATH	//*[@content-desc='Camera is on']	XPATH	//*[@content-desc='Camera is on']						
+CameraIsOffline	XPATH	//*[@text='Camera Offline']	XPATH	//*[@text='Camera Offline']	XPATH	//*[@text='Camera Offline']	xpath	"//*[contains(@name,'Camera Offline')]"	xpath	"//*[contains(@name,'Camera Offline')]"	xpath	"//*[contains(@name,'Camera Offline')]"
+TurnOnButton							name	States_1	name	States_1	name	States_1
+TurnOffButton							name	States_0	name	States_0	name	States_0

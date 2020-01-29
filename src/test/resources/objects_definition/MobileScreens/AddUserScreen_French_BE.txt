@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+BackButton	XPATH	//*[@content-desc='Naviguer vers le haut']	XPATH	//*[@content-desc='Naviguer vers le haut']	XPATH	//*[@content-desc='Naviguer vers le haut']	XPATH	"//*[contains(@name,'Pr')]"	XPATH	"//*[contains(@name,'Pr')]"	XPATH	"//*[contains(@name,'Pr')]"
+AddUserButton	id	view_invite_user	id	view_invite_user	id	view_invite_user	XPATH	//XCUIElementTypeButton[@name='Ajouter Un Utilisateur']	XPATH	//XCUIElementTypeButton[@name='Ajouter Un Utilisateur']	XPATH	//XCUIElementTypeButton[@name='Ajouter Un Utilisateur']
+AddUserTitle	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	name	Location Name	name	Location Name	name	Location Name
+EmailField	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	name	Email TextField	name	Email TextField	name	Email TextField
+SendButton	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	name	Envoyer	name	Envoyer	name	Envoyer
+InvalidEmailError	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	XPATH	"//*[contains(@name,'ce compte')]"	XPATH	"//*[contains(@name,'ce compte')]"	XPATH	"//*[contains(@name,'ce compte')]"
+RemoveUserButton	id	list_item_delete_user_button_view	id	list_item_delete_user_button_view	id	list_item_delete_user_button_view	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']
+RemovalPopup	xpath	"//*[contains(@text,'Supprimer un utilisateur')]"	xpath	"//*[contains(@text,'Supprimer un utilisateur')]"	xpath	"//*[contains(@text,'Supprimer un utilisateur')]"	XPATH	"//*[contains(@name,'Confirmer la suppression de')]"	XPATH	"//*[contains(@name,'Confirmer la suppression de')]"	XPATH	"//*[contains(@name,'Confirmer la suppression de')]"
+CancelButton	id	button2	id	button2	id	button2	name	Annuler	name	Annuler	name	Annuler
+YesButton	id	button1	id	button1	id	button1	name	Supprimer	name	Supprimer	name	Supprimer
+OkErrorButton							name	OK	name	OK	name	OK

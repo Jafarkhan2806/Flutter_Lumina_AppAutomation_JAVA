@@ -1,0 +1,16 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+GlobalDrawerButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Hoofdmenu')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Hoofdmenu')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Hoofdmenu')]"	name	menu	name	menu	name	menu
+GlobalDrawerIconList	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text						
+DashboardIconText	id	dashboard_device_name	id	dashboard_device_name	id	dashboard_device_name	name	title	name	title	name	title
+DashboardIconStatus	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text						
+AddNewDeviceIcon	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	name	icon add device white	name	icon add device white	name	icon add device white
+AddNewDeviceIconBelowExistingDevice	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	name	icon add device	name	icon add device	name	icon add device
+AddNewDeviceMenu							name	Add New Device	name	Add New Device	name	Add New Device
+ZwaveSwitchSelectedState							name	Selected_State	name	Selected_State	name	Selected_State
+WeatherIcon	ID	action_weather	ID	action_weather	ID	action_weather	XPATH	//XCUIElementTypeNavigationBar[1]//XCUIElementTypeButton[2]	XPATH	//XCUIElementTypeNavigationBar[1]//XCUIElementTypeButton[2]	XPATH	//XCUIElementTypeNavigationBar[1]//XCUIElementTypeButton[2]
+BackButton	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+SplashScreen	id	splash_screen_layout	id	splash_screen_layout	id	splash_screen_layout						
+ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar						
+SecurityTitleInDashboardScreen	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	NAME	subTitle_Security	NAME	subTitle_Security	NAME	subTitle_Security
+SettingsIconInSecurityScreen							NAME	appSettingsIcon	NAME	appSettingsIcon	NAME	appSettingsIcon
+AddNewDeviceHeader	XPATH	//*[@text='Apparaat toevoegen']	XPATH	//*[@text='Apparaat toevoegen']	XPATH	//*[@text='Apparaat toevoegen']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']

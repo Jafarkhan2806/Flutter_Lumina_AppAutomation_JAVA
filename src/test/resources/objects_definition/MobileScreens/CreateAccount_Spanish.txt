@@ -1,0 +1,55 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+CreateAccount_button	ID	fragment_login_create_account	ID	fragment_login_create_account	ID	fragment_login_create_account						
+Email	ID	fragment_register_email	ID	fragment_register_email	ID	fragment_register_email	XPATH	"//*[contains(@value,'Correo electr')]"	XPATH	"//*[contains(@value,'Correo electr')]"	XPATH	"//*[contains(@value,'Correo electr')]"
+HoneywellLogo	ID	fragment_login_logo	ID	fragment_login_logo	ID	fragment_login_logo	XPATH	//UIAImage[@name='login_title_image']	XPATH	//UIAImage[@name='login_title_image']	XPATH	//UIAImage[@name='login_title_image']
+FirstNameErrorField	ID	fragment_register_firstname_error	ID	fragment_register_firstname_error	ID	fragment_register_firstname_error	NAME	You must enter a first name	NAME	You must enter a first name	NAME	You must enter a first name
+LastName	ID	fragment_register_lastname	ID	fragment_register_lastname	ID	fragment_register_lastname	NAME	Apellidos	NAME	Apellidos	NAME	Apellidos
+PasswordText	ID	fragment_register_password	ID	fragment_register_password	ID	fragment_register_password	XPATH	//UIATableCell[5]/UIASecureTextField	XPATH	//UIATableCell[5]/UIASecureTextField	XPATH	//UIATableCell[5]/UIASecureTextField
+VerifyPassword	ID	fragment_register_password_repeat	ID	fragment_register_password_repeat	ID	fragment_register_password_repeat	XPATH	"//*[contains(@value,'Verificar contrase')]"	XPATH	"//*[contains(@value,'Verificar contrase')]"	XPATH	"//*[contains(@value,'Verificar contrase')]"
+SelectCountry	ID	fragment_register_country	ID	fragment_register_country	ID	fragment_register_country	NAME	countryButton	NAME	countryButton	NAME	countryButton
+CreateButton	ID	fragment_register_create_account_button	ID	fragment_register_create_account_button	ID	fragment_register_create_account_button	NAME	Crear	NAME	Crear	NAME	Crear
+CALogo	ID	fragment_login_create_account	ID	fragment_login_create_account	ID	fragment_login_create_account						
+PasswordMustHaveText	XPATH	"//*[contains(@text,'Password must')]"	XPATH	"//*[contains(@text,'Password must')]"	XPATH	"//*[contains(@text,'Password must')]"	XPATH	"//*[ contains(@value,'Password must')]"	XPATH	"//*[ contains(@value,'Password must')]"	XPATH	"//*[ contains(@value,'Password must')]"
+CreateAccount_toolbar	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title						
+ResendBtn	ID	textView_resent	ID	textView_resent	ID	textView_resent	NAME	RESEND	NAME	RESEND	NAME	RESEND
+ByTappingText	XPATH	"//*[contains(@text,'By tapping')]"	XPATH	"//*[contains(@text,'By tapping')]"	XPATH	"//*[contains(@text,'By tapping')]"	XPATH	"//*[contains(@value,'By tapping')]"	XPATH	"//*[contains(@value,'By tapping')]"	XPATH	"//*[contains(@value,'By tapping')]"
+emailText	ID	fragment_activation_email_text_view	ID	fragment_activation_email_text_view	ID	fragment_activation_email_text_view	NAME	Check your email for a registration email.	NAME	Check your email for a registration email.	NAME	Check your email for a registration email.
+EULACompleteMsg	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview
+LoginButton	ID	fragment_login_login_button	ID	fragment_login_login_button	ID	fragment_login_login_button	NAME	LeftButton	NAME	LeftButton	NAME	LeftButton
+DefaultCountrySelection	ID	fragment_country_select_default_country	ID	fragment_country_select_default_country	ID	fragment_country_select_default_country	NAME	United States	NAME	United States	NAME	United States
+EALogo	ID	fragment_login_user_name	ID	fragment_login_user_name	ID	fragment_login_user_name						
+LoginUserName	ID	fragment_login_user_name	ID	fragment_login_user_name	ID	fragment_login_user_name						
+EndUserLicenceAgreement	ID	fragment_register_eula	ID	fragment_register_eula	ID	fragment_register_eula	NAME	eulaButton	NAME	eulaButton	NAME	eulaButton
+AlreadyRegisteredEmail	ID	fragment_register_email_already_registered	ID	fragment_register_email_already_registered	ID	fragment_register_email_already_registered	XPATH	//UIAStaticText[@name='Email Already Exists']	XPATH	//UIAStaticText[@name='Email Already Exists']	XPATH	//UIAStaticText[@name='Email Already Exists']
+EULAMSG_EndUser	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview
+EULAMSG_EndUser	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	ID	fragment_eula_settings_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview	NAME	create_account_eula_webview
+CheckInboxMessage	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//UIAStaticText[contains(@name,'Check your email')]"	XPATH	"//UIAStaticText[contains(@name,'Check your email')]"	XPATH	"//UIAStaticText[contains(@name,'Check your email')]"
+Password	ID	fragment_register_password	ID	fragment_register_password	ID	fragment_register_password	XPATH	"//*[contains(@value,'Contrase')]"	XPATH	"//*[contains(@value,'Contrase')]"	XPATH	"//*[contains(@value,'Contrase')]"
+AlmostDoneMessage	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//android.widget.TextView[contains(@text,'Check your inbox')]"	XPATH	"//UIAStaticText[contains(@name,'Almost done')]"	XPATH	"//UIAStaticText[contains(@name,'Almost done')]"	XPATH	"//UIAStaticText[contains(@name,'Almost done')]"
+AcceptBtn	ID	fragment_eula_accept_button	ID	fragment_new_eula_accept_button	ID	fragment_eula_accept_button	NAME	create_account_accept_button	NAME	create_account_accept_button	NAME	create_account_accept_button
+AcceptButtonText	XPATH	//*[@text='ACCEPT']	XPATH	//*[@text='ACCEPT']	XPATH	//*[@text='ACCEPT']	NAME	create_account_accept_button	NAME	create_account_accept_button	NAME	create_account_accept_button
+FirstName	ID	fragment_register_firstname	ID	fragment_register_firstname	ID	fragment_register_firstname	NAME	Nombre	NAME	Nombre	NAME	Nombre
+ActivateScreen	ID	android:id/action_bar_title	ID	android:id/action_bar_title	ID	android:id/action_bar_title	ID	android:id/action_bar_title	ID	android:id/action_bar_title	ID	android:id/action_bar_title
+navigateUp	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate up']	XPATH	//*[@content-desc='Navigate up']	NAME	CANCEL	NAME	CANCEL	NAME	CANCEL
+AcceptButton	ID	fragment_hidden_settings_web_service_accept	ID	fragment_hidden_settings_web_service_accept	ID	fragment_hidden_settings_web_service_accept						
+EmailErrorField	ID	fragment_register_email_error	ID	fragment_register_email_error	ID	fragment_register_email_error	NAME	You must enter a valid email address	NAME	You must enter a valid email address	NAME	You must enter a valid email address
+EmailAddress	ID	fragment_login_user_name	ID	fragment_login_user_name	ID	fragment_login_user_name	XPATH	//*[@name='login_username_textfield']	XPATH	//*[@name='login_username_textfield']	XPATH	//*[@name='login_username_textfield']
+CreateAccBtn	ID	fragment_login_create_account	ID	fragment_login_create_account	ID	fragment_login_create_account	NAME	login_create_account_button	NAME	login_create_account_button	NAME	login_create_account_button
+NavigateBack							NAME	Back	NAME	Back	NAME	Back
+CancelButtonText	XPATH	//*[@text='CANCEL']	XPATH	//*[@text='CANCEL']	XPATH	//*[@text='CANCEL']	NAME	create_account_cancel_button	NAME	create_account_cancel_button	NAME	create_account_cancel_button
+PasswordErrorField	ID	fragment_register_password_length_error	ID	fragment_register_password_length_error	ID	fragment_register_password_length_error	XPATH	"//*[contains(@name,'The password')]"	XPATH	"//*[contains(@name,'The password')]"	XPATH	"//*[contains(@name,'The password')]"
+VerifyPasswordErrorField	ID	fragment_register_password_match_error	ID	fragment_register_password_match_error	ID	fragment_register_password_match_error	XPATH	"//*[contains(@name,'Passwords don')]"	XPATH	"//*[contains(@name,'Passwords don')]"	XPATH	"//*[contains(@name,'Passwords don')]"
+CancelBtn	ID	fragment_eula_decline_button	ID	fragment_eula_decline_button	ID	fragment_eula_decline_button	NAME	create_account_decline_button	NAME	create_account_decline_button	NAME	create_account_decline_button
+LastNameErrorField	ID	fragment_register_lastname_error	ID	fragment_register_lastname_error	ID	fragment_register_lastname_error	NAME	You must enter a last name	NAME	You must enter a last name	NAME	You must enter a last name
+DescriptionText	ID	simple_header_view_description	ID	simple_header_view_description	ID	simple_header_view_description	NAME	Enter a few details to create your account.	NAME	Enter a few details to create your account.	NAME	Enter a few details to create your account.
+WebServerURL	ID	android:id/url	ID	android:id/url	ID	android:id/url						
+useremailText	ID	fragment_activation_email_text_view	ID	fragment_activation_email_text_view	ID	fragment_activation_email_text_view	NAME	Check your email for a registration email.	NAME	Check your email for a registration email.	NAME	Check your email for a registration email.
+QAStage	ID	fragment_hidden_settings_web_service_chapi_qa_stage	ID	fragment_hidden_settings_web_service_chapi_qa_stage	ID	fragment_hidden_settings_web_service_chapi_qa_stage						
+CancelButton	ID	fragment_register_decline_button	ID	fragment_register_decline_button	ID	fragment_register_decline_button	NAME	create_account_cancel_button	NAME	create_account_cancel_button	NAME	create_account_cancel_button
+CancelButton1Text							NAME	create_account_cancel_button	NAME	create_account_cancel_button	NAME	create_account_cancel_button
+NextBtn	ID	fragment_register_next_button	ID	fragment_register_next_button	ID	fragment_register_next_button	NAME	create_account_next_button	NAME	create_account_next_button	NAME	create_account_next_button
+PrivacyStatement	ID	fragment_register_privacy_statement	ID	fragment_register_privacy_statement	ID	fragment_register_privacy_statement	NAME	Privacy Statement	NAME	Privacy Statement	NAME	Privacy Statement
+Cancel							name	Cancelar	name	Cancelar	name	Cancelar
+GdprToggle	ID	fragment_current_optin_optout_switch	ID	fragment_current_optin_optout_switch	ID	fragment_current_optin_optout_switch	XPATH	//XCUIElementTypeSwitch	XPATH	//XCUIElementTypeSwitch	XPATH	//XCUIElementTypeSwitch
+OK							NAME	ACEPTAR	NAME	ACEPTAR	NAME	ACEPTAR
+ClosePopup							NAME	Cerrar	NAME	Cerrar	NAME	Cerrar

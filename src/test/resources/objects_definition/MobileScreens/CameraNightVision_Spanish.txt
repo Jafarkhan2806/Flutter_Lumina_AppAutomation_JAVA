@@ -1,0 +1,5 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+Auto	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']						
+On	XPATH	//*[@text='On']	XPATH	//*[@text='On']	XPATH	//*[@text='On']						
+BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'arriba')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'arriba')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'arriba')]"	XPATH	"//*[contains(@name,'At')]"	XPATH	"//*[contains(@name,'At')]"	XPATH	"//*[contains(@name,'At')]"
+Off	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']						

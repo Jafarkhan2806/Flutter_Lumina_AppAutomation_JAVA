@@ -1,0 +1,16 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+CameraSettingsTitle	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title						
+ManageAlerts	XPATH	"//*[contains(@text,'Administrar alertas')]"	XPATH	"//*[contains(@text,'Administrar alertas')]"	XPATH	"//*[contains(@text,'Administrar alertas')]"	name	Manage Alerts	name	Manage Alerts	name	Manage Alerts
+CameraMode	XPATH	"//*[contains(@text,'Modo de')]"	XPATH	"//*[contains(@text,'Modo de')]"	XPATH	"//*[contains(@text,'Modo de')]"	name	Camera Mode	name	Camera Mode	name	Camera Mode
+VideoSettingsHeader	XPATH	//*[@text='Video Settings']	XPATH	//*[@text='Video Settings']	XPATH	//*[@text='Video Settings']						
+MotionDetection	XPATH	"//*[contains(@text,'de movimiento')]"	XPATH	"//*[contains(@text,'de movimiento')]"	XPATH	"//*[contains(@text,'de movimiento')]"	name	Motion Detection	name	Motion Detection	name	Motion Detection
+SoundDetection	XPATH	"//*[contains(@text,' de sonido')]"	XPATH	"//*[contains(@text,' de sonido')]"	XPATH	"//*[contains(@text,' de sonido')]"	name	Sound Detection	name	Sound Detection	name	Sound Detection
+NightVision	XPATH	"//*[contains(@text,'nocturna')]"	XPATH	"//*[contains(@text,'nocturna')]"	XPATH	"//*[contains(@text,'nocturna')]"	name	Night Vision	name	Night Vision	name	Night Vision
+VideoQuality	XPATH	"//*[contains(@text,'Calidad ')]"	XPATH	"//*[contains(@text,'Calidad ')]"	XPATH	"//*[contains(@text,'Calidad ')]"	name	Video Quality	name	Video Quality	name	Video Quality
+HardwareSettings	XPATH	//*[@text='Hardware Settings']	XPATH	//*[@text='Hardware Settings']	XPATH	//*[@text='Hardware Settings']						
+CameraLEDText	XPATH	//*[@text='Camera LED']	XPATH	//*[@text='Camera LED']	XPATH	//*[@text='Camera LED']						
+CameraLEDToggle	XPATH	//*[@content-desc='Camera LED']	XPATH	//*[@content-desc='Camera LED']	XPATH	//*[@content-desc='Camera LED']						
+CameraMicrophoneText	XPATH	//*[@text='Camera Microphone']	XPATH	//*[@text='Camera Microphone']	XPATH	//*[@text='Camera Microphone']						
+CameraMicToggle	XPATH	//*[@content-desc='Camera Microphone']	XPATH	//*[@content-desc='Camera Microphone']	XPATH	//*[@content-desc='Camera Microphone']						
+CameraConfig	XPATH	"//*[contains(@text,'Configuration de la')]"	XPATH	"//*[contains(@text,'Configuration de la')]"	XPATH	"//*[contains(@text,'Configuration de la')]"						
+BackButton	XPATH	//*[@content-desc='Navegar hacia arriba']	XPATH	//*[@content-desc='Navegar hacia arriba']	XPATH	//*[@content-desc='Navegar hacia arriba']						

@@ -1,0 +1,7 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SettingsIcon	ID	action_settings	ID	action_settings	ID	action_settings	XPATH	//*[@name='action_settings']	XPATH	//*[@name='action_settings']	XPATH	//*[@name='action_settings']
+CameraON	XPATH	//*[@content-desc='Camera is on']	XPATH	//*[@content-desc='Camera is on']	XPATH	//*[@content-desc='Camera is on']						
+CameraOFF	XPATH	//*[@content-desc='Camera is off']	XPATH	//*[@content-desc='Camera is off']	XPATH	//*[@content-desc='Camera is off']						
+BackButton	XPATH	//*[contains(@content-desc,'Nav')]	XPATH	//*[contains(@content-desc,'Nav')]	XPATH	//*[contains(@content-desc,'Nav')]	name	Back	name	Back	name	Back
+TurnOnButton							name	States_1	name	States_1	name	States_1
+TurnOffButton							name	States_0	name	States_0	name	States_0

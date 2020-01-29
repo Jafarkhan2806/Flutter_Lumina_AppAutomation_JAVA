@@ -1,0 +1,4 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+GotItButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	XPATH	"//*[contains(@name,' Compris')]"	XPATH	"//*[contains(@name,' Compris')]"	XPATH	"//*[contains(@name,' Compris')]"
+CoachMarkHeader	id	textView_title	id	textView_title	id	textView_title						
+CoachMarkDescription	id	textView_subtitle	id	textView_subtitle	id	textView_subtitle						
