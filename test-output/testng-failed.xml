@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="-1" name="Failed suite [LYRIC_DLS_EXECUTION_SUITE]" parallel="tests">
+  <listeners>
+    <listener class-name="com.honeywell.commons.coreframework.TestNGListernerClass"/>
+  </listeners>
+  <test thread-count="2" name="LYRIC_DLS_EXECUTION_SUITE" parallel="methods">
+    <groups>
+      <run>
+        <include name="Executor"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.honeywell.testcases.executor"/>
+    </packages>
+    <classes>
+      <class name="com.honeywell.testcases.executor.TestCasesExecutor"/>
+    </classes>
+  </test> <!-- LYRIC_DLS_EXECUTION_SUITE -->
+  <test name="LYRIC_DLS_EXECUTION_SUITE(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="Executor"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.honeywell.testcases.executor.TestCasesExecutor">
+        <methods>
+          <include name="test"/>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.honeywell.testcases.executor.TestCasesExecutor -->
+    </classes>
+  </test> <!-- LYRIC_DLS_EXECUTION_SUITE(failed) -->
+</suite> <!-- Failed suite [LYRIC_DLS_EXECUTION_SUITE] -->
