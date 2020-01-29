@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+BackButton	XPATH	//*[@content-desc='Navegar hacia arriba']	XPATH	//*[@content-desc='Navegar hacia arriba']	XPATH	//*[@content-desc='Navegar hacia arriba']	xpath	"//*[contains(@name,'Atr')]"	xpath	"//*[contains(@name,'Atr')]"	xpath	"//*[contains(@name,'Atr')]"
+AddUserButton	id	add_users_btn	id	add_users_btn	id	add_users_btn	name	Agregar Usuario	name	Agregar Usuario	name	Agregar Usuario
+AddUserTitle	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	name	Location Name	name	Location Name	name	Location Name
+EmailField	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	name	Email TextField	name	Email TextField	name	Email TextField
+SendButton	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	name	Enviar	name	Enviar	name	Enviar
+InvalidEmailError	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	name	El usuario solicitado ya estaba agregado a esta cuenta	name	El usuario solicitado ya estaba agregado a esta cuenta	name	El usuario solicitado ya estaba agregado a esta cuenta
+RemoveUserButton	xpath	//*[@text='Quitar usuario']	xpath	//*[@text='Quitar usuario']	xpath	//*[@text='Quitar usuario']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']
+RemovalPopup	xpath	"//*[contains(@text,'Confirmar eliminaci')]"	xpath	"//*[contains(@text,'Confirmar eliminaci')]"	xpath	"//*[contains(@text,'Confirmar eliminaci')]"	xpath	"//*[contains(@name,'Confirmar')]"	xpath	"//*[contains(@name,'Confirmar')]"	xpath	"//*[contains(@name,'Confirmar')]"
+CancelButton	id	button2	id	button2	id	button2	name	Cancelar	name	Cancelar	name	Cancelar
+YesButton	id	button1	id	button1	id	button1	name	Quitar	name	Quitar	name	Quitar
+OkErrorButton							name	ACEPTAR	name	ACEPTAR	name	ACEPTAR

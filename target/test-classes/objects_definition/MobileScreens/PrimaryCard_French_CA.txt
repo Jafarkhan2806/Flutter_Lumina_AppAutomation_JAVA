@@ -1,0 +1,59 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+CogIcon	id	action_settings	id	action_settings	id	action_settings	name	appSettingsIcon	name	appSettingsIcon	name	appSettingsIcon
+ModeButton	id	btn_action_sheet_item	id	btn_action_sheet_item	id	btn_action_sheet_item						
+TempDecrementButton	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down	name	temp stepper down	name	temp stepper down	name	temp stepper down
+TempIncrementButton	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up	name	temp stepper up	name	temp stepper up	name	temp stepper up
+CurrentTemp	id	current_temp_value	id	current_temp_value	id	current_temp_value	name	Dialer	name	Dialer	name	Dialer
+OutdoorTempStatus	id	scrolling_text_view1	id	scrolling_text_view1	id	scrolling_text_view1	xpath	"//*[contains(@name,'OUTDOOR')]"	xpath	"//*[contains(@name,'OUTDOOR')]"	xpath	"//*[contains(@name,'OUTDOOR')]"
+HumidityTemp	id	view_thermostat_current_temperature	id	view_thermostat_current_temperature	id	view_thermostat_current_temperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature
+DeviceName	id	toolbar_title	id	toolbar_title	id	toolbar_title						
+LocationName	id	toolbar_device_name	id	toolbar_device_name	id	toolbar_device_name	name	Location Name	name	Location Name	name	Location Name
+ThermostatScheduleStatus	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	name	Schedule_Status	name	Schedule_Status	name	Schedule_Status
+DegreeSymbol	id	degree_symbol_text_view	id	degree_symbol_text_view	id	degree_symbol_text_view						
+AdHocButton	id	view_thermostat_adhoc_button	id	view_thermostat_adhoc_button	id	view_thermostat_adhoc_button	name	Adhoc_Hold_Status	name	Adhoc_Hold_Status	name	Adhoc_Hold_Status
+SystemMode	id	btn_action_sheet_item	id	btn_action_sheet_item	id	btn_action_sheet_item	name	DashBoard_Mode	name	DashBoard_Mode	name	DashBoard_Mode
+FanMode	XPATH	//*[@text='VENTILATEUR']	XPATH	//*[@text='VENTILATEUR']	XPATH	//*[@text='VENTILATEUR']	xpath	"//*[contains(@name,'FAN')]"	xpath	"//*[contains(@name,'FAN')]"	xpath	"//*[contains(@name,'FAN')]"
+ScheduleButton							name	iconScheduling	name	iconScheduling	name	iconScheduling
+CrossButton	id	close_action_sheet_btn	id	close_action_sheet_btn	id	close_action_sheet_btn	name	iconClose	name	iconClose	name	iconClose
+SysCoolMode	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	name	COOL	name	COOL	name	COOL
+SysHeatMode	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	name	HEAT	name	HEAT	name	HEAT
+SysOffMode	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	name	OFF	name	OFF	name	OFF
+SysAutoMode	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	AUTO	name	AUTO	name	AUTO
+BackButton	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+FanAutoMode	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	AUTO	name	AUTO	name	AUTO
+FanCirculateMode	XPATH	//*[@text='Circulate']	XPATH	//*[@text='Circulate']	XPATH	//*[@text='Circulate']	name	CIRCULATE	name	CIRCULATE	name	CIRCULATE
+FanOnMode	XPATH	//*[@text='On']	XPATH	//*[@text='On']	XPATH	//*[@text='On']	name	ON	name	ON	name	ON
+IndoorTemp	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"
+ThermostatIsOff	XPATH	//*[@text='THERMOSTAT IS OFF']	XPATH	//*[@text='THERMOSTAT IS OFF']	XPATH	//*[@text='THERMOSTAT IS OFF']	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"
+FanHighMode	XPATH	//*[@text='High']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	HIGH	name	HIGH	name	HIGH
+FanLowMode	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	name	LOW	name	LOW	name	LOW
+FanMediumMode	XPATH	//*[@text='Medium']	XPATH	//*[@text='Medium']	XPATH	//*[@text='Medium']	name	MEDIUM	name	MEDIUM	name	MEDIUM
+DRAdHocButton	ID	view_thermostat_dr_button	ID	view_thermostat_dr_button	ID	view_thermostat_dr_button	name	DREvent_Status	NAME	DREvent_Status	NAME	DREvent_Status
+CancelDRPopupMsg	ID	message	ID	message	ID	message						
+CancelDRPopupTitle	XPATH	//*[@text='Cancel Savings Event?']	XPATH	//*[@text='Cancel Savings Event?']	XPATH	//*[@text='Cancel Savings Event?']	name	Cancel Savings Event?	name	Cancel Savings Event?	name	Cancel Savings Event?
+DRYesButton	ID	button1	ID	button1	ID	button1	name	Yes	name	Yes	name	Yes
+DRNoButton	ID	button2	ID	button2	ID	button2	name	No	name	No	name	No
+DRSavingEventPopupMsg	ID	message	ID	message	ID	message						
+DRSavingEventPopupTitle	XPATH	"//*[contains(@text,'Savings Event Until')]"	XPATH	"//*[contains(@text,'Savings Event Until')]"	XPATH	"//*[contains(@text,'Savings Event Until')]"						
+DROKButton	ID	button1	ID	button1	ID	button1	name	OK	name	OK	name	OK
+ScheduleOffLabel	XPATH	//*[@text='Schedule Off']	XPATH	//*[@text='Schedule Off']	XPATH	//*[@text='Schedule Off']	xpath	"//*[contains(@label,'Schedule Off')]"	xpath	"//*[contains(@label,'Schedule Off')]"	xpath	"//*[contains(@label,'Schedule Off')]"
+theromosatOff	ID	scrolling_text_view1	ID	scrolling_text_view1	ID	scrolling_text_view1	xpath	"//*[contains(@name,'SYSTEM IS OFF')]"	xpath	"//*[contains(@name,'SYSTEM IS OFF')]"	xpath	"//*[contains(@name,'SYSTEM IS OFF')]"
+IndoorTemp	ID	view_thermostat_current_temperature	ID	view_thermostat_current_temperature	ID	view_thermostat_current_temperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature
+ScheduleLabel	XPATH	//*[@text='SCHEDULE']	XPATH	//*[@text='SCHEDULE']	XPATH	//*[@text='SCHEDULE']	name	SCHEDULE	name	SCHEDULE	name	SCHEDULE
+SettingIcon	ID	action_settings	ID	action_settings	ID	action_settings	name	action_settings	name	action_settings	name	action_settings
+CameraIsOff	XPATH	//*[@text='CAMERA IS OFF ']	XPATH	//*[@text='CAMERA IS OFF']	XPATH	//*[@text='CAMERA IS OFF']	xpath	"//*[contains(@name,'CAMERA IS OFF')]"	xpath	"//*[contains(@name,'CAMERA IS OFF')]"	xpath	"//*[contains(@name,'CAMERA IS OFF')]"
+FanInfo	ID	actionbar_textview	ID	actionbar_textview	ID	actionbar_textview	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item
+NoScheduleStatus	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	xpath	"//*[contains(@label,'No') or contains(@label,'NO') ]"	xpath	"//*[contains(@label,'No') or contains(@label,'NO') ]"	xpath	"//*[contains(@label,'No') or contains(@label,'NO') ]"
+PriorityText	XPATH	"//*[contains(@text,'PRIORIT') ]"	XPATH	"//*[contains(@text,'PRIORIT') ]"	XPATH	"//*[contains(@text,'PRIORIT') ]"	xpath	"//*[contains(@value,'Priority' ) or contains(@name,'PRIORITY') ]"	xpath	"//*[contains(@value,'Priority' ) or contains(@name,'PRIORITY') ]"	xpath	"//*[contains(@value,'Priority' ) or contains(@name,'PRIORITY') ]"
+MoreText	XPATH	//*[@text='MORE']	XPATH	//*[@text='MORE']	XPATH	//*[@text='MORE']	name	MORE	name	MORE	name	MORE
+VentilationText	XPATH	//*[@text='VENTILATION']	XPATH	//*[@text='VENTILATION']	XPATH	//*[@text='VENTILATION']	name	VENTILATION	name	VENTILATION	name	VENTILATION
+HumidifyText	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']	name	HUMIDIFY	name	HUMIDIFY	name	HUMIDIFY
+DehumidifyText	XPATH	//*[@text='DEHUMIDIFY']	XPATH	//*[@text='DEHUMIDIFY']	XPATH	//*[@text='DEHUMIDIFY']	name	DEHUMIDIFY	name	DEHUMIDIFY	name	DEHUMIDIFY
+FanAutoSelected							xpath	//*[@label='icon Fan Auto Selected']	xpath	//*[@label='icon Fan Auto Selected']	xpath	//*[@label='icon Fan Auto Selected']
+FanCirculateSelected							xpath	//*[@label='icon Fan Circulate Selected']	xpath	//*[@label='icon Fan Circulate Selected']	xpath	//*[@label='icon Fan Circulate Selected']
+FanOnSelected							xpath	//*[@label='icon Fan On Selected']	xpath	//*[@label='icon Fan On Selected']	xpath	//*[@label='icon Fan On Selected']
+FanHighSelected							xpath	//*[@label='icon Fan High Selected']	xpath	//*[@label='icon Fan High Selected']	xpath	//*[@label='icon Fan High Selected']
+FanLowSelected							xpath	//*[@label='icon Fan Low Selected']	xpath	//*[@label='icon Fan Low Selected']	xpath	//*[@label='icon Fan Low Selected']
+FanMediumSelected							xpath	//*[@label='icon Fan Medium Selected']	xpath	//*[@label='icon Fan Medium Selected']	xpath	//*[@label='icon Fan Medium Selected']
+SystemInfoButton	ID	actionbar_textview	ID	actionbar_textview	ID	actionbar_textview	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item
+priorityinfo	ID	actionbar_textview	ID	actionbar_textview	ID	actionbar_textview	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item	name	Navigation_Right_Bar_Item

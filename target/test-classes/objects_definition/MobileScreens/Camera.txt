@@ -1,0 +1,345 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+AddNewDevice	XPATH	//*[@text='Add New Device']					NAME	Add New Device				
+AlertNotifictaionIcon	ID	actionbar_activity_log_image					NAME	icon notifications default				
+AllClipCount	id	mainTitle					name	Location Name				
+Back	XPATH	"//android.widget.ImageButton[contains(@content-desc,' Navigate up')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,' Navigate up')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,' Navigate up')]"	XPATH	"//*[contains(@value,'Back')]"	XPATH	"//*[contains(@value,'Back')]"	XPATH	"//*[contains(@value,'Back')]"
+BlueToothIsOffPopup							NAME	Bluetooth is Off				
+BlueToothIsOffPopupOK							NAME	OK				
+CameraConfiguration	XPATH	//*[@text='Camera Configuration']	XPATH	//*[@text='Camera Configuration']	XPATH	//*[@text='Camera Configuration']	xpath	"//*[contains(@value,'Camera Configuration')]"	xpath	"//*[contains(@value,'Camera Configuration')]"	xpath	"//*[contains(@value,'Camera Configuration')]"
+CameraConfigurationBack	XPATH	//android.widget.TextView[@text='Camera Configuration']/preceding-sibling::android.widget.ImageButton					NAME	BACK				
+CameraFirmwareLabel	ID	camera_config_firmware_title_textview	ID	camera_access_config_camera_firmware_header	ID	camera_access_config_camera_firmware_header	XPATH	"//*[contains(@value,'Camera Firmware')]"	XPATH	"//*[contains(@value,'Camera Firmware')]"	XPATH	"//*[contains(@value,'Camera Firmware')]"
+CameraFirmwareLastUpdated	ID	camera_config_firmware_updated_textview					NAME	identifier_subTitle	NAME	identifier_subTitle	NAME	identifier_subTitle
+CameraFirmwareVersion	ID	camera_config_firmware_version_textview	ID	camera_config_firmware_version_textview	ID	camera_access_config_camera_firmware_version	NAME	identifier_subTitle	NAME	identifier_subTitle	NAME	identifier_subTitle
+CameraGeneralSettingsLabel	XPATH	//*[@text='Camera general settings']					NAME	Location Name	NAME	Location Name	NAME	Location Name
+CameraLED_Switch	XPATH	//*[@text='Camera LED']/ancestor::android.widget.RelativeLayout//android.widget.Switch					NAME	Camera_Settings_2_0_toggle	NAME	Camera_Settings_2_0_toggle	NAME	Camera_Settings_2_0_toggle
+CameraLEDSubText	XPATH	//*[@text='Turns LED light on/off']					XPATH	"//*[contains(@value,'Turns LED light')]"	XPATH	"//*[contains(@value,'Turns LED light')]"	XPATH	"//*[contains(@value,'Turns LED light')]"
+CameraLEDText	XPATH	//*[@text='Camera LED']					XPATH	"//*[contains(@value,'Camera LED')]"	XPATH	"//*[contains(@value,'Camera LED')]"	XPATH	"//*[contains(@value,'Camera LED')]"
+CameraMicrophone_Switch	XPATH	//*[@text='Camera Microphone']/ancestor::android.widget.RelativeLayout//android.widget.Switch					NAME	Camera_Settings_2_1_toggle	NAME	Camera_Settings_2_1_toggle	NAME	Camera_Settings_2_1_toggle
+CameraMicrophoneSubText	XPATH	//*[@text='Monitor and record sound']					XPATH	"//*[contains(@value,'Monitor and record sound')]"	XPATH	"//*[contains(@value,'Monitor and record sound')]"	XPATH	"//*[contains(@value,'Monitor and record sound')]"
+CameraMicroPhoneText	XPATH	//*[@text='Camera Microphone']					XPATH	"//*[contains(@value,'Camera Microphone')]"	XPATH	"//*[contains(@value,'Camera Microphone')]"	XPATH	"//*[contains(@value,'Camera Microphone')]"
+Back	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	NAME	Back	NAME	Back	NAME	Back
+CameraModeGeofence	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	"//*[contains(@value,'Geofencing')]"	XPATH	"//*[contains(@value,'Geofencing')]"	XPATH	"//*[contains(@value,'Geofencing')]"
+CameraModeGeofenceContainer	XPATH	//android.widget.ListView/android.widget.RelativeLayout[2]					XPATH	"//*[contains(@value,'Camera will switch itself')]"	XPATH	"//*[contains(@value,'Camera will switch itself')]"	XPATH	"//*[contains(@value,'Camera will switch itself')]"
+CameraModeGeofenceEnabled	XPATH	//*[@text='Geofencing']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	Geofencing_Image				
+CameraModeGeofenceSubText	XPATH	//*[@text='Camera will switch itself ON when AWAY and OFF when HOME']					NAME	"//*[contains(@value,'Camera will switch itself')]"				
+CameraModeList	ID	list_item_lyric_horizontal_text_view_primary_text	ID	desc_text	ID	list_item_arena_checked_text_title	NAME	"//XCUIElementTypeTableCell[contains(@name,'CameraMode')]/XCUIElementTypeStaticText"	NAME	CANCEL	NAME	CANCEL
+CameraModelLabel	ID	camera_config_model_title_textview	ID	camera_config_model_title_textview	ID	camera_config_model_title_textview	NAME	CameraModel	NAME 	Camera Firmware	NAME 	Camera Firmware
+CameraModelMacID	ID	camera_config_model_macid_textview	ID	camera_access_config_camera_firmware_header	ID	camera_access_config_camera_firmware_header	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"
+CameraModelName	ID	camera_config_model_modelname_textview	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"
+CameraModelSerialNo	ID	camera_config_model_serialnumber_textview	XPATH	"//*[contains(@name,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//*[contains(@name,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"	XPATH	"//XCUIElementTypeStaticText[contains(@value,'Model Details')]/following-sibling::XCUIElementTypeStaticText"
+CameraModeManual	XPATH	//*[@text='Manual']					NAME	Manual				
+CameraModeManualContainer	XPATH	//android.widget.ListView/android.widget.RelativeLayout[1]					NAME	Manual_subTitle				
+CameraModeManualEnabled	XPATH	//*[@text='Manual']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	Manual_Image				
+CameraModeManualSubText	XPATH	//*[@text='You control when the camera is On and Off']					NAME	Manual_subTitle				
+CameraModeMenu	XPATH	//*[@text='Camera Mode']					XPATH	//*[@value='Camera Mode']				
+CameraModeOff	ID	camera_off_text					NAME	Camera_Settings_0_0				
+CameraModeText	ID	camera_home_solution_card_mode_selection_text	ID	camera_home_solution_card_mode_selection_text	ID	camera_home_solution_card_mode_selection_text	NAME	camera mode				
+CameraNameDisplayed	ID	toolbar_title	ID	toolbar_title	ID	toolbar_spinner_item_actionbar_subtitle						
+CameraNameLabel	ID	camera_access_config_camera_name_header	ID	camera_access_config_camera_name_header	ID	camera_access_config_camera_name_header	NAME	Section Header_SectionHeader	NAME	Section Header_SectionHeader	NAME	Section Header_SectionHeader
+CameraNameTextField	ID	device_name_edittext	ID	device_name_edittext	ID	camera_access_config_camera_name	xpath	//XCUIElementTypeTextField	xpath	//XCUIElementTypeTextField	xpath	//XCUIElementTypeTextField
+CameraNotFoundPopupMessage												
+CameraNotFoundPopupOK												
+CameraNotFoundPopupRetry												
+CameraNotFoundPopupTitle							NAME	Camera not found.				
+CameraOffAlertCancel	ID	button2	ID	button2	ID	button2	NAME	CANCEL	NAME	FILTER	NAME	FILTER
+CameraOffAlertConfirm	ID	button1	ID	button1	ID	button1	NAME	OK	NAME	btn close normal	NAME	btn close normal
+CameraOffAlertMessage	ID	message	ID	message	ID	message	NAME	Turning camera off disables camera from streaming and recording video				
+CameraOffAlertTitle	ID	alertTitle	ID	alertTitle	ID	alertTitle	NAME	Turn off Camera	NAME	ClipListViewID	NAME	ClipListViewID
+CameraOfflineIcon	ID	camera_solution_card_camera_off	ID	camera_solution_card_camera_off	ID	camera_solution_card_camera_off	NAME	icon_camera_off				
+CameraOfflineText	ID	camera_off_text	ID	camera_off_text	ID	camera_off_text	NAME	Camera Offline				
+CameraOffIcon	ID	camera_solution_card_camera_off										
+CameraOffText	ID	camera_off_text						Camera Off				
+CameraSelectedMode	XPATH	//*[@text='Camera Mode']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	Selected_State	NAME	Selected_State	NAME	Selected_State
+Cancel_PushToTalk	ID	button_cancel					NAME	Cancel				
+CancelDIYFromCameraNaming							NAME	CANCEL				
+CancelDIYFromLocationNaming							NAME	CANCEL				
+CancelHeader_AddNewDevice	XPATH	//*[@text='CANCEL']					NAME	CANCEL				
+CancelFilter	id	camera_cancel_filter_button					name	Cancel				
+CantPlayOK	id	button1					Name	OK				
+ClipCardArrow	id	up_arrow					XPATH	//AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]				
+ClipCardClipDetails	ID	camera_clips_details_layout	ID	camera_clips_details_layout	ID	camera_clips_details_layout	XPATH	//XCUIElementTypeImage[@name='ThumbnailImgViewID']/following-sibling::XCUIElementTypeStaticText[2]	XPATH	"//*[contains(@name,'New Clips')]"	XPATH	"//*[contains(@name,'New Clips')]"
+ClipCardTime	id	activity_event_time_text	id	activity_event_time_text	id	activity_event_time_text	xpath	"//*[contains(@name,'_Time')]"	xpath	"//*[contains(@name,'_Time')]"	xpath	"//*[contains(@name,'_Time')]"
+ClipCardClipTime	ID	camera_clip_received_time	ID	camera_clip_received_time	ID	camera_clip_received_time	NAME	ClipsReceviedTimeID	NAME	dummy	NAME	dummy
+ClipCardClipTypeImage	ID	camera_clip_type_image	ID	camera_clip_type_image	ID	camera_clip_type_image	NAME	"//XCUIElementTypeImage[@name='ThumbnailImgViewID']/following-sibling::XCUIElementTypeImage[contains(@name,'icon_')]"	XPATH	"//*[contains(@name,'All Clips')]"	XPATH	"//*[contains(@name,'All Clips')]"
+ClipCardClipTypeText	ID	camera_clip_record_time	ID	camera_clip_record_time	ID	camera_clip_record_time	NAME	TriggerDurationID	XPATH	"//*[contains(@name,'Viewed Clips')]"	XPATH	"//*[contains(@name,'Viewed Clips')]"
+ClipCardCloseButton	ID	camera_close	ID	camera_close	ID	camera_close	NAME	btn close normal				
+ClipCardErrorUnableToFetch	ID	camera_clips_error_text										
+ClipCardFilterAllClips	xpath	"//*[contains(@text,'All Clips')]"					xpath	"//*[contains(@name,'All Clips')]"				
+ClipCardFilterButton	ID	toolbar_btn	ID	toolbar_btn	ID	toolbar_btn	xpath	//*[@label='Option_Button']	xpath	//*[@label='Option_Button']	xpath	//*[@label='Option_Button']
+ClipFilter	id	toolbar_btn					name	Filter_Button				
+ClipCardFilterDownloaded	xpath	"//*[contains(@text,'Downloaded Clips')]"					xpath	"//*[contains(@name,'Downloaded Clips')]"				
+ClipCardFilterNewClips	XPATH	"//*[contains(@text,'New Clips')]"	XPATH	"//*[contains(@text,'New Clips')]"	XPATH	"//*[contains(@text,'New Clips')]"	XPATH	"//*[contains(@name,'New Clips')]"				
+ClipCardFilterViewedClips	XPATH	"//*[contains(@text,'Viewed Clips')]"	XPATH	"//*[contains(@text,'Viewed Clips')]"	XPATH	"//*[contains(@text,'Viewed Clips')]"	XPATH	"//*[contains(@name,'Viewed Clips')]"				
+ClipCardFrames	id	camera_clips_recycler_view					xpath	"//*[contains(@name,'Event')]"				
+ClipCardOpener	id	camera_solution_card_seperator					xpath	"//*[contains(@name,'Event')]"				
+ClipCardRecyclerView	ID	camera_clips_recycler_view	ID	camera_clips_recycler_view	ID	camera_clips_recycler_view	NAME	dummy	XPATH	"//*[contains(@name,'Downloaded Clips')]"	XPATH	"//*[contains(@name,'Downloaded Clips')]"
+ClipClose_icon							name	btn close normal				
+ClipDownloadingPercentage	XPATH	"//*[contains(@text,'%')]"						"//*[contains(@name,'%')]"	XPATH	"//*[contains(@name,'Camera Name')]/following-sibling::XCUIElementTypeTextField"	XPATH	"//*[contains(@name,'Camera Name')]/following-sibling::XCUIElementTypeTextField"
+ClipDownloadingProgress	ID	fragment_fullscreen_dialog_text					XPATH	"//*[contains(@name,'Downloading video')]"	NAME	Camera Name	NAME	Camera Name
+ClipPlayCurrentTime	ID	camera_solution_card_playTime					NAME	VideoClipCurrentTime				
+ClipPlayEndTime	ID	camera_solution_card_endtime					NAME	VideoClipDuration				
+ClipPlayFullScreenCurrentTime	ID	camera_solution_card_playTime					NAME	VideoClipCurrentTime				
+ClipPlayFullScreenEndTime	ID	camera_solution_card_endtime					NAME	VideoClipDuration				
+ClipPlayFullScreenIcon	ID	video_btn_fullscreen			ID	camera_cliplist_fullscreen	NAME	ExpandToFullscreenButton				
+ClipPlayFullScreenPauseIcon	ID	camera_solution_card_play					NAME	camera btn pause				
+ClipPlayFullScreenPlayIcon	ID	camera_solution_card_play					NAME	camera btn play				
+ClipPlayFullScreenRestoreIcon	ID	camera_cliplist_fullscreen					NAME	RestoreToNormalButton	NAME 	Camera Configuration	NAME 	Camera Configuration
+ClipPlayFullScreenSeekBar	ID	camera_solution_card_seekBar					NAME	VideoClipSeekBar				
+ClipPlayLoadingProgress	ID	buffering_progress_bar					XPATH	"//*[contains(@name,'Loading your clip')]"				
+ClipPlayPauseIcon	ID	camera_play					NAME	camera btn pause				
+ClipPlayPlayIcon	ID	camera_play	ID	camera_play	ID	camera_solution_card_play	NAME	camera btn play				
+ClipPlayScreen	ID	video_player					NAME	MediaViewTime				
+ClipPlaySeekBar	ID	camera_play_seekBar			ID	camera_solution_card_seekBar	NAME	VideoClipSeekBar				
+ClipSave	ID	camera_save_clips_text					NAME	SAVE	NAME	dummy	NAME	dummy
+ClipSavedIcon	ID	camera_clip_saved_flag					NAME	SAVED	NAME 	Camera Firmware	NAME 	Camera Firmware
+ClipSaveIcon	ID	videolist_item_download_icon					NAME	MediaViewSaveButton	NAME	dummy	NAME	dummy
+ClipThumbnail	id	camera_clip_thumbnail	id	camera_clip_thumbnail	id	camera_clip_thumbnail	XPATH	//XCUIElementTypeImage[@name='Event_Clip']	XPATH	//XCUIElementTypeImage[@name='Event_Clip']	XPATH	//XCUIElementTypeImage[@name='Event_Clip']
+ClipCardFilterAllClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterNewClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterViewedClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterDownloadedHeader	id	mainTitle					name	Location Name				
+ClipPlayClose	xpath	//*[@content-desc='Navigate up']					name	Back				
+SavedClips	xpath	"//*[contains(@text,'SAVED')]"					xpath	//*[@value='SAVED']				
+VeiwedClips	xpath	"//*[contains(@text,'VIEWED')]"					xpath	//*[@value='VIEWED']				
+ClipDownloadIcon	id	videolist_item_download_icon					Name	MediaViewSaveButton				
+NoClipsAvaliable	id	camera_clips_error_text					id	camera_clips_error_text				
+ConfirmZIPDescription	ID	diy_header_view_description					NAME	Enter your post code to receive waether information.				
+ConfirmZIPHeader	ID	diy_header_view_subtitle					NAME	Enter post code				
+Connect_WiFi	ID	diy_header_view_subtitle					NAME	Connect camera to Wi-Fi				
+Connect_WiFi_description	ID	diy_header_view_description					NAME	Please select a Wi-FI network that Camera will be connected to.				
+Connect_Wifi_Next	ID	horizontal_button_next					NAME	NEXT				
+Connect_WifiPassword_Next	ID	horizontal_button_next										
+ConnectingToLocationProgress	ID	camera_connect_status_progress										
+ConnectingToLocationStatusText	XPATH	"//*[contains(@text,'Connecting to')]"										
+CountrySearchBox	ID	fragment_country_select_search					XPATH	//*[@value='Search...']				
+CountryToSelect	XPATH	//android.widget.Button[@text='United States']					NAME	United States				
+CustomCameraName	ID	custom					XPATH	//*[@value='Custom']		//XCUIElementTypeCollectionCell/XCUIElementTypeStaticText	XPATH	//XCUIElementTypeCollectionCell/XCUIElementTypeStaticText
+CustomLocation	ID	horizontal_link_text	ID	horizontal_link_text	ID	horizontal_link_text	XPATH	//*[@value='Create new home...']		DELETE	NAME	DELETE
+DashboardDevices	ID	dashboard_device_name	ID	dashboard_device_name	ID	dashboard_device_name	XPATH	//XCUIElementTypeCollectionCell/XCUIElementTypeStaticText	XPATH			
+DeleteCamera	ID	btn_delete_device	ID	camera_access_config_delete_camera	ID	camera_access_config_delete_camera	NAME	Delete Camera	NAME	Delete Camera	NAME	Delete Camera			
+DeleteCameraAlertCancel	ID	button2	ID	button2	ID	button2	NAME	NO		Back	NAME	Back
+DeleteCameraAlertDelete	ID	button1	ID	button1	ID	button1	NAME	YES	NAME	YES	NAME	YES
+DeleteCameraAlertTitle	ID	alertTitle	ID	alertTitle	ID	alertTitle	NAME	Delete camera	NAME			
+DeleteCameraAlertTitleMessage	ID	message	ID	message	ID	message	XPATH	"//*[contains(@name,'This will delete your camera and you will not be able to access it anymore.')]"				
+DIYCameraList	XPATH	//android.support.v7.widget.RecyclerView/android.widget.LinearLayout					XPATH	//XCUIElementTypeTableView/XCUIElementTypeTableCell				
+DIYCameraListNextButton	ID	horizontal_button_next								//*[@value='Email']	XPATH	//*[@value='Email']
+DropDownCameraName	ID	toolbar_spinner_item_actionbar_subtitle										
+EmailAddress	ID	fragment_login_user_name	ID	fragment_login_user_name	ID	fragment_login_user_name	NAME	Login_Email	XPATH			
+EnableBluetoothPopup							XPATH	"//*[contains(@name,'Turn On Bluetooth to Allow')]"				
+EnableBluetoothPopupOK							NAME	OK				
+EnableDetectionZone	ID	zone_enable_checkBox					NAME	 Enable this Detection Zone				
+EnableGeofenceDIY	XPATH	//*[@text='Enable Geofencing']										
+EnableGeofenceDIY_image	ID	fragment_diy_image										
+EnableGeofenceDIY_learnMore	ID	diy_geofence_learn_more										
+EnableGeofenceDIY_Next	ID	horizontal_button_next										
+EnableGeofenceDIY_Skip	ID	horizontal_button_previous										
+EnableGeofenceInSettingsLabel	XPATH	//*[@text='Geofence This Location']					NAME	Geofence this Location				
+EnableGeofenceInSettingsPopupHeader	XPATH	"//*[contains(@resource-id,'alertTitle')]"					XPATH	//XCUIElementTypeAlert[@name='Geofencing']				
+EnableGeofenceInSettingsPopupMessage	XPATH	//*[@text='Please enable Geofence in the location settings']					NAME	Please enable geofence in the location settings.				
+EnableGeofenceInSettingsPopupOk	XPATH	//*[@text='OK']					NAME	OK				
+EnableGeofenceInSettingsToggle	ID	list_item_lyric_switch_view					NAME	geofence_this_location_toggle				
+EnableHighSensitivity	ID	camera_icon_high					NAME	EnableHigh				
+EnableLowSensitivity	ID	camera_icon_low					NAME	EnableLow				
+EnableMediumSensitivity	ID	camera_icon_normal					NAME	EnableNormal				
+ErrorTakingSnapshot							NAME	Error taking snapshot. Please try later				
+ErrorTakingSnapshotOK							NAME	OK				
+ExistingAccountLoginButton_AddNewDevice	ID	horizontal_button_previous					NAME	LOGIN				
+ExistingCameraNames							XPATH	//XCUIElementTypeTableCell				
+ExistingDIYlocations	XPATH	"//*[contains(@resource-id,'fragment_diy_naming_name_text')]"					XPATH	//XCUIElementTypeTableCell				
+FilterCancel	XPATH	//*[@text='Cancel']					NAME	Cancel				
+FinalizingRegistration	XPATH	//*[@text='Finalizing Registration']					NAME	Finalizing Registration				
+forgotPassword_AddNewDevice	ID	fragment_login_forgot_password					NAME	FORGOT PASSWORD?				
+GeofenceMenu	XPATH	//*[@text='Geofence']					NAME	Location Name				
+GeofenceSettingsLocationStatus	XPATH	//*[@text='Location Status']					NAME	location_status_subTitle		menu	NAME	menu
+GeofenceSettingsRadius	XPATH	//*[@text='Geofence Radius']					NAME	geofence_radius_subTitle				
+GlobalDrawerButton	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	NAME	menu	NAME			
+HighSensitivityMessage	XPATH	//*[@text='detects even the quietest sounds like a pindrop or whispers (10-100 dB)']					XPATH	//*[@name='Detects even the quietest sounds like a pindrop or whispers (10-100 dB)']				
+HoldToTalkMessage	XPATH	//*[@text='Press and hold to talk']					NAME	Header Text		live_thumbnail	NAME	live_thumbnail
+InstallADevice	ID	fragment_login_install_device					NAME	INSTALL A DEVICE				
+LiveFeedVideoContainer	ID	camera_surfaceview	ID	camera_surfaceview	ID	camera_home_solution_card_video_container	NAME	live_thumbnail	NAME	live	NAME	live
+LiveStreamCounter	ID	camera_progress_bar	ID	camera_progress_bar	ID	camera_progress_bar	NAME	progressViewID		TAP TO CONTINUE LIVE FEED	NAME	TAP TO CONTINUE LIVE FEED
+LiveText	ID	camera_live_indicator	ID	camera_live_indicator	ID	camera_solution_card_live_fullscreen	NAME	live	NAME	live video pause button	NAME	camera btn pause
+LoadingProgress	ID	camera_solution_card_surface_progressbar	ID	camera_card_surface_progressbar	ID	camera_solution_card_surface_progressbar	NAME	LiveStreamingActivity	NAME			
+LoadingProgressText	ID	camera_progress_text	XPATH	//*[@text='Loading live stream']	XPATH	//*[@text='Loading live stream']	NAME	live feed status message	NAME			
+LocationDropDown	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title		icon_arrow_down		arrow_icon.png	NAME	arrow_icon.png
+LocationNameDisplayed	XPATH	"//*[contains(@resource-id,'toolbar')]/android.widget.TextView[1]"								Location Name	NAME	Location Name
+LocationSpinner	ID	toolbar_spinner	ID	toolbar_spinner	ID	toolbar_spinner	NAME	icon_arrow_down	NAME	LOGIN	NAME	LOGIN
+LocationTitle	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	NAME	Location Name	NAME	Login_Button	NAME	Login_Button
+LoginButton	ID	fragment_login_login_button	ID	fragment_login_login_button	ID	fragment_login_login_button	NAME	LOGIN	NAME			
+LoginButton2	ID	fragment_login_login_button	ID	fragment_login_login_button	ID	fragment_login_login_button	NAME	Login_Button	NAME			
+LoginButton_AddNewDevice	ID	fragment_login_login					NAME	LOGIN		side_drawer_logout_button	NAME	side_drawer_logout_button
+LoginHeader_AddNewDevice	XPATH	//*[@text='Log In']					NAME	Login				
+Logout	XPATH	//*[@text='Logout']	XPATH	//*[@text='Logout']	XPATH	//*[@text='Logout']	NAME	side_drawer_logout_button	NAME			
+LookingForCamera							NAME	Looking for Camera				
+LowSensitivityMessage	XPATH	//*[@text='detects only loud sounds like a Motorcycle or Food Processor (80-100 dB)']					XPATH	//*[@name='Detects only sounds like a Motorcycle or Food Processor (80-100 dB)']				
+LyricCamera_C1	XPATH	//*[@text='Lyric C1 Wi-Fi Security Camera']					XPATH	//*[@name='Lyric C1 Wi-Fi Security Camera']				
+LyricCamera_C2	XPATH	//*[@text='Lyric C2 Wi-Fi Security Camera']					XPATH	//*[@name='Lyric C2 Wi-Fi Security Camera']				
+MediumSensitivityMessage	XPATH	"//*[@text='detects general sounds like Refrigerator, Air conditioner or conversational speech (50-100 dB)']"					XPATH	//*[@name='Detects general sounds like Refrigerator or Airconditioner or conversational speech (50-100 dB)']				
+MicEnableAlertContent	XPATH	//*[@text='Your camera microphone is turned off. Would you like to turn it on?']					NAME	Your camera microphone is turned off. Would you like to turn it on?				
+MicEnableAlertTitle	XPATH	//*[@text='Microphone Off']					NAME	Microphone Off				
+MicEnablePopupCancel	ID	button2					NAME	CANCEL				
+MicEnablePopupOk	ID	button1					NAME	OK				
+Microphone_PushToTalk	ID	ivWhite					XPATH	//*[@name='Mic Button']				
+MicrophoneOffAlertCANCEL	XPATH	//*[@text='CANCEL']					NAME	Cancel				
+MicrophoneOffAlertMessage	XPATH	//*[@text='Turning microphone off disables sound alerts']					NAME	Turning microphone off disables sound alerts				
+MicrophoneOffAlertOK	XPATH	//*[@text='OK']					NAME	Ok				
+MicrophoneOffAlertTitle	XPATH	//*[@text='Turn Off microphone']					NAME	Turn Off microphone				
+MotionDetection_HighSensitivity	XPATH	//*[@text='High']					NAME	High				
+MotionDetection_HighSensitivityDesc	XPATH	//*[@text='High']/following-sibling::android.widget.TextView					NAME	high	"//*[@label=Detects any/all changes in the zone.""]"""			
+MotionDetection_HighSensitivityText	XPATH	//*[@text='High']/following-sibling::android.widget.TextView					NAME	high_subTitle				
+MotionDetection_LowSensitivity	XPATH	//*[@text='Low']					NAME	Low				
+MotionDetection_LowSensitivityDesc	XPATH	//*[@text='Low']/following-sibling::android.widget.TextView					NAME	low	"//*[contains(@name,'Detects large changes in the zone, such as a person walking or lights turning on and off.')]"			
+MotionDetection_LowSensitivityText	XPATH	//*[@text='Low']/following-sibling::android.widget.TextView					NAME	low_subTitle				
+MotionDetection_NormalSensitivity	XPATH	//*[@text='Normal']					NAME	Normal				
+MotionDetection_NormalSensitivityDesc	XPATH	//*[@text='Normal']/following-sibling::android.widget.TextView				XPATH	NAME	medium				
+MotionDetection_NormalSensitivityText	XPATH	//*[@text='Normal']/following-sibling::android.widget.TextView					NAME	medium_subTitle	Medium			
+MotionDetection_Sensitivity	XPATH	//*[@text='Motion Sensitivity']					NAME	Motion Sensitivity				
+MotionDetection_SilentSensitivity	XPATH	//*[@text='Off']					NAME	Off				
+MotionDetection_SilentSensitivityDesc	XPATH	//*[@text='Off']/following-sibling::android.widget.TextView				XPATH	NAME	off				
+MotionDetection_SilentSensitivityText	XPATH	//*[@text='Off']/following-sibling::android.widget.TextView					NAME	off_subTitle		//*[@name='Zone 1' or @name='Zone1']		
+MotionDetection_Switch	XPATH	//*[@text='Motion Detection']/ancestor::android.widget.RelativeLayout//android.widget.Switch					NAME	"Motion Detection, Record clips when motion is detected"				
+MotionDetection_Zone1	ID	zone1_textView					XPATH	//*[@name='Zone 1' or @name='Zone1']	XPATH			
+MotionDetection_Zone2	ID	zone2_textView					NAME	Zone 2		NAME 	Back	
+MotionDetectionAlertNo	XPATH	"//*[contains(@text,'No') or contains(@text,'NO')]"	XPATH	//android.widget.Button[@text='No']	XPATH	//android.widget.Button[@text='No']					NAME	No
+MotionDetectionBack		XPATH	//android.widget.ImageButton[@content-desc='Navigate up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate up']	XPATH	NAME	Back	Back			
+MotionDetectionDisableAlertContent	XPATH	//*[@text='This will disable camera from recording any triggered motion video and from sending alerts.']					NAME	This will disable camera from recording any motion triggered video and from sending alerts.				
+MotionDetectionDisableAlertTitle	XPATH	//*[@text='Motion Detection off']					NAME	Motion Detection Off				
+MotionDetectionDisabledIcon							NAME	EnableDisableZoneButton				
+MotionDetectionEnabledIcon							NAME	EnableDisableZoneButton				
+MotionDetectionIcon	ID	camera_motion_on_off					NAME	icon motion off				
+MotionDetectionLabel	XPATH	//*[@text='Motion Detection']					XPATH	//*[@value='Motion Detection']				
+MotionDetectionValue	XPATH	//*[@text='Motion Detection']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	Camera_Settings_2_0_value				
+MotionDetectionZone	ID	camera_sensitivity_thumb					NAME	Motion detection zone				
+MotionIconDisablePopupCancel	ID	button2					NAME	CANCEL				
+MotionIconDisablePopupOk	ID	button1					NAME	OK				
+MotionSensitivityWarningConfirm	XPATH	//*[@text='CONFIRM']					NAME	Yes				
+NameTheCameraNext	ID	horizontal_button_next					NAME	Done				
+NameTheCameraTitle	ID	diy_header_view_subtitle					XPATH	//XCUIElementTypeTableView/XCUIElementTypeStaticText				
+NameTheLocationDescription	ID	diy_header_view_description					NAME	Name the home where you installed the camera				
+NameTheLocationNext	ID	horizontal_button_next					NAME	Done				
+NightVision	XPATH	//*[@text='Night Vision']					NAME	Camera_Settings_1_2				
+NightVisionAuto	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='Auto']					NAME	auto				
+NightVisionAutoEnabled	XPATH	//*[@text='Auto']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	auto_Image				
+NightVisionAutoSubText	XPATH	//*[@text='Adjust video automatically for low light conditions']					NAME	auto_subTitle				
+NightVisionBack	XPATH	//android.view.View/android.widget.TextView[@text='Night Vision']/preceding-sibling::android.widget.ImageButton					NAME	Back				
+NightVisionHeader	XPATH	//android.view.View/android.widget.TextView[@text='Night Vision']					NAME	Location Name				
+NightVisionOff	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='Off']					NAME	off				
+NightVisionOffEnabled	XPATH	//*[@text='Off']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	off_Image				
+NightVisionOffSubText	XPATH	//*[@text='Night vision remains always off irrespective of low light conditions']					NAME	off_subTitle				
+NightVisionOn	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='On']					NAME	on				
+NightVisionOnEnabled	XPATH	//*[@text='On']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	on_Image				
+NightVisionOnSubText	XPATH	//*[@text='Night vision remains always on irrespective of low light conditions']					NAME	on_subTitle				
+NightVisionSubText	XPATH	//*[@text='Adjust video for low light conditions']					NAME	Camera_Settings_1_2_subTitle				
+NightVisionValue	XPATH	//*[@text='Night Vision']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	Camera_Settings_1_2_value		//*[@value='Password']	XPATH	//*[@value='Password']
+PairingMessage	XPATH	//*[@text='Pairing with camera']					XPATH	//*[contains(@name='Pairing')]		camera mode	NAME	camera mode
+Password	ID	fragment_login_password	ID	fragment_login_password	ID	fragment_login_password	XPATH	//*[@value='Password']	XPATH			
+PauseButton	ID	camera_solution_card_play	ID	camera_solution_card_pause	ID	camera_solution_card_pause	NAME	camera btn pause	NAME			
+PleaseConfirmCountry	XPATH	//*[@text='Please confirm your country']					NAME	Please confirm your country				
+PlugInCameraHeader	ID	camera_diy_start_installation_fragment_header_textview					NAME	PlugInCameraHeader				
+PlugInCameraIconC1	ID	camera_icon					NAME	PlugInCameraIconC1				
+PlugInCameraIconC2	ID	camera_icon					NAME	PlugInCameraIconC2				
+PlugInCameraInstructions	ID	camera_diy_start_installation_fragment_instructions_textview					XPATH	PlugInCameraInstructions				
+PlugInCameraNextButton	ID	horizontal_button_next					NAME	NEXT				
+Privacy_Off	ID	privacy_off					NAME	Offline_Camera		//XCUIElementTypeButton[@value='TALK']	XPATH	//XCUIElementTypeButton[@value='TALK']
+Privacy_On	ID	privacy_on					NAME	Online_Camera				
+PushToTalkIcon	ID	feature_voice	ID	feature_voice	ID	feature_voice	XPATH	//XCUIElementTypeButton[@value='TALK']	XPATH			
+QRcodeDistance	ID	camera_diy_scan_qrcode_fragment_instructions					NAME	QRInstruction				
+QRcodeHeader	ID	camera_diy_scan_qrcode_fragment_header_textview					NAME	Scan code to connect camera				
+QRcodeIcon	ID	qrcode_icon					XPATH	//XCUIElementTypeImage[1]				
+QRcodeInstruction	ID	camera_diy_scan_qrcode_fragment_instructions_textview										
+QRcodeNext	ID	horizontal_button_next								Play Livestream	NAME	Play Livestream
+RedProgressBar							NAME	progressViewID		Tap to continue live feed	NAME	
+RetryButton	ID	camera_solution_card_retry	ID	camera_solution_card_retry	ID	camera_solution_card_retry	NAME	Play Livestream	NAME			
+RetryText	ID	camera_solution_card_retry_text	ID	camera_solution_card_retry_text	ID	camera_solution_card_retry_text	NAME	Tap to continue live feed	NAME			
+SaveGeofenceRadius_DIY	ID	horizontal_button_next										
+SavingGeofence_DIY	XPATH	//*[@text='Saving your geofence']										
+SelectedCountry	ID	fragment_add_new_device_country					XPATH	"//*[contains(@name,'Showing devices for')]"				
+SettingList	ID	list_icon_view								live	NAME	live
+SettingUpCamera	XPATH	//*[@text='Setting up your camera']					NAME	Setting up your camera		live feed status message	NAME	live feed status message
+SnapshotIcon	ID	feature_snapshot	ID	feature_snapshot	ID	feature_snapshot	NAME	snapshot icon	NAME	Live Streaming Activity	NAME	Live Streaming Activity
+SnapshotProgressBar	ID	camera_progress_bar	ID	camera_progress_bar	ID	camera_snapshot_progress	NAME	snapshotStatusMessage	NAME	Sound Detection_toggle	NAME	Sound Detection_toggle
+SnapshotProgressText	ID	camera_snapshot_progress_text	ID	camera_snapshot_progress_text	ID	camera_snapshot_progress_text	NAME	Snapshot Activity	NAME			
+SoundDetection_Switch	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	NAME	Sound Detection_toggle	NAME			
+SoundDetectionBack	XPATH	//android.view.View/android.widget.TextView[@text='Sound Detection]/preceding-sibling::android.widget.ImageButton					XPATH	//XCUIElementTypeNavigationBar/*[@name='Sound Detection']/following-sibling::XCUIElementTypeButton[@name='Back']				
+SoundDetectionDisabledIcon							NAME	icon sound off		//*[@value='Sound Detection']	XPATH	//*[@value='Sound Detection']
+SoundDetectionEnabledIcon							NAME	icon sound off				
+SoundDetectionHeader	XPATH	//*[@text='Sound Detection']	XPATH	//*[@text='Sound Detection']	XPATH	//*[@text='Sound Detection']	XPATH	//*[@value='Sound Detection']	XPATH	//*[@value='Sound Detection']	XPATH	//*[@value='Sound Detection']
+SoundDetectionIcon	XPATH	//*[@text='										
+"Sound Detection']"""					NAME	Sound Detection_toggle						
+SoundDetectionLabel	XPATH	//*[@text='Sound Detection']	XPATH	//*[@text='Sound Detection']	XPATH	//*[@text='Sound Detection']	XPATH	//*[@value='Sound Detection']	XPATH			
+SoundDetectionMenu	XPATH	//*[@text='Sound Detection']/parent::android.widget.LinearLayout					NAME	Sound detection				
+SoundDetectionSubText	XPATH	//*[@text='Record clips when sound is detected']					NAME	Sound Detection_subTitle				
+SoundDetectionText	XPATH	//*[@text='Sound Detection']					NAME	Sound Detection		snapshot icon	NAME	snapshot icon
+SoundDetectionValue	XPATH	//*[@text='Sound Detection']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	Camera_Settings_2_1_value		Snapshot Activity	NAME	Snapshot Activity
+SoundDisableAlertTitle	XPATH	//*[@text='Sound Detection off']					NAME	Sound Detection Off	NAME	voiceMessage icon	NAME	voiceMessage icon
+SoundDisableAlertTitleAlertContent	XPATH	//*[@text='This will disable camera from recording any triggeredsound video and from sending alerts.']					NAME	This will disable camera from recording any sound triggered  video and from sending alerts.	NAME	Snapshot Activity	NAME	Snapshot Activity
+SoundDisableAlertTitlePopupCancel	ID	button2					NAME	CANCEL	NAME			
+SoundDisableAlertTitlePopupOk	ID	button1					NAME	OK	NAME			
+SoundSensitivityHigh	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='High']					NAME	high_cell				
+SoundSensitivityLabel	ID	sensitivity_desc_header					NAME	low				
+SoundSensitivityLow	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='Low']					NAME	low				
+SoundSensitivityNormal	XPATH	//android.widget.LinearLayout/android.widget.TextView[@text='Normal']					NAME	normal_cell				
+TalkNow	XPATH	//*[@text='Talk Now...']					XPATH	//*[@value='Talk now...']				
+userName_AddNewDevice	ID	fragment_login_user_name					XPATH	//*[@value='Email']				
+userPassword_AddNewDevice	ID	fragment_login_password					XPATH	//*[@value='Password']				
+VideoQuality	XPATH	//*[@text='Video Quality']					NAME	Camera_Settings_1_3				
+VideoQualityAuto	XPATH	//*[@text='Auto']					NAME	Auto				
+VideoQualityAutoEnabled	XPATH	//*[@text='Auto']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView						Auto_Image				
+VideoQualityAutoSubText	XPATH	//*[@text='Adjust automatically for optimal video quality']					NAME	Auto_subTitle				
+VideoQualityBack	XPATH	//android.widget.TextView[@text='Video Quality']/preceding-sibling::android.widget.ImageButton					NAME	Back				
+VideoQualityHeader	XPATH	//android.widget.TextView[@text='Video Quality']					NAME	//XCUIElementTypeNavigationBar/*[@name='Location Name with Subtitle']				
+VideoQualityHigh	XPATH	//*[@text='High']					NAME	High				
+VideoQualityHighEnabled	XPATH	//*[@text='High']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView					NAME	High_Image				
+VideoQualityHighSubText	XPATH	"//*[@text='Higher video quality and data rate, best for high bandwidth connections']"					NAME	High_subTitle				
+VideoQualityLow	XPATH	//*[@text='Low']					NAME	Low				
+VideoQualityLowEnabled	XPATH	//*[@text='Low']/parent::android.widget.LinearLayout/following-sibling::android.widget.ImageView						Low_Image				
+VideoQualityLowSubText	XPATH	"//*[@text='Lower video quality and data rate, best for low bandwidth connections']"					NAME	Low_subTitle				
+VideoQualitySubText	XPATH	//*[@text='Adjust quality of video stream and data consumption']					NAME	Camera_Settings_1_3_subTitle		Live Countedown timer	NAME	Live Countedown timer
+VideoQualityValue	XPATH	//*[@text='Video Quality']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	Camera_Settings_1_3_value				
+VoiceMessageIcon	ID	feature_voice	ID	feature_voice	ID	feature_voice	NAME	voiceMessage icon	NAME			
+Wifi_connect	ID	horizontal_button_next					NAME	NEXT				
+Wifi_Password	ID	fragment_diy_connect_password_edit_text					XPATH	//XCUIElementTypeSecureTextField				
+ZIPcodeBox	ID	fragment_diy_zip_edit					XPATH	//*[@value='Post code']		Don't Use	NAME	Don't Use
+ZIPcodeNext	ID	horizontal_button_next					NAME	Done		Don't Use	NAME	Don't Use
+DontUseText	ID	dont_use_txt	ID	dont_use_txt	ID	dont_use_txt	NAME	Don't Use	NAME	States_1	NAME	States_1
+DontUseButton	ID	dont_use_txt	ID	dont_use_txt	ID	dont_use_txt	NAME	Don't Use	NAME	BACK	NAME	BACK
+CameraButton	id	privacy_panel	id	privacy_panel	id	privacy_panel	NAME	States_1	NAME	Motion Detection_toggle	NAME	Motion Detection_toggle
+BackButton	XPATH	//android.widget.ImageButton	XPATH	//android.widget.ImageButton	XPATH	//android.widget.ImageButton	NAME	BACK	NAME	//*[@value='This is a default area. You cannot disable this area.']	XPATH	//*[@value='This is a default area. You cannot disable this area.']
+MotionDetectiontoggle	id	list_item_lyric_switch_view	id	list_item_lyric_switch_view	id	list_item_lyric_switch_view	NAME	Motion Detection_toggle	NAME			
+DefaultDetectionText	XPATH	//*[@text='This is a default area. You cannot disable this area.']	XPATH	//*[@text='This is a default area. You cannot disable this area.']	XPATH	//*[@text='This is a default area. You cannot disable this area.']	XPATH	//*[@value='This is a default area. You cannot disable this area.']	XPATH			
+DefaultDetectionSnapshot	id	sensitivity_zone_view	id	sensitivity_zone_view	id	sensitivity_zone_view						
+ActivityLogText	XPATH	//*[@text='Activity Log']	XPATH	//*[@text='Activity Log']	XPATH	//*[@text='Activity Log']				closeOverlay	name	closeOverlay
+DeleteCount	id	delete_count	id	delete_count	id	delete_count				deleteOverlay	name	deleteOverlay
+CloseCancel	id	close_icon_view	id	close_icon_view	id	close_icon_view	name	closeOverlay	name	//*[@value='Delete Video Clip']	XPATH	//*[@value='Delete Video Clip']
+DeleteOption	id	delete_icon_view	id	delete_icon_view	id	delete_icon_view	name	deleteOverlay	name	//*[@value='This will delete your video clip.']	XPATH	//*[@value='This will delete your video clip.']
+DeleteVideoClipText	XPATH	//*[@text='Delete Video Clip']	XPATH	//*[@text='Delete Video Clip']	XPATH	//*[@text='Delete Video Clip']	XPATH	//*[@value='Delete Video Clip']	XPATH	//*[@label='Cancel']	XPATH	//*[@label='Cancel']
+DeleteVideoMessage	XPATH	//*[@text='This will delete your video clip.']	XPATH	//*[@text='This will delete your video clip.']	XPATH	//*[@text='This will delete your video clip.']	XPATH	//*[@value='This will delete your video clip.']	XPATH	//*[@label='Ok']	XPATH	//*[@label='Ok']
+DeleteVideoCancel	id	button2	id	button2	id	button2	XPATH	//*[@label='Cancel']	XPATH			
+DeleteVideoOk	id	button1	id	button1	id	button1	XPATH	//*[@label='Ok']	XPATH	MediaDeleteButton	name	MediaDeleteButton
+LoadingVideoText	XPATH	//*[@text='Loading your video clip']	XPATH	//*[@text='Loading your video clip']	XPATH	//*[@text='Loading your video clip']				//*[@value='Deletion Successful']	XPATH	//*[@value='Deletion Successful']
+DeleteVideo	id	videolist_item_delete_icon	id	videolist_item_delete_icon	id	videolist_item_delete_icon	name	MediaDeleteButton	name	//*[@value='Video clip deleted successfully.']	XPATH	//*[@value='Video clip deleted successfully.']
+DeleteSuccessfulText							XPATH	//*[@value='Deletion Successful']	XPATH	//*[@label='MediaViewTime']	XPATH	//*[@label='MediaViewTime']
+DeleteVideoDescription							XPATH	//*[@value='Video clip deleted successfully.']	XPATH	//*[@label='MediaVideoTypeText']	XPATH	//*[@label='MediaVideoTypeText']
+VideoTime	id	videolist_item_event_occurance_time	id	videolist_item_event_occurance_time	id	videolist_item_event_occurance_time	XPATH	//*[@label='MediaViewTime']	XPATH			
+VideoType	id	videolist_item_event_type	id	videolist_item_event_type	id	videolist_item_event_type	XPATH	//*[@label='MediaVideoTypeText']	XPATH			
+DownloadVideoTitle	XPATH	//*[@text='Cancel download video clip']	XPATH	//*[@text='Cancel download video clip']	XPATH	//*[@text='Cancel download video clip']						
+DownloadVideoMessage	XPATH	//*[@text='Are you sure you want to cancel downloading video clip to your phone album?']	XPATH	//*[@text='Are you sure you want to cancel downloading video clip to your phone album?']	XPATH	//*[@text='Are you sure you want to cancel downloading video clip to your phone album?']						
+DownloadButton	id	videolist_item_download_icon	id	videolist_item_download_icon	id	videolist_item_download_icon						
+LogHeadingText	id	activity_logs_sub_heading_text	id	activity_logs_sub_heading_text	id	activity_logs_sub_heading_text						
+MotionDetection_Zone3	ID	zone3_textView					NAME	Zone 3				
+MotionDetection_Zone4	ID	zone4_textView					NAME	Zone 4		"//*[contains(@name,'C1 Wi-Fi Security Camera')]"	xpath	"//*[contains(@name,'C1 Wi-Fi Security Camera')]"
+RetryBtn	XPATH	//*[@text='Retry']	XPATH	//*[@text='Retry']	XPATH	//*[@text='Retry']				"//*[contains(@name,'Home')]"	xpath	"//*[contains(@name,'Home')]"
+CameraC1	XPATH	//*[@text='C1 Wi-Fi Security Camera']	XPATH	//*[@text='C1 Wi-Fi Security Camera']	XPATH	//*[@text='C1 Wi-Fi Security Camera']	xpath	"//*[contains(@name,'C1 Wi-Fi Security Camera')]"	xpath	"//*[contains(@name,'Honeywell Home')]"	xpath	"//*[contains(@name,'Honeywell Home')]"
+Home	XPATH	//*[@class='android.widget.RelativeLayout']	XPATH	//*[@class='android.widget.RelativeLayout']	XPATH	//*[@class='android.widget.RelativeLayout']	xpath	"//*[contains(@name,'Home')]"	xpath	"//*[contains(@name,'Next')]"	xpath	"//*[contains(@name,'Next')]"
+HoneywellHome	XPATH	//*[@text='Honeywell Home']	XPATH	//*[@text='Honeywell Home']	XPATH	//*[@text='Honeywell Home']	xpath	"//*[contains(@name,'Honeywell Home')]"	xpath	"//*[contains(@name,'OK')]"	xpath	"//*[contains(@name,'OK')]"
+NextBtn	id	horizontal_button_next	id	horizontal_button_next	id	horizontal_button_next	xpath	"//*[contains(@name,'Next')]"	xpath			
+OkBtn	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	XPATH	//*[@text='OK']	xpath	"//*[contains(@name,'OK')]"	xpath			
+SoundDetection_HighSensitivity	XPATH	//*[@contain-desc='Sound DetectionHigh']	XPATH	//*[@contain-desc='Sound DetectionHigh']	XPATH	//*[@contain-desc='Sound DetectionHigh']						
+SoundDetection_LowSensitivity	XPATH	//*[@contain-desc='Sound DetectionLow']	XPATH	//*[@contain-desc='Sound DetectionLow']	XPATH	//*[@contain-desc='Sound DetectionLow']						
+SoundDetection_NormalSensitivity	XPATH	//*[@contain-desc='Sound DetectionNormal']	XPATH	//*[@contain-desc='Sound DetectionNormal']	XPATH	//*[@contain-desc='Sound DetectionNormal']						
+SoundDetectionOff	XPATH	//*[@contain-desc='Sound DetectionOff']	XPATH	//*[@contain-desc='Sound DetectionOff']	XPATH	//*[@contain-desc='Sound DetectionOff']						
+CreatingNewHomeActivityText							name	Creating new Home	name	Creating new Home	name	Creating new Home
+CustomCamName	ID	create_new_name_text	ID	create_new_name_text	ID	create_new_name_text	XPATH	//*[@value='Add Home']	XPATH	//*[@value='Add Home']	XPATH	//*[@value='Add Home']
+PostCode	ID	custom_generic_edit	ID	custom_generic_edit	ID	custom_generic_edit						
+LocnameSelect	ID	list_item_display_text	ID	list_item_display_text	ID	list_item_display_text	XPATH	//*[@value='Custom']	XPATH	//*[@value='Custom']	XPATH	//*[@value='Custom']
+ZIPTitle	ID	header_view_subtitle	ID	header_view_subtitle	ID	header_view_subtitle						

@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+BackButton	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+SlidingTabs	ID	sliding_tabs	ID	sliding_tabs	ID	sliding_tabs						
+TemperatureTab	XPATH	//*[@text='Temperature']	XPATH	//*[@text='Temperature']	XPATH	//*[@text='Temperature']	name	Temperature	name	Temperature	name	Temperature
+HumidityTab	XPATH	//*[@text='Humidity']	XPATH	//*[@text='Humidity']	XPATH	//*[@text='Humidity']	name	Humidity	name	Humidity	name	Humidity
+SettingsIcon	ID	action_settings	ID	action_settings	ID	action_settings	name	appSettingsIcon	name	appSettingsIcon	name	appSettingsIcon
+Battery	XPATH	"//*[contains(@text,'Remaining') or contains(@text,'REMAINING')]"	XPATH	"//*[contains(@text,'Remaining') or contains(@text,'REMAINING')]"	XPATH	"//*[contains(@text,'Remaining') or contains(@text,'REMAINING')]"	XPATH	"//*[contains(@name,'battery_remaining_text')]"	XPATH	"//*[contains(@name,'battery_remaining_text')]"	XPATH	"//*[contains(@name,'battery_remaining_text')]"
+NextUpdate	XPATH	"//*[contains(@text,'Next update')]"	XPATH	"//*[contains(@text,'Next update')]"	XPATH	"//*[contains(@text,'Next update')]"	XPATH	"//*[contains(@name,'next_update_text')]"	XPATH	"//*[contains(@name,'next_update_text')]"	XPATH	"//*[contains(@name,'next_update_text')]"
+TempHumidityValue	ID	wld_temp_humidity_value	ID	wld_temp_humidity_value	ID	wld_temp_humidity_value						
+Dismiss	ID	alert_dismiss_btn	ID	alert_dismiss_btn	ID	alert_dismiss_btn	name	Dismiss	name	Dismiss	name	Dismiss
+TempValueIOS							XPATH	"//*[contains(@name,'°')]"	XPATH	"//*[contains(@name,'°')]"	XPATH	"//*[contains(@name,'°')]"
+HumidityValueIOS							XPATH	"//*[contains(@name,'%')]"	XPATH	"//*[contains(@name,'%')]"	XPATH	"//*[contains(@name,'%')]"

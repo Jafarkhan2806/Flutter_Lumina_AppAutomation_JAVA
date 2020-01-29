@@ -1,0 +1,4 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SaveButton	id	view_save_address	id	view_save_address	id	view_save_address	name	RightButton	name	RightButton	name	RightButton
+CountrySearch	id	fragment_country_select_search	id	fragment_country_select_search	id	fragment_country_select_search	XPATH	"//*[contains(@value,'Zoeken')]"	XPATH	"//*[contains(@value,'Zoeken')]"	XPATH	"//*[contains(@value,'Zoeken')]"
+CountryList	id	list_item_country_text	id	list_item_country_text	id	list_item_country_text						

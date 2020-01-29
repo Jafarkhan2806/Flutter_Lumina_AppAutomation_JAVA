@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+MotionDetectionToggle	XPATH	//*[@content-desc='Motion Detection']	XPATH	//*[@content-desc='Motion Detection']	XPATH	//*[@content-desc='Motion Detection']	name	Motion Detection_toggle	name	Motion Detection_toggle	name	Motion Detection_toggle
+Off	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	name	off_subTitle	name	off_subTitle	name	off_subTitle
+BackButton	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	"//*[contains(@name,'ZP')]"	XPATH	"//*[contains(@name,'ZP')]"	XPATH	"//*[contains(@name,'ZP')]"
+Low	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	name	low_subTitle	name	low_subTitle	name	low_subTitle
+Normal	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	name	medium_subTitle	name	medium_subTitle	name	medium_subTitle
+High	XPATH	//*[@text='High']	XPATH	//*[@text='High']	XPATH	//*[@text='High']	name	high_subTitle	name	high_subTitle	name	high_subTitle
+EnableDetectionZone	ID	zone_enable_checkBox	ID	zone_enable_checkBox	ID	zone_enable_checkBox	NAME	 Enable this Detection Zone	NAME	 Enable this Detection Zone	NAME	 Enable this Detection Zone
+NotOverlapZoneMsg	ID	message	ID	message	ID	message	Xpath	"//*[contains(@value,'Motion detection zones should not overlap')]"	NAME	"//*[contains(@value,'Motion detection zones should not overlap')]"	NAME	"//*[contains(@value,'Motion detection zones should not overlap')]"
+AreaoutsidezonesMsg	ID	message	ID	message	ID	message	NAME	"//*[contains(@value,'Area outside zones will not send any motion detected alerts')]"	NAME	"//*[contains(@value,'Area outside zones will not send any motion detected alerts')]"	NAME	"//*[contains(@value,'Area outside zones will not send any motion detected alerts')]"
+OkButton	ID	button1	ID	button1	ID	button1	NAME	OK	NAME	OK	NAME	OK
+ConfirmButton	ID	button1	ID	button1	ID	button1	NAME	Confirm	NAME	Confirm	NAME	Confirm

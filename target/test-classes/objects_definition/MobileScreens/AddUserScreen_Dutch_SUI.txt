@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+RemovalPopup	xpath	//*[@text='Toegang verwijderen bevestigen']	xpath	//*[@text='Toegang verwijderen bevestigen']	xpath	//*[@text='Toegang verwijderen bevestigen']	name	Toegang verwijderen bevestigen	name	Toegang verwijderen bevestigen	name	Toegang verwijderen bevestigen
+CancelButton	id	button2	id	button2	id	button2	name	Annuleren	name	Annuleren	name	Annuleren
+EmailField	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	name	Email TextField	name	Email TextField	name	Email TextField
+RemoveUserButton	xpath	//*[@text='Gebruikers verwijderen']	xpath	//*[@text='Gebruikers verwijderen']	xpath	//*[@text='Gebruikers verwijderen']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']
+BackButton	XPATH	//*[@content-desc='Omhoog navigeren']	XPATH	//*[@content-desc='Omhoog navigeren']	XPATH	//*[@content-desc='Omhoog navigeren']	name	Terug	name	Terug	name	Terug
+AddUserTitle	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	name	Location Name	name	Location Name	name	Location Name
+SendButton	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	name	Verzenden	name	Verzenden	name	Verzenden
+InvalidEmailError	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	name	De opgevraagde gebruiker is al toegevoegd aan dit account	name	De opgevraagde gebruiker is al toegevoegd aan dit account	name	De opgevraagde gebruiker is al toegevoegd aan dit account
+AddUserButton	id	add_users_btn	id	add_users_btn	id	add_users_btn	name	Gebruiker Toevoegen	name	Gebruiker Toevoegen	name	Gebruiker Toevoegen
+YesButton	id	button1	id	button1	id	button1	name	Verwijderen	name	Verwijderen	name	Verwijderen
+OkErrorButton							name	OK	name	OK	name	OK

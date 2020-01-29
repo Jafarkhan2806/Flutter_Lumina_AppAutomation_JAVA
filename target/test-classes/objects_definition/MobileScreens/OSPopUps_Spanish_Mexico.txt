@@ -1,0 +1,13 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+AllowButton	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Permitir' or @text='PERM' or @id='permission_allow_button']	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Permitir' or @text='PERM' or @id='permission_allow_button']	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Permitir' or @text='PERM' or @id='permission_allow_button']	name	Allow	name	Allow	name	Allow
+OkButton							name	OK	name	OK	name	OK
+CancelButton							name	Cancel	name	Cancel	name	Cancel
+NotNowButton							name	Not Now	name	Not Now	name	Not Now
+CloseButton	ID	btn_close	ID	btn_close	ID	btn_close						
+AlwaysAllowButton							name	Always Allow	name	Always Allow	name	Always Allow
+IgnoreButton	ID	button2	ID	button2	ID	button2	name	Ignore	name	Ignore	name	Ignore
+PreLaunchSkip	ID	hh_intro_skip_textview	ID	hh_intro_skip_textview	ID	hh_intro_skip_textview	name	Intro_Screen_Skip_Button	name	Intro_Screen_Skip_Button	name	Intro_Screen_Skip_Button
+DismissButton							name	Dismiss	name	Dismiss	name	Dismiss
+Iaccept	XPATH	"//*[contains(@text,'Aceptar') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'ACEPTAR') or contains(@text,'aceptar')]"	XPATH	"//*[contains(@text,'Aceptar') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'ACEPTAR') or contains(@text,'aceptar')]"	XPATH	"//*[contains(@text,'Aceptar') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'ACEPTAR') or contains(@text,'aceptar')]"						
+NextButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Next	name	Next	name	Next
+DoneButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Done	name	Done	name	Done

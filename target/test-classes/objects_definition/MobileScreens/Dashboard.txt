@@ -1,0 +1,44 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+GlobalDrawerButton	XPATH	//*[@content-desc='Main Menu']	XPATH	//*[@content-desc='Main Menu']	XPATH	//*[@content-desc='Main Menu']	name	menu	name	menu	name	menu
+GlobalDrawerIconList	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text						
+DashboardIconText	id	dashboard_device_name	id	dashboard_device_name	id	dashboard_device_name	name	title	name	title	name	title
+DashboardIconStatus	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	Xpath	"//*[contains(@name,'subTitle_')]"	Xpath	"//*[contains(@name,'subTitle_')]"	Xpath	"//*[contains(@name,'subTitle_')]"
+AddNewDeviceIcon	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"
+AddNewDeviceIconBelowExistingDevice	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"
+AddNewDeviceMenu							name	Add New Device	name	Add New Device	name	Add New Device
+ZwaveSwitchSelectedState							name	Selected_State	name	Selected_State	name	Selected_State
+WeatherIcon	ID	fragment_weather_image_view	ID	fragment_weather_image_view	ID	fragment_weather_image_view	name	icon_mostlyCloudy_large	name	icon_mostlyCloudy_large	name	icon_mostlyCloudy_large
+BackButton	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+SplashScreen	id	splash_screen_layout	id	splash_screen_layout	id	splash_screen_layout						
+ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar						
+SecurityTitleInDashboardScreen	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	NAME	subTitle_Security	NAME	subTitle_Security	NAME	subTitle_Security
+SettingsIconInSecurityScreen							NAME	appSettingsIcon	NAME	appSettingsIcon	NAME	appSettingsIcon
+ToolbarSubtitle	ID	toolbar_spinner_item_actionbar_subtitle	ID	toolbar_spinner_item_actionbar_subtitle	ID	toolbar_spinner_item_actionbar_subtitle	NAME	Title_Subtitle	NAME	Title_Subtitle	NAME	Title_Subtitle
+LocationSpinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	NAME	Location Name	NAME	Location Name	NAME	Location Name
+LocationNameIOS							NAME	Location Name	NAME	Location Name	NAME	Location Name
+LocationDropDown	id	toolbar_spinner_item_dropdown_title	id	toolbar_spinner_item_dropdown_title	id	toolbar_spinner_item_dropdown_title						
+AddNewDeviceText	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title	NAME	Add New Device	NAME	Add New Device	NAME	Add New Device
+LocationSpinnerIcon	ID	toolbar_location_spinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	name	icon_arrow_down	name	icon_arrow_down	name	icon_arrow_down
+LocationSpinnerOption	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title						
+LocationName	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	NAME	Location Name	NAME	Location Name	NAME	Location Name
+NoInternetMessage	ID	message	id	message	id	message						
+RetryText	ID	retry	ID	retry	ID	retry						
+AddNewDeviceHeader	XPATH	//*[@text='Add New device']	XPATH	//*[@text='Add New device']	XPATH	//*[@text='Add New device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']
+SETTINGS	ID	button1	ID	button1	ID	button1						
+CANCEL	ID	button2	ID	button2	ID	button2						
+OFF	XPATH	//*[@text='OFF']	XPATH	//*[@text='OFF']	XPATH	//*[@text='OFF']						
+Agree	XPATH	//*[@text='Agree']	XPATH	//*[@text='Agree']	XPATH	//*[@text='Agree']						
+GeofenceTitle	ID	geofence_header_message	ID	geofence_header_message	ID	geofence_header_message	NAME	GEOFENCING	NAME	GEOFENCING	NAME	GEOFENCING
+GeofenceIcon	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	NAME	icon_geofence_status	NAME	icon_geofence_status	NAME	icon_geofence_status
+CurrentStatus	ID	away_home_details	ID	away_home_details	ID	away_home_details	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
+CurrentSetting	ID	away_home_status	ID	away_home_status	ID	away_home_status	xpath	"//*[contains(@name,'Using')]"	xpath	"//*[contains(@name,'Using')]"	xpath	"//*[contains(@name,'Using')]"
+GeofencingLabel	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	NAME	GEOFENCING	NAME	GEOFENCING	NAME	GEOFENCING
+GeofencingDetail	ID	away_home_details	ID	away_home_details	ID	away_home_details	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"
+GeofencingUsingSettingDetail	ID	away_home_status	ID	away_home_status	ID	away_home_status	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"
+GeofenceIcon	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	xpath	//*[@name='icon_geofence_status']	xpath	//*[@name='icon_geofence_status']	xpath	//*[@name='icon_geofence_status']
+GeofenceOption	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	xpath	//*[@value='Geofence']	xpath	//*[@value='Geofence']	xpath	//*[@value='Geofence']
+SecurityOption	XPATH	//*[@text='Security']	XPATH	//*[@text='Security']	XPATH	//*[@text='Security']	xpath	//*[@value='Security']	xpath	//*[@value='Security']	xpath	//*[@value='Security']
+SolnCardbackbtn	ID	Navigate Up	ID	Navigate Up	ID	Navigate Up	name	Back	name	Back	name	Back
+HomeIcon	ID	option_home	ID	option_home	ID	option_home	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
+AwayIcon	ID	option_away	ID	option_away	ID	option_away	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
+NightIcon	ID	option_sleep	ID	option_sleep	ID	option_sleep	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"

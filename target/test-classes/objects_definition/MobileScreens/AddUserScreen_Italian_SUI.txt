@@ -1,0 +1,12 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+BackButton	XPATH	"//*[contains(@content-desc,'Naviga verso')]"	XPATH	"//*[contains(@content-desc,'Naviga verso')]"	XPATH	"//*[contains(@content-desc,'Naviga verso')]"	name	Indietro	name	Indietro	name	Indietro
+AddUserButton	id	view_invite_user	id	view_invite_user	id	view_invite_user	name	Aggiungi Utente	name	Aggiungi Utente	name	Aggiungi Utente
+AddUserTitle	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	xpath	//android.widget.TextView[@text='Add Users']	name	Location Name	name	Location Name	name	Location Name
+EmailField	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	id	fragment_invite_user_email_edit_text	name	Email TextField	name	Email TextField	name	Email TextField
+SendButton	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	id	fragment_invite_user_send_button	name	Invia	name	Invia	name	Invia
+InvalidEmailError	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	id	fragment_invite_user_email_invalid_error	xpath	"//*[contains(@name,'utente richiest')]"	xpath	"//*[contains(@name,'utente richiest')]"	xpath	"//*[contains(@name,'utente richiest')]"
+RemoveUserButton	id	list_item_delete_user_button_view	id	list_item_delete_user_button_view	id	list_item_delete_user_button_view	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']	xpath	//*[@value='icon_close']
+RemovalPopup	xpath	"//*[contains(@name,'Elimina utente')]"	xpath	"//*[contains(@name,'Elimina utente')]"	xpath	"//*[contains(@name,'Elimina utente')]"	name	Conferma rimozione accesso	name	Conferma rimozione accesso	name	Conferma rimozione accesso
+CancelButton	id	button2	id	button2	id	button2	name	Annulla	name	Annulla	name	Annulla
+YesButton	id	button1	id	button1	id	button1	name	Rimuovi	name	Rimuovi	name	Rimuovi
+OkErrorButton							name	OK	name	OK	name	OK

@@ -1,0 +1,17 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+AllowButton	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Allow' or @text='ALLOW' or @resourceid='permission_allow_button']	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Allow' or @text='ALLOW' or @resourceid='permission_allow_button']	XPATH	//*[@id='com.android.packageinstaller:id/permission_allow_button' or @text='Allow' or @text='ALLOW' or @resourceid='permission_allow_button']	name	Allow	name	Allow	name	Allow
+OkButton							name	OK	name	OK	name	OK
+CancelButton							name	Cancel	name	Cancel	name	Cancel
+NotNowButton							name	Not Now	name	Not Now	name	Not Now
+CloseButton	ID	btn_close	ID	btn_close	ID	btn_close						
+AlwaysAllowButton	ID	button1	ID	button1	ID	button1	name	Always Allow	name	Always Allow	name	Always Allow
+IgnoreButton	ID	button1	ID	button1	ID	button1	name	Ignore	name	Ignore	name	Ignore
+PreLaunchSkip	XPATH	//*[@id='hh_intro_skip_textview' or @text='Skip' or @text='SKIP' or @resourceid='com.honeywell.android.lyric:id/hh_intro_skip_textview']	XPATH	//*[@id='hh_intro_skip_textview' or @text='Skip' or @text='SKIP' or @resourceid='com.honeywell.android.lyric:id/hh_intro_skip_textview']	XPATH	//*[@id='hh_intro_skip_textview' or @text='Skip' or @text='SKIP' or @resourceid='com.honeywell.android.lyric:id/hh_intro_skip_textview']	name	Intro_Screen_Skip_Button	name	Intro_Screen_Skip_Button	name	Intro_Screen_Skip_Button
+DismissButton							name	Dismiss	name	Dismiss	name	Dismiss
+Iaccept	XPATH	"//*[(@text='ACCEPT') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'I ACCEPT') or contains(@id,'button2') or contains(@id,'I Accept')]"	XPATH	"//*[(@text='ACCEPT') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'I ACCEPT') or contains(@id,'button2') or contains(@id,'I Accept')]"	XPATH	"//*[(@text='ACCEPT') or (@resource-id='com.honeywell.android.lyric:id/fragment_new_eula_accept_button') or contains(@text,'I ACCEPT') or contains(@id,'button2') or contains(@id,'I Accept')]"	XPATH	"//*[(@value='Accept') or (@name='Accept')or contains(@value,'I ACCEPT') or contains(@name,'I Accept')]"	XPATH	"//*[(@value='Accept') or (@name='Accept')or contains(@value,'I ACCEPT') or contains(@name,'I Accept')]"		
+NextButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Next	name	Next	name	Next
+DoneButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Done	name	Done	name	Done
+ShowButton	XPATH	//*[(@text='Show') or (@text='SHOW')]	XPATH	//*[(@text='Show') or (@text='SHOW')]	XPATH	//*[(@text='Show') or (@text='SHOW')]						
+UpdateButton	XPATH	//*[(@text='Update') or (@text='UPDATE')]	XPATH	//*[(@text='Update') or (@text='UPDATE')]	XPATH	//*[(@text='Update') or (@text='UPDATE')]						
+InstallButton	XPATH	//*[(@text='Install') or (@text='INSTALL')]	XPATH	//*[(@text='Install') or (@text='INSTALL')]	XPATH	//*[(@text='Install') or (@text='INSTALL')]						
+OpenButton	XPATH	//*[(@text='Open') or (@text='OPEN')]	XPATH	//*[(@text='Open') or (@text='OPEN')]	XPATH	//*[(@text='Open') or (@text='OPEN')]						

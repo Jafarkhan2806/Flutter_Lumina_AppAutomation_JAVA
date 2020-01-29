@@ -1,0 +1,14 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+MembershipDetailsPage	XPATH	"//*[contains(@text,'Membership Details')]"	XPATH	"//*[contains(@text,'Membership Details')]"	XPATH	"//*[contains(@text,'Membership Details')]"	XPATH	"//*[contains(@value,'Membership Details')]"	XPATH	"//*[contains(@value,'Membership Details')]"	XPATH	"//*[contains(@value,'Membership Details')]"
+PayIntervalLabel	id	pay_interval	id	pay_interval	id	pay_interval	Name	Pay Each Month	Name	Pay Each Month	Name	Pay Each Month
+PIDesc	id	pay_info	id	pay_info	id	pay_info	XPATH	"//*[contains(@value,'Your membership will automatically renew each')]"	XPATH	"//*[contains(@value,'Your membership will automatically renew each')]"	XPATH	"//*[contains(@value,'Your membership will automatically renew each')]"
+PlanInfoLabel	id	plan_info	id	plan_info	id	plan_info	XPATH	"//*[contains(@value,'Opportunities to participate')]"	XPATH	"//*[contains(@value,'Opportunities to participate')]"	XPATH	"//*[contains(@value,'Opportunities to participate')]"
+FreeTrialInfo	XPATH	"//*[contains(@text,'First month free')]"	XPATH	"//*[contains(@text,'First month free')]"	XPATH	"//*[contains(@text,'First month free')]"						
+MoneyInfo	id	money_info	id	money_info	id	money_info						
+AmounDueLabel	id	amount_due	id	amount_due	id	amount_due						
+TotalMoneyInfo	id	total_money_info	id	total_money_info	id	total_money_info						
+Acknowledgement	XPATH	"//*[contains(@text,'I acknowledge')]"	XPATH	"//*[contains(@text,'I acknowledge')]"	XPATH	"//*[contains(@text,'I acknowledge')]"						
+PurchaseAgree	XPATH	"//*[contains(@text,'Purchase Agreement')]"	XPATH	"//*[contains(@text,'Purchase Agreement')]"	XPATH	"//*[contains(@text,'Purchase Agreement')]"						
+ProceedToCheckOutOption	id	check_out_view	id	check_out_view	id	check_out_view						
+PurchaseAgreementDesc	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS') or contains(@text,'HONEYWELL CONNECTED HOME PRIVACY')]"	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS')]"	XPATH	"//*[contains(@text,'PURCHASE AGREEMENT AND TERMS')]"						
+BackButton	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']						

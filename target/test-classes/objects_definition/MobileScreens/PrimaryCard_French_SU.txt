@@ -1,0 +1,30 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+ModeButton	id	btn_action_sheet_item	id	btn_action_sheet_item	id	btn_action_sheet_item						
+ScheduleButton							name	iconScheduling	name	iconScheduling	name	iconScheduling
+FanOnMode	XPATH	//*[@text='On']	XPATH	//*[@text='On']	XPATH	//*[@text='On']	name	ON	name	ON	name	ON
+SysCoolMode	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	name	COOL	name	COOL	name	COOL
+CogIcon	id	action_settings	id	action_settings	id	action_settings	name	appSettingsIcon	name	appSettingsIcon	name	appSettingsIcon
+SysAutoMode	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	AUTO	name	AUTO	name	AUTO
+LocationName	id	toolbar_device_name	id	toolbar_device_name	id	toolbar_device_name	name	Location Name	name	Location Name	name	Location Name
+FanHighMode	XPATH	//*[@text='High']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	HIGH	name	HIGH	name	HIGH
+SysHeatMode	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	name	HEAT	name	HEAT	name	HEAT
+TempDecrementButton	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down	name	temp stepper down	name	temp stepper down	name	temp stepper down
+FanCirculateMode	XPATH	//*[@text='Circulate']	XPATH	//*[@text='Circulate']	XPATH	//*[@text='Circulate']	name	CIRCULATE	name	CIRCULATE	name	CIRCULATE
+FanAutoMode	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	name	AUTO	name	AUTO	name	AUTO
+OutdoorTempStatus	id	scrolling_text_view1	id	scrolling_text_view1	id	scrolling_text_view1	xpath	"//*[contains(@name,'OUTDOOR')]"	xpath	"//*[contains(@name,'OUTDOOR')]"	xpath	"//*[contains(@name,'OUTDOOR')]"
+FanMode	XPATH	//*[@text='FAN']	XPATH	//*[@text='FAN']	XPATH	//*[@text='FAN']	xpath	"//*[contains(@name,'FAN')]"	xpath	"//*[contains(@name,'FAN')]"	xpath	"//*[contains(@name,'FAN')]"
+IndoorTemp	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@text,'Indoor')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"	xpath	"//*[contains(@name,'INDOOR HUMIDITY')]"
+FanLowMode	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	name	LOW	name	LOW	name	LOW
+ThermostatIsOff	XPATH	//*[@text='THERMOSTAT IS OFF']	XPATH	//*[@text='THERMOSTAT IS OFF']	XPATH	//*[@text='THERMOSTAT IS OFF']	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"	xpath	"//*[contains(@name,'THERMOSTAT IS OFF')]"
+CrossButton	id	close_action_sheet_btn	id	close_action_sheet_btn	id	close_action_sheet_btn	name	iconClose	name	iconClose	name	iconClose
+FanMediumMode	XPATH	//*[@text='Medium']	XPATH	//*[@text='Medium']	XPATH	//*[@text='Medium']	name	MEDIUM	name	MEDIUM	name	MEDIUM
+BackButton	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	XPATH	//*[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+SysOffMode	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	name	OFF	name	OFF	name	OFF
+CurrentTemp	id	current_temp_value	id	current_temp_value	id	current_temp_value	name	Dialer	name	Dialer	name	Dialer
+SystemMode	id	btn_action_sheet_item	id	btn_action_sheet_item	id	btn_action_sheet_item	name	DashBoard_Mode	name	DashBoard_Mode	name	DashBoard_Mode
+TempIncrementButton	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up	name	temp stepper up	name	temp stepper up	name	temp stepper up
+AdHocButton	id	view_thermostat_adhoc_button	id	view_thermostat_adhoc_button	id	view_thermostat_adhoc_button	name	Adhoc_Hold_Status	name	Adhoc_Hold_Status	name	Adhoc_Hold_Status
+ThermostatScheduleStatus	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	id	view_thermostat_schedule_status	name	Schedule_Status	name	Schedule_Status	name	Schedule_Status
+HumidityTemp	id	view_thermostat_current_temperature	id	view_thermostat_current_temperature	id	view_thermostat_current_temperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature	name	DashBoard_CurrentTemperature
+DegreeSymbol	id	degree_symbol_text_view	id	degree_symbol_text_view	id	degree_symbol_text_view						
+DeviceName	id	toolbar_title	id	toolbar_title	id	toolbar_title						

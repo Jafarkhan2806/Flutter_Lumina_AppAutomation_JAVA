@@ -1,0 +1,8 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SwitchPrimaryCardStatus	ID	text_status					NAME	ZwaveSwitchStateLabel				
+SwitchPrimaryCardOff	XPATH	//*[@content-desc='SwitchOff']					NAME	States_0				
+SwitchPrimaryCardOn	XPATH	//*[@content-desc='SwitchOn']					NAME	States_1				
+SwitchingToOverlay	XPATH	//*[@text='Switching to']					NAME	switchingTo				
+DimmerPrimaryCardStatus	ID	text_status_brightness_level					NAME	ZwaveSwitchStateLabel				
+StateFrom	ID	text_timestamp					XPATH	"//*[contains(@name,""SINCE"")]"				
+DimmerIntensitySeekbar	ID	dimmer_SeekBar					XPATH	//XCUIElementTypeSlider				

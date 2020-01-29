@@ -1,0 +1,5 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SettingsIcon	ID	action_settings	ID	action_settings	ID	action_settings	name	action_settings	name	action_settings	name	action_settings
+CameraON	XPATH	"//*[contains(@content-desc,'eingeschaltet')]"	XPATH	"//*[contains(@content-desc,'eingeschaltet')]"	XPATH	"//*[contains(@content-desc,'eingeschaltet')]"						
+CameraOFF	XPATH	"//*[contains(@content-desc,'ausgeschaltet')]"	XPATH	"//*[contains(@content-desc,'ausgeschaltet')]"	XPATH	"//*[contains(@content-desc,'ausgeschaltet')]"						
+BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//*[contains(@name,'Zur')]"	XPATH	"//*[contains(@name,'Zur')]"	XPATH	"//*[contains(@name,'Zur')]"

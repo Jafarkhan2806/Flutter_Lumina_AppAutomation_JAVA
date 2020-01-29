@@ -1,0 +1,11 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+DissmissButton	id	general_alert_dismiss_button	id	general_alert_dismiss_button	id	general_alert_dismiss_button						
+ActionSettingButton	id	action_settings	id	action_settings	id	action_settings	name	action_settings	name	action_settings	name	action_settings
+ManageAlerts	xpath	"//*[contains(@text,'Riaszt')]"	xpath	"//*[contains(@text,'Riaszt')]"	xpath	"//*[contains(@text,'Riaszt')]"	name	AlertSettings_subTitle	name	AlertSettings_subTitle	name	AlertSettings_subTitle
+EmailContacts	xpath	"//*[contains(@text,'E-mail-n')]"	xpath	"//*[contains(@text,'E-mail-n')]"	xpath	"//*[contains(@text,'E-mail-n')]"	name	Email_Contacts_subTitle	name	Email_Contacts_subTitle	name	Email_Contacts_subTitle
+LeakDetectorConfig	xpath	"//*[contains(@text,'konfigur')]"	xpath	"//*[contains(@text,'konfigur')]"	xpath	"//*[contains(@text,'konfigur')]"	name	WLDConfiguration_subTitle	name	WLDConfiguration_subTitle	name	WLDConfiguration_subTitle
+UpdateFrequency	xpath	"//*[contains(@text,'Friss')]"	xpath	"//*[contains(@text,'Friss')]"	xpath	"//*[contains(@text,'Friss')]"	name	UpdateFrequency_subTitle	name	UpdateFrequency_subTitle	name	UpdateFrequency_subTitle
+BackButton	xpath	"//*[contains(@content-desc,'Navig')]"	xpath	"//*[contains(@content-desc,'Navig')]"	xpath	"//*[contains(@content-desc,'Navig')]"						
+InvitedEmailId	id	list_item_lyric_horizontal_text_view_primary_text	id	list_item_lyric_horizontal_text_view_primary_text	id	list_item_lyric_horizontal_text_view_primary_text						
+AcceptedInvitation	id	list_item_lyric_horizontal_text_view_subtext	id	list_item_lyric_horizontal_text_view_subtext	id	list_item_lyric_horizontal_text_view_subtext						
+Email	xpath	//*[(@class='android.widget.EditText')]	xpath	//*[(@class='android.widget.EditText')]	xpath	//*[(@class='android.widget.EditText')]						
