@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 14 10:41:56 IST 2019
+@default-saucelabs-repository-https\://repository-saucelabs.forge.cloudbees.com/release/.lastUpdated=1571018283551
+file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:pom\:0.0.4 from/to local-maven-repo (file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository)\: Repository path /Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository does not exist, and cannot be created.
+@default-local-maven-repo-/Users/Resideo/.m2/.lastUpdated=1571018283561
+http\://jcenter.bintray.com/.error=
+/Users/Resideo/.m2/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:pom\:0.0.4 from/to local-maven-repo (/Users/Resideo/.m2)\: Cannot access /Users/Resideo/.m2 with type default using the available connector factories\: AetherRepositoryConnectorFactory, BasicRepositoryConnectorFactory
+@default-local-maven-repo-file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.lastUpdated=1571029916313
+http\://jcenter.bintray.com/.lastUpdated=1571018287604
+https\://repository-saucelabs.forge.cloudbees.com/release/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:pom\:0.0.4 from/to saucelabs-repository (https\://repository-saucelabs.forge.cloudbees.com/release)\: repository-saucelabs.forge.cloudbees.com

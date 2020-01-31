@@ -1,0 +1,18 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 29 12:02:22 IST 2019
+http\://artifactory.honeywell.com/artifactory/libs-release/.lastUpdated=1571135197159
+@default-saucelabs-repository-https\://repository-saucelabs.forge.cloudbees.com/release/.lastUpdated=1571018289248
+file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:sources\:0.0.4 from/to local-maven-repo (file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository)\: Repository path /Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository does not exist, and cannot be created.
+http\://artifactory.honeywell.com/artifactory/libs-snapshot/.error=
+/Users/Resideo/.m2/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:sources\:0.0.4 from/to local-maven-repo (/Users/Resideo/.m2)\: Cannot access /Users/Resideo/.m2 with type default using the available connector factories\: AetherRepositoryConnectorFactory, BasicRepositoryConnectorFactory
+/Users/Resideo/.m2/repository/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:sources\:0.0.4 from/to local-maven-repo (/Users/Resideo/.m2/repository)\: Cannot access /Users/Resideo/.m2/repository with type default using the available connector factories\: AetherRepositoryConnectorFactory, BasicRepositoryConnectorFactory
+@default-local-maven-repo-file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.lastUpdated=1571029917674
+https\://repo.maven.apache.org/maven2/.lastUpdated=1572330742136
+@default-local-maven-repo-/Users/Resideo/.m2/.lastUpdated=1571018289258
+http\://artifactory.honeywell.com/artifactory/libs-snapshot/.lastUpdated=1571135198283
+http\://artifactory.honeywell.com/artifactory/libs-release/.error=
+http\://jcenter.bintray.com/.error=
+https\://repo.maven.apache.org/maven2/.error=
+@default-local-maven-repo-/Users/Resideo/.m2/repository/.lastUpdated=1571030462184
+http\://jcenter.bintray.com/.lastUpdated=1571018292746
+https\://repository-saucelabs.forge.cloudbees.com/release/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:sources\:0.0.4 from/to saucelabs-repository (https\://repository-saucelabs.forge.cloudbees.com/release)\: repository-saucelabs.forge.cloudbees.com

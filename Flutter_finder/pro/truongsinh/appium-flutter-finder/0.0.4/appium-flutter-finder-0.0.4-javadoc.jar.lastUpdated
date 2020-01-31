@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 14 10:42:01 IST 2019
+@default-saucelabs-repository-https\://repository-saucelabs.forge.cloudbees.com/release/.lastUpdated=1571029917825
+file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:javadoc\:0.0.4 from/to local-maven-repo (file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository)\: Repository path /Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository does not exist, and cannot be created.
+http\://jcenter.bintray.com/.error=
+@default-local-maven-repo-file\:///Users/truongsinh/Dev/flutter/appium-flutter-driver/finder/kotlin/build/repository/.lastUpdated=1571029917836
+http\://jcenter.bintray.com/.lastUpdated=1571029921010
+https\://repository-saucelabs.forge.cloudbees.com/release/.error=Could not transfer artifact pro.truongsinh\:appium-flutter-finder\:jar\:javadoc\:0.0.4 from/to saucelabs-repository (https\://repository-saucelabs.forge.cloudbees.com/release)\: repository-saucelabs.forge.cloudbees.com
