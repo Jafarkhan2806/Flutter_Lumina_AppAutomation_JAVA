@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<robot>
+<suite id="Lumina_WLD_BUILD_001" name="Lumina_WLD_BUILD_SamsungS9_Plus">
+<test name="As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application - #13">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:01.569">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:01.570" starttime="20200106 18:14:45.881" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application</tag>
+<tag>Group::WLDDIYRegistrationWithInvalidZipcode</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:01.571" starttime="20200106 18:14:45.880" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:01.571" starttime="20200106 18:14:45.880" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application - #14">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:10.985">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:10.986" starttime="20200106 18:15:01.574" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application</tag>
+<tag>Group::WLDDIYRegistrationWithInvalidZipcode</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with error pop up on inputting the invalid Zipcode using the Lumina application</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:10.988" starttime="20200106 18:15:01.573" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:10.989" starttime="20200106 18:15:01.573" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="5 As a user I should be able to enable humidity Alert if it is disabled - #5">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.138">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:11.139" starttime="20200106 18:13:03.384" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.141">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.141" starttime="20200106 18:13:11.140" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.142">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.143" starttime="20200106 18:13:11.142" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.144">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.144" starttime="20200106 18:13:11.144" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.145">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.146" starttime="20200106 18:13:11.145" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.147">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.147" starttime="20200106 18:13:11.147" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.148">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.149" starttime="20200106 18:13:11.148" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.150">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.151" starttime="20200106 18:13:11.150" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.151">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.152" starttime="20200106 18:13:11.151" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.153">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.154" starttime="20200106 18:13:11.153" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.155">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.156" starttime="20200106 18:13:11.155" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.157">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.158" starttime="20200106 18:13:11.157" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.159">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.159" starttime="20200106 18:13:11.158" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.160">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.161" starttime="20200106 18:13:11.160" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.162">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.163" starttime="20200106 18:13:11.162" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.164">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.165" starttime="20200106 18:13:11.163" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.166">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.167" starttime="20200106 18:13:11.166" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.168">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.169" starttime="20200106 18:13:11.168" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.171">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.172" starttime="20200106 18:13:11.170" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.173">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.174" starttime="20200106 18:13:11.173" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.176">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.177" starttime="20200106 18:13:11.175" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:11.178">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:11.179" starttime="20200106 18:13:11.178" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::5 As a user I should be able to enable humidity Alert if it is disabled</tag>
+<tag>Group::EnableHumidityAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::5 As a user I should be able to enable humidity Alert if it is disabled</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:11.181" starttime="20200106 18:13:03.382" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:11.181" starttime="20200106 18:13:03.382" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration - #6">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:59.195">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:59.196" starttime="20200106 18:13:45.045" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration</tag>
+<tag>Group::DisplayWaterLeakDetectorafter48hrs</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:59.199" starttime="20200106 18:13:45.043" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:59.199" starttime="20200106 18:13:45.043" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration - #7">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:14:24.983">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:14:24.984" starttime="20200106 18:13:59.202" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration</tag>
+<tag>Group::DisplayWaterLeakDetectorafter48hrs</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user I should be shown with required information of my Water Leak Detector card when detector registered before 48 hours from the time of registration</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:14:24.986" starttime="20200106 18:13:59.201" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:14:24.986" starttime="20200106 18:13:59.201" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user I should be able to add WLD device to existing location by using Lumina application">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:44.982">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:44.983" starttime="20200106 18:13:36.450" status="PASS"/>
+</kw>
+<kw name="When  : user &quot;Enroll&quot; wld device" type="kw">
+<status critical="yes" endtime="20200106 18:13:44.997" starttime="20200106 18:13:44.984" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector Setup&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:44.998">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:44.999" starttime="20200106 18:13:44.998" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Water Leak Detector Setup&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.000">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Water Leak Detector Setup" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.001" starttime="20200106 18:13:45.000" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.001">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.002" starttime="20200106 18:13:45.001" status="FAIL"/>
+</kw>
+<kw name="When  : user should be displayed with the &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.003">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Choose Location" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.003" starttime="20200106 18:13:45.003" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;LOCATION NAME&quot; from &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.004">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "LOCATION NAME" from "Choose Location" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.005" starttime="20200106 18:13:45.004" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.006">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Detector Name" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.007" starttime="20200106 18:13:45.006" status="FAIL"/>
+</kw>
+<kw name="When  : user selects &quot;DETECTOR NAME&quot; from &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.008">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "DETECTOR NAME" from "Detector Name" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.008" starttime="20200106 18:13:45.007" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Power Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.009">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Power Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.010" starttime="20200106 18:13:45.009" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.011">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.011" starttime="20200106 18:13:45.010" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;Connect&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.013">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Connect" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.014" starttime="20200106 18:13:45.012" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;SELECT NETWORK&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.015">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "SELECT NETWORK" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.016" starttime="20200106 18:13:45.015" status="FAIL"/>
+</kw>
+<kw name="When  : user selects &quot;ASUS_SYS&quot; from &quot;CONNECT TO NETWORK&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.017">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "ASUS_SYS" from "CONNECT TO NETWORK" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.018" starttime="20200106 18:13:45.017" status="FAIL"/>
+</kw>
+<kw name="And  : user inputs &quot;ASUS_SYS&quot; in the &quot;Password@123&quot; Screen" type="kw">
+<status critical="yes" endtime="20200106 18:13:45.019" starttime="20200106 18:13:45.019" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.020">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.021" starttime="20200106 18:13:45.019" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;CONNECT WIFI&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.022">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "CONNECT WIFI" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.022" starttime="20200106 18:13:45.022" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Congratulations&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.023">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Congratulations" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.024" starttime="20200106 18:13:45.023" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Done&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.025">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Done" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.026" starttime="20200106 18:13:45.025" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.027">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.028" starttime="20200106 18:13:45.027" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.029">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.029" starttime="20200106 18:13:45.028" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.030">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.031" starttime="20200106 18:13:45.030" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Placement Overview&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.032">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Placement Overview" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.033" starttime="20200106 18:13:45.032" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.034">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.035" starttime="20200106 18:13:45.034" status="FAIL"/>
+</kw>
+<kw name="And  : user deletes WLD Device from App" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.036">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user deletes WLD Device from App'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.037" starttime="20200106 18:13:45.036" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:45.038">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:45.039" starttime="20200106 18:13:45.038" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should be able to add WLD device to existing location by using Lumina application</tag>
+<tag>Group::WLDDIYRegistrationToExistingLocation</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user I should be able to add WLD device to existing location by using Lumina application</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:45.040" starttime="20200106 18:13:36.448" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:45.041" starttime="20200106 18:13:36.448" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="4 As a user I should be able to disable temperature Alert - #15">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.335">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:03.337" starttime="20200106 18:12:22.551" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.338">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.339" starttime="20200106 18:13:03.338" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.340">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.341" starttime="20200106 18:13:03.340" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.342">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.343" starttime="20200106 18:13:03.342" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Below value&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.344">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Below value"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.345" starttime="20200106 18:13:03.343" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Above value&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.346">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Above value"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.346" starttime="20200106 18:13:03.345" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.347">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.348" starttime="20200106 18:13:03.347" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.349">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.350" starttime="20200106 18:13:03.349" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.351">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.352" starttime="20200106 18:13:03.351" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings Option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.353">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings Option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.353" starttime="20200106 18:13:03.352" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.355">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.355" starttime="20200106 18:13:03.354" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.356">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.357" starttime="20200106 18:13:03.356" status="FAIL"/>
+</kw>
+<kw name="When  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.359">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.360" starttime="20200106 18:13:03.359" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.362">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.362" starttime="20200106 18:13:03.361" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.364">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.365" starttime="20200106 18:13:03.363" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.366">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.367" starttime="20200106 18:13:03.366" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.369">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.369" starttime="20200106 18:13:03.368" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.371">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.371" starttime="20200106 18:13:03.370" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.372">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.373" starttime="20200106 18:13:03.372" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Below value&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.375">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Below value"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.376" starttime="20200106 18:13:03.375" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Above value&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:03.377">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Above value"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:03.378" starttime="20200106 18:13:03.377" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::4 As a user I should be able to disable temperature Alert</tag>
+<tag>Group::DisableTemperatureAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::4 As a user I should be able to disable temperature Alert</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:03.380" starttime="20200106 18:12:22.549" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:03.380" starttime="20200106 18:12:22.549" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc - #17">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:14:45.875">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:14:45.876" starttime="20200106 18:14:36.047" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc</tag>
+<tag>Group::WLDDIYRegistrationByEditingPrePopulatingLocation</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:14:45.878" starttime="20200106 18:14:36.046" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:14:45.878" starttime="20200106 18:14:36.046" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="6 As a user I should be able to disable humidity Alert - #2">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.483">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:19.485" starttime="20200106 18:13:11.185" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.486">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.487" starttime="20200106 18:13:19.486" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.488">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.488" starttime="20200106 18:13:19.488" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.489">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.490" starttime="20200106 18:13:19.489" status="FAIL"/>
+</kw>
+<kw name="When  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.491">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.492" starttime="20200106 18:13:19.491" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.493">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.494" starttime="20200106 18:13:19.493" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.495">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.495" starttime="20200106 18:13:19.494" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.496">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.497" starttime="20200106 18:13:19.496" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.498">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.499" starttime="20200106 18:13:19.498" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.500">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.501" starttime="20200106 18:13:19.500" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.502">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.502" starttime="20200106 18:13:19.501" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.504">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.505" starttime="20200106 18:13:19.503" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.507">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.508" starttime="20200106 18:13:19.507" status="FAIL"/>
+</kw>
+<kw name="When  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.509">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.510" starttime="20200106 18:13:19.509" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.512">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.513" starttime="20200106 18:13:19.511" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.514">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.515" starttime="20200106 18:13:19.514" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.517">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.518" starttime="20200106 18:13:19.516" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.519">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.520" starttime="20200106 18:13:19.519" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.522">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.523" starttime="20200106 18:13:19.521" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.524">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.525" starttime="20200106 18:13:19.524" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:19.526">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:19.527" starttime="20200106 18:13:19.526" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::6 As a user I should be able to disable humidity Alert</tag>
+<tag>Group::DisableHumidityAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::6 As a user I should be able to disable humidity Alert</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:19.528" starttime="20200106 18:13:11.183" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:19.528" starttime="20200106 18:13:11.183" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again - #8">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:19.953">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:19.954" starttime="20200106 18:15:10.992" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+<tag>Group::WLDDIYRegistrationWhenAlreadyWLDisRegistered</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:19.957" starttime="20200106 18:15:10.991" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:19.957" starttime="20200106 18:15:10.991" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again - #9">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:28.447">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:28.448" starttime="20200106 18:15:19.961" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+<tag>Group::WLDDIYRegistrationWhenAlreadyWLDisRegistered</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:28.450" starttime="20200106 18:15:19.959" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:28.450" starttime="20200106 18:15:19.959" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="2 As a user I should be shown with required information of my Water Leak Detector card when detector registered just within 48 hours from the time of registration - #11">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:12.755">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:12:12.785" starttime="20200106 18:12:02.285" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Card&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:12.789">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Card" screen from the "Add New Device Dashboard" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:12.792" starttime="20200106 18:12:12.787" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the following Water Leak Detector details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:12.794">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Water Leak Detector details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:12.795" starttime="20200106 18:12:12.793" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;Setup Complete&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:12.796">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Setup Complete" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:12.797" starttime="20200106 18:12:12.796" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::2 As a user I should be shown with required information of my Water Leak Detector card when detector registered just within 48 hours from the time of registration</tag>
+<tag>Group::DisplayWaterLeakDetectorwithin48hrs</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::2 As a user I should be shown with required information of my Water Leak Detector card when detector registered just within 48 hours from the time of registration</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:12:12.802" starttime="20200106 18:12:02.279" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:12:12.802" starttime="20200106 18:12:02.279" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="8 As a user I should be able to change my water leak detector Temperture Unit - #4">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.429">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:36.430" starttime="20200106 18:13:27.947" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.431">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.432" starttime="20200106 18:13:36.431" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; with &quot;Celcius&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.433">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" with "Celcius"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.433" starttime="20200106 18:13:36.432" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.434">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.435" starttime="20200106 18:13:36.434" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.436">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.436" starttime="20200106 18:13:36.435" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector&quot; screen from the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.437">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector" screen from the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.438" starttime="20200106 18:13:36.437" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.439">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.439" starttime="20200106 18:13:36.439" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; with &quot;Fahrenheit&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.440">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" with "Fahrenheit"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.441" starttime="20200106 18:13:36.440" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.442">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.442" starttime="20200106 18:13:36.441" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector&quot; screen from the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:36.443">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector" screen from the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:36.444" starttime="20200106 18:13:36.443" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::8 As a user I should be able to change my water leak detector Temperture Unit</tag>
+<tag>Group::ChangeTemperatureUnit</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::8 As a user I should be able to change my water leak detector Temperture Unit</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:36.445" starttime="20200106 18:13:27.945" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:36.445" starttime="20200106 18:13:27.945" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="7 As a user after registration I should be having required default options enabled in device settings screen - #3">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.918">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:13:27.919" starttime="20200106 18:13:19.532" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.921">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.922" starttime="20200106 18:13:27.921" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the following Leak Detector Settings details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.923">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Leak Detector Settings details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.923" starttime="20200106 18:13:27.923" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.924">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.925" starttime="20200106 18:13:27.924" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.926">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.927" starttime="20200106 18:13:27.926" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.927">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.928" starttime="20200106 18:13:27.927" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.929">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.930" starttime="20200106 18:13:27.929" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Update Frequency&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.931">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Update Frequency" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.931" starttime="20200106 18:13:27.931" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Update Frequency&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.932">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Update Frequency" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.933" starttime="20200106 18:13:27.932" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Recommended&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.934">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Recommended"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.934" starttime="20200106 18:13:27.933" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.935">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.936" starttime="20200106 18:13:27.935" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;About My Droplet&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.938">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "About My Droplet" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.938" starttime="20200106 18:13:27.937" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with About Device details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:13:27.940">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with About Device details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:13:27.941" starttime="20200106 18:13:27.940" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::7 As a user after registration I should be having required default options enabled in device settings screen</tag>
+<tag>Group::WLDSettings</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::7 As a user after registration I should be having required default options enabled in device settings screen</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:13:27.943" starttime="20200106 18:13:19.531" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:13:27.943" starttime="20200106 18:13:19.531" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="3 As a user I should be able to enable temperature Alert if it is disabled - #12">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.492">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:12:22.494" starttime="20200106 18:12:12.806" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.496">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.497" starttime="20200106 18:12:22.495" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.498">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.499" starttime="20200106 18:12:22.497" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.501">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.502" starttime="20200106 18:12:22.500" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.503">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.505" starttime="20200106 18:12:22.503" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.506">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.508" starttime="20200106 18:12:22.506" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.510">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.511" starttime="20200106 18:12:22.509" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.512">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.514" starttime="20200106 18:12:22.512" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.515">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.516" starttime="20200106 18:12:22.515" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings Option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.518">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings Option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.519" starttime="20200106 18:12:22.517" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.520">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.521" starttime="20200106 18:12:22.520" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.523">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.525" starttime="20200106 18:12:22.523" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.527">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.528" starttime="20200106 18:12:22.526" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.530">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.532" starttime="20200106 18:12:22.529" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.533">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.534" starttime="20200106 18:12:22.533" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.536">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.537" starttime="20200106 18:12:22.535" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.538">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.539" starttime="20200106 18:12:22.538" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.541">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.542" starttime="20200106 18:12:22.541" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:12:22.543">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:12:22.544" starttime="20200106 18:12:22.543" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::3 As a user I should be able to enable temperature Alert if it is disabled</tag>
+<tag>Group::EnableTemperatureAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::3 As a user I should be able to enable temperature Alert if it is disabled</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:12:22.546" starttime="20200106 18:12:12.805" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:12:22.546" starttime="20200106 18:12:12.805" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc - #16">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:14:36.041">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:14:36.042" starttime="20200106 18:14:24.989" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc</tag>
+<tag>Group::WLDDIYRegistrationByEditingPrePopulatingLocation</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be able to add location by editing the auto filled location informations like Zipcode etc</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:14:36.044" starttime="20200106 18:14:24.988" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:14:36.044" starttime="20200106 18:14:24.988" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<test name="As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again - #10">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:38.160">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:38.162" starttime="20200106 18:15:28.452" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+<tag>Group::WLDDIYRegistrationWhenAlreadyWLDisRegistered</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_12_01/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:38.164" starttime="20200106 18:15:28.451" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:38.164" starttime="20200106 18:15:28.451" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>
+<status critical="yes" endtime="20200106 18:15:38.469" starttime="20200106 18:15:38.252" status="FAIL"/>
+</suite>
+</robot>

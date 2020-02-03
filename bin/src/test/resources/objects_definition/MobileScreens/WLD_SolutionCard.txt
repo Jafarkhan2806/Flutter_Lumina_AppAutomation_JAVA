@@ -1,0 +1,24 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+NextUpdateTime	id	next_update_text	id	next_update_text	id	next_update_text	id	next_update_text	id	next_update_text	id	next_update_text
+TemperatureGraph	id	chart_view_layout	id	chart_view_layout	id	chart_view_layout	id	Temperature_chart	id	Temperature_chart	id	Temperature_chart
+HumidityGraph	id	chart_view_layout	id	chart_view_layout	id	chart_view_layout	id	Humidity_chart	id	Humidity_chart	id	Humidity_chart
+CurrentHumidity	id	wld_temp_humidity_value	id	wld_temp_humidity_value	id	wld_temp_humidity_value	id	wld _humidity_value	id	wld _humidity_value	id	wld _humidity_value
+LastUpdate	id	device_last_update_time	id	device_last_update_time	id	device_last_update_time	id	device_last_update_time	id	device_last_update_time	id	device_last_update_time
+CurrentTemperature	id	wld_temp_humidity_value	id	wld_temp_humidity_value	id	wld_temp_humidity_value	id	wld_temp_value	id	wld_temp_value	id	wld_temp_value
+HumidityTab	xPATH	//*[@text='Humidity']	xPATH	//*[@text='Humidity']	xPATH	//*[@text='Humidity']	id	Humidity	id	Humidity	id	Humidity
+TemperatureTab	xPATH	//*[@text='Temperature']	xPATH	//*[@text='Temperature']	xPATH	//*[@text='Temperature']	id	Temperature	id	Temperature	id	Temperature
+RemainingBattery	id	battery_remaining_text	id	battery_remaining_text	id	battery_remaining_text	id	battery_remaining_text	id	battery_remaining_text	id	battery_remaining_text
+Settings	id	action_settings	id	action_settings	id	action_settings						
+SetupComplete	xPATH	//*[@text='Setup Complete!']	xPATH	//*[@text='Setup Complete!']	xPATH	//*[@text='Setup Complete!']	xPATH	//*[@name='Setup Complete!']	xPATH	//*[@name='Setup Complete!']	xPATH	//*[@name='Setup Complete!']
+Managealerts	xPATH	//*[@text='Manage alerts']	xPATH	//*[@text='Manage alerts']	xPATH	//*[@text='Manage alerts']	xPATH	//*[@value='Manage Alerts']	xPATH	//*[@value='Manage Alerts']	xPATH	//*[@value='Manage Alerts']
+TemperatureUnit	xPATH	//*[@text='Temperature Unit']	xPATH	//*[@text='Temperature Unit']	xPATH	//*[@text='Temperature Unit']	xPATH	//*[@value='¡F/¡C']	xPATH	//*[@value='¡F/¡C']	xPATH	//*[@value='¡F/¡C']
+DismissButton	id	alert_dismiss_btn	id	alert_dismiss_btn	id	alert_dismiss_btn	NAME	Dismiss	NAME	Dismiss	NAME	Dismiss
+SetupCompleteDescription	xPATH	(//*[@class='android.widget.TextView'])[9]	xPATH	(//*[@class='android.widget.TextView'])[9]	xPATH	(//*[@class='android.widget.TextView'])[9]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]
+NoOfDaysTempTrend	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[4]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[4]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[4]
+NoOfDaysHumidTrend	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[7]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[7]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[7]
+MaximumTempGraphValue	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[5]
+MinimumTempGraphValue	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[6]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[6]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[6]
+MaximumHumidGraphValue	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[8]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[8]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[8]
+MinimumHumidGraphValue	id	mpa_chart	id	mpa_chart	id	mpa_chart	xPATH	(//*[@type='XCUIElementTypeStaticText'])[9]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[9]	xPATH	(//*[@type='XCUIElementTypeStaticText'])[9]
+Control_State	id	device_mode_status_view	id	device_mode_status_view	id	device_mode_status_view	xPATH	//*[@name='Control_State']	xPATH	//*[@name='Control_State']	xPATH	//*[@name='Control_State']
+Navigate_Up	xPATH	//*[@content-desc='Navigate Up']	xPATH	//*[@content-desc='Navigate Up']	xPATH	//*[@content-desc='Navigate Up']	xPATH	//*[@name='Back']	xPATH	//*[@name='Back']	xPATH	//*[@name='Back']

@@ -1,0 +1,92 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+WLDDismissIcon	ID	general_alert_dismiss_button	ID	general_alert_dismiss_button	ID	general_alert_dismiss_button						
+Dialer	ID	current_temp_value	ID	current_temp_value	ID	current_temp_value	name	Dialer	name	Dialer	name	Dialer
+SetPointStepper_UP							NAME	temp stepper up	NAME	temp stepper up	NAME	temp stepper up
+NextUpdateText	ID	next_update_text	ID	next_update_text	ID	next_update_text						
+SetPointStepper_Down	ID	fragment_thermostat_dial	ID	fragment_thermostat_dial	ID	fragment_thermostat_dial	NAME	temp stepper down	NAME	temp stepper down	NAME	temp stepper down
+changedModeText	xPATH	//android.widget.TextView[cont										
+FanCirculate	XPATH	//android.widget.TextView[@text='Circulate']					XPATH	//XCUIElementTypeStaticText[@value='Circulate']	XPATH	//XCUIElementTypeStaticText[@value='Circulate']	XPATH	//XCUIElementTypeStaticText[@value='Circulate']
+CoolModeOption	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	XPATH	//*[@text='Cool']	XPATH	//*[@value='COOL']	XPATH	//*[@value='COOL']	XPATH	//*[@value='COOL']
+DRAdHocButton	ID	view_thermostat_dr_button	ID	view_thermostat_dr_button	ID	view_thermostat_dr_button	NAME	DREvent_Status	NAME	DREvent_Status	NAME	DREvent_Status
+DeHumidityTab	XPATH	//*[@text='DEHUMIDIFY']	XPATH	//*[@text='DEHUMIDIFY']	XPATH	//*[@text='DEHUMIDIFY']						
+HumidityTab	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']						
+WeatherButton	ID	fragment_weather_current_temperature	ID	fragment_weather_current_temperature	ID	fragment_weather_current_temperature	NAME	icon weather normal	NAME	icon weather normal	NAME	icon weather normal
+AddDevice	ID	dashboard_add_thermostat	ID	dashboard_add_thermostat	ID	dashboard_add_thermostat	NAME	Add Device	NAME	Add Device	NAME	Add Device
+FanAuto	XPATH	//android.widget.TextView[@text='Auto']					XPATH	//XCUIElementTypeStaticText[@value='Auto']	XPATH	//XCUIElementTypeStaticText[@value='Auto']	XPATH	//XCUIElementTypeStaticText[@value='Auto']
+GeofenceScheduleButton	ID	fragment_thermostat_schedule_button	ID	fragment_thermostat_schedule_button	ID	fragment_thermostat_schedule_button	NAME	icon geofence normal	NAME	icon geofence normal	NAME	icon geofence normal
+SystemModeButton	XPATH	//android.widget.TextView[@text='MODE']	XPATH	//android.widget.TextView[@text='MODE']	XPATH	//android.widget.TextView[@text='MODE']	NAME	DashBoard_Mode	NAME	DashBoard_Mode	NAME	DashBoard_Mode
+HeatModeOption	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	XPATH	//*[@text='Heat']	XPATH	//*[@value='HEAT']	XPATH	//*[@value='HEAT']	XPATH	//*[@value='HEAT']
+MultiStatIndoorTemp	ID	indoortemp	ID	indoortemp	ID	indoortemp	NAME	indoorTemperatureValue	NAME	indoorTemperatureValue	NAME	indoorTemperatureValue
+TemperatureHumidityValue	ID	wld_temp_humidity_value	ID	wld_temp_humidity_value	ID	wld_temp_humidity_value						
+BatteryRemainingText	ID	battery_remaining_text	ID	battery_remaining_text	ID	battery_remaining_text						
+ScheduleLabel	ID	view_thermostat_schedule_status	ID	view_thermostat_schedule_status	ID	view_thermostat_schedule_status	NAME	Schedule_Status	NAME	Schedule_Status	NAME	Schedule_Status
+DeviceLastUpdateTime	ID	device_last_update_time	ID	device_last_update_time	ID	device_last_update_time						
+Fan	id	fragment_thermostat_weather_button	id	fragment_thermostat_weather_button	id	fragment_thermostat_weather_button						
+OffModeOption	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@value='OFF']	XPATH	//*[@value='OFF']	XPATH	//*[@value='OFF']
+TimeScheduleButton	ID	fragment_thermostat_schedule_button	ID	fragment_thermostat_schedule_button	ID	fragment_thermostat_schedule_button	NAME	Schedule	NAME	Schedule	NAME	Schedule
+AdHocButton	ID	view_thermostat_adhoc_button	ID	view_thermostat_adhoc_button	ID	view_thermostat_adhoc_button	NAME	Adhoc_Hold_Status	NAME	Adhoc_Hold_Status	NAME	Adhoc_Hold_Status
+FanOn	XPATH	//android.widget.TextView[@text='On']					XPATH	//XCUIElementTypeStaticText[@value='On']	XPATH	//XCUIElementTypeStaticText[@value='On']	XPATH	//XCUIElementTypeStaticText[@value='On']
+ThermostatScheduleStatus	ID	view_thermostat_schedule_status	ID	view_thermostat_schedule_status	ID	view_thermostat_schedule_status	NAME	Schedule_Status	NAME	Schedule_Status	NAME	Schedule_Status
+TemperatureTab	XPATH	//*[@text='Temperature']	XPATH	//*[@text='Temperature']	XPATH	//*[@text='Temperature']						
+CancelOption	ID	view_thermostat_mode_selector_cancel	ID	view_thermostat_mode_selector_cancel	ID	view_thermostat_mode_selector_cancel	NAME	iconClose	NAME	iconClose	NAME	iconClose
+IndoorTemperature	ID	fragment_thermostat_current_temperature	ID	fragment_thermostat_current_temperature	ID	fragment_thermostat_current_temperature	NAME	DashBoard_CurrentTemperature	NAME	DashBoard_CurrentTemperature	NAME	DashBoard_CurrentTemperature
+AutoModeOption	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@value='AUTO']	XPATH	//*[@value='AUTO']	XPATH	//*[@value='AUTO']
+LocationNameIOS							name	Location Name	name	Location Name	name	Location Name
+MoreButton	XPATH	//*[@text='MORE']	XPATH	//*[@text='MORE']	XPATH	//*[@text='MORE']	ID	more	ID	more	ID	more
+PriorityButton							ID	PRIORITY	ID	PRIORITY	ID	PRIORITY
+VentilationButton	XPATH	//*[@text='VENTILATION']	XPATH	//*[@text='VENTILATION']	XPATH	//*[@text='VENTILATION']	XPATH	"//*[contains(@name,'ventilation')]"	XPATH	"//*[contains(@name,'ventilation')]"	XPATH	"//*[contains(@name,'ventilation')]"
+VentilationOnActiveButton	XPATH	//*[@text='On']	XPATH	//*[@text='On']	XPATH	//*[@text='On']	ID	ON	ID	ON	ID	ON
+VentilationAutoActiveButton	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	ID	AUTO	ID	AUTO	ID	AUTO
+VentilationOffActiveButton	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	ID	OFF	ID	OFF	ID	OFF
+RunVentialtionButton	ID	btn_run_ventilation_now	ID	btn_run_ventilation_now	ID	btn_run_ventilation_now	ID	Run Ventilation Now	ID	Run Ventilation Now	ID	Run Ventilation Now
+StopTimerButton	ID	btn_stop_timer	ID	btn_stop_timer	ID	btn_stop_timer	ID	Stop Timer	ID	Stop Timer	ID	Stop Timer
+VentilationTimerCancel	XPATH	//*[@text='Cancel']	XPATH	//*[@text='Cancel']	XPATH	//*[@text='Cancel']	ID	CANCEL	ID	CANCEL	ID	CANCEL
+VentilationTimerStart	XPATH	//*[@text='Start']	XPATH	//*[@text='Start']	XPATH	//*[@text='Start']	ID	START	ID	START	ID	START
+VentilationEditTimer	ID	btn_save_timer	ID	btn_save_timer	ID	btn_save_timer	ID	Edit Timer	ID	Edit Timer	ID	Edit Timer
+VentilationTimerPicker	ID	numberpicker_input	ID	numberpicker_input	ID	numberpicker_input	ID	FCVentilationPickerView	ID	FCVentilationPickerView	ID	FCVentilationPickerView
+VentilationTimerValue	ID	ventilation_timer_value_text	ID	ventilation_timer_value_text	ID	ventilation_timer_value_text						
+CloseOption	XPATH	//*[@text='Navigate up']	ID	Navigate up	ID	Navigate up						
+HumidifyButton	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']	XPATH	//*[@text='HUMIDIFY']	ID	humidity menu	ID	humidity menu	ID	humidity menu
+CurrentHumidityPercentage	ID	current_humidity	ID	current_humidity	ID	current_humidity	ID	CURRENT HUMIDITY	ID	CURRENT HUMIDITY	ID	CURRENT HUMIDITY
+TargetPercentage	ID	progress_percentage	ID	progress_percentage	ID	progress_percentage	ID	HumSliderValueLabel	ID	HumSliderValueLabel	ID	HumSliderValueLabel
+HumIncrementButton	ID	progress_seek_bar_right_icon	ID	progress_seek_bar_right_icon	ID	progress_seek_bar_right_icon						
+HumDecrementButton	ID	progress_seek_bar_left_icon	ID	progress_seek_bar_left_icon	ID	progress_seek_bar_left_icon						
+SaveHumidification	ID	save_humidification	ID	save_humidification	ID	save_humidification	ID	FCHumSaveButton	ID	FCHumSaveButton	ID	FCHumSaveButton
+HumOption	ID	actionbar_options_textview	ID	actionbar_options_textview	ID	actionbar_options_textview	ID	Navigation_Right_Bar_Item	ID	Navigation_Right_Bar_Item	ID	Navigation_Right_Bar_Item
+DisableHumOption	XPATH	//*[@text='Disable Humidification']	XPATH	//*[@text='Disable Humidification']	XPATH	//*[@text='Disable Humidification']	ID	Disable Humidification	ID	Disable Humidification	ID	Disable Humidification
+WindowProtectionOption	XPATH	//*[@text='Set Window Protection']	XPATH	//*[@text='Set Window Protection']	XPATH	//*[@text='Set Window Protection']	ID	Set Window Protection	ID	Set Window Protection	ID	Set Window Protection
+SaveOption	XPATH	//*[@text='Save']	XPATH	//*[@text='Save']	XPATH	//*[@text='Save']	ID	FCHumSaveButton	ID	FCHumSaveButton	ID	FCHumSaveButton
+HelpOption	XPATH	//*[@text='Help']	XPATH	//*[@text='Help']	XPATH	//*[@text='Help']	ID	FCWindowProtectionHelpButton	ID	FCWindowProtectionHelpButton	ID	FCWindowProtectionHelpButton
+OverlayIcon	ID	overlay_icon	ID	overlay_icon	ID	overlay_icon	ID	Tap to enable.	ID	Tap to enable.	ID	Tap to enable.
+SeekBar	ID	seek_bar	ID	seek_bar	ID	seek_bar						
+HumSlider							ID	Humidification_Slider	ID	Humidification_Slider	ID	Humidification_Slider
+WindowProtectionSlider							ID	WindowProtection_Slider	ID	WindowProtection_Slider	ID	WindowProtection_Slider
+DeviceAndSensor	XPATH	//*[@text='Devices & Sensors']	XPATH	//*[@text='Devices & Sensors']	XPATH	//*[@text='Devices & Sensors']	ID	DevicesAndSensors_subTitle	ID	DevicesAndSensors_subTitle	ID	DevicesAndSensors_subTitle
+SettingsIcon	ID	Settings	ID	Settings	ID	Settings	ID	action_settings	ID	action_settings	ID	action_settings
+DeleteSensor	XPATH	//*[@text='Delete Sensor']	XPATH	//*[@text='Delete Sensor']	XPATH	//*[@text='Delete Sensor']	ID	Delete Sensor	ID	Delete Sensor	ID	Delete Sensor
+IdentifySensor	XPATH	//*[@text='Identify Sensor']	XPATH	//*[@text='Identify Sensor']	XPATH	//*[@text='Identify Sensor']	ID	Identify Sensor	ID	Identify Sensor	ID	Identify Sensor
+MoveSensor	XPATH	//*[@text='Move to a Different Room']	XPATH	//*[@text='Move to a Different Room']	XPATH	//*[@text='Move to a Different Room']	ID	Move to a Different Room	ID	Move to a Different Room	ID	Move to a Different Room
+DeleteSensorPopUp	XPATH	//*[@text='Sensors can only be deleted from the thermostat']	XPATH	//*[@text='Sensors can only be deleted from the thermostat']	XPATH	//*[@text='Sensors can only be deleted from the thermostat']	XPATH	"//XCUIElementTypeAlert[@name=""Sensors can only be deleted from the thermostat""]"	XPATH	"//XCUIElementTypeAlert[@name=""Sensors can only be deleted from the thermostat""]"	XPATH	"//XCUIElementTypeAlert[@name=""Sensors can only be deleted from the thermostat""]"
+IdentifySensorImage	ID	sensor_image	ID	sensor_image	ID	sensor_image	ID	identify_sensor	ID	identify_sensor	ID	identify_sensor
+SensorMotionDetectionToggle	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	use_motion_detection_toggle	ID	use_motion_detection_toggle	ID	use_motion_detection_toggle
+SensorCustomName	ID	custom_generic_edit	ID	custom_generic_edit	ID	custom_generic_edit	ID	Add Room	ID	Add Room	ID	Add Room
+SensorRoomTypeList	ID	list_item_display_text	ID	list_item_display_text	ID	list_item_display_text	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther
+SensorMoveTypeList	ID	button	ID	button	ID	button	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther	ID	//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther
+SensorPlacedButton	ID	sensor_placed_button	ID	sensor_placed_button	ID	sensor_placed_button	ID	RightButton	ID	RightButton	ID	RightButton
+SensorDetailsHeader	ID	header_layout	ID	header_layout	ID	header_layout	ID	sensor_name_value	ID	sensor_name_value	ID	sensor_name_value
+ProgressBarText	ID	message	ID	message	ID	message						
+MultipleSensorRoomPopUp	xPATH	"//*[contains(@name,'Use multiple sensors in')]"	xPATH	"//*[contains(@name,'Use multiple sensors in')]"	xPATH	"//*[contains(@name,'Use multiple sensors in')]"	XPATH	"//XCUIElementTypeAlert[@name=""Use multiple sensors in Guest Bedroom?""]"	XPATH	"//XCUIElementTypeAlert[@name=""Use multiple sensors in Guest Bedroom?""]"	XPATH	"//XCUIElementTypeAlert[@name=""Use multiple sensors in Guest Bedroom?""]"
+Yesbutton	XPATH	//*[@text='Yes']	XPATH	//*[@text='Yes']	XPATH	//*[@text='Yes']	ID	YES	ID	YES	ID	YES
+SensorDetialsTempText	ID	temp_lbl	ID	temp_lbl	ID	temp_lbl	ID	TEMPERATURE	ID	TEMPERATURE	ID	TEMPERATURE
+SensorDetialsTempValue	ID	temp_val	ID	temp_val	ID	temp_val		temp_val	ID	temp_val	ID	temp_val
+SensorDetialsHumidityText	ID	humidity_lbl	ID	humidity_lbl	ID	humidity_lbl	ID	HUMIDITY	ID	HUMIDITY	ID	HUMIDITY
+SensorDetialsHumidityValue	ID	humidity_val	ID	humidity_val	ID	humidity_val	ID	humidity_value	ID	humidity_value	ID	humidity_value
+SensorDetialsBatteryText	ID	battery_lbl	ID	battery_lbl	ID	battery_lbl	ID	battery_level_subTitle	ID	battery_level_subTitle	ID	battery_level_subTitle
+SensorDetialsBatteryValue	ID	battery_level	ID	battery_level	ID	battery_level	ID	battery_level_Image	ID	battery_level_Image	ID	battery_level_Image
+SensorDetialsSignalStrengthText	ID	signal_lbl	ID	signal_lbl	ID	signal_lbl	ID	signal_strength_subTitle	ID	signal_strength_subTitle	ID	signal_strength_subTitle
+SensorDetialsSignalStrengthValue	ID	signal_strength	ID	signal_strength	ID	signal_strength	ID	signal_strength_Image	ID	signal_strength_Image	ID	signal_strength_Image
+SensorDetialsModelText	ID	model_lbl	ID	model_lbl	ID	model_lbl	ID	model_subTitle	ID	model_subTitle	ID	model_subTitle
+SensorDetialsModelValue	ID	model_number	ID	model_number	ID	model_number	ID	model_value	ID	model_value	ID	model_value
+SensorDetialsFirmwareVersionText	ID	firmware_lbl	ID	firmware_lbl	ID	firmware_lbl	ID	fw_version_subTitle	ID	fw_version_subTitle	ID	fw_version_subTitle
+SensorDetialsFirmwareVersionValue	ID	firmware_version	ID	firmware_version	ID	firmware_version	ID	fw_version_value	ID	fw_version_value	ID	fw_version_value
+SensorDetialsUseMotionDetectionText	ID	list_item_lyric_horizontal_text_view_subtext	ID	list_item_lyric_horizontal_text_view_subtext	ID	list_item_lyric_horizontal_text_view_subtext	ID	use_motion_detection_subTitle	ID	use_motion_detection_subTitle	ID	use_motion_detection_subTitle

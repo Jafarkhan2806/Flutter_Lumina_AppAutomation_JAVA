@@ -13,10 +13,11 @@ public class ExtendedLocalDesiredCapability extends LocalExecutionDesiredCapabil
 
 	private TestCaseInputs inputs;
 	DesiredCapabilities desiredCapabilities;
+
 	public ExtendedLocalDesiredCapability(TestCases testCase, TestCaseInputs inputs) {
 		super(testCase, inputs);
 		this.inputs = inputs;
-		
+
 	}
 
 	@Override
@@ -24,21 +25,19 @@ public class ExtendedLocalDesiredCapability extends LocalExecutionDesiredCapabil
 		try {
 			desiredCapabilities = getDesiredCapabilities();
 			desiredCapabilities.setCapability("noReset", true);
-			 desiredCapabilities.setCapability("browserName", "");
-			 desiredCapabilities.setCapability("autoAcceptAlerts", "false");
-			 
-			 desiredCapabilities.setCapability("unicodeKeyboard", true);
-			 desiredCapabilities.setCapability("resetKeyboard", true);
-			 
 			if (inputs.getInputValue(TestCaseInputs.OS_NAME).equalsIgnoreCase(Mobile.IOS)) {
 				if (inputs.isRealDevice()) {
-					//desiredCapabilities.setCapability("showIOSLog", true);
-					desiredCapabilities.setCapability("realDeviceLogger",
-							SuiteConstants.getConstantValue(SuiteConstantTypes.PROJECT_SPECIFIC, "IOS_DEVICE_CONSOLE_PATH"));
+					// desiredCapabilities.setCapability("showIOSLog", true);
+					desiredCapabilities.setCapability("browserName", "");
+					desiredCapabilities.setCapability("autoAcceptAlerts", "false");
+					desiredCapabilities.setCapability("realDeviceLogger", SuiteConstants
+							.getConstantValue(SuiteConstantTypes.PROJECT_SPECIFIC, "IOS_DEVICE_CONSOLE_PATH"));
 				}
+			} else {
+				desiredCapabilities.setCapability("browserName", "");
+				desiredCapabilities.setCapability("autoAcceptAlerts", "false");
 			}
-			}
-			catch (Exception e) {
-			}
+		} catch (Exception e) {
+		}
 	}
 }

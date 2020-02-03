@@ -1,6 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-SoundDetectionToggle	XPATH	//*[@content-desc='Sound Detection']	XPATH	//*[@content-desc='Sound Detection']	XPATH	//*[@content-desc='Sound Detection']	name	Sound Detection_toggle	name	Sound Detection_toggle	name	Sound Detection_toggle
-BackButton	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	//*[@class='android.widget.ImageButton']	XPATH	"//*[contains(@name,'Zp')]"	XPATH	"//*[contains(@name,'Zp')]"	XPATH	"//*[contains(@name,'Zp')]"
-Low	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	name	low_subTitle	name	low_subTitle	name	low_subTitle
-Normal	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	name	normal_subTitle	name	normal_subTitle	name	normal_subTitle
-High	XPATH	//*[@text='High']	XPATH	//*[@text='High']	XPATH	//*[@text='High']	name	high_subTitle	name	high_subTitle	name	high_subTitle

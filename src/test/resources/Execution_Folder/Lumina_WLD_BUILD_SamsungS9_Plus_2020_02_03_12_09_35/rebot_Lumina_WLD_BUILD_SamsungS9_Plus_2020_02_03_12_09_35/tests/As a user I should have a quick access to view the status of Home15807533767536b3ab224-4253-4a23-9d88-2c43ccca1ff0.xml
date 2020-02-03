@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should have a quick access to view the status of Home">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200203 12:09:37.305">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
+<status critical="yes" endtime="20200203 12:09:37.331" starttime="20200203 12:09:36.781" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Water Card&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200203 12:09:37.333">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Card" screen from the "Add New Device Dashboard" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200203 12:09:37.334" starttime="20200203 12:09:37.333" status="FAIL"/>
+</kw>
+<kw name="Then  : user should see a quick view the following:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200203 12:09:37.335">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should see a quick view the following:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200203 12:09:37.336" starttime="20200203 12:09:37.335" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should have a quick access to view the status of Home</tag>
+<tag>Group::StatusOfHome</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://10.56.112.21:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_02_03_12_09_35/rebot/report.html#tags?Group::As a user I should have a quick access to view the status of Home</tag>
+</tags>
+<status critical="yes" endtime="20200203 12:09:37.340" starttime="20200203 12:09:36.774" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200203 12:09:37.341" starttime="20200203 12:09:36.774" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

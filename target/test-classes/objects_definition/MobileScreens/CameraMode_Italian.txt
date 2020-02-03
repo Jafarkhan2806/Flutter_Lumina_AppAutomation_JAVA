@@ -1,4 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-Manual	XPATH	//*[@text='Manual']	XPATH	//*[@text='Manual']	XPATH	//*[@text='Manual']						
-Geofencing	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']						
-BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"	name	Indietro	name	Indietro	name	Indietro

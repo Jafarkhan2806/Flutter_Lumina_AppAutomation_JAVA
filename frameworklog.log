@@ -1,48 +1,21 @@
-10-30-2019 11:05:40 - Temporary TestNG XML created
-10-30-2019 11:05:42 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 11:05:42 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 11:05:42 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 11:05:42 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:11:50 - Temporary TestNG XML created
-10-30-2019 13:11:52 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 13:11:52 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 13:11:52 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:11:52 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:13:38 - Temporary TestNG XML created
-10-30-2019 13:13:40 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 13:13:40 - Resource Pool - atperformanceserver.resideo.com
-10-30-2019 13:13:40 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:13:40 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:22:43 - Temporary TestNG XML created
-10-30-2019 13:23:49 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:23:49 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:24:21 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:24:21 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:25:36 - Temporary TestNG XML created
-10-30-2019 13:26:09 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:26:09 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:26:09 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:26:41 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:26:41 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:26:41 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:28:13 - Temporary TestNG XML created
-10-30-2019 13:28:49 - Resource Pool - Connection refused (Connection refused)
-10-30-2019 13:28:49 - Resource Pool - Connection refused (Connection refused)
-10-30-2019 13:28:49 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:28:49 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:28:49 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:28:49 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:30:12 - Temporary TestNG XML created
-10-30-2019 13:31:18 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:31:18 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:31:18 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:31:50 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:31:50 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:31:50 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:36:22 - Temporary TestNG XML created
-10-30-2019 13:37:27 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:37:27 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:37:27 - XRay Test ID is not set for - Verify login and logout
-10-30-2019 13:37:59 - Resource Pool - Unexpected Error - Unexpected Error happened. Response code - Response Code - 500 Response message - Internal Server Error
-10-30-2019 13:37:59 - Skipping Test Execution : Not Able to Acquire Device.
-10-30-2019 13:37:59 - XRay Test ID is not set for - Verify login and logout
+02-03-2020 13:05:55 - Temporary TestNG XML created
+02-03-2020 13:09:23 - Temporary TestNG XML created
+02-03-2020 13:09:24 - No Definition found - 'LoginAndLogout', trying to use 'Default' definition.
+02-03-2020 13:09:24 - No Definition found - Default
+02-03-2020 13:09:24 - No Test Selected for execution.
+02-03-2020 13:09:29 - Genarate Rebot HTML Report : Sorry, Not able to generate html report
+02-03-2020 13:18:03 - Temporary TestNG XML created
+02-03-2020 13:18:04 - No Definition found - 'LoginAndLogout', trying to use 'Default' definition.
+02-03-2020 13:18:04 - No Definition found - Default
+02-03-2020 13:18:04 - No Test Selected for execution.
+02-03-2020 13:18:11 - Genarate Rebot HTML Report : Sorry, Not able to generate html report
+02-03-2020 13:47:51 - Temporary TestNG XML created
+02-03-2020 13:54:24 - Get Test Suite : Error Occured while initializing Test Suite - Operation timed out (Connection timed out)
+02-03-2020 13:54:50 - Get Test Suite : Error Occured while initializing Test Suite - Operation timed out (Connection timed out)
+02-03-2020 15:24:33 - Temporary TestNG XML created
+02-03-2020 15:26:12 - Temporary TestNG XML created
+02-03-2020 15:26:47 - Temporary TestNG XML created
+02-03-2020 15:30:21 - Temporary TestNG XML created
+02-03-2020 15:31:45 - Temporary TestNG XML created
+02-03-2020 15:33:37 - Temporary TestNG XML created
+02-03-2020 15:44:49 - Temporary TestNG XML created

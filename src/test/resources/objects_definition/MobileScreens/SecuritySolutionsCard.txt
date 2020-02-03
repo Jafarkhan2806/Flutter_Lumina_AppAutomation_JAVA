@@ -1,13 +1,1 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-OffStateicon	XPATH	//*[@content-desc='OFF']										
-StatusSwitchMessageNight	XPATH	//*[@text='Night']										
-AwayStateicon	id	option_away					Xpath	//XCUIElementTypeTable	Xpath	//XCUIElementTypeTable	Xpath	//XXCUIElementTypeTable
-NightStateicon	XPATH	//*[@content-desc='Sleep]					xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']
-StatusSwitchMessageAway	XPATH	//*[@text='Away']										
-Timer	id	timer_progress_bar										
-HomeStateicon	XPATH	//*[@content-desc='Home']					NAME	Cancel	Name	Cancel	Name	Cancel
-CurrentPanelState	id	text_status					NAME	Z-Wave Devices	Name	Z-Wave Devices	Name	Z-Wave Devices
-StatusSwitchMessageOFF	XPATH	//*[@text='OFF']										
-TimeStamp	id	text_timestamp					NAME	Z-Wave Device	Name	Z-Wave Device	Name	Z-Wave Device
-StatusSwitchMessage	id	status_switch_message										
-StatusSwitchMessageHome	XPATH	//*[@text='Home']										
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-ValueOffStateicon	XPATH	//*[@content-desc='OFF']										StatusSwitchMessageNight	XPATH	//*[@text='Night']										AwayStateicon	id	option_away					Xpath	//XCUIElementTypeTable	Xpath	//XCUIElementTypeTable	Xpath	//XXCUIElementTypeTableNightStateicon	XPATH	//*[@content-desc='Sleep]					xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']StatusSwitchMessageAway	XPATH	//*[@text='Away']										Timer	id	timer_progress_bar										HomeStateicon	XPATH	//*[@content-desc='Home']					NAME	Cancel	Name	Cancel	Name	CancelCurrentPanelState	id	text_status					NAME	Z-Wave Devices	Name	Z-Wave Devices	Name	Z-Wave DevicesStatusSwitchMessageOFF	XPATH	//*[@text='OFF']										TimeStamp	id	text_timestamp					NAME	Z-Wave Device	Name	Z-Wave Device	Name	Z-Wave DeviceStatusSwitchMessage	id	status_switch_message										StatusSwitchMessageHome	XPATH	//*[@text='Home']										

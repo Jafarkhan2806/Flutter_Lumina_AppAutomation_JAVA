@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="3 As a user I should be able to enable temperature Alert if it is disabled - #8">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.781">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.782" starttime="20200113 12:33:51.770" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.784">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.785" starttime="20200113 12:33:51.783" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.786">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.787" starttime="20200113 12:33:51.786" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.788">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.789" starttime="20200113 12:33:51.788" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.791">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.792" starttime="20200113 12:33:51.790" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.794">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.795" starttime="20200113 12:33:51.793" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.796">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.797" starttime="20200113 12:33:51.796" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.799">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.800" starttime="20200113 12:33:51.798" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.802">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.803" starttime="20200113 12:33:51.801" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings Option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.804">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings Option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.805" starttime="20200113 12:33:51.804" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.807">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.808" starttime="20200113 12:33:51.807" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.810">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.812" starttime="20200113 12:33:51.810" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.814">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.815" starttime="20200113 12:33:51.813" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.817">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.818" starttime="20200113 12:33:51.816" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.819">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Save Changes" popup'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.820" starttime="20200113 12:33:51.819" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.822">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.823" starttime="20200113 12:33:51.822" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.824">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.825" starttime="20200113 12:33:51.824" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.827">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.828" starttime="20200113 12:33:51.827" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 12:33:51.830">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 12:33:51.832" starttime="20200113 12:33:51.830" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::3 As a user I should be able to enable temperature Alert if it is disabled</tag>
+<tag>Group::EnableTemperatureAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::pavantest@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_13_12_33_50/rebot/report.html#tags?Group::3 As a user I should be able to enable temperature Alert if it is disabled</tag>
+</tags>
+<status critical="yes" endtime="20200113 12:33:51.834" starttime="20200113 12:33:51.769" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200113 12:33:51.834" starttime="20200113 12:33:51.769" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

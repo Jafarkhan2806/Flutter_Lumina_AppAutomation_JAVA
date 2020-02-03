@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="5 As a user I should be able to enable humidity Alert if it is disabled - #11">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.721">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200107 16:52:16.723" starttime="20200107 16:52:16.683" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.752">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.753" starttime="20200107 16:52:16.724" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.756">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.757" starttime="20200107 16:52:16.754" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.761">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.762" starttime="20200107 16:52:16.759" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.766">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.767" starttime="20200107 16:52:16.764" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.771">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.772" starttime="20200107 16:52:16.769" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:16.775">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:16.777" starttime="20200107 16:52:16.773" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.782">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.783" starttime="20200107 16:52:16.778" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<status critical="yes" endtime="20200107 16:52:21.784" starttime="20200107 16:52:21.784" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;No&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.788">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "No" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.789" starttime="20200107 16:52:21.786" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Settings option&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.791">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Settings option" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.792" starttime="20200107 16:52:21.789" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.796">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.797" starttime="20200107 16:52:21.793" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.807">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.808" starttime="20200107 16:52:21.801" status="FAIL"/>
+</kw>
+<kw name="When  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:21.812">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:21.813" starttime="20200107 16:52:21.810" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.824">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.825" starttime="20200107 16:52:21.815" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Save Changes&quot; popup" type="kw">
+<status critical="yes" endtime="20200107 16:52:26.827" starttime="20200107 16:52:26.827" status="PASS"/>
+</kw>
+<kw name="When  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.830">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.832" starttime="20200107 16:52:26.828" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.837">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.839" starttime="20200107 16:52:26.833" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.843">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.844" starttime="20200107 16:52:26.840" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.849">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.850" starttime="20200107 16:52:26.845" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.856">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.858" starttime="20200107 16:52:26.852" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.862">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.864" starttime="20200107 16:52:26.859" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::5 As a user I should be able to enable humidity Alert if it is disabled</tag>
+<tag>Group::EnableHumidityAlert</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::pavantest@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_07_16_20_04/rebot/report.html#tags?Group::5 As a user I should be able to enable humidity Alert if it is disabled</tag>
+</tags>
+<status critical="yes" endtime="20200107 16:52:26.868" starttime="20200107 16:52:16.667" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200107 16:52:26.872" starttime="20200107 16:52:16.667" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

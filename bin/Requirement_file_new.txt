@@ -1,0 +1,3 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+	DeleteCameraNoBilling		Android-Device-Android-6.0	Motorolla	Local	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=icam1@grr.la,PASSWORD=Password1,PASSCODE=1989,LOCATION1_NAME=Home Location,LOCATION1_CAMERA1_NAME=Test2,LOCATION1_DEVICE1_NAME=Home Camera'"
+No	EditCameraName		Android-Device-Android-6.0	Motorolla	Local	CHIL Int (Azure)	"AcquisitionType=Specific, TestData='USERID=icam1@grr.la,PASSWORD=Password1,PASSCODE=1989,LOCATION1_NAME=Home Location,LOCATION1_CAMERA1_NAME=Test2,LOCATION1_DEVICE1_NAME=Certificate C1 Camera'"

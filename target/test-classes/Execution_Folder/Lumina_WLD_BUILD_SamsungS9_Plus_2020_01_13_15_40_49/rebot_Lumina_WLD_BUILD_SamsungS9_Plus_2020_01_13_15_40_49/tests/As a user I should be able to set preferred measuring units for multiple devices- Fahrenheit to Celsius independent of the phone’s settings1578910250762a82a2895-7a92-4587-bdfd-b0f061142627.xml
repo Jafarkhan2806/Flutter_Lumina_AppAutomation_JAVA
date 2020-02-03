@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 15:41:20.560">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200113 15:41:20.592" starttime="20200113 15:40:50.790" status="PASS"/>
+</kw>
+<kw name="When  : user selects &quot;Basement&quot; from &quot;Detector Name&quot; screen" type="kw">
+<status critical="yes" endtime="20200113 15:41:20.595" starttime="20200113 15:41:20.595" status="FAIL"/>
+</kw>
+</test>

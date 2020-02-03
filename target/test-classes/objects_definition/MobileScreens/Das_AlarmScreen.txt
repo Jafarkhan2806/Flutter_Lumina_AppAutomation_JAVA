@@ -1,0 +1,26 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+Alarm_NaviigateBack	xpath	//*[@content-desc='Navigate Up']					name	nav bar back				
+PanicAlert	xpath	//*[contains(@text,'Are you sure you want to raise panic alarm')]										
+AlarmWillSoundInText	xpath	//*[@text='Alarm will sound in']					name	Alarm will sound in				
+CancelCall							name	Cancel				
+SwitchToHomeButton	id	lyricButton_switch_to_home					name	SWITCH TO HOME				
+SwitchToNightProgress	xpath	//*[@text='Switching to Night mode']										
+DismissRequestProcessing	xpath	//*[@text='Processing request']					xpath	//*[contains(@name,'Please')]				
+SwitchToNightButton	id	lyricButton_switch_to_night					name	SWITCH TO NIGHT				
+DismissAlarmPopupTitle	xpath	//*[contains(@text,'Dismiss Alarm')]					xpath	//*[contains(@name,'Dismiss Alarm')]				
+CallButton	id	alarm_make_call_button					name	Call				
+AlarmDismissButton	id	lyricButton_dismiss_alarm					name	Dismiss Alarm				
+DismissAlarmPopupOk	id	button1					name	Ok				
+Alarm_Title	id	alarm_toolbar_heading					name	Alarm_Navigation_Title				
+PanicConfirm	id	button1										
+DismissAlarmPopupMessage	xpath	//*[contains(@text,'Are you sure you want to Dismiss this Alarm')]					xpath	//*[contains(@name,'Are you sure you want to Dismiss this Alarm')]				
+DashboardHomeIcon	xpath	//*[@content-desc='home']					id	btn_security_dashboard_home_icon				
+WaitingToCloseDoor	xpath	//*[contains(@text,'Waiting')]					xpath	//*[contains(@name,'Waiting')]				
+CallPolice							name	Call Police				
+AlarmLiveStream_progress	id	alarms_live_view					name	Progress				
+Alarm_Subtitle	id	alarm_toolbar_sub_heading					name	Alarm_Navigation_Subtitle				
+DashboardNightIcon	xpath	//*[@content-desc='night']					id	btn_security_dashboard_night_icon				
+DashboardAlertIcon	xpath	//*[@content-desc='alarm']					id	btn_security_dashboard_alarm_icon				
+PanicButton	id	alarms_bottom_button					name	Panic Button				
+AlarmWillSoundInSeconds	id	exit_delay_timer_text					name	countDownTimer				
+DismissAlarmPopupCancel	id	button2					name	Cancel				

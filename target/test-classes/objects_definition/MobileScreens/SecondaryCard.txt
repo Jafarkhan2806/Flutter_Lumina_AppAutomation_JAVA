@@ -1,76 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-ComfortAdjustments	XPATH	//android.widget.TextView[@text='Comfort Settings']	XPATH	//android.widget.TextView[@text='Comfort Settings']	XPATH	//android.widget.TextView[@text='Comfort Settings']	NAME	ComfortAdjustments_SectionHeader	NAME	ComfortAdjustments_SectionHeader	NAME	ComfortAdjustments_SectionHeader
-TemperatureAlerts	XPATH	//android.widget.TextView[@text='Temperature Alerts']	XPATH	//android.widget.TextView[@text='Temperature Alerts']	XPATH	//android.widget.TextView[@text='Temperature Alerts']	NAME	TemperatureChange_SectionHeader	NAME	TemperatureChange_SectionHeader	NAME	TemperatureChange_SectionHeader
-Thermostat	XPATH	//android.widget.TextView[@text='Devices'] 	XPATH	//android.widget.TextView[@text='Devices'] 	XPATH	//android.widget.TextView[@text='Devices'] 	XPATH	//UIAStaticText[@label='Devices']	XPATH	//UIAStaticText[@label='Devices']	XPATH	//UIAStaticText[@label='Devices']
-ThermostatConfiguration	XPATH	//android.widget.TextView[@text='Thermostat Configuration']	XPATH	//android.widget.TextView[@text='Thermostat Configuration']	XPATH	//android.widget.TextView[@text='Thermostat Configuration']	NAME	ThermostatConfiguration	NAME	ThermostatConfiguration	NAME	ThermostatConfiguration
-Ventilation	XPATH	//android.widget.TextView[@text='Ventilation']	XPATH	//android.widget.TextView[@text='Ventilation']	XPATH	//android.widget.TextView[@text='Ventilation']	NAME	VentilationCell	NAME	VentilationCell	NAME	VentilationCell
-AutoChangeOver	XPATH	//android.widget.TextView[@text='Auto Changeover']	XPATH	//android.widget.TextView[@text='Auto Changeover']	XPATH	//android.widget.TextView[@text='Auto Changeover']	NAME	autoChangeOver	NAME	autoChangeOver	NAME	autoChangeOver
-DeHumidification	XPATH	//android.widget.TextView[@text='Dehumidification']	XPATH	//android.widget.TextView[@text='Dehumidification']	XPATH	//android.widget.TextView[@text='Dehumidification']	NAME	deHumidifier	NAME	deHumidifier	NAME	deHumidifier
-Humidification	XPATH	//android.widget.TextView[@text='Humidification']	XPATH	//android.widget.TextView[@text='Humidification']	XPATH	//android.widget.TextView[@text='Humidification']	NAME	humidifier	NAME	humidifier	NAME	humidifier
-FineTune	XPATH	//android.widget.TextView[@text='Fine Tune']	XPATH	//android.widget.TextView[@text='Fine Tune']	XPATH	//android.widget.TextView[@text='Fine Tune']	NAME	fineTune	NAME	fineTune	NAME	fineTune
-AdaptiveRecovery	XPATH	//android.widget.TextView[@text='Adaptive Recovery']	XPATH	//android.widget.TextView[@text='Adaptive Recovery']	XPATH	//android.widget.TextView[@text='Adaptive Recovery']	NAME	adaptiveRecovery	NAME	adaptiveRecovery	NAME	adaptiveRecovery
-SleepBrightness	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']	NAME	brightMode	NAME	brightMode	NAME	brightMode
-Sound	XPATH	//android.widget.TextView[@text='Sound']	XPATH	//android.widget.TextView[@text='Sound']	XPATH	//android.widget.TextView[@text='Sound']	NAME	soundMode	NAME	soundMode	NAME	soundMode
-BackButton	XPATH	//android.widget.ImageButton	XPATH	//android.widget.ImageButton	XPATH	//android.widget.ImageButton	NAME	nav bar back	NAME	nav bar back	NAME	nav bar back
-EmergencyHeat	XPATH	//android.widget.TextView[@text='Emergency Heat']	XPATH	//android.widget.TextView[@text='Emergency Heat']	XPATH	//android.widget.TextView[@text='Emergency Heat']	NAME	emergencyHeat	NAME	emergencyHeat	NAME	emergencyHeat
-VentilationButton	XPATH	//android.widget.TextView[@text='Ventilation']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	VentilationCell_value	NAME	VentilationCell_value	NAME	VentilationCell_value
-AutoChangeOverButton	XPATH	//android.widget.TextView[@text='Auto Changeover']/parent::android.widget.LinearLayout/following-sibling::android.widget.Switch					NAME	autoChangeOver_toggle	NAME	autoChangeOver_toggle	NAME	autoChangeOver_toggle
-DeHumidificationButton	XPATH	//android.widget.TextView[@text='Dehumidification']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	deHumidifier_value	NAME	deHumidifier_value	NAME	deHumidifier_value
-HumidificationButton	XPATH	//android.widget.TextView[@text='Humidification']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	humidifier_value	NAME	humidifier_value	NAME	humidifier_value
-FineTuneButton	XPATH	//android.widget.TextView[@text='Fine Tune']/parent::android.widget.LinearLayout/following-sibling::android.widget.Switch					NAME	fineTune_toggle	NAME	fineTune_toggle	NAME	fineTune_toggle
-AdaptiveRecoveryButton	XPATH	//android.widget.TextView[@text='Adaptive Recovery']/parent::android.widget.LinearLayout/following-sibling::android.widget.Switch					NAME	adaptiveRecovery_toggle	NAME	adaptiveRecovery_toggle	NAME	adaptiveRecovery_toggle
-SleepBrightnessButton	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	brightMode_value	NAME	brightMode_value	NAME	brightMode_value
-SoundButton	XPATH	//android.widget.TextView[@text='Sound']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	soundMode_value	NAME	soundMode_value	NAME	soundMode_value
-EmergencyHeatButton	XPATH	//android.widget.TextView[@text='Emergency Heat']/parent::android.widget.LinearLayout/following-sibling::android.widget.Switch					NAME	emergencyHeat_toggle	NAME	emergencyHeat_toggle	NAME	emergencyHeat_toggle
-VentilationOff	XPATH	//android.widget.TextView[@text='Off']					NAME	Off	NAME	Off	NAME	Off
-VentilationAuto	XPATH	//android.widget.TextView[@text='Auto']					NAME	Auto	NAME	Auto	NAME	Auto
-VentilationOn	XPATH	//android.widget.TextView[@text='On']					NAME	On	NAME	On	NAME	On
-FrostProtection	XPATH	//android.widget.TextView[@text='Frost Protection']					NAME	FrostIndex	NAME	FrostIndex	NAME	FrostIndex
-FrostProtectionButton	XPATH	//android.widget.TextView[@text='Frost Protection']/parent::android.widget.LinearLayout/following-sibling::android.widget.TextView					NAME	FrostIndex_value	NAME	FrostIndex_value	NAME	FrostIndex_value
-Off	XPATH	//android.widget.TextView[@text='Off']					NAME	Off	NAME	Off	NAME	Off
-Low	XPATH	//android.widget.TextView[@text='Low']					NAME	Low	NAME	Low	NAME	Low
-Normal	XPATH	//android.widget.TextView[@text='Normal']					NAME	Normal	NAME	Normal	NAME	Normal
-SeekBar	ID	fragment_brightness_settings_seek_bar					NAME	Slider_cell	NAME	Slider_cell	NAME	Slider_cell
-SleepBrightnessMode	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']					NAME	brightMode	NAME	brightMode	NAME	brightMode
-SleepBrightnessModeValue	XPATH	//android.widget.TextView[@text='Sleep Brightness Mode']/following-sibling::android.widget.TextView					NAME	Sleep Brightness Mode_Cell_Label	NAME	Sleep Brightness Mode_Cell_Label	NAME	Sleep Brightness Mode_Cell_Label
-MinValue	ID	fragment_brightness_settings_min					NAME	Min Limit	NAME	Min Limit	NAME	Min Limit
-MaxValue	ID	fragment_brightness_settings_max					NAME	Max Limit	NAME	Max Limit	NAME	Max Limit
-switch	ID	view_action_bar_switch_switch	ID	view_action_bar_switch_switch	ID	view_action_bar_switch_switch						
-HumidificationText	XPATH	//android.widget.TextView[@text='Humidification']					NAME	Humidification	NAME	Humidification	NAME	Humidification
-HumidificationValue	XPATH	//android.widget.TextView[@text='Humidification']/following-sibling::android.widget.TextView					NAME	Humidification_Value	NAME	Humidification_Value	NAME	Humidification_Value
-DeHumidificationText	XPATH	//android.widget.TextView[@text='Dehumidification']					NAME	Dehumidification	NAME	Dehumidification	NAME	Dehumidification
-DeHumidificationValue	XPATH	//android.widget.TextView[@text='Dehumidification']/following-sibling::android.widget.TextView					NAME	Dehumidification_Value	NAME	Dehumidification_Value	NAME	Dehumidification_Value
-FrostText	XPATH	//android.widget.TextView[@text='Frost Protection']					NAME	Frost Protection	NAME	Frost Protection		Frost Protection
-FrostValue	XPATH	//android.widget.TextView[@text='Frost Protection']/following-sibling::android.widget.TextView					NAME	Frost Protection_Value	NAME	Frost Protection_Value	NAME	Frost Protection_Value
-FrostInfo	ID	humidifier_mode_text_view					NAME	"Location Name"	NAME	"Location Name"	NAME	"Location Name"
-ThermostatEmea	XPATH	//android.widget.TextView[@text='06211'] 	XPATH	//android.widget.TextView[@text='06211'] 	XPATH	//android.widget.TextView[@text='06211'] 	NAME	06211_cell	NAME	06211_cell	NAME	06211_cell
-ThermostatNA	XPATH	//android.widget.TextView[@text='06090'] 	XPATH	//android.widget.TextView[@text='06090'] 	XPATH	//android.widget.TextView[@text='06090'] 	NAME	"06090_cell"	NAME	"06090_cell"	NAME	"06090_cell"
-ThermostatHBB	XPATH	//android.widget.TextView[@text='HBB 04347 Bengaluru'] 	XPATH	//android.widget.TextView[@text='HBB 04347 Bengaluru'] 	XPATH	//android.widget.TextView[@text='HBB 04347 Bengaluru'] 	NAME	"HBB 04347 Bengaluru"	NAME	"HBB 04347 Bengaluru"	NAME	"HBB 04347 Bengaluru"
-ThermostatHeading	XPATH	//android.widget.TextView[@text='Thermostat'] 	XPATH	//android.widget.TextView[@text='Thermostat'] 	XPATH	//android.widget.TextView[@text='Thermostat'] 	ID	Thermostat_SectionHeader	ID	Thermostat_SectionHeader	ID	Thermostat_SectionHeader
-NavigateBack							NAME	nav bar back	NAME	nav bar back	NAME	nav bar back
-De_HumidifierInfo	ID	humidifier_mode_text_view					NAME	Location Name	NAME	Location Name	NAME	Location Name
-DeHumidswitch							NAME	Dehumidification_Switch	NAME	Dehumidification_Switch	NAME	Dehumidification_Switch
-SliderCell							NAME	Slider_cell	NAME	Slider_cell	NAME	Slider_cell
-Humidswitch							NAME	Humidification_Switch	NAME	Humidification_Switch	NAME	Humidification_Switch
-LeakDetectorName	ID	et_device_name	ID	et_device_name	ID	et_device_name						
-TemperatureUnitValue	XPATH	"//*[contains(@Text,'F') or contains(@Text,'C')]"	XPATH	"//*[contains(@Text,'F') or contains(@Text,'C')]"	XPATH	"//*[contains(@Text,'F') or contains(@Text,'C')]"						
-UpdateFrequencyValue	XPATH	"//*[contains(@Text,'Daily') or contains(@Text,'Twice Daily')or contains(@Text,'Three times Daily')]"	XPATH	"//*[contains(@Text,'Daily') or contains(@Text,'Twice Daily')or contains(@Text,'Three times Daily')]"	XPATH	"//*[contains(@Text,'Daily') or contains(@Text,'Twice Daily')or contains(@Text,'Three times Daily')]"						
-VersionValue	ID	version_value	ID	version_value	ID	version_value						
-DeleteWLDButton	ID	btn_delete_device	ID	btn_delete_device	ID	btn_delete_device						
-RadioUpdateDaily	ID	radio_update_daily	ID	radio_update_daily	ID	radio_update_daily						
-RadioUpdateTwiceDaily	ID	radio_update_twice	ID	radio_update_twice	ID	radio_update_twice						
-RadioUpdateThriceDaily	ID	radio_update_thrice	ID	radio_update_thrice	ID	radio_update_thrice						
-fwtext	XPATH	"//*[contains(@text,'Firmware Version')]"	XPATH	"//*[contains(@text,'Firmware Version')]"	XPATH	"//*[contains(@text,'Firmware Version')]"	NAME	Firmware Version	NAME	Firmware Version	NAME	Firmware Version
-fwversion	XPATH	"//*[contains(@text,'.')]"	XPATH	"//*[contains(@text,'.')]"	XPATH	"//*[contains(@text,'.')]"	XPATH	"//*[contains(@name,'.')]"	XPATH	"//*[contains(@name,'.')]"	XPATH	"//*[contains(@name,'.')]"
-D6pro	XPATH	//android.widget.TextView[@text='Lyric D6 Pro']	XPATH	//android.widget.TextView[@text='Lyric D6 Pro']	XPATH	//android.widget.TextView[@text='Lyric D6 Pro']	NAME	Lyric D6 Pro	NAME	Lyric D6 Pro	NAME	Lyric D6 Pro
-ChangeCountry	XPATH	//android.widget.TextView[@text='CHANGE COUNTRY']	XPATH	//android.widget.TextView[@text='CHANGE COUNTRY']	XPATH	//android.widget.TextView[@text='CHANGE COUNTRY']	NAME	CHANGE COUNTRY	NAME	CHANGE COUNTRY	NAME	CHANGE COUNTRY
-DeleteStatButton	ID	btn_stat_delete	ID	btn_stat_delete	ID	btn_stat_delete	XPATH	"//*[contains(@name,'DELETE') or contains(@name,'Delete')]"	XPATH	"//*[contains(@name,'DELETE') or contains(@name,'Delete')]"	XPATH	"//*[contains(@name,'DELETE') or contains(@name,'Delete')]"
-BBThermostat	XPATH	"//*[contains(@text,'HBB 4EC3D3')]"	XPATH	"//*[contains(@text,'HBB 4EC3D3')]"	XPATH	"//*[contains(@text,'HBB 4EC3D3')]"	NAME	HBB 4EC3D3	NAME	HBB 4EC3D3	NAME	HBB 4EC3D3
-ConfortSettings	XPATH	//android.widget.TextView[@text='Comfort Settings'] 	XPATH	//android.widget.TextView[@text='Comfort Settings'] 	XPATH	//android.widget.TextView[@text='Comfort Settings'] 						
-Optimise	XPATH	//android.widget.TextView[@text='Optimise'] 	XPATH	//android.widget.TextView[@text='Optimise'] 	XPATH	//android.widget.TextView[@text='Optimise'] 						
-Optimisedescription	XPATH	"//*[contains(@text,'Starts heating early ')]"	XPATH	"//*[contains(@text,'Starts heating early ')]"	XPATH	"//*[contains(@text,'Starts heating early ')]"						
-ToggleOnOff	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view						
-FineTuneDescription	XPATH	"//*[contains(@text,'Maintain comfort by adjusting  ')]"	XPATH	"//*[contains(@text,'Maintain comfort by adjusting  ')]"	XPATH	"//*[contains(@text,'Maintain comfort by adjusting  ')]"						
-AdptiveRecovery	XPATH	XPATH	//android.widget.TextView[@text='Adaptive Recovery'] 	XPATH	//android.widget.TextView[@text='Adaptive Recovery'] 	XPATH	//android.widget.TextView[@text='Adaptive Recovery'] 					
-AdptiveRecoverydescription	XPATH	"//*[contains(@text,'Starts heating and cooling early ')]"	XPATH	"//*[contains(@text,'Starts heating and cooling early ')]"	XPATH	"//*[contains(@text,'Starts heating and cooling early ')]"						
-ThermoStatNameEdit	ID	view_thermostat_name_text	ID	view_thermostat_name_text	ID	view_thermostat_name_text						

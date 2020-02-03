@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="8 As a user I should be able to change my water leak detector Temperture Unit">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 14:57:45.733">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200113 14:57:45.787" starttime="20200113 14:57:03.858" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 15:00:48.510">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<msg html="yes" level="INFO" timestamp="20200113 15:00:50.326">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one SETTINGS OPTION</msg>
+<status critical="yes" endtime="20200113 15:00:50.328" starttime="20200113 14:57:45.790" status="PASS"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; with &quot;Celcius&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 15:00:50.739">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one MANAGE ALERTS</msg>
+<msg html="yes" level="INFO" timestamp="20200113 15:11:00.809">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" with "Celcius"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 15:11:00.811" starttime="20200113 15:00:50.329" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 15:21:00.800">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 15:21:00.802" starttime="20200113 15:11:00.812" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200113 15:31:00.805">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200113 15:31:00.809" starttime="20200113 15:21:00.804" status="FAIL"/>
+</kw>
+</test>

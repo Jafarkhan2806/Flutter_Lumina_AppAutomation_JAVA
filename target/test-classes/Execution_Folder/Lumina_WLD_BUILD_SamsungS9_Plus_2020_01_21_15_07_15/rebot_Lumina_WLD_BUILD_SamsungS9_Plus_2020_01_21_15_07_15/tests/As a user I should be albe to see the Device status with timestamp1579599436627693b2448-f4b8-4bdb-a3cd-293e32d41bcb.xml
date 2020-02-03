@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be albe to see the Device status with timestamp">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200121 15:07:48.818">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200121 15:07:48.851" starttime="20200121 15:07:16.655" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Water Leak Detector&quot; screen from the &quot;home&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200121 15:08:08.208">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<status critical="yes" endtime="20200121 15:08:08.210" starttime="20200121 15:07:48.853" status="PASS"/>
+</kw>
+</test>

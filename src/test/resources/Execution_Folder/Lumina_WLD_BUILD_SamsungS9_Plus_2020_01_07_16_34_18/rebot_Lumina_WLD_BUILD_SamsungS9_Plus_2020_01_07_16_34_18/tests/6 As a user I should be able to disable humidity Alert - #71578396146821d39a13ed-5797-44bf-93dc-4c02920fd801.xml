@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="6 As a user I should be able to disable humidity Alert - #7">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.848">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200107 16:52:26.849" starttime="20200107 16:52:26.824" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.857">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.859" starttime="20200107 16:52:26.850" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.864">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.867" starttime="20200107 16:52:26.860" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be enabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.873">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.877" starttime="20200107 16:52:26.868" status="FAIL"/>
+</kw>
+<kw name="When  : user should be disabled with &quot;Humidity Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.881">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Humidity Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.883" starttime="20200107 16:52:26.878" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY BELOW VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.889">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY BELOW VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.890" starttime="20200107 16:52:26.885" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;HUMIDITY ABOVE VALUE&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:52:26.893">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "HUMIDITY ABOVE VALUE"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:52:26.894" starttime="20200107 16:52:26.891" status="FAIL"/>
+</kw>
+</test>

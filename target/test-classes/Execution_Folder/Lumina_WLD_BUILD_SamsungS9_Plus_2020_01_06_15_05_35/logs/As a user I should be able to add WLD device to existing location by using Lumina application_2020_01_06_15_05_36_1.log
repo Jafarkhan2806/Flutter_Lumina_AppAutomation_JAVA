@@ -1,0 +1,7 @@
+[PASSED] :: 2020-01-06:15:06:07 :: <b>[PASS]</b> Logged into the Account  : testauto@grr.la
+[PASSED] :: 2020-01-06:15:06:23 :: <b>[PASS]</b> Succesfully navigated to CHOOSE LOCATION
+[PASSED] :: 2020-01-06:15:06:23 :: <b>[PASS]</b> Succesfully clicked one LOCATION NAME
+[PASSED] :: 2020-01-06:15:06:24 :: <b>[PASS]</b> Succesfully navigated to DETECTOR NAME
+[PASSED] :: 2020-01-06:15:06:24 :: <b>[PASS]</b> Succesfully clicked one DETECTOR NAME
+[PASSED] :: 2020-01-06:15:06:25 :: <b>[PASS]</b> Succesfully navigated to POWER DETECTOR
+[PASSED] :: 2020-01-06:15:06:25 :: <b>[PASS]</b> Succesfully navigated to CONNECT

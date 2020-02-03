@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Lyric_DLS]" verbose="-1">
+  <listeners>
+    <listener class-name="com.honeywell.commons.coreframework.TestNGListernerClass"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="Lyric_DLS">
+    <groups>
+      <run>
+        <include name="Executor"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.honeywell.testcases.executor"/>
+    </packages>
+    <classes>
+      <class name="com.honeywell.testcases.executor.TestCasesExecutor"/>
+    </classes>
+  </test> <!-- Lyric_DLS -->
+</suite> <!-- Failed suite [Lyric_DLS] -->

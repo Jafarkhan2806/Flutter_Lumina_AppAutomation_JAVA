@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="8 As a user I should be able to change my water leak detector Temperture Unit">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.425">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.455" starttime="20200110 15:42:18.018" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.459">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.460" starttime="20200110 15:42:18.457" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; with &quot;Celcius&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.462">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" with "Celcius"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.463" starttime="20200110 15:42:18.462" status="FAIL"/>
+</kw>
+<kw name="And  : user should be disabled with &quot;Temperature Alerts&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.465">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be disabled with "Temperature Alerts"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.466" starttime="20200110 15:42:18.464" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.468">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.469" starttime="20200110 15:42:18.468" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector&quot; screen from the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.471">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector" screen from the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.472" starttime="20200110 15:42:18.471" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.474">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.477" starttime="20200110 15:42:18.474" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; with &quot;Fahrenheit&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.479">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" with "Fahrenheit"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.480" starttime="20200110 15:42:18.478" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.483">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.485" starttime="20200110 15:42:18.482" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector&quot; screen from the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 15:42:18.487">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector" screen from the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 15:42:18.488" starttime="20200110 15:42:18.486" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::8 As a user I should be able to change my water leak detector Temperture Unit</tag>
+<tag>Group::ChangeTemperatureUnit</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::pavantest@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_10_15_42_17/rebot/report.html#tags?Group::8 As a user I should be able to change my water leak detector Temperture Unit</tag>
+</tags>
+<status critical="yes" endtime="20200110 15:42:18.493" starttime="20200110 15:42:18.011" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200110 15:42:18.493" starttime="20200110 15:42:18.011" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

@@ -1,0 +1,9 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+SavingEventTitle	Xpath	//*[@text='Savings Event']	Xpath	//*[@text='Savings Event']	Xpath	//*[@text='Savings Event']	NAME	Z-Wave Devices	Name	Z-Wave Devices	Name	Z-Wave Devices
+Message	ID	message	ID	message	ID	message	NAME	Entering Inclusion Mode. Please wait.	NAME	Entering Inclusion Mode. Please wait.	NAME	Entering Inclusion Mode. Please wait.
+OK	ID	button1	ID	button1	ID	button1	Xpath	//*[@value='Activate the Device']	Xpath	//*[@value='Activate the Device']	Xpath	//*[@value='Activate the Device']
+CancelSavingsEvent	Xpath	//*[@text='Cancel Savings Event?']	Xpath	//*[@text='Cancel Savings Event?']	Xpath	//*[@text='Cancel Savings Event?']	Xpath	//XCUIElementTypeStaticText[@name='Cancel Savings Event?']	Xpath	//XCUIElementTypeStaticText[@name='Cancel Savings Event?']	Xpath	//XCUIElementTypeStaticText[@name='Cancel Savings Event?']
+CancelMessage	ID	message	ID	message	ID	message	Xpath	"//*[contains(@label,'You can not decrease temperature below')]"	Xpath	"//*[contains(@label,'You can not decrease temperature below')]"	Xpath	"//*[contains(@label,'You can not decrease temperature below')]"
+CancelNo	ID	button2	ID	button2	ID	button2	ID	No	ID	No	ID	No
+CancelYes	ID	button1	ID	button1	ID	button1	ID	Yes	ID	Yes	ID	Yes
+CancelSavingsEventByUser	ID	"//*[contains(@text, 'Savings Event Until')]"	ID	"//*[contains(@text, 'Savings Event Until')]"	ID	"//*[contains(@text, 'Savings Event Until')]"						

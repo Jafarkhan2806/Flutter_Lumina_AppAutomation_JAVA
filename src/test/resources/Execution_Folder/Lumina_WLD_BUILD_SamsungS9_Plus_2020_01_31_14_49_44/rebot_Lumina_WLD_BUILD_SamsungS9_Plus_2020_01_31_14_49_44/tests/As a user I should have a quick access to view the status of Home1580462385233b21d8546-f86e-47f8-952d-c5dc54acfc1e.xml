@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should have a quick access to view the status of Home">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200131 14:50:26.269">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200131 14:50:26.306" starttime="20200131 14:49:45.259" status="PASS"/>
+</kw>
+</test>

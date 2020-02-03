@@ -1,7 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-MotionDetectionToggle	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	ID	list_item_lyric_switch_view	name	Motion Detection_toggle	name	Motion Detection_toggle	name	Motion Detection_toggle
-Off	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']	XPATH	//*[@text='Off']						
-BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//*[contains(@name,'TER')]"	XPATH	"//*[contains(@name,'TER')]"	XPATH	"//*[contains(@name,'TER')]"
-Low	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']						
-Normal	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']						
-High	XPATH	//*[@text='High']	XPATH	//*[@text='High']	XPATH	//*[@text='High']						

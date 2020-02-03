@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="7 As a user after registration I should be having required default options enabled in device settings screen - #2">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.192">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.193" starttime="20200110 13:15:35.177" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.201">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.202" starttime="20200110 13:15:35.194" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the following Leak Detector Settings details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.210">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Leak Detector Settings details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.211" starttime="20200110 13:15:35.202" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Manage Alerts&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.219">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Manage Alerts" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.220" starttime="20200110 13:15:35.211" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.225">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.226" starttime="20200110 13:15:35.220" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the following Manage Alert details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:35.233">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the following Manage Alert details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:35.234" starttime="20200110 13:15:35.226" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:40.249">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:40.252" starttime="20200110 13:15:35.235" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Update Frequency&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:40.261">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Update Frequency" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:40.262" starttime="20200110 13:15:40.253" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Update Frequency&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:40.268">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Update Frequency" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:40.269" starttime="20200110 13:15:40.262" status="FAIL"/>
+</kw>
+<kw name="And  : user should be enabled with &quot;Recommended&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:40.277">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be enabled with "Recommended"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:40.277" starttime="20200110 13:15:40.270" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Back&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:45.287">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Back" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:45.288" starttime="20200110 13:15:40.278" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;About My Droplet&quot; screen from the &quot;Settings&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:45.295">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "About My Droplet" screen from the "Settings" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:45.296" starttime="20200110 13:15:45.289" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with About Device details:" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 13:15:45.303">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with About Device details:'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 13:15:45.304" starttime="20200110 13:15:45.297" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::7 As a user after registration I should be having required default options enabled in device settings screen</tag>
+<tag>Group::WLDSettings</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::pavantest@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_10_13_13_30/rebot/report.html#tags?Group::7 As a user after registration I should be having required default options enabled in device settings screen</tag>
+</tags>
+<status critical="yes" endtime="20200110 13:15:45.305" starttime="20200110 13:15:35.176" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200110 13:15:45.305" starttime="20200110 13:15:35.176" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

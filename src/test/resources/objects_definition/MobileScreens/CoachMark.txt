@@ -1,6 +1,10 @@
 FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-GotItButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Next	name	Next	name	Next
-CoachMarkHeader	id	textView_title	id	textView_title	id	textView_title						
-CoachMarkDescription	id	textView_subtitle	id	textView_subtitle	id	textView_subtitle						
-DoneButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Done	name	Done	name	Done
-NextButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	name	Next	name	Next	name	Next
+GotItButton	id	btn_positive_got_it	id	btn_positive_got_it	id	btn_positive_got_it	XPATH	//*[@name='Next']	XPATH	//*[@name='Next']	XPATH	//*[@name='Next']
+CoachMarkHeader	id	textView_title	id	textView_title	id	textView_title	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]
+CoachMarkDescription	id	textView_subtitle	id	textView_subtitle	id	textView_subtitle	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]	XPATH	//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]
+NextButton	XPATH	//*[@text='Next']	XPATH	//*[@text='Next']	XPATH	//*[@text='Next']	NAME	Next	NAME	Next	NAME	Next
+DoneButton	XPATH	//*[@text='Done']	XPATH	//*[@text='Done']	XPATH	//*[@text='Done']	NAME	Done	NAME	Done	NAME	Done
+BackButton	XPATH	//*[@text='Back']	XPATH	//*[@text='Back']	XPATH	//*[@text='Back']	NAME	Back	NAME	Back	NAME	Back
+CoachMarkIcon	id	iv_coach_mark_icon	id	iv_coach_mark_icon	id	iv_coach_mark_icon	NAME	Next	NAME	Next	NAME	Next
+WelcomeToHoneywellHomesPopup							XPATH	//XCUIElementTypeStaticText[@name='Welcome to Honeywell Home']	XPATH	//XCUIElementTypeStaticText[@name='Welcome to Honeywell Home']	XPATH	//XCUIElementTypeStaticText[@name='Welcome to Honeywell Home']
+CancelButtonInWelcomeToHoneywellHomesPopup							XPATH	//XCUIElementTypeButton[@name='Cancel']	XPATH	//XCUIElementTypeButton[@name='Cancel']	XPATH	//XCUIElementTypeButton[@name='Cancel']

@@ -1,0 +1,12 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+	VerifyDASSettings		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	RenameDASBaseStation		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	VerifyDASPanelModelAndFirmwareDetails		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	DASSettingsDisabled		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	DASEntryExitDelaySettings		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	DeleteBaseStation		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	ChangeBaseStationVolume		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	VerifyNoKeyfobsAndSensors		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	EnableDisableGeofencing		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	VideoSettingsDisabled		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"
+	VerifyVideoSettings		IOS-Device-IOS-.*	.*	TestObject	CHIL INT (AZURE)	"AcquisitionType=Automatic, Tags='SINGLE_LOCATION_SINGLE_DEVICE,CHIL_DAS_DEV,DAS'"

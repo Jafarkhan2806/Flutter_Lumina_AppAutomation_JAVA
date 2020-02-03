@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to add WLD device to existing location by using Lumina application">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:41.581">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20191220 18:29:41.606" starttime="20191220 18:29:27.388" status="PASS"/>
+</kw>
+<kw name="When  : user &quot;Enroll&quot; wld device" type="kw">
+<status critical="yes" endtime="20191220 18:29:41.623" starttime="20191220 18:29:41.608" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector Setup&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<status critical="yes" endtime="20191220 18:29:52.312" starttime="20191220 18:29:41.624" status="PASS"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Water Leak Detector Setup&quot; screen" type="kw">
+<status critical="yes" endtime="20191220 18:29:53.003" starttime="20191220 18:29:52.314" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<status critical="yes" endtime="20191220 18:29:53.082" starttime="20191220 18:29:53.005" status="PASS"/>
+</kw>
+<kw name="When  : user should be displayed with the &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:53.686">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully navigated to CHOOSE LOCATION</msg>
+<status critical="yes" endtime="20191220 18:29:53.688" starttime="20191220 18:29:53.084" status="PASS"/>
+</kw>
+<kw name="And  : user selects &quot;LOCATION NAME&quot; from &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:53.798">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one LOCATION NAME</msg>
+<status critical="yes" endtime="20191220 18:29:53.800" starttime="20191220 18:29:53.690" status="PASS"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:54.507">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully navigated to DETECTOR NAME</msg>
+<status critical="yes" endtime="20191220 18:29:54.509" starttime="20191220 18:29:53.802" status="PASS"/>
+</kw>
+<kw name="When  : user selects &quot;DETECTOR NAME&quot; from &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:54.599">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<status critical="yes" endtime="20191220 18:29:54.601" starttime="20191220 18:29:54.511" status="PASS"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Power Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:55.148">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully navigated to POWER DETECTOR</msg>
+<status critical="yes" endtime="20191220 18:29:55.150" starttime="20191220 18:29:54.603" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<status critical="yes" endtime="20191220 18:29:55.216" starttime="20191220 18:29:55.152" status="PASS"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;Connect&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:29:55.834">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully navigated to CONNECT</msg>
+<status critical="yes" endtime="20191220 18:29:55.836" starttime="20191220 18:29:55.218" status="PASS"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;SELECT NETWORK&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:30:31.162">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully navigated to SELECT NETWORK</msg>
+<status critical="yes" endtime="20191220 18:30:31.167" starttime="20191220 18:29:55.838" status="PASS"/>
+</kw>
+</test>

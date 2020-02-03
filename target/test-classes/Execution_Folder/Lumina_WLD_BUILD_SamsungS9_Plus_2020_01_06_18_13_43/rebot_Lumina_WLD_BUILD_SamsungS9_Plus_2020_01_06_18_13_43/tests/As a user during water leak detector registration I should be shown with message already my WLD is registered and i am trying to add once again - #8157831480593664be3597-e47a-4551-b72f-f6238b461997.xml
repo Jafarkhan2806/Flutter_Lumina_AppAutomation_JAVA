@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again - #8">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:16:54.841">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:16:54.842" starttime="20200106 18:16:45.938" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+<tag>Group::WLDDIYRegistrationWhenAlreadyWLDisRegistered</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_13_43/rebot/report.html#tags?Group::As a user during water leak detector registration I should be shown with message already my WLD is registered and i am trying to add once again</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:16:54.844" starttime="20200106 18:16:45.937" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:16:54.844" starttime="20200106 18:16:45.937" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

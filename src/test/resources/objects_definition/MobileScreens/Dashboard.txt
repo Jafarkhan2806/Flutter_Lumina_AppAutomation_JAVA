@@ -1,44 +1,64 @@
 FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-GlobalDrawerButton	XPATH	//*[@content-desc='Main Menu']	XPATH	//*[@content-desc='Main Menu']	XPATH	//*[@content-desc='Main Menu']	name	menu	name	menu	name	menu
+GlobalDrawerButton	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']	name	menu	name	menu	name	menu
 GlobalDrawerIconList	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text	id	list_item_lyric_icon_text						
-DashboardIconText	id	dashboard_device_name	id	dashboard_device_name	id	dashboard_device_name	name	title	name	title	name	title
-DashboardIconStatus	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	Xpath	"//*[contains(@name,'subTitle_')]"	Xpath	"//*[contains(@name,'subTitle_')]"	Xpath	"//*[contains(@name,'subTitle_')]"
-AddNewDeviceIcon	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"
-AddNewDeviceIconBelowExistingDevice	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"	xpath	"//*[contains(@label,'Add New Device')]"
+DashboardIconText	id	dashboard_device_name	id	dashboard_device_name	id	dashboard_device_name	XPATH	//XCUIElementTypeButton[@name ='title']	XPATH	//XCUIElementTypeButton[@name ='title']	XPATH	//XCUIElementTypeButton[@name ='title']
+DashboardIconStatus	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	XPATH	"//*[contains(@name, 'subTitle')]"	XPATH	"//*[contains(@name, 'subTitle')]"	XPATH	"//*[contains(@name, 'subTitle')]"
+CloseButtonInHoneywellRatingPopup	ID	btn_close	ID	btn_close	ID	btn_close	NAME	Not Now	NAME	Not Now	NAME	Not Now
+DoneButtonInWeatherForecast	ID	btn_positive_got_it	ID	btn_positive_got_it	ID	btn_positive_got_it	NAME	Done	NAME	Done	NAME	Done
+GotItButtonInWeatherForecast	XPATH	//*[@text='Got It']	XPATH	//*[@text='Got It']	XPATH	//*[@text='Got It']	NAME	Got It	NAME	Got It	NAME	Got It
+AddNewDeviceIcon	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	NAME	Add New Device	NAME	Add New Device	NAME	Add New Device
+AddNewDeviceIconBelowExistingDevice	ID	dashboard_add_device	ID	dashboard_add_device	ID	dashboard_add_device	NAME	Add New Device	NAME	Add New Device	NAME	Add New Device
+AddNewDeviceNewIcon	ID	dashboard_add_device					XPATH	(//XCUIElementTypeButton[@name='Add New Device'])[2]	XPATH	(//XCUIElementTypeButton[@name='Add New Device'])[2]	XPATH	(//XCUIElementTypeButton[@name='Add New Device'])[2]
 AddNewDeviceMenu							name	Add New Device	name	Add New Device	name	Add New Device
 ZwaveSwitchSelectedState							name	Selected_State	name	Selected_State	name	Selected_State
-WeatherIcon	ID	fragment_weather_image_view	ID	fragment_weather_image_view	ID	fragment_weather_image_view	name	icon_mostlyCloudy_large	name	icon_mostlyCloudy_large	name	icon_mostlyCloudy_large
+WeatherIcon	id	fragment_weather_image_view	id	fragment_weather_image_view	id	fragment_weather_image_view	name	icon showers small	name	icon showers small	name	icon showers small
 BackButton	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	XPATH	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
 SplashScreen	id	splash_screen_layout	id	splash_screen_layout	id	splash_screen_layout						
-ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar						
+ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar	xpath	//android.widget.ProgressBar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
 SecurityTitleInDashboardScreen	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	XPATH	//android.widget.TextView[@text='Security']	NAME	subTitle_Security	NAME	subTitle_Security	NAME	subTitle_Security
 SettingsIconInSecurityScreen							NAME	appSettingsIcon	NAME	appSettingsIcon	NAME	appSettingsIcon
-ToolbarSubtitle	ID	toolbar_spinner_item_actionbar_subtitle	ID	toolbar_spinner_item_actionbar_subtitle	ID	toolbar_spinner_item_actionbar_subtitle	NAME	Title_Subtitle	NAME	Title_Subtitle	NAME	Title_Subtitle
-LocationSpinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	NAME	Location Name	NAME	Location Name	NAME	Location Name
-LocationNameIOS							NAME	Location Name	NAME	Location Name	NAME	Location Name
-LocationDropDown	id	toolbar_spinner_item_dropdown_title	id	toolbar_spinner_item_dropdown_title	id	toolbar_spinner_item_dropdown_title						
-AddNewDeviceText	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title	NAME	Add New Device	NAME	Add New Device	NAME	Add New Device
-LocationSpinnerIcon	ID	toolbar_location_spinner	ID	toolbar_location_spinner	ID	toolbar_location_spinner	name	icon_arrow_down	name	icon_arrow_down	name	icon_arrow_down
-LocationSpinnerOption	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title						
-LocationName	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	ID	toolbar_spinner_item_actionbar_title	NAME	Location Name	NAME	Location Name	NAME	Location Name
-NoInternetMessage	ID	message	id	message	id	message						
-RetryText	ID	retry	ID	retry	ID	retry						
-AddNewDeviceHeader	XPATH	//*[@text='Add New device']	XPATH	//*[@text='Add New device']	XPATH	//*[@text='Add New device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']	xpath	//*[@value='Add New Device']
-SETTINGS	ID	button1	ID	button1	ID	button1						
-CANCEL	ID	button2	ID	button2	ID	button2						
-OFF	XPATH	//*[@text='OFF']	XPATH	//*[@text='OFF']	XPATH	//*[@text='OFF']						
-Agree	XPATH	//*[@text='Agree']	XPATH	//*[@text='Agree']	XPATH	//*[@text='Agree']						
-GeofenceTitle	ID	geofence_header_message	ID	geofence_header_message	ID	geofence_header_message	NAME	GEOFENCING	NAME	GEOFENCING	NAME	GEOFENCING
-GeofenceIcon	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	NAME	icon_geofence_status	NAME	icon_geofence_status	NAME	icon_geofence_status
-CurrentStatus	ID	away_home_details	ID	away_home_details	ID	away_home_details	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
-CurrentSetting	ID	away_home_status	ID	away_home_status	ID	away_home_status	xpath	"//*[contains(@name,'Using')]"	xpath	"//*[contains(@name,'Using')]"	xpath	"//*[contains(@name,'Using')]"
-GeofencingLabel	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	XPATH	//*[@text='Geofencing']	NAME	GEOFENCING	NAME	GEOFENCING	NAME	GEOFENCING
-GeofencingDetail	ID	away_home_details	ID	away_home_details	ID	away_home_details	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"	xpath	"//*[contains(@name,'Everyone is' ) or contains(@name,'Away')]"
-GeofencingUsingSettingDetail	ID	away_home_status	ID	away_home_status	ID	away_home_status	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"	xpath	"//*[contains(@name,'USING') or contains(@name,'SETTINGS')]"
-GeofenceIcon	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	ID	fragment_geofence_image_view	xpath	//*[@name='icon_geofence_status']	xpath	//*[@name='icon_geofence_status']	xpath	//*[@name='icon_geofence_status']
-GeofenceOption	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	XPATH	//*[@text='Geofence']	xpath	//*[@value='Geofence']	xpath	//*[@value='Geofence']	xpath	//*[@value='Geofence']
-SecurityOption	XPATH	//*[@text='Security']	XPATH	//*[@text='Security']	XPATH	//*[@text='Security']	xpath	//*[@value='Security']	xpath	//*[@value='Security']	xpath	//*[@value='Security']
-SolnCardbackbtn	ID	Navigate Up	ID	Navigate Up	ID	Navigate Up	name	Back	name	Back	name	Back
-HomeIcon	ID	option_home	ID	option_home	ID	option_home	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
-AwayIcon	ID	option_away	ID	option_away	ID	option_away	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
-NightIcon	ID	option_sleep	ID	option_sleep	ID	option_sleep	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"	xpath	"//*[contains(@name,'Everyone is')]"
+DeviceView	id	device_view	id	device_view	id	device_view						
+StatTempStepperDown	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down						
+StatTempStepperUp	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up						
+DeviceCurrentTempValue	id	current_temp_value	id	current_temp_value	id	current_temp_value	NAME	Dialer	NAME	Dialer	NAME	Dialer
+ThermostatName	id	dashboard_device_name	id	dashboard_device_name	id	dashboard_device_name	name	title	name	title	name	title
+ThermostatTemperature	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text	id	dashboard_device_secondary_text						
+UpStepper	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	stat_temp_stepper_up	id	temp stepper up				
+DownStepper	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	stat_temp_stepper_down	id	temp stepper down				
+UserExpectedTemperature	id	current_temp_value	id	current_temp_value	id	current_temp_value	XPATH	//*[(@name='Dialer')or(@name='--')]	XPATH	//*[(@name='Dialer')or(@name='--')]	XPATH	//*[(@name='Dialer')or(@name='--')]
+TemperatureInOffModeForIOS	id	current_temp_value					id	--				
+LocationDropDownButton	id	toolbar_location_spinner					XPATH	(//XCUIElementTypeOther/XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeOther/XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeOther/XCUIElementTypeStaticText)[1]
+LocationName	id	toolbar_spinner_item_actionbar_title					XPATH	(//XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeStaticText)[1]
+LocationDropDownList	id	toolbar_spinner_item_dropdown_title					XPATH	//XCUIElementTypeStaticText[@name='Navigation_Drop_Down_Title_title']	XPATH	//XCUIElementTypeStaticText[@name='Navigation_Drop_Down_Title_title']	XPATH	//XCUIElementTypeStaticText[@name='Navigation_Drop_Down_Title_title']
+DashboardDrAlert	XPATH	"//*[contains(@text, 'Savings Event')]"	XPATH	"//*[contains(@text, 'Savings Event')]"	XPATH	"//*[contains(@text, 'Savings Event')]"	XPATH	"//*[contains(@text, 'Savings Event')]"	XPATH	"//*[contains(@text, 'Savings Event')]"	XPATH	"//*[contains(@text, 'Savings Event')]"
+LoadingSpinner	ID	progress_bar	ID	progress_bar	ID	progress_bar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+CameraOnText	XPATH	//*[@text='CAMERA IS ON']	XPATH	//*[@text='CAMERA IS ON']	XPATH	//*[@text='CAMERA IS ON']	NAME	CAMERA IS ON	NAME	CAMERA IS ON	NAME	CAMERA IS ON
+CameraOffText	XPATH	//*[@text='CAMERA IS OFF']	XPATH	//*[@text='CAMERA IS OFF']	XPATH	//*[@text='CAMERA IS OFF']	NAME	CAMERA IS OFF	NAME	CAMERA IS OFF	NAME	CAMERA IS OFF
+HeatingText	XPATH	"//*[contains(@text, 'Heating')or(contains(@text, 'HEATING'))]"	XPATH	"//*[contains(@text, 'Heating')or(contains(@text, 'HEATING'))]"	XPATH	"//*[contains(@text, 'Heating')or(contains(@text, 'HEATING'))]"	XPATH	"//*[contains(@value, 'HEATING')]"	XPATH	"//*[contains(@value, 'HEATING')]"	XPATH	"//*[contains(@value, 'HEATING')]"
+CoolingText	XPATH	"//*[contains(@text, 'Cooling')or(contains(@text, 'COOLING'))]"	XPATH	"//*[contains(@text, 'Cooling')or(contains(@text, 'COOLING'))]"	XPATH	"//*[contains(@text, 'Cooling')or(contains(@text, 'COOLING'))]"	XPATH	"//*[contains(@value, 'COOLING')]"	XPATH	"//*[contains(@value, 'COOLING')]"	XPATH	"//*[contains(@value, 'COOLING')]"
+HeatingCoolingText	XPATH	"//*[contains(@text, 'Cooling')or(contains(@text, 'Heating'))]"	XPATH	"//*[contains(@text, 'Cooling')or(@text, 'Heating')]"	XPATH	"//*[contains(@text, 'Cooling')or(@text, 'Heating')]"	XPATH	"//*[contains(@value, 'COOLING')or(contains(@value, 'HEATING'))]"	XPATH	"//*[contains(@value, 'COOLING')or(contains(@value, 'HEATING'))]"	XPATH	"//*[contains(@value, 'COOLING')or(contains(@value, 'HEATING'))]"
+DashboardIndoorTempWld	id	dashboard_indoor_temp_wld	id	dashboard_indoor_temp_wld	id	dashboard_indoor_temp_wld	NAME	currentTemperatureLabel	NAME	currentTemperatureLabel	NAME	currentTemperatureLabel
+DashboardHumidityWld	id	dashboard_humidity_wld	id	dashboard_humidity_wld	id	dashboard_humidity_wld	NAME	humidityLabel	NAME	humidityLabel	NAME	humidityLabel
+CameraRingClosedText	XPATH	//*[@text='PRIVACY RING CLOSED']	XPATH	//*[@text='PRIVACY RING CLOSED']	XPATH	//*[@text='PRIVACY RING CLOSED']	XPATH	//*[@value='PRIVACY RING CLOSED']	XPATH	//*[@value='PRIVACY RING CLOSED']	XPATH	//*[@value='PRIVACY RING CLOSED']
+CameraOfflineText	XPATH	//*[@text='CAMERA IS OFFLINE']	XPATH	//*[@text='CAMERA IS OFFLINE']	XPATH	//*[@text='CAMERA IS OFFLINE']	NAME	CAMERA IS OFFLINE	NAME	CAMERA IS OFFLINE	NAME	CAMERA IS OFFLINE
+IncreaseSecurityPopup	ID	title_security_txt	ID	title_security_txt	ID	title_security_txt	NAME	Increase Security	NAME	Increase Security	NAME	Increase Security
+DontUseButtonInIncreaseSecurityPopup	ID	dont_use_txt	ID	dont_use_txt	ID	dont_use_txt	NAME	Don't Use	NAME	Don't Use	NAME	Don't Use
+AddButtonInIncreaseSecurityPopup	ID	add_security_txt	ID	add_security_txt	ID	add_security_txt	NAME	Add Security	NAME	Add Security	NAME	Add Security
+DashboardWeatherIcon	XPATH	"//android.widget.ImageView[@content-desc=""Today's Forecast""]"	XPATH	"//android.widget.ImageView[@content-desc=""Today's Forecast""]"	XPATH	"//android.widget.ImageView[@content-desc=""Today's Forecast""]"	XPATH	//XCUIElementTypeNavigationBar[@name='Location Name with Subtitle']//XCUIElementTypeButton[2]	XPATH	//XCUIElementTypeNavigationBar[@name='Location Name with Subtitle']//XCUIElementTypeButton[2]	XPATH	//XCUIElementTypeNavigationBar[@name='Location Name with Subtitle']//XCUIElementTypeButton[2]
+DashboardWeatherForecast	ID	com.honeywell.android.lyric:id/fragment_weather_image_view	ID	com.honeywell.android.lyric:id/fragment_weather_image_view	ID	com.honeywell.android.lyric:id/fragment_weather_image_view	XPATH	"//XCUIElementTypeStaticText[contains(@name,'FORECAST')]/following-sibling::XCUIElementTypeButton"	XPATH	"//XCUIElementTypeStaticText[contains(@name,'FORECAST')]/following-sibling::XCUIElementTypeButton"	XPATH	"//XCUIElementTypeStaticText[contains(@name,'FORECAST')]/following-sibling::XCUIElementTypeButton"
+SelectLoactionDropdown	ID	com.honeywell.android.lyric:id/toolbar_location_spinner	ID	com.honeywell.android.lyric:id/toolbar_location_spinner	ID	com.honeywell.android.lyric:id/toolbar_location_spinner	XPATH	(//XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeStaticText)[1]	XPATH	(//XCUIElementTypeStaticText)[1]
+SelectValueFromLocationDropdown	ID	com.honeywell.android.lyric:id/toolbar_spinner_item_dropdown_title	ID	com.honeywell.android.lyric:id/toolbar_spinner_item_dropdown_title	ID	com.honeywell.android.lyric:id/toolbar_spinner_item_dropdown_title	XPATH	XCUIElementTypeCell	XPATH	XCUIElementTypeCell	XPATH	XCUIElementTypeCell
+DashboardMenu	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']	XPATH	//android.widget.ImageButton[@content-desc='Main Menu']						
+AddressOption	XPATH	//android.widget.TextView[@text='Address']	XPATH	//android.widget.TextView[@text='Address']	XPATH	//android.widget.TextView[@text='Address']						
+LocationDropdown	XPATH	"//android.widget.Spinner[@resource-id='com.honeywell.android.lyric:id/toolbar_location_spinner' and contains(@content-desc,'Location')]"	XPATH	"//android.widget.Spinner[@resource-id='com.honeywell.android.lyric:id/toolbar_location_spinner' and contains(@content-desc,'Location')]"	XPATH	"//android.widget.Spinner[@resource-id='com.honeywell.android.lyric:id/toolbar_location_spinner' and contains(@content-desc,'Location')]"						
+DashboardWeatherForecastValue	ID	current_temp_details	ID	current_temp_details	ID	current_temp_details	XPATH	(//XCUIElementTypeOther//XCUIElementTypeStaticText)[3]	XPATH	(//XCUIElementTypeOther//XCUIElementTypeStaticText)[3]	XPATH	(//XCUIElementTypeOther//XCUIElementTypeStaticText)[3]
+LocationListViewInDashboardScreenScrollableInAndroid	XPATH	//android.widget.ListView	XPATH	//android.widget.ListView	XPATH	//android.widget.ListView						
+LocationListWhenClickedOnLocationDropDownArrow	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title	ID	toolbar_spinner_item_dropdown_title	XPATH	//XCUIElementTypeCell[@name='Navigation_Drop_Down_Title_cell']	XPATH	//XCUIElementTypeCell[@name='Navigation_Drop_Down_Title_cell']	XPATH	//XCUIElementTypeCell[@name='Navigation_Drop_Down_Title_cell']
+DevicesList	ID	dashboard_device_name					XPATH	//XCUIElementTypeCell/XCUIElementTypeOther/following-sibling::XCUIElementTypeButton[@name='title']	XPATH	//XCUIElementTypeCell/XCUIElementTypeOther/following-sibling::XCUIElementTypeButton[@name='title']	XPATH	//XCUIElementTypeCell/XCUIElementTypeOther/following-sibling::XCUIElementTypeButton[@name='title']
+DeviceEleInDashboard	ID	device_view					XPATH	//XCUIElementTypeCell	XPATH	//XCUIElementTypeCell	XPATH	//XCUIElementTypeCell
+TodaysForecastLabel	ID	weather_header_message					NAME	TODAY'S FORECAST				
+WeatherMaxTemp	ID	weather_max_temp	ID	weather_max_temp	ID	weather_max_temp	XPATH	//XCUIElementTypeImage[@name='weather_up_arrow']/following-sibling::XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeImage[@name='weather_up_arrow']/following-sibling::XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeImage[@name='weather_up_arrow']/following-sibling::XCUIElementTypeStaticText[1]
+WeatherMinTemp	ID	weather_min_temp	ID	weather_min_temp	ID	weather_min_temp	XPATH	//XCUIElementTypeImage[@name='weather_down_arrow']/following-sibling::XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeImage[@name='weather_down_arrow']/following-sibling::XCUIElementTypeStaticText[1]	XPATH	//XCUIElementTypeImage[@name='weather_down_arrow']/following-sibling::XCUIElementTypeStaticText[1]
+PageIndicator	ID	layoutDots	ID	layoutDots	ID	layoutDots	XPATH	//XCUIElementTypeOther[1]/XCUIElementTypePageIndicator				
+DashboardWeatherStatusArea	XPATH	//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeImage[1]										
+UpdateInProgress							XPATH	//*[@value='UPDATE IN PROGRESS']	XPATH	//*[@value='UPDATE IN PROGRESS']	XPATH	//*[@value='UPDATE IN PROGRESS']

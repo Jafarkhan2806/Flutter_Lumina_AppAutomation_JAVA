@@ -1,0 +1,34 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+FanCirculate	XPATH	//android.widget.TextView[@text='Circulate']					XPATH	//XCUIElementTypeStaticText[@value='Circulate']	XPATH	//XCUIElementTypeStaticText[@value='Circulate']	XPATH	//XCUIElementTypeStaticText[@value='Circulate']
+FanAuto	XPATH	//android.widget.TextView[@text='Auto']					XPATH	//XCUIElementTypeStaticText[@value='Auto']	XPATH	//XCUIElementTypeStaticText[@value='Auto']	XPATH	//XCUIElementTypeStaticText[@value='Auto']
+Fan	id	fragment_thermostat_weather_button	id	fragment_thermostat_weather_button	id	fragment_thermostat_weather_button						
+FanOn	XPATH	//android.widget.TextView[@text='On']					XPATH	//XCUIElementTypeStaticText[@value='On']	XPATH	//XCUIElementTypeStaticText[@value='On']	XPATH	//XCUIElementTypeStaticText[@value='On']
+CancelOption	ID	view_thermostat_mode_selector_cancel	ID	view_thermostat_mode_selector_cancel	ID	view_thermostat_mode_selector_cancel	NAME	Close	NAME	Close	NAME	Close
+AutoModeOption	XPATH	//*[@text='AUTO']	XPATH	//*[@text='Auto']	XPATH	//*[@text='Auto']	XPATH	//*[@value='AUTO']	XPATH	//*[@value='AUTO']	XPATH	//*[@value='AUTO']
+FanOnMode	XPATH	action_sheet_item_title[@text='ON']	XPATH	action_sheet_item_title[@text='ON']	XPATH	action_sheet_item_title[@text='ON']						
+FanAutoMode	XPATH	action_sheet_item_title[@text='AUTO']	XPATH	action_sheet_item_title[@text='AUTO']	XPATH	action_sheet_item_title[@text='AUTO']						
+FanCirculateMode	XPATH	action_sheet_item_title[@text='CIRCULATE']	XPATH	action_sheet_item_title[@text='CIRCULATE']	XPATH	action_sheet_item_title[@text='CIRCULATE']						
+FanDescriptionId	ID	action_sheet_item_description	ID	action_sheet_item_description	ID	action_sheet_item_description						
+SaveAction	ID	save_action_sheet_btn	ID	save_action_sheet_btn	ID	save_action_sheet_btn	name	Save	name	Save	name	Save
+Dashboard_Device_Name	ID	dashboard_device_name[@text='1B1D']										
+FanOnModeOption	XPATH	//*[@text='ON']	XPATH	//*[@text='ON']	XPATH	//*[@text='ON']	name	ON	name	ON	name	ON
+FanAutoModeOption	XPATH	//*[@text='AUTO']	XPATH	//*[@text='AUTO']	XPATH	//*[@text='AUTO']	name	AUTO	name	AUTO	name	AUTO
+FanCirculateModeOption	XPATH	//*[@text='CIRCULATE']	XPATH	//*[@text='CIRCULATE']	XPATH	//*[@text='CIRCULATE']	name	CIRCULATE	name	CIRCULATE	name	CIRCULATE
+FanModeButton	XPATH	//*[@text='FAN']	XPATH	//*[@text='FAN']	XPATH	//*[@text='FAN']	name	Fan	name	Fan	name	Fan
+FanModeScreenTitle	ID	action_sheet_activity_title					name	Fan Mode	name	Fan Mode	name	Fan Mode
+FanOnDesc	ID	//*[@text='FAN IS ALWAYS ON']					name	FAN IS ALWAYS ON	name	FAN IS ALWAYS ON	name	FAN IS ALWAYS ON
+FanCirculateDesc	ID	"//*[@text='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"					name	"FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME"	name	"FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME"	name	"FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME"
+FanAutoDesc	ID	//*[@text='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON]					name	FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON	name	FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON	name	FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON
+DeviceNameOnFanScreen	ID	action_sheet_activity_sub_title	ID	action_sheet_activity_sub_title	ID	action_sheet_activity_sub_title						
+FanScreenInfoButton	XPATH	//*[@text='Info']					name	Info	name	Info	name	Info
+FanInfoToolbarTitle	ID	toolbar_title	ID	toolbar_title	ID	toolbar_title	name	Fan Info	name	Fan Info	name	Fan Info
+FanInfoToolbarDeviceName	ID	toolbar_device_name										
+ListMode1Auto	XPATH	//*[@text='AUTO']	XPATH	//*[@text='AUTO']	XPATH	//*[@text='AUTO']	name	AUTO	name	AUTO	name	AUTO
+ListMode1AutoDesc	XPATH	//*[@text='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']	XPATH	//*[@text='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']	XPATH	//*[@text='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']	XPATH	//XCUIElementTypeCell[@value='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']	XPATH	//XCUIElementTypeCell[@value='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']	XPATH	//XCUIElementTypeCell[@value='FAN RUNS ONLY WHEN THE HEATING OR COOLING SYSTEM IS ON']
+ListMode2Circulate	XPATH	//*[@text='CIRCULATE']	XPATH	//*[@text='CIRCULATE']	XPATH	//*[@text='CIRCULATE']	name	CIRCULATE	name	CIRCULATE	name	CIRCULATE
+ListMode2CirculateDesc	XPATH	"//*[@text='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"	XPATH	"//*[@text='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"	XPATH	"//*[@text='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"	XPATH	"//XCUIElementTypeCell[@value='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"	XPATH	"//XCUIElementTypeCell[@value='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"	XPATH	"//XCUIElementTypeCell[@value='FAN RUNS RANDOMLY, ABOUT 35% OF THE TIME']"
+ListMode3On	XPATH	//*[@text='ON']	XPATH	//*[@text='ON']	XPATH	//*[@text='ON']	name	ON	name	ON	name	ON
+ListMode3OnDesc	XPATH	//*[@text='FAN IS ALWAYS ON']	XPATH	//*[@text='FAN IS ALWAYS ON']	XPATH	//*[@text='FAN IS ALWAYS ON']	XPATH	//XCUIElementTypeCell[@value='FAN IS ALWAYS ON']	XPATH	//XCUIElementTypeCell[@value='FAN IS ALWAYS ON']	XPATH	//XCUIElementTypeCell[@value='FAN IS ALWAYS ON']
+FanAutoSelected							name	AUTOSelected	name	AUTOSelected	name	AUTOSelected
+FanOnSelected							name	ONSelected	name	ONSelected	name	ONSelected
+FanCirculateSelected							name	CIRCULATESelected	name	CIRCULATESelected	name	CIRCULATESelected

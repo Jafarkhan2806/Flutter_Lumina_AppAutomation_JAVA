@@ -1,0 +1,3 @@
+Include Group,Group Name,Combine,Platform-Type-OS-Version,Name,Location,Environment,Test Data
+No,Login,,IOS-Simulator-IOS-9.1,iPad 2,Local,Stage,"AcquisitionType=Automatic, Tags='LYRIC_STAT,SERVER_JASPER_DOGFOODING"
+No,Login,,Android-Device-Android-4.4,Samsung Galaxy S6,Local,Stage,"AcquisitionType=Automatic, Tags='LYRIC_STAT,SERVER_JASPER_DOGFOODING"

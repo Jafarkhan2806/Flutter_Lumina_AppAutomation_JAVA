@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to add WLD device to existing location by using Lumina application">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20191220 18:17:16.191">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20191220 18:17:16.230" starttime="20191220 18:17:02.277" status="PASS"/>
+</kw>
+<kw name="When  : user &quot;Enroll&quot; wld device" type="kw">
+<status critical="yes" endtime="20191220 18:17:16.247" starttime="20191220 18:17:16.232" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector Setup&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<status critical="yes" endtime="20191220 18:17:24.450" starttime="20191220 18:17:16.249" status="PASS"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Water Leak Detector Setup&quot; screen" type="kw">
+<status critical="yes" endtime="20191220 18:17:25.157" starttime="20191220 18:17:24.452" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<status critical="yes" endtime="20191220 18:17:25.215" starttime="20191220 18:17:25.159" status="PASS"/>
+</kw>
+</test>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to add WLD device to existing location by using Lumina application">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.146">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200106 18:15:24.148" starttime="20200106 18:15:15.667" status="PASS"/>
+</kw>
+<kw name="When  : user &quot;Enroll&quot; wld device" type="kw">
+<status critical="yes" endtime="20200106 18:15:24.161" starttime="20200106 18:15:24.149" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Water Leak Detector Setup&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.163">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.164" starttime="20200106 18:15:24.163" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Water Leak Detector Setup&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.165">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Water Leak Detector Setup" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.166" starttime="20200106 18:15:24.165" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.167">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.168" starttime="20200106 18:15:24.167" status="FAIL"/>
+</kw>
+<kw name="When  : user should be displayed with the &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.169">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Choose Location" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.170" starttime="20200106 18:15:24.168" status="FAIL"/>
+</kw>
+<kw name="And  : user selects &quot;LOCATION NAME&quot; from &quot;Choose Location&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.172">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "LOCATION NAME" from "Choose Location" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.173" starttime="20200106 18:15:24.172" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.174">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Detector Name" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.189" starttime="20200106 18:15:24.174" status="FAIL"/>
+</kw>
+<kw name="When  : user selects &quot;DETECTOR NAME&quot; from &quot;Detector Name&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.191">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "DETECTOR NAME" from "Detector Name" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.192" starttime="20200106 18:15:24.190" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Power Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.193">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Power Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.193" starttime="20200106 18:15:24.192" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.194">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.195" starttime="20200106 18:15:24.194" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;Connect&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.196">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Connect" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.197" starttime="20200106 18:15:24.195" status="FAIL"/>
+</kw>
+<kw name="And  : user should be displayed with the &quot;SELECT NETWORK&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.198">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "SELECT NETWORK" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.198" starttime="20200106 18:15:24.198" status="FAIL"/>
+</kw>
+<kw name="When  : user selects &quot;ASUS_SYS&quot; from &quot;CONNECT TO NETWORK&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.199">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "ASUS_SYS" from "CONNECT TO NETWORK" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.200" starttime="20200106 18:15:24.199" status="FAIL"/>
+</kw>
+<kw name="And  : user inputs &quot;ASUS_SYS&quot; in the &quot;Password@123&quot; Screen" type="kw">
+<status critical="yes" endtime="20200106 18:15:24.200" starttime="20200106 18:15:24.200" status="PASS"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.201">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.202" starttime="20200106 18:15:24.201" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;CONNECT WIFI&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.204">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "CONNECT WIFI" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.204" starttime="20200106 18:15:24.203" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Congratulations&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.205">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Congratulations" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.206" starttime="20200106 18:15:24.205" status="FAIL"/>
+</kw>
+<kw name="When  : user clicks on &quot;Done&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.207">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Done" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.207" starttime="20200106 18:15:24.206" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Manage Alerts&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.208">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Manage Alerts" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.209" starttime="20200106 18:15:24.208" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.210">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.210" starttime="20200106 18:15:24.209" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.211">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.212" starttime="20200106 18:15:24.211" status="FAIL"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;Placement Overview&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.213">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user should be displayed with the "Placement Overview" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.214" starttime="20200106 18:15:24.213" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Next&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.215">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Next" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.215" starttime="20200106 18:15:24.214" status="FAIL"/>
+</kw>
+<kw name="And  : user deletes WLD Device from App" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.216">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user deletes WLD Device from App'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.217" starttime="20200106 18:15:24.216" status="FAIL"/>
+</kw>
+<kw name="And  : user clicks on &quot;Yes&quot; button" type="kw">
+<msg html="yes" level="INFO" timestamp="20200106 18:15:24.218">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user clicks on "Yes" button'. Error Occured - null</msg>
+<status critical="yes" endtime="20200106 18:15:24.218" starttime="20200106 18:15:24.218" status="FAIL"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should be able to add WLD device to existing location by using Lumina application</tag>
+<tag>Group::WLDDIYRegistrationToExistingLocation</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::testauto@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_06_18_13_43/rebot/report.html#tags?Group::As a user I should be able to add WLD device to existing location by using Lumina application</tag>
+</tags>
+<status critical="yes" endtime="20200106 18:15:24.220" starttime="20200106 18:15:15.666" status="FAIL"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200106 18:15:24.220" starttime="20200106 18:15:15.666" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

@@ -1,6 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-SoundDetectionToggle	XPATH	//*[@content-desc='Sound Detection']	XPATH	//*[@content-desc='Sound Detection']	XPATH	//*[@content-desc='Sound Detection']						
-BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'navi')]"	XPATH	"//*[contains(@name,'Ter')]"	XPATH	"//*[contains(@name,'Ter')]"	XPATH	"//*[contains(@name,'Ter')]"
-Low	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']	XPATH	//*[@text='Low']						
-Normal	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']	XPATH	//*[@text='Normal']						
-High	XPATH	//*[@text='High']	XPATH	//*[@text='High']	XPATH	//*[@text='High']						

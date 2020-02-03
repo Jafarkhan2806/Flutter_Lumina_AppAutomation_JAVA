@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 12:24:30.399">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200129 12:24:30.434" starttime="20200129 12:23:53.957" status="PASS"/>
+</kw>
+<kw name="When  : user selects &quot;Basement&quot; from &quot;Detector Name&quot; screen" type="kw">
+<status critical="yes" endtime="20200129 12:24:30.437" starttime="20200129 12:24:30.437" status="FAIL"/>
+</kw>
+<kw name="And  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 12:24:38.745">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<msg html="yes" level="INFO" timestamp="20200129 12:24:40.646">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one SETTINGS OPTION</msg>
+<status critical="yes" endtime="20200129 12:24:40.647" starttime="20200129 12:24:30.440" status="PASS"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; to &quot;Celcius&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 12:24:45.752">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one TEMPERATURE UNIT</msg>
+<msg html="yes" level="INFO" timestamp="20200129 12:24:50.792">&lt;b&gt;[PASS]&lt;/b&gt; C is selected</msg>
+<msg html="yes" level="INFO" timestamp="20200129 12:24:50.825">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user selects "Temperature Unit" to "Celcius"'. Error Occured - null</msg>
+<status critical="yes" endtime="20200129 12:24:50.826" starttime="20200129 12:24:40.649" status="FAIL"/>
+</kw>
+</test>

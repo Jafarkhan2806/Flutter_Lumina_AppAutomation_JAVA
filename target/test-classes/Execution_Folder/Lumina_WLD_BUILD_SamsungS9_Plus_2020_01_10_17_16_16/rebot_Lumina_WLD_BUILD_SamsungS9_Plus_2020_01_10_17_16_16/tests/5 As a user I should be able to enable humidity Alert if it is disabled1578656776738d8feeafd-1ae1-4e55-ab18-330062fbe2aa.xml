@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="5 As a user I should be able to enable humidity Alert if it is disabled">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200110 17:16:47.816">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
+<status critical="yes" endtime="20200110 17:16:47.857" starttime="20200110 17:16:16.766" status="FAIL"/>
+</kw>
+</test>

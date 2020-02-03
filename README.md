@@ -1,2 +1,1 @@
-# Flutter_Lumina_AppAutomation_JAVA
-Flutter_Lumina_AppAutomation_JAVA_Appium
+# wld_test_automation

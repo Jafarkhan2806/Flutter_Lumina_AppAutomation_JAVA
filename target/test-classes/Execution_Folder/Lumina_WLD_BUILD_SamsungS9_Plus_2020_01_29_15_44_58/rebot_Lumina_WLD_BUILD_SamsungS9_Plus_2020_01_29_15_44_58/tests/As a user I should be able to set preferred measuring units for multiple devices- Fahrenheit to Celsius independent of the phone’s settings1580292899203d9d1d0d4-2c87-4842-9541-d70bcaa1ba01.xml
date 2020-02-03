@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:45:36.878">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200129 15:45:36.915" starttime="20200129 15:44:59.242" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Water Card&quot; screen from the &quot;Add New Device Dashboard&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:45:51.567">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<status critical="yes" endtime="20200129 15:45:51.569" starttime="20200129 15:45:36.918" status="PASS"/>
+</kw>
+<kw name="And  : user sees the wld dashboard" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:45:56.792">&lt;b&gt;[PASS]&lt;/b&gt; Current Temperature of WLD device : 78°
+Temperature
+Tab 1 of 2</msg>
+<status critical="yes" endtime="20200129 15:45:56.798" starttime="20200129 15:45:51.571" status="PASS"/>
+</kw>
+<kw name="And  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:45:56.823">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+<msg html="yes" level="INFO" timestamp="20200129 15:45:56.875">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one SETTINGS OPTION</msg>
+<status critical="yes" endtime="20200129 15:45:56.878" starttime="20200129 15:45:56.799" status="PASS"/>
+</kw>
+<kw name="And  : user selects &quot;Temperature Unit&quot; to &quot;Celcius&quot;" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:46:02.052">&lt;b&gt;[PASS]&lt;/b&gt; C is selected</msg>
+<status critical="yes" endtime="20200129 15:46:02.061" starttime="20200129 15:45:56.880" status="PASS"/>
+</kw>
+<kw name="Then  : user clicks on &quot;BACK&quot; button" type="kw">
+<status critical="yes" endtime="20200129 15:46:02.117" starttime="20200129 15:46:02.063" status="PASS"/>
+</kw>
+<kw name="And  : user sees the wld dashboard" type="kw">
+<msg html="yes" level="INFO" timestamp="20200129 15:46:07.413">&lt;b&gt;[PASS]&lt;/b&gt; Current Temperature of WLD device : 25.5°
+Temperature
+Tab 1 of 2</msg>
+<status critical="yes" endtime="20200129 15:46:07.419" starttime="20200129 15:46:02.119" status="PASS"/>
+</kw>
+<tags>
+<tag>TestName::As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings</tag>
+<tag>Group::CelsiusToFahrenheit</tag>
+<tag>SolutionCategory::LUMINA_WLD_KillerTest</tag>
+<tag>DeviceType::Local-Device</tag>
+<tag>TargetName::RF8M703C8PV</tag>
+<tag>DeviceSize::Android_Medium</tag>
+<tag>OperatingSystem::Android-8.0</tag>
+<tag>CloudEnvironment::Production</tag>
+<tag>AccessoryName::pavantest@grr.la</tag>
+<tag>BuildNumber:: Android - Lumina_1169</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/Lumina_WLD_BUILD_SamsungS9_Plus_2020_01_29_15_44_58/rebot/report.html#tags?Group::As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings</tag>
+</tags>
+<status critical="yes" endtime="20200129 15:46:07.427" starttime="20200129 15:44:59.232" status="PASS"/>
+<kw name="Parameter Information" type="for">
+<status critical="yes" endtime="20200129 15:46:07.427" starttime="20200129 15:44:59.232" status="PASS"/>
+<msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
+</kw>
+</test>

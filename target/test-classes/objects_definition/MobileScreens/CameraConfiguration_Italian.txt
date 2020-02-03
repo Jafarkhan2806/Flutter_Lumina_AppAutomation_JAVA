@@ -1,6 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-DeleteCamera	ID	btn_delete_device	ID	btn_delete_device	ID	btn_delete_device						
-EditName	ID	device_name_edittext	ID	device_name_edittext	ID	device_name_edittext						
-BackButton	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"	XPATH	"//android.widget.ImageButton[contains(@content-desc,'Navi')]"						
-Cancel	ID	button2	ID	button2	ID	button2						
-DeleteConfirm	ID	button1	ID	button1	ID	button1						

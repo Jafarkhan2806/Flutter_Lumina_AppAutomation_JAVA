@@ -1,0 +1,9 @@
+[PASSED] :: 2020-01-29:14:13:52 :: <b>[PASS]</b> Logged into the Account  : pavantest@grr.la
+[PASSED] :: 2020-01-29:14:14:10 :: <b>[PASS]</b> Succesfully clicked one DETECTOR NAME
+[PASSED] :: 2020-01-29:14:14:15 :: <b>[PASS]</b> Current Temperature of WLD device : 78°
+Temperature
+Tab 1 of 2
+[PASSED] :: 2020-01-29:14:14:15 :: <b>[PASS]</b> Succesfully clicked one DETECTOR NAME
+[PASSED] :: 2020-01-29:14:14:15 :: <b>[PASS]</b> Succesfully clicked one SETTINGS OPTION
+[PASSED] :: 2020-01-29:14:14:20 :: <b>[PASS]</b> Succesfully clicked one TEMPERATURE UNIT
+[PASSED] :: 2020-01-29:14:14:25 :: <b>[PASS]</b> C is selected

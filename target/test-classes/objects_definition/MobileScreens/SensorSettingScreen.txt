@@ -1,0 +1,107 @@
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+TestSensorHeading	xpath	//*[@text='Test Sensor' or @text='Test sensor'or @text='Test Detector']	xpath	//*[@text='Test Sensor' or @text='Test sensor'or @text='Test Detector']	xpath	//*[@text='Test Sensor' or @text='Test sensor'or @text='Test Detector']	Xpath	//*[@value='Test Sensor' or @value='Test Detector']				
+TestSensor_SensorName	id	is_sensor_name					Xpath	"//*[contains(@value,'is currently')]"				
+TestSensor_SensorStatus	id	walk_test_sensor_status					Xpath	"//*[contains(@value,'is currently')]/following-sibling:: XCUIElementTypeStaticText"				
+SensorNotWorkingButton	id	horizontal_link_text					Xpath	"//*[contains(@name,'Sensor Not Working')]"				
+AccessSensorHelpTitle	xpath	//*[@text='Access Sensor Help' or @text='Access sensor help']					Xpath	//*[@value='Access Sensor Help']				
+MotionSensorHelpTitle	xpath	//*[@text='Motion Sensor Help' or @text='Motion sensor help']					Xpath	//*[@value='Motion Sensor Help']				
+GetAdditionalHelpButton	xpath	//*[@text='Get additional help']					name	Get Additional Help				
+TestSignalStrengthButton	id	sensor_range_test					name	Test Signal Strength				
+SignalStrengthHeading	xpath	//*[@text='Signal Strength' or @text='Signal strength']					Xpath	//*[@value='Signal Strength']				
+SignalStrengthStatus	id	signal_strength_view					name	Sensor_Range_Test_1_0_subTitle				
+SignalStrengthBackButton	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	nav bar back	name	nav bar back	name	nav bar back
+AccessSensorHelpBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+TestSensorBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	nav bar back	name	nav bar back	name	nav bar back
+SetUpAccessoriesBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	nav bar back	name	nav bar back	name	nav bar back
+CustomNameBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	nav bar back	name	nav bar back	name	nav bar back
+SensorSettingBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+SensorListBack	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']	name	Back	name	Back	name	Back
+DoneButton							name	RightButton				
+SensorTamperScreen	xpath	//*[@text='Sensor Cover Tamper']	xpath	//*[@text='Sensor Cover Tamper']	xpath	//*[@text='Sensor Cover Tamper']	xpath	//XCUIElementTypeStaticText[@value='Sensor Cover Tamper']	xpath	//XCUIElementTypeStaticText[@value='Sensor Cover Tamper']	xpath	//XCUIElementTypeStaticText[@value='Sensor Cover Tamper']
+ClearTamperButton	ID	action_button					name	RightButton				
+PerformOnlyPopup							XPATH	"//*[contains(@value,'This operartion can be performed only when Smart home security is ')]"				
+PerformOnlyPopupOk							Name	OK				
+TamperNotClearedPopup	Xpath	//*[@text='Sensor Tamper']					Name	Sensor Tamper				
+TamperClearPopupOk	Xpath	//*[@text='OK']					Name	OK				
+TamperClearPopupRetry	Xpath	//*[@text='RETRY']					Name	Retry				
+SensorStatusOptionValue	id	list_item_lyric_horizontal_text_view_secondary_text	id	list_item_lyric_horizontal_text_view_secondary_text	id	list_item_lyric_horizontal_text_view_secondary_text	name	Sensor_Settings_0_2_value				
+SensorNameTitleInOffScreen	id	toolbar_title					Name	Location Name				
+SensorOffText	Xpath	//*[@text='Sensor is Off']					Xpath	//*[@value='Sensor is off']				
+ModelAndFirmwareDetails	xpath	//android.widget.TextView[@text='Model and Firmware Details']	xpath	//android.widget.TextView[@text='Model and firmware details']	xpath	//android.widget.TextView[@text='Model and firmware details']	Xpath	//*[@value='Model and Firmware Details']	Xpath	//*[@value='Model and Firmware Details']	Xpath	//*[@value='Model and Firmware Details']
+ModelAndFirmwareTitle	Xpath	//*[@text='Model and Firmware']					Xpath	//*[@value='Model and Firmware']				
+ModelSubTitle	ID	camera_config_model_title_textview					Xpath	//*[@value='Model Details']				
+SerialDetail	ID	security_config_model_macid_textview					Xpath	"//*[contains(@value,'Serial No :')]"				
+FirmwareSubTitle	Id	security_config_firmware_title_textview					Xpath	//*[@value='Firmware Details']				
+VersionDetail	ID	security_config_firmware_version_textview					Xpath	"//*[contains(@value,'Version')]"				
+TestSensorTitle	xpath	//*[@text='Test Sensor']					name	Test Sensor				
+PleaseWaitForSignalStrengthandTest	xpath	//*[@text='Please wait.']					name	In progress				
+UpdatingStatusForSensorNameUpdate	xpath	//*[@text='Updating...']					xpath	//*[@value='Saving...']				
+DASSensorSettingNamingField	id	security_settings_edit_name					name	Sensor_Settings_0_1_textField_value				
+DASSensorSetting_Delete	id	delete_das_button					name	Delete				
+PerformOnlyInHomeModePopup							xpath	"//*[contains(@name,'performed only when Smart home security')]"				
+PerformOnlyInHomeModePopupAck							name	OK				
+PerformOnlyInModesPopup							name	You can perform this action only in Home or Off Mode				
+PerformOnlyInModesPopupAck							name	Ok				
+SensorSetting_NameTitle	xpath	//android.widget.TextView[@text='Name']	xpath	//android.widget.TextView[@text='Name']	xpath	//android.widget.TextView[@text='Name']	name	Sensor_Settings_0_1_subTitle	name	Sensor_Settings_0_1_subTitle	name	Sensor_Settings_0_1_subTitle
+SensorSettingBatteryStatus	xpath	//android.widget.TextView[@text='Battery']	xpath	//android.widget.TextView[@text='Battery']	xpath	//android.widget.TextView[@text='Battery']	name	Sensor_Settings_0_4_subTitle	name	Sensor_Settings_0_4_subTitle	name	Sensor_Settings_0_4_subTitle
+SensorSettingBatteryStatusValue	id	settings_hint_view					name	Sensor_Settings_0_4_value	name	Sensor_Settings_0_4_value	name	Sensor_Settings_0_4_value
+SensorAddButton	id	diy_cancel_button					name	Add				
+SensorSetUpButton	id	sensor_setup_text					xpath	"//*[contains(@name,'_rightButton')]"				
+SensorOverviewHeading	xpath	//*[@text='Sensor Overview' or @text='Sensor overview']					xpath	//*[@value='Sensor Overview']				
+SensorHowitWorks	xpath	//*[@text='How it Works' or @text='How it works']					xpath	"//*[contains(@name,'How it Works')]"				
+WatchHowToVideo	xpath	//*[@text='Watch the how-to video']	xpath	//*[@text='Watch the how-to video']	xpath	//*[@text='Watch the how-to video']	name	Watch How-To Video				
+GetStarted	id	horizontal_button_next					Name	RightButton				
+LocateSensorHeading	xpath	//*[@text='Locate Sensor']					xpath	 //*[@value='Locate Sensor' or @value='Locate Detector']				
+FindTheLit	xpath	//*[@text='Find the Lit Sensor' or @text='Find the lit Sensor' or @text='Find the Detector that is Lit']	xpath	//*[@text='Find the Lit Sensor' or @text='Find the lit Sensor' or @text='Find the Detector that is Lit']	xpath	//*[@text='Find the Lit Sensor' or @text='Find the lit Sensor' or @text='Find the Detector that is Lit']	xpath	//*[@value='Find the Lit Sensor' or @value='Find the lit Sensor' or @value='Find the Detector that is Lit']	xpath	//*[@value='Find the Lit Sensor' or @value='Find the lit Sensor' or @value='Find the Detector that is Lit']	xpath	//*[@value='Find the Lit Sensor' or @value='Find the lit Sensor' or @value='Find the Detector that is Lit']
+NextButton	id	horizontal_button_next					name	RightButton				
+PlaceSensorHeading	xpath	//*[@text='Place Sensor' or @text='Place Base plate']	xpath	//*[@text='Place Sensor' or @text='Place Base plate']	xpath	//*[@text='Place Sensor' or @text='Place Base plate']	xpath	//*[@value='Place Sensor' or @value='Place Base plate']	xpath	//*[@value='Place Sensor' or @value='Place Base plate']	xpath	//*[@value='Place Sensor' or @value='Place Base plate']
+WontFitAsShown	id	horizontal_link_text					xpath	"//*[contains(@name,'Fit As Shown')]"				
+AccessSensorInstallHelpHeading	xpath	//*[@text='Access Sensor Install Help' or @text='Access sensor install help']					xpath	//*[@value='Access Sensor Install Help']				
+BackButton	xpath	//android.widget.ImageButton[@content-desc='Navigate Up']					name	Back				
+DoneButton	id	horizontal_button_next					name	RightButton				
+ConfiguredText	id	sensor_configured_text					xpath	//*[@value='Configured']				
+SensorNameInSetUpAccessories	id	sensor_name_title					xpath	"//*[contains(@name,'SetupAccessories_')]"				
+SensorNameDuplicatePopup							xpath	"//*[contains(@name,'Sensor name is already assigned.')]"				
+SensorNameDuplicatePopupAck							name	OK				
+MountSensorHeading	xpath	//*[@text='Mount Sensor']					xpath	//*[@value='Mount Sensor']				
+MotionSensor_SensorName	id	by_sensor_name					xpath	"//*[contains(@name,'by')]"				
+MotionSensor_SensorStatus_NotDetected	xpath	//*[@text='No Motion Detected' or @text='No motion detected']					name	No Motion Detected				
+MotionSensor_SensorStatus_Detected	xpath	//*[@text='Motion Detected' or @text='Motion detected']					name	Motion Detected				
+KeyfobOverview	xpath	//*[@text='Use the Key Fob to change security modes with the touch of a button.']					name	Use the Key Fob to change security modes with the touch of a button.				
+KeyfobOverviewImage	id	imageView2					name	Know-Your-Keyfob				
+KeyfobNamingScreen	xpath	//*[@text='Name Key Fob']					name	Name Key Fob				
+KeyfobNamingScreenDesc	xpath	//*[@text='Enter a Name of Your Key Fob']					name	Enter a name of your key fob				
+KeyfobNamingScreenTextbox	id	custom_generic_edit_sensor_naming					xpath	//XCUIElementTypeTextField				
+DeleteKeyfobPopupTitle							xpath	"//*[contains(@name,'Delete Key Fob')]"				
+DeleteKeyfobPopupMessage							xpath	"//*[contains(@name,'This will delete your Key Fob and you will not be able to access it any more.')]"				
+DeleteKeyfobPopupYes							name	YES				
+DeleteKeyfobPopupNo							name	NO				
+DoneButtonOnKeyboard							name	Done				
+TestMotionSensorSignalStrengthButton	id	sensor_range_test_motion					name	Test Signal Strength				
+CustomNameSensor	id	create_new_name_text					xpath	//XCUIElementTypeTextField				
+SetUpAccessoriesHeading	xpath	//*[@text='Set Up Accessories']					xpath	//*[@value='Set Up Accessories']				
+CancelSensorSetupPopup	xpath	"//*[contains(@text,'Cancel Sensor Setup')]"					xpath	"//*[contains(@name,'Cancel Sensor Setup')]"				
+CancelKeyfobSetupPopup	xpath	//*[@text='Cancel Keyfob Setup?']					xpath	"//*[contains(@name,'Cancel Key fob Setup')]"				
+CancelButton	id	diy_cancel_button					name	Cancel				
+CancelButton_Yes	id	button1					name	YES				
+CancelButton_No	id	button2					name	NO				
+TimeOutErrorForDiscovery	id	Smart Home Security is not in discovery mode					name	Smart home security not in discovery mode				
+TimeOutOk	id	button1					name	OK				
+SensorisOfflineText	xpath	"//*[contains(@text,'Sensor is offline')]"					xpath	"//*[contains(@value,'Sensor is offline')]"				
+MountInaCorner	xpath	//*[@text='Mount in a Corner']					name	Mount in a corner				
+MountInaWall	xpath	//*[@text='Mount on the wall']					name	Mount on the wall				
+SensorisOfflineText	xpath	"//*[contains(@text,'Sensor is offline')]"										
+SensorHelpButton	id	sensor_help_text										
+SensorPairingHelpScreenTitle	id	//*[@text='Sensor Pairing Help']										
+SensorsScreenTitle	XPATH	"//*[contains(@text,'Sensors')]"	XPATH	"//*[contains(@text,'Sensors')]"	XPATH	"//*[contains(@text,'Sensors')]"	XPATH	"//*[contains(@value,'Sensors_SECURITY')]"	XPATH	"//*[contains(@value,'Sensors_SECURITY')]"	XPATH	"//*[contains(@value,'Sensors_SECURITY')]"
+SensorName	ID	sensor_name	ID	sensor_name	ID	sensor_name	XPATH	"//XCUIElementTypeStaticText[contains(@name,'Sensor_title')]"	XPATH	"//XCUIElementTypeStaticText[contains(@name,'Sensor_title')]"	XPATH	"//XCUIElementTypeStaticText[contains(@name,'Sensor_title')]"
+LoadingSpinner	ID	progress_bar	ID	progress_bar	ID	progress_bar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
+DoorAccessSensorScreenTitle	XPATH	"//*[contains(@text,'Door Access ')]"	XPATH	"//*[contains(@text,'Door Access ')]"	XPATH	"//*[contains(@text,'Door Access ')]"	XPATH	"//*[contains(@value,'Door Access')]"	XPATH	"//*[contains(@value,'Door Access')]"	XPATH	"//*[contains(@value,'Door Access')]"
+WindowAccessSensorScreenTitle	XPATH	"//*[contains(@text,'Window Access ')]"	XPATH	"//*[contains(@text,'Window Access ')]"	XPATH	"//*[contains(@text,'Window Access ')]"	XPATH	"//*[contains(@value,'Window Access')]"	XPATH	"//*[contains(@value,'Window Access')]"	XPATH	"//*[contains(@value,'Window Access')]"
+MotionSensorSettingsScreenTitle	XPATH	//*[@text='Motion Sensor']	XPATH	//*[@text='Motion Sensor']	XPATH	//*[@text='Motion Sensor']	XPATH	"//*[contains(@value,'Motion Sensor')]"	XPATH	"//*[contains(@value,'Motion Sensor')]"	XPATH	"//*[contains(@value,'Motion Sensor')]"
+MotionViewerSettingsScreenTitle	XPATH	//*[@text='Motion Viewer' or @text='Motion viewer']	XPATH	//*[@text='Motion Viewer' or @text='Motion viewer']	XPATH	//*[@text='Motion Viewer' or @text='Motion viewer']	XPATH	"//*[contains(@value,'Motion Viewer')]"	XPATH	"//*[contains(@value,'Motion Viewer')]"	XPATH	"//*[contains(@value,'Motion Viewer')]"
+TestMotionViewerHeading	xpath	//*[@text='Test Motion Viewer' or @text='Test motion viewer']	xpath	//*[@text='Test Motion Viewer' or @text='Test motion viewer']	xpath	//*[@text='Test Motion Viewer' or @text='Test motion viewer']	Xpath	//*[@value='Test Motion Viewer']	Xpath	//*[@value='Test Motion Viewer']	Xpath	//*[@value='Test Motion Viewer']
+SensorNameAlreadyAssignedErrorPopup							NAME	Error	NAME	Error	NAME	Error
+SensorNameAlreadyAssignedMsg							NAME	Sensor name is already assigned. Please give a different name.	NAME	Sensor name is already assigned. Please give a different name.	NAME	Sensor name is already assigned. Please give a different name.
+OKButtonInSensorNameAlreadyAssignedPopup							NAME	OK	NAME	OK	NAME	OK
+ComboWalkTestStatus	id	walk_test_sensor_status	id	walk_test_sensor_status	id	walk_test_sensor_status						

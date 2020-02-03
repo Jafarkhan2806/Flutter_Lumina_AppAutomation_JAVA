@@ -1,1 +1,51 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-ValueCamera_Dasboard	id	icon					ID	das_camera_dashboard	ID	das_camera_dashboard	ID	das_camera_dashboardProgress_Message	id	message					name	Loading live feed	ID	live feed status message	ID	live feed status messageCameraOn_toggle	id	privacy_on					ID	Online_Camera	ID	Online_Camera	ID	Online_CameraCameraOff_toggle	id	privacy_off					ID	Offline_Camera	ID	Offline_Camera	ID	Offline_CameraCameraOff_onLiveStream	id	camera_solution_card_camera_off					ID	Camera off	ID	Camera off	ID	Camera offCamera_PlayButton	id	camera_solution_card_retry					ID	camera btn play	ID	camera btn play	ID	camera btn playProgressBar_timer	id	camera_progress_bar					ID	Progress	ID	Progress	ID	ProgressMotion_detectionIcon	id	camera_motion_on_off					ID	icon motion off	ID	icon motion off	ID	icon motion offPushToTalk_icon	id	feature_voice					ID	TALK	ID	voiceMessage icon	ID	voiceMessage iconSnapshot_icon	id	feature_snapshot					ID	SNAP	ID	snapshot icon	ID	snapshot iconLive_icon	id	camera_live_indicator					ID	LIVE	ID	live	ID	livePause_button	id	camera_play					ID	camera btn pause	ID	camera btn pause	ID	camera btn pauseMaximize_button	id	camera_play_fullscreen					ID	btn maximize	ID	btn maximize	ID	btn maximizeMinimize_button	id	camera_play_fullscreen					ID	btn minimize	ID	btn minimize	ID	btn minimizeCameraCardBack	xpath	//*[@content-desc='Global Close']					ID	nav bar back	ID	nav bar back	ID	nav bar backMicrophoneOffCancel	id	button2					ID	NO				MicrophoneOff_Ok	id	button1					ID	YES				MicrophoneOff_Message	xpath	"//*[contains(@text,'Your camera microphone is turned off. You will not be able to listen in. Would you like to turn it on')]"					xpath	"//*[contains(@name,'Your camera microphone is turned off. Would you like to turn it on')]"				LiveFeedVideoContainer	id	live_view_container										ClipCardArrow	id	up_arrow					id	icon_arrow_up				ClipCardOpener	id	camera_solution_card_seperator					xpath	"//*[contains(@name,'Event')]"				ClipCardFrames	id	camera_clips_recycler_view					xpath	"//*[contains(@name,'Event')]"				AllClipCount	id	mainTitle					name	Location Name				ClipCardTime	id	camera_clip_received_time					xpath	"//*[contains(@name,'_Time')]"				ClipClose_icon							name	btn close normal				ClipFilter	id	toolbar_btn					name	Filter_Button				ClipCardFilterAllClips	xpath	"//*[contains(@text,'All Clips')]"					xpath	"//*[contains(@name,'All Clips')]"				ClipCardFilterNewClips	xpath	"//*[contains(@text,'New Clips')]"					xpath	"//*[contains(@name,'New Clips')]"				ClipCardFilterViewedClips	xpath	"//*[contains(@text,'Viewed Clips')]"					xpath	"//*[contains(@name,'Viewed Clips')]"				ClipCardFilterDownloaded	xpath	"//*[contains(@text,'Downloaded Clips')]"					xpath	"//*[contains(@name,'Downloaded Clips')]"				CancelFilter	id	camera_cancel_filter_button					name	Cancel				ClipCardFilterAllClipsHeader	id	mainTitle					name	Location Name				ClipCardFilterNewClipsHeader	id	mainTitle					name	Location Name				ClipCardFilterViewedClipsHeader	id	mainTitle					name	Location Name				ClipCardFilterDownloadedHeader	id	mainTitle					name	Location Name				LocationName	id	toolbar_spinner_item_actionbar_title					name	Location Name				ClipThumbnail	id	camera_clip_thumbnail					name	Event_Clip				ClipPlayClose	xpath	//*[@content-desc='Navigate up']					name	Back				SavedClips	xpath	"//*[contains(@text,'Saved')]"					Xpath	//*[@value='SAVED']				VeiwedClips	xpath	"//*[contains(@text,'Viewed')]"					Xpath	//*[@value='VIEWED']				ClipDownloadIcon	id	videolist_item_download_icon					Name	MediaViewSaveButton				AllowDownloadIcon	id	permission_allow_button					Name	OK				CantPlayOK	id	button1					Name	OK				DownloadingProgress	id	fragment_fullscreen_dialog_text					Name	Downloading video...				NoClipsAvaliable	id	camera_clips_error_text					id	camera_clips_error_text				Attention	id	feature_panic_alarm					name	ATTENTION				AttentionIcon	id	cam_panic_alarm_ic					name	Panic Button				AttentionCancel	id	cam_panic_button_cancel					name	Cancel				
+FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
+Camera_Dasboard	id	icon					ID	das_camera_dashboard	ID	das_camera_dashboard	ID	das_camera_dashboard
+Progress_Message	id	message					name	Loading live feed	ID	live feed status message	ID	live feed status message
+CameraOn_toggle	id	privacy_on					ID	Online_Camera	ID	Online_Camera	ID	Online_Camera
+CameraOff_toggle	id	privacy_off					ID	Offline_Camera	ID	Offline_Camera	ID	Offline_Camera
+CameraOff_onLiveStream	id	camera_solution_card_camera_off					ID	Camera off	ID	Camera off	ID	Camera off
+Camera_PlayButton	id	camera_solution_card_retry					ID	camera btn play	ID	camera btn play	ID	camera btn play
+ProgressBar_timer	id	camera_progress_bar					ID	Progress	ID	Progress	ID	Progress
+Motion_detectionIcon	id	camera_motion_on_off					ID	icon motion off	ID	icon motion off	ID	icon motion off
+PushToTalk_icon	id	feature_voice					ID	TALK	ID	voiceMessage icon	ID	voiceMessage icon
+Snapshot_icon	id	feature_snapshot					ID	SNAP	ID	snapshot icon	ID	snapshot icon
+Live_icon	id	camera_live_indicator					ID	LIVE	ID	live	ID	live
+Pause_button	id	camera_play					ID	camera btn pause	ID	camera btn pause	ID	camera btn pause
+Maximize_button	id	camera_play_fullscreen					ID	btn maximize	ID	btn maximize	ID	btn maximize
+Minimize_button	id	camera_play_fullscreen					ID	btn minimize	ID	btn minimize	ID	btn minimize
+CameraCardBack	xpath	//*[@content-desc='Global Close']					ID	nav bar back	ID	nav bar back	ID	nav bar back
+MicrophoneOffCancel	id	button2					ID	NO				
+MicrophoneOff_Ok	id	button1					ID	YES				
+MicrophoneOff_Message	xpath	"//*[contains(@text,'Your camera microphone is turned off. You will not be able to listen in. Would you like to turn it on')]"					xpath	"//*[contains(@name,'Your camera microphone is turned off. Would you like to turn it on')]"				
+LiveFeedVideoContainer	id	live_view_container										
+ClipCardArrow	id	up_arrow					id	icon_arrow_up				
+ClipCardOpener	id	camera_solution_card_seperator					xpath	"//*[contains(@name,'Event')]"				
+ClipCardFrames	id	camera_clips_recycler_view					xpath	"//*[contains(@name,'Event')]"				
+AllClipCount	id	mainTitle					name	Location Name				
+ClipCardTime	id	camera_clip_received_time					xpath	"//*[contains(@name,'_Time')]"				
+ClipClose_icon							name	btn close normal				
+ClipFilter	id	toolbar_btn					name	Filter_Button				
+ClipCardFilterAllClips	xpath	"//*[contains(@text,'All Clips')]"					xpath	"//*[contains(@name,'All Clips')]"				
+ClipCardFilterNewClips	xpath	"//*[contains(@text,'New Clips')]"					xpath	"//*[contains(@name,'New Clips')]"				
+ClipCardFilterViewedClips	xpath	"//*[contains(@text,'Viewed Clips')]"					xpath	"//*[contains(@name,'Viewed Clips')]"				
+ClipCardFilterDownloaded	xpath	"//*[contains(@text,'Downloaded Clips')]"					xpath	"//*[contains(@name,'Downloaded Clips')]"				
+CancelFilter	id	camera_cancel_filter_button					name	Cancel				
+ClipCardFilterAllClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterNewClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterViewedClipsHeader	id	mainTitle					name	Location Name				
+ClipCardFilterDownloadedHeader	id	mainTitle					name	Location Name				
+LocationName	id	toolbar_spinner_item_actionbar_title					name	Location Name				
+ClipThumbnail	id	camera_clip_thumbnail					name	Event_Clip				
+ClipPlayClose	xpath	//*[@content-desc='Navigate up']					name	Back				
+SavedClips	xpath	"//*[contains(@text,'Saved')]"					Xpath	//*[@value='SAVED']				
+VeiwedClips	xpath	"//*[contains(@text,'Viewed')]"					Xpath	//*[@value='VIEWED']				
+ClipDownloadIcon	id	videolist_item_download_icon					Name	MediaViewSaveButton				
+AllowDownloadIcon	id	permission_allow_button					Name	OK				
+CantPlayOK	id	button1					Name	OK				
+DownloadingProgress	id	fragment_fullscreen_dialog_text					Name	Downloading video...				
+NoClipsAvaliable	id	camera_clips_error_text					id	camera_clips_error_text				
+Attention	id	feature_panic_alarm					name	ATTENTION				
+AttentionIcon	id	cam_panic_alarm_ic					name	Panic Button				
+AttentionCancel	id	cam_panic_button_cancel					name	Cancel				
+Camera_on	id	privacy_on					name	States_0				
+Camera_off	id	privacy_off					name	States_1				

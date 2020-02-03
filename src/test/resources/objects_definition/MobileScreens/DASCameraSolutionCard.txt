@@ -11,3 +11,5 @@ Attention	id	feature_panic_alarm					name	ATTENTION
 AttentionHintTextInHomeMode	xpath	//android.widget.TextView[@text='Sound in-home siren']										
 AttentionIcon	id	cam_panic_alarm_ic					name	Panic Button				
 AttentionCancel	id	cam_panic_button_cancel					name	Cancel				
+CameraOnButton	ID	privacy_on	ID	privacy_on	ID	privacy_on	NAME	States_1	XPATH	//*[@value='Online']	XPATH	//*[@value='Online']
+CameraOffButton	ID	privacy_off	ID	privacy_off	ID	privacy_off	NAME	States_0	XPATH	//*[@value='Offline']	XPATH	//*[@value='Offline']

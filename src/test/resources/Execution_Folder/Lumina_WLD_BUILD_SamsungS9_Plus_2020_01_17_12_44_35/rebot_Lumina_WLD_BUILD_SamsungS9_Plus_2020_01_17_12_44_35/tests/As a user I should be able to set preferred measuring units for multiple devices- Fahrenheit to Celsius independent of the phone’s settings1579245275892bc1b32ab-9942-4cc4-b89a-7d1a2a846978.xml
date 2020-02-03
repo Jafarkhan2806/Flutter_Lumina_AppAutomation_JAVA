@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="As a user I should be able to set preferred measuring units for multiple devices- Fahrenheit to Celsius independent of the phone&#8217;s settings">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200117 12:45:09.085">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
+<status critical="yes" endtime="20200117 12:45:09.132" starttime="20200117 12:44:35.919" status="PASS"/>
+</kw>
+<kw name="When  : user selects &quot;Basement&quot; from &quot;Detector Name&quot; screen" type="kw">
+<status critical="yes" endtime="20200117 12:45:09.135" starttime="20200117 12:45:09.134" status="FAIL"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200117 12:45:24.641">&lt;b&gt;[PASS]&lt;/b&gt; Succesfully clicked one DETECTOR NAME</msg>
+</kw>
+</test>

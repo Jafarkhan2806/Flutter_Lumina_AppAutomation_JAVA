@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<test name="7 As a user after registration I should be having required default options enabled in device settings screen">
+<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:00:58.742">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : testauto@grr.la</msg>
+<status critical="yes" endtime="20200107 16:00:58.769" starttime="20200107 16:00:47.864" status="PASS"/>
+</kw>
+<kw name="When  : user navigates to &quot;Settings Option&quot; screen from the &quot;Water Leak Detector&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200107 16:12:58.813">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user navigates to "Settings Option" screen from the "Water Leak Detector" screen'. Error Occured - null</msg>
+<status critical="yes" endtime="20200107 16:12:58.816" starttime="20200107 16:00:58.770" status="FAIL"/>
+</kw>
+</test>

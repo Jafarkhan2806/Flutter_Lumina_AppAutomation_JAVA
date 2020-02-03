@@ -64,7 +64,7 @@ RemoveDevicePopupTitle	Xpath	"//*[contains(@text,'Remove')]"					xpath	"//*[cont
 RemoveDevicePopupMessage	Xpath	//*[@text='This device will be permanently removed. Are you sure?']					NAME	This device will be permanently removed. Are you sure?				
 CancelDeviceRemovalButton	Xpath	//*[@text='Cancel']					NAME	CANCEL	NAME	CANCEL	NAME	CANCEL
 ConfirmDeviceRemovalButton	Xpath	//*[@text='OK']					NAME	OK	NAME	OK	NAME	OK
-NavigateBack	Xpath	//*[@class='android.widget.ImageButton']					NAME	Back				
+NavigateBack	Xpath	"//*[contains(@content-desc,'Navigate Up')]"					NAME	Back	NAME	Back	NAME	Back
 ExcludedSuccessPopupTitle	Xpath	"//*[contains(@text,'excluded')]"					NAME	Z-Wave Exclusion				
 ExcludedSuccessPopupMessage	Xpath	"//*[contains(@text,'successfully')]"					Xpath	"//*[contains(@value,'successfully')]"				
 DeletedSuccessPopupTitle	Xpath	"//*[contains(@text,'Removed')]"					NAME	Z-Wave Exclusion				

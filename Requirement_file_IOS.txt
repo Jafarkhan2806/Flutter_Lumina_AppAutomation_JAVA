@@ -1,0 +1,4 @@
+Include Group	Group Name	Combine	Platform-Type-OS-Version	Name	Location	Environment	Test Data
+	WLDDIYRegistrationToExistingLocation		IOS-Device-IOS-13.2	07842d39a65dc39b77bb5135de39ee205b98d39d	Local	Production	"AcquisitionType=Specific, TestData='USERID=testauto@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Garage'"
+	WLDDIYRegistrationToExistingLocations		IOS-Device-IOS-13.2	07842d39a65dc39b77bb5135de39ee205b98d39d	Local	Production	"AcquisitionType=Specific, TestData='USERID=testauto@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Garage'"
+    CelsiusToFahrenheit							IOS-Device-IOS-13.2	07842d39a65dc39b77bb5135de39ee205b98d39d	Local	Production	"AcquisitionType=Specific, TestData='USERID=testauto@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Garage'"

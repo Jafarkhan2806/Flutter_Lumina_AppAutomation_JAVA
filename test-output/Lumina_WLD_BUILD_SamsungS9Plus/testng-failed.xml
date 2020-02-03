@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Lumina_WLD_BUILD_SamsungS9Plus]" verbose="-1">
+  <listeners>
+    <listener class-name="com.honeywell.commons.coreframework.TestNGListernerClass"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="Lumina_WLD_BUILD_SamsungS9Plus">
+    <groups>
+      <run>
+        <include name="Executor"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.honeywell.testcases.executor"/>
+    </packages>
+    <classes>
+      <class name="com.honeywell.testcases.executor.TestCasesExecutor"/>
+    </classes>
+  </test> <!-- Lumina_WLD_BUILD_SamsungS9Plus -->
+  <test parallel="methods" name="Lumina_WLD_BUILD_SamsungS9Plus(failed)">
+    <groups>
+      <run>
+        <include name="Executor"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.honeywell.testcases.executor.TestCasesExecutor">
+        <methods>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.honeywell.testcases.executor.TestCasesExecutor -->
+    </classes>
+  </test> <!-- Lumina_WLD_BUILD_SamsungS9Plus(failed) -->
+</suite> <!-- Failed suite [Lumina_WLD_BUILD_SamsungS9Plus] -->
