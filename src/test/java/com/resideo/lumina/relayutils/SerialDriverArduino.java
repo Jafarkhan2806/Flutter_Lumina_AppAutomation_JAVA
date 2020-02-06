@@ -7,19 +7,16 @@ import jssc.SerialPortException;
 
 
 public class SerialDriverArduino /*extends SerialDriverCore*/ {
-	public static SerialPort serialPort1=null;
+	public static SerialPort serialPort1;
 	public static StringBuilder buffer = new StringBuilder();
 	public static float Max0 = 1490, Max1 = 1480, Max2, Max3, Min0 = 1000, Min1 = 1190, Min2, Min3;
 
 	public static void initialize() throws Exception {
 		String[] portNames = SerialPortList.getPortNames();
-		System.out.println(portNames);
-		System.out.println(portNames[0].toString());
 		String SensorController;
 		
 		if (System.getProperty("os.name").toLowerCase().contains("mac")) {
 			SensorController =RelayConstants.RelayBoardTTYPort; 
-			System.out.println(SensorController);
 		}
 		else
 		{

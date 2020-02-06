@@ -41,11 +41,9 @@ public class VerifyAboutDevice extends Keyword {
 	@Override
 	@KeywordStep(gherkins = "^user should be displayed with About Device details:$")
 	public boolean keywordSteps() throws KeywordException {
-		System.out.println("Hello world");
 		LuminaUtils lumina = new LuminaUtils(inputs, testCase);
 		for (int i = 0; i < dataTable.getSize(); i++) {
 			switch (dataTable.getData(i, "About Device").trim().toUpperCase()) {
-			
 			case "MAC ID":{
 				lumina.VerifyScreen(dataTable.getData(i, "About Device").toUpperCase());
 				break;
@@ -54,7 +52,7 @@ public class VerifyAboutDevice extends Keyword {
 				lumina.VerifyScreen(dataTable.getData(i, "About Device").toUpperCase());
 				break;
 			}
-			case "DETECTOR NAME":{
+			case "DETECTOR NAME TEXTFIELD":{
 				lumina.VerifyScreen(dataTable.getData(i, "About Device").toUpperCase());
 				break;
 			}

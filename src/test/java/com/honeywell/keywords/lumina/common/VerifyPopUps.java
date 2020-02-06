@@ -45,6 +45,10 @@ public class VerifyPopUps extends Keyword {
 				lumina.VerifyPopUp(screen.get(0).toUpperCase());
 				break;
 			}
+			case ("DELETE DEVICE"):{
+				lumina.VerifyPopUp(screen.get(0).toUpperCase());
+				break;
+			}
 			default : {
 				flag = false;
 			}

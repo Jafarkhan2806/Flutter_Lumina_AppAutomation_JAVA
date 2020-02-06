@@ -60,11 +60,11 @@ public class VerifyDashboard extends Keyword {
 				lumina.VerifyScreen(dataTable.getData(i, "Water Leak Detector").toUpperCase());
 				break;
 			}
-			case "DEVICE STATUS":{
+			case "Connection Status":{
 				lumina.VerifyScreen(dataTable.getData(i, "Water Leak Detector").toUpperCase());
 				break;
 			}
-			case "Last Updated Time":{
+			case "LAST UPDATED TIME":{
 				lumina.VerifyScreen(dataTable.getData(i, "Water Leak Detector").toUpperCase());
 				break;
 			}
@@ -72,7 +72,7 @@ public class VerifyDashboard extends Keyword {
 				lumina.VerifyScreen(dataTable.getData(i, "Water Leak Detector").toUpperCase());
 				break;
 			}
-			case "Next Update Time":{
+			case "NEXT UPDATE TIME":{
 				lumina.VerifyScreen(dataTable.getData(i, "Water Leak Detector").toUpperCase());
 				break;
 			}

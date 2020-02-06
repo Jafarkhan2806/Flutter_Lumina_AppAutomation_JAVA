@@ -2,7 +2,6 @@ package com.resideo.SuiteExecutor;
 
 import com.honeywell.commons.coreframework.SuiteUtils;
 
-
 public class SuiteExecutor {    
 	/**
 	 * The Starting point of Automation Framework.
@@ -12,8 +11,8 @@ public class SuiteExecutor {
 	 *            from Command line Arguments.
 	 */
 	public static void main(String[] commandLineArguments) throws Exception {
-		commandLineArguments = new String[] { 
-
+		commandLineArguments = new String[] 
+				{ 
 				"--useXCUITest","true",
 //				"--publishResult", 
 				"--deviceCloudProviderCredentials",
@@ -23,23 +22,22 @@ public class SuiteExecutor {
 						+ "Perfecto::lyricautomation@grr.la:Password1,"
 						+ "SauceLabs::CIBamboo:c2ae0ade-53ed-47c5-bd4a-c65a77c7a096",
 						"--jira_credentials","aterbuild:aterbuild@123",
-						"--setResultFolder", "D:/ExecutionResultforJasper",
-						"--appToInstall","IOS:Lumina_1_5_0_1426,Android:Lumina_1_5_0_1426",
+						"--setResultFolder", "ExecutionResult",
+						"--appToInstall","IOS:Dummy,Android:Debug",
 						"--groups",
-						"StatusOfHome",
+						"LoginToApplication",
 						
 	
 	
 //						"--commandlinearguments","DLS_DR_JASPER_NA_IOS.txt",
-						
-					
-								
+				
+
+				
 		};
-		try {
-		
+		try 
+		{
 			SuiteUtils suiteUtils = SuiteUtils.getTestSuite(commandLineArguments);
 			suiteUtils.executeSuite();
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

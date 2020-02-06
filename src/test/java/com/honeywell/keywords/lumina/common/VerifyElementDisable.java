@@ -64,6 +64,10 @@ public class VerifyElementDisable extends Keyword {
 				lumina.ElementDisabled(screen.get(0));
 				break;
 			}
+			case "EMAIL NOTIFICATION":{
+				lumina.ElementDisabled(screen.get(0));
+				break;
+			}
 			default : {
 				flag = false;
 			}

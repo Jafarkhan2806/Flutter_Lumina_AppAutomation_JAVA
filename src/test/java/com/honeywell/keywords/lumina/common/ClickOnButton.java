@@ -64,8 +64,46 @@ public class ClickOnButton extends Keyword {
 				lumina.ClickOnButton(screen.get(0).toUpperCase());
 				break;
 			}
+			case ("CLOSE"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("WATER LEAK ALERT"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("MUTE SIREN"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("UNMUTE OPTION"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("ABOVE HUMIDITY RANGE"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("BELOW HUMIDITY RANGE"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("ABOVE TEMPERATURE RANGE"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("BELOW TEMPERATURE RANGE"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
+			case ("DELETE LEAK DETECTOR"):{
+				lumina.ClickOnButton(screen.get(0).toUpperCase());
+				break;
+			}
 			default : {
+				lumina.ClickOnButton(screen.get(0));
 				flag = true;
+				break;
 			}
 			}
 		return flag;	

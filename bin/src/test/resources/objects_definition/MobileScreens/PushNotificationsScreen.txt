@@ -1,5 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-ProgressBar	XPATH	//android.widget.ProgressBar	XPATH	//android.widget.ProgressBar	XPATH	//android.widget.ProgressBar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
-LoadingSpinner	ID	progress_bar	ID	progress_bar	ID	progress_bar	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View	NAME	Activity_Indicator_View
-PushNotificationHoneywell	XPATH	//android.widget.TextView[contains(@text,'Honeywell')]	XPATH	//android.widget.TextView[contains(@text,'Honeywell')]	XPATH	//android.widget.TextView[contains(@text,'Honeywell')]						
-pushNotification	ID	notification_main_column	ID	notification_main_column	ID	notification_main_column						

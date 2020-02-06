@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.support.ui.FluentWait;
 
@@ -32,6 +33,8 @@ public  class FlutterElements extends BaseDriver {
 		find = new FlutterFinder(driver);
 		assertEquals(driver.executeScript("flutter:checkHealth"), "ok");
 		driver.executeScript("flutter:clearTimeline");
+		
+		
 		driver.executeScript("flutter:forceGC");
 		return driver;
 	}

@@ -1,7 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-CardNumberField	XPATH	//android.view.View[@content-desc='CARD NUMBER']										
-CardHolderNameField	XPATH	//android.widget.EditText[@index='4']										
-CardExpirationField	XPATH	//android.view.View[@index='6']										
-CVCField	XPATH	//android.view.View[@index='8']										
-ZipcodeField	XPATH	//android.widget.EditText[@index='10']										
-PayNow	XPATH	//*[@content-desc='Pay Now']										

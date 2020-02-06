@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<test name="As a user I should be albe to see the Device status with timestamp">
-<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
-<msg html="yes" level="INFO" timestamp="20200125 09:45:30.331">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
-<status critical="yes" endtime="20200125 09:45:30.362" starttime="20200125 09:44:51.653" status="PASS"/>
-</kw>
-</test>

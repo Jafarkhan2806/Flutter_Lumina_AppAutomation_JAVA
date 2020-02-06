@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<test name="As a user I should be able to add WLD device to existing location by using Lumina application">
-<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
-<msg html="yes" level="INFO" timestamp="20191219 16:23:06.194">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
-<status critical="yes" endtime="20191219 16:23:06.224" starttime="20191219 16:22:33.054" status="FAIL"/>
-</kw>
-</test>

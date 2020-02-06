@@ -1,9 +1,0 @@
-[PASSED] :: 2020-02-03:12:11:28 :: <b>[PASS]</b> Logged into the Account  : testauto@grr.la
-[PASSED] :: 2020-02-03:12:11:41 :: <b>[PASS]</b> Succesfully clicked one DETECTOR NAME
-[PASSED] :: 2020-02-03:12:11:42 :: <b>[PASS]</b> Succesfully navigated to DEVICE STATUSand installed is : Alerts
-[PASSED] :: 2020-02-03:12:11:47 :: <b>[PASS]</b> Current Temperature of WLD device : Alerts
-High Temperature (79°)
-[PASSED] :: 2020-02-03:12:11:53 :: <b>[PASS]</b> Current Humidity of WLD device : 49.9%
-Humidity
-Tab 2 of 2
-[PASSED] :: 2020-02-03:12:11:53 :: <b>[PASS]</b> Succesfully navigated to BATTERY VALUEand installed is : 74%

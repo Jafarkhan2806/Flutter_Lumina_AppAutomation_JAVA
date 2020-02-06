@@ -1,8 +1,0 @@
-FieldName	Android-Medium-Selector-Type	Android-Medium-Selector-Value	Android-Large-Selector-Type	Android-Large-Selector-Value	Android-Extra-Large-Selector-Type	Android-Extra-Large-Selector-Value	IOS-Medium-Selector-Type	IOS-Medium-Selector-Value	IOS-Large-Selector-Type	IOS-Large-Selector-Value	IOS-Extra-Large-Selector-Type	IOS-Extra-Large-Selector-Value
-EditAddressButton	xpath	//android.widget.TextView[@text='Edit existing address']	xpath	//android.widget.TextView[@text='Edit existing address']	xpath	//android.widget.TextView[@text='Edit existing address']						
-LocationNameText	ID	view_address_location_name	ID	view_address_location_name	ID	view_address_location_name						
-StreetAddressText	ID	view_address_street_address	ID	view_address_street_address	ID	view_address_street_address						
-CityNameText	ID	view_address_city	ID	view_address_city	ID	view_address_city						
-StateText	ID	view_address_state	ID	view_address_state	ID	view_address_state						
-ZipcodeText	ID	view_address_zipcode	ID	view_address_zipcode	ID	view_address_zipcode						
-SaveButton	ID	view_save_address	ID	view_save_address	ID	view_save_address						

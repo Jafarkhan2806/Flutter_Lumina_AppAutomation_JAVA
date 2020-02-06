@@ -112,8 +112,6 @@ public class LyricUtils {
 			if (testCase.getPlatform().toUpperCase().contains("ANDROID")) {
 				MobileUtils.hideKeyboard(testCase.getMobileDriver());
 			}
-			
-			
 			Keyword.ReportStep_Pass(testCase,
 					"Login To Lyric : Email Address set to - " + inputs.getInputValue("USERID"));
 		} else {
@@ -127,7 +125,6 @@ public class LyricUtils {
 			} else {
 				ls.clickOnLyricLogo();
 			}
-			
 			Keyword.ReportStep_Pass(testCase, "Login To Lyric : Password set to - " + inputs.getInputValue("PASSWORD"));
 		} else {
 			Keyword.ReportStep_Fail(testCase, FailType.FUNCTIONAL_FAILURE,
@@ -146,8 +143,6 @@ public class LyricUtils {
 			boolean... closeCoachMarks) {
 		boolean flag = true;
 		flag = MobileUtils.launchApplication(inputs, testCase, true);
-		System.out.println("launched");
-		
 		return flag;
 	}
 

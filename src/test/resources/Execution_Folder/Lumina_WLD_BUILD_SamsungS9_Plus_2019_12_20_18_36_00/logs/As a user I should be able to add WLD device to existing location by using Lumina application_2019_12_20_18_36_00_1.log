@@ -1,9 +1,0 @@
-[PASSED] :: 2019-12-20:18:36:15 :: <b>[PASS]</b> Logged into the Account  : testauto@grr.la
-[PASSED] :: 2019-12-20:18:36:37 :: <b>[PASS]</b> Succesfully navigated to CHOOSE LOCATION
-[PASSED] :: 2019-12-20:18:36:37 :: <b>[PASS]</b> Succesfully clicked one LOCATION NAME
-[PASSED] :: 2019-12-20:18:36:37 :: <b>[PASS]</b> Succesfully navigated to DETECTOR NAME
-[PASSED] :: 2019-12-20:18:36:37 :: <b>[PASS]</b> Succesfully clicked one DETECTOR NAME
-[PASSED] :: 2019-12-20:18:36:38 :: <b>[PASS]</b> Succesfully navigated to POWER DETECTOR
-[PASSED] :: 2019-12-20:18:36:39 :: <b>[PASS]</b> Succesfully navigated to CONNECT
-[PASSED] :: 2019-12-20:18:37:16 :: <b>[PASS]</b> Succesfully navigated to SELECT NETWORK
-[PASSED] :: 2019-12-20:18:37:18 :: <b>[PASS]</b> Succesfully navigated to CONNECT WIFI

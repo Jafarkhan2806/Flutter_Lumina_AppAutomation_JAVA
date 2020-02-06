@@ -21,7 +21,6 @@ public class SelectTemperatureScale extends Keyword {
 	public boolean flag = true;
 	public ArrayList<String> parameters;
 	public HashMap<String, MobileObject> fieldObjects;
-	
 
 	public SelectTemperatureScale(TestCases testCase, TestCaseInputs inputs, ArrayList<String> parameters) {
 		this.parameters = parameters;
@@ -38,16 +37,12 @@ public class SelectTemperatureScale extends Keyword {
 	@Override
 	@KeywordStep(gherkins = "^user selects \"(.+)\" with \"(.+)\"$")
 	public boolean keywordSteps() throws KeywordException {
-		
-		System.out.println("Hello Temperature");
-		
 		boolean flag = true;
 		LuminaUtils lumina = new LuminaUtils(inputs, testCase);
 		if(parameters.get(0).equalsIgnoreCase("Temperature Unit")) {
 			switch(parameters.get(1).toUpperCase()) {
 			case ("CELCIUS"):{
 				flag = flag && lumina.SetTempUnit("C");
-				
 				break;
 			}
 			case ("FAHRENHEIT"):{

@@ -4,39 +4,23 @@ import static org.testng.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.touch.TouchActions;
-
 import com.honeywell.commons.coreframework.Keyword;
-import com.honeywell.commons.coreframework.SuiteConstants;
 import com.honeywell.commons.coreframework.TestCaseInputs;
 import com.honeywell.commons.coreframework.TestCases;
-import com.honeywell.commons.coreframework.SuiteConstants.SuiteConstantTypes;
-import com.honeywell.commons.mobile.MobileUtils;
 import com.honeywell.commons.report.FailType;
-import com.honeywell.keywords.lumina.wld.Temperature;
 import com.resideo.SuiteExecutor.BaseDriver;
 import com.resideo.lumina.relayutils.RelayUtils;
 import com.resideo.screens.FlutterElements;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import pro.truongsinh.appium_flutter.FlutterFinder;
-import pro.truongsinh.appium_flutter.finder.FlutterElement;
 
 
 public class LuminaUtils extends BaseDriver {
 	private TestCaseInputs inputs;
 	public ArrayList<String> screen;
 	private TestCases testCase;
-	private float temperatureVal; 
+
 	public LuminaUtils(TestCases testCase, TestCaseInputs inputs) {
 		this.inputs = inputs;
 		this.testCase = testCase;
@@ -54,40 +38,48 @@ public class LuminaUtils extends BaseDriver {
 		boolean flag = true;
 		try {
 			driver = find.setUp();
-		//	System.out.println("launched1");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		this.SetEnvironement();
-		assertEquals(find.getElementStringByText("SIGN IN"), "SIGN IN");
-		find.clickElementByText("SIGN IN");
-		find.swicthContext("NATIVE_APP");
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		find.clickElementByXpath("Email Address");
-		find.enterEmailID(inputs.getInputValue("USERID"));
-		find.hideKeyboard();
-		find.clickElementsByXpath("Password",0);
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		find.enterPassword(inputs.getInputValue("PASSWORD"));
-		find.hideKeyboard();
-		//find.clickElementByText("SIGN IN");
-		//find.clickElementbyValueKey("next");
 		
-		find.clickElementsByXpath("SIGN IN",1);
-//		find.swicthContext("FLUTTER");
-//				find.clickElementbyValueKey("Add Water Leak Detector");
-		return flag;
+		//		this.SetEnvironement();
+				assertEquals(find.getElementStringByText("SIGN IN"), "SIGN IN");
+				find.clickElementByText("SIGN IN");
+				find.swicthContext("NATIVE_APP");
+				try
+				{
+					Thread.sleep(10000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				find.clickElementByXpath("Email Address");
+				find.enterEmailID(inputs.getInputValue("USERID"));
+				find.hideKeyboard();
+				find.clickElementsByXpath("Password",0);
+				try 
+				{
+					Thread.sleep(1000);
+				} catch (InterruptedException e) 
+				{
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				find.enterPassword(inputs.getInputValue("PASSWORD"));
+				try 
+				{
+					Thread.sleep(2000);
+				} catch (InterruptedException e) 
+				{
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				find.clickElementsByXpath("SIGN IN",1);
+				find.swicthContext("FLUTTER");
+
+		
+				return flag;
 	}
 
 	public boolean SetEnvironement() {
@@ -124,7 +116,7 @@ public class LuminaUtils extends BaseDriver {
 		FlutterFinder ele = new FlutterFinder(driver);
 		if (ele.text(inputs.getInputValue("LOCATION1_DEVICE1_NAME")).getText().equalsIgnoreCase(inputs.getInputValue("LOCATION1_DEVICE1_NAME"))) {
 			ele.text(inputs.getInputValue("LOCATION1_DEVICE1_NAME")).click();
-			ele.byValueKey("droplet_settings_menu").click();
+			ele.byValueKey("settings_menu").click();
 			ele.text("DELETE  LEAK  DETECTOR").click();
 			flag = true;
 		}else {
@@ -144,6 +136,14 @@ public class LuminaUtils extends BaseDriver {
 				break;
 			} case "DISCONNECT" :{
 				RelayUtils.WLD_RESET_OFF();
+				break;
+			}
+			case "TRIGGER SIREN ON" :{
+				RelayUtils.WLD_LEAK_ALERT_ON();
+				break;
+			}
+			case "TRIGGER SIREN OFF" :{
+				RelayUtils.WLD_LEAK_ALERT_OFF();
 				break;
 			}
 			}
@@ -187,7 +187,6 @@ public class LuminaUtils extends BaseDriver {
 		}
 
 		case ("BACK"):{
-			//System.out.println(ele.byValueKey("back"));
 			driver.context("NATIVE_APP");
 			sleepTime(5000);
 			if (driver.findElementByXPath("//*[contains(@text,'Back')]").isDisplayed()) {
@@ -321,7 +320,7 @@ public class LuminaUtils extends BaseDriver {
 			break;
 		}
 		case ("SETTINGS OPTION"):{
-			if (ele.text("Settings").getText().equalsIgnoreCase("Settings")) {
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("settings_menu")) != null) {
 				Keyword.ReportStep_Pass(testCase,
 						"Succesfully navigated to " + screen.toUpperCase());
 				flag = true;
@@ -333,44 +332,21 @@ public class LuminaUtils extends BaseDriver {
 			break;
 		}
 		case ("TEMPERATURE VALUE"):{
-//			System.out.println("Temperature value: "+ele.byValueKey("key_temperature"));
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			
-			if (driver.findElementsByXPath("//*[contains(@text,'Temperature')]").get(0).getText().contains("Temperature")) {
-				String tempVal = driver.findElementsByXPath("//*[contains(@text,'Temperature')]").get(0).getText();
-				String temp = null;
-				//System.out.println("TempVal: "+tempVal);
-				Pattern pattern = Pattern.compile("([+-]?\\d+(\\.\\d+)*)\\s?°");
-				Matcher matcher = pattern.matcher(tempVal);
-				if (matcher.find())
-				{
-				    temp = matcher.group(1);
-				}
-				Temperature t = Temperature.getInstance();
-				
-				temperatureVal = Float.parseFloat(temp);
-				t.setTemperatureVal(temperatureVal);
-				System.out.println("Temperated Util Value: "+temperatureVal);
-				//System.out.println("T: "+temperatureVal.getTempVal());
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("key_temperature")) != null) {
 				Keyword.ReportStep_Pass(testCase,
-						"Current Temperature of WLD device : " + tempVal);
+						"Current Temperature of WLD device : " + ele.byValueKey("key_temperature").getText());
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  screen.toUpperCase());
 				flag = false;
 			}
-			
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByXPath("//*[contains(@text,'Humidity')]").get(0).getText().contains("Humidity")) {
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("key_humidity")) != null) {
 				Keyword.ReportStep_Pass(testCase,
-						"Current Humidity of WLD device : " + driver.findElementsByXPath("//*[contains(@text,'Humidity')]").get(0).getText());
+						"Current Humidity of WLD device : " + ele.byValueKey("key_humidity").getText());
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
@@ -381,7 +357,7 @@ public class LuminaUtils extends BaseDriver {
 			break;
 		}
 		case ("SETUP COMPLETE"):{
-			if (ele.text("Setup Complete!").getText().equalsIgnoreCase("Setup Complete!")) {
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("setup_complete")) != null) {
 				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
 						screen + "is displayed on the WLD Card ");
 				flag = true;
@@ -392,8 +368,46 @@ public class LuminaUtils extends BaseDriver {
 			}
 			break;
 		}
+
+		case ("LAST UPDATED TIME"):{
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("last_updated")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
+						screen +  " is displayed on the WLD Card ");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " + screen.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("NEXT UPDATE TIME"):{
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("next_update")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
+						screen +" is displayed on the WLD Card ");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("BATTERY PERCENTAGE"):{
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("battery_level")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
+						screen + ele.byValueKey("battery_level").getText() +  " is displayed on the WLD Card ");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
 		case ("TEMPERATURE GRAPH"):{
-			if (ele.text("Setup Complete!").getText().equalsIgnoreCase("")) {
+			if (ele.text("Setup Complete!").getText().isEmpty()) 
+			{
 				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
 						screen + "is displayed on the WLD Card ");
 				flag = true;
@@ -430,6 +444,18 @@ public class LuminaUtils extends BaseDriver {
 		}
 		case ("ABOUT MY DROPLET"):{
 			if (ele.text("About My Droplet").getText().equalsIgnoreCase("About My Droplet")) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
+						screen + "is displayed on the WLD Card ");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("SETTINGS"):{
+			if (ele.text("Settings").getText().equalsIgnoreCase("Settings")) {
 				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
 						screen + "is displayed on the WLD Card ");
 				flag = true;
@@ -483,139 +509,44 @@ public class LuminaUtils extends BaseDriver {
 			break;
 		}
 		case ("TEMPERATURE ABOVE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			try {
-				if (SuiteConstants
-						.getConstantValue(SuiteConstantTypes.TEST_SUITE, "Requirment_File_Name").contains("Android")) {
-				if (driver.findElementsByClassName("android.widget.Button").get(1).getAttribute("text").equalsIgnoreCase("99.0°F") ||
-						driver.findElementsByClassName("android.widget.Button").get(1).getAttribute("text").equalsIgnoreCase("37.0°C")	) {
-					Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-							driver.findElementsByClassName("android.widget.Button").get(1).getAttribute("text") + " is default Temp above value");
-					flag = true;
-				}else {
-					Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-							"Could't navigate to " +  screen.toUpperCase());
-					flag = false;
-				}
-				} else {
-					if (driver.findElementsByClassName("XCUIElementTypeButton").get(1).getAttribute("name").equalsIgnoreCase("99.0°F") ||
-							driver.findElementsByClassName("XCUIElementTypeButton").get(1).getAttribute("name").equalsIgnoreCase("37.0°C")	) {
-						Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-								driver.findElementsByClassName("XCUIElementTypeButton").get(1).getAttribute("name") + " is default Temp above value");
-						flag = true;
-					}else {
-						Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-								"Could't navigate to " +  screen.toUpperCase());
-						flag = false;
-					}	
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			if (ele.byValueKey("temp_above").getText().equalsIgnoreCase("99°F") || ele.byValueKey("temp_above").getText().equalsIgnoreCase("37°C") ) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("temp_above").getText() + " default Temp Above value is displayed");
+				flag = true;
+			} else{
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("TEMPERATURE BELOW"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			try {
-				if (SuiteConstants
-						.getConstantValue(SuiteConstantTypes.TEST_SUITE, "Requirment_File_Name").contains("Android")) {
-				if (driver.findElementsByClassName("android.widget.Button").get(2).getAttribute("text").equalsIgnoreCase("45.0°F") ||
-						driver.findElementsByClassName("android.widget.Button").get(2).getAttribute("text").equalsIgnoreCase("7.0°C")	) {
-					Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-							driver.findElementsByClassName("android.widget.Button").get(2).getAttribute("text") + " is default Temp below value");
-					flag = true;
-				}else {
-					Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-							"Could't navigate to " +  screen.toUpperCase());
-					flag = false;
-				}
-				}else {
-					if (driver.findElementsByClassName("XCUIElementTypeButton").get(2).getAttribute("name").equalsIgnoreCase("45.0°F") ||
-							driver.findElementsByClassName("XCUIElementTypeButton").get(2).getAttribute("name").equalsIgnoreCase("7.0°C")	) {
-						Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-								driver.findElementsByClassName("XCUIElementTypeButton").get(2).getAttribute("name") + " is default Temp below value");
-						flag = true;
-					}else {
-						Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-								"Could't navigate to " +  screen.toUpperCase());
-						flag = false;
-					}
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			if (ele.byValueKey("temp_below").getText().equalsIgnoreCase("45°F") || ele.byValueKey("temp_below").getText().equalsIgnoreCase("7°C")) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("temp_above").getText() + " is default Temp below value");
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY ABOVE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			try {
-				if (SuiteConstants
-						.getConstantValue(SuiteConstantTypes.TEST_SUITE, "Requirment_File_Name").contains("Android")) {
-				if (driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("text").equalsIgnoreCase("70%")) {
-					Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-							driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("text") + " is default Humidity Above value");
-					flag = true;
-				}else {
-					Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-							"Could't navigate to " +  screen.toUpperCase());
-					flag = false;
-				}
-				} else {
-					if (driver.findElementsByClassName("XCUIElementTypeButton").get(3).getAttribute("name").equalsIgnoreCase("70%")) {
-						Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-								driver.findElementsByClassName("XCUIElementTypeButton").get(3).getAttribute("name") + " is default Humidity Above value");
-						flag = true;
-					}else {
-						Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-								"Could't navigate to " +  screen.toUpperCase());
-						flag = false;
-					}	
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			if (ele.byValueKey("humidity_above").getText().equalsIgnoreCase("70%")) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("humidity_above").getText() + " is default Temp below value");
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY BELOW"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			try {
-				if (SuiteConstants
-						.getConstantValue(SuiteConstantTypes.TEST_SUITE, "Requirment_File_Name").contains("Android")) {
-				if (driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("text").equalsIgnoreCase("20%")) {
-					Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-							driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("text") + " is default Humidity Above value");
-					flag = true;
-				}else {
-					Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-							"Could't navigate to " +  screen.toUpperCase());
-					flag = false;
-				}
-				}else {
-					if (driver.findElementsByClassName("XCUIElementTypeButton").get(4).getAttribute("name").equalsIgnoreCase("20%")) {
-						Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-								driver.findElementsByClassName("XCUIElementTypeButton").get(4).getAttribute("name") + " is default Humidity Above value");
-						flag = true;
-					}else {
-						Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-								"Could't navigate to " +  screen.toUpperCase());
-						flag = false;
-					}	
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			if (ele.byValueKey("humidity_below").getText().equalsIgnoreCase("20%")) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("humidity_below").getText() + " is default Temp below value");
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  screen.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("EMAIL DISABLED"):{
@@ -659,13 +590,10 @@ public class LuminaUtils extends BaseDriver {
 			break;
 
 		}
-		// DEVICE STATUS ---------------------
-		case "DEVICE STATUS":{
-			//System.out.println("Device status: "+ele.byValueKey("device_status").getText());
-			
-			if (ele.byValueKey("device_status").getText() != null) {
+		case "ONLINE STATUS":{
+			if (ele.byValueKey("online_Status") != null) {
 				Keyword.ReportStep_Pass(testCase,
-						"Succesfully navigated to " + screen.toUpperCase() + "and installed is : " + ele.byValueKey("device_status").getText());
+						"Succesfully navigated to " + screen.toUpperCase() + "and installed is : " + ele.byValueKey("online_Status").getText());
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
@@ -673,61 +601,150 @@ public class LuminaUtils extends BaseDriver {
 				flag = false;
 			}
 			break;
+
 		}
-		case "BATTERY VALUE":{
-//			driver.executeScript("flutter:scrollUntilVisible", ele.byValueKey("battery_level"), new HashMap<String, Object>() {{
-//				put("item", ele.byValueKey("battery_level"));
-//				put("dxScroll", 90);
-//				put("dyScroll", -400);
-//			}});
-			
-			scrollToElementByKeyValue("battery_level");
-			
-			
-			System.out.println("Battery Value: "+ele.byValueKey("battery_level").getText());
-			
-			if (ele.byValueKey("battery_level").getText() != null) {
+		case "NO ALERTS":{
+			if (ele.text("All Good").getText().equalsIgnoreCase("All Good")) {
 				Keyword.ReportStep_Pass(testCase,
-						"Succesfully navigated to " + screen.toUpperCase() + "and installed is : " + ele.byValueKey("battery_level").getText());
+						"No alerts are displayed in the Dashboard");
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-						"Could't navigate to " +  screen.toUpperCase());
+						"Alerts are displayed on the dashabord in newly installed device");
+				flag = false;
+			}
+			break;
+
+		}
+		case ("WATER LEAK DETECTED"):{
+			if (driver.executeScript("flutter:waitFor",ele.byValueKey("alert_buttontrue")) != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Water Leak alert is displayed in the Dashboard");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts are not displayed on the dashabord");
 				flag = false;
 			}
 			break;
 		}
-		case "LAST UPDATED":{
-//			CompletableFuture<FlutterElement>.runAsync(await ele.byValueKey("last_update"));
-			//System.out.println("Hello Last update");
-			
-			// Scrolling to Element
-			driver.executeScript("flutter:scrollUntilVisible", ele.byValueKey("last_updated"), new HashMap<String, Object>() {{
-				put("item", ele.byValueKey("last_updated"));
-				put("dxScroll", 90);
-				put("dyScroll", -400);
-				System.out.println("L: "+ele.byValueKey("last_update"));
-			}});
-			
-			//System.out.println("L: "+ele.byValueKey("last_update").getText());
-			//System.out.println("L: "+ele.bySemanticsLabel("last_updated").getText());
-			
+		case ("WATER LEAK DETECTED TITLE"):{
+			if (ele.byValueKey("Alert_Title").getText().equalsIgnoreCase("Leak Detected")) {
+				Keyword.ReportStep_Pass(testCase,
+						"Alerts Title is displayed in the Leak Card");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts title are not displayed");
+				flag = false;
+			}
 			break;
 		}
-//		case "NEXT UPDATED":{
-//			System.out.println("Device status: "+ele.byValueKey("next_update").getText());
-//			
-//			if (ele.byValueKey("next_update").getText() != null) {
-//				Keyword.ReportStep_Pass(testCase,
-//						"Succesfully navigated to " + screen.toUpperCase() + "and installed is : " + ele.byValueKey("next_update").getText());
-//				flag = true;
-//			}else {
-//				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-//						"Could't navigate to " +  screen.toUpperCase());
-//				flag = false;
-//			}
-//			break;
-//		}
+		case ("TIME STAMP WITH DETECTOR NAME"):{
+			if (ele.byValueKey("Alerts_Status").getText().contains(inputs.getInputValue("LOCATION1_DEVICE1_NAME"))) {
+				Keyword.ReportStep_Pass(testCase,
+						"Alerts time is displayed as " + ele.byValueKey("Alerts_Status").getText());
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts time is not displayed");
+				flag = false;
+			}
+			break;
+		}
+		case ("MUTE OPTION"):{
+			System.out.println(ele.byValueKey("Mute_Siren").getText() + "+ Mute option");
+			if (ele.byValueKey("Mute_Siren").getText().equalsIgnoreCase("Mute Siren")) {
+				Keyword.ReportStep_Pass(testCase,
+						"Alerts Mute buttonn is displayed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts Mute button is not displayed");
+				flag = false;
+			}
+			break;
+		}
+		case ("UNMUTE OPTION"):{
+			System.out.println(ele.byValueKey("Mute_Siren").getText() + "+ UnMute option");
+			if (ele.byValueKey("Mute_Siren").getText().equalsIgnoreCase("Unmute Siren")) {
+				Keyword.ReportStep_Pass(testCase,
+						"Alerts UnMute button is displayed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts Mute button is not displayed");
+				flag = false;
+			}
+			break;
+		}
+		case ("CLOSE OPTION"):{
+			if (ele.byValueKey("Close_button") != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Alerts close buttonn is displayed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Alerts close button is not displayed");
+				flag = false;
+			}
+			break;
+		}
+		case "SIREN STATUS":{
+			if (ele.byValueKey("Siren_status") != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Siren Status is displayed " + ele.byValueKey("Siren_status").getText() );
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Siren Status is not displayed");
+				flag = false;
+			}			break;
+		}
+		case "DETECTOR NAME TEXTFIELD":{
+			if (ele.byValueKey("Device_Name"+inputs.getInputValue("LOCATION1_DEVICE1_NAME")) != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Detector Name is displayed as " +  inputs.getInputValue("LOCATION1_DEVICE1_NAME"));
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Siren Status is not displayed");
+				flag = false;
+			}			break;
+		}
+		case "DETECTOR RENAMED":{
+			if (ele.byValueKey("Device_NameRenamed") != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Detector name is displayed as Renamed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Siren Status is not displayed");
+				flag = false;
+			}			break;
+		}
+		case "DETECTOR NAME REVERTED":{
+			if (ele.byValueKey("Device_Name"+inputs.getInputValue("LOCATION1_DEVICE1_NAME")) != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Detector name is displayed as Renamed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Siren Status is not displayed");
+				flag = false;
+			}			break;
+		}
+		case "ABOUT DEVICE":{
+			if (ele.byValueKey("Device_NameRenamed") != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Detector name is displayed as Renamed");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Siren Status is not displayed");
+				flag = false;
+			}			break;
+		}
 		default : {
 			Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 					screen.toUpperCase() + " Page not found" );
@@ -771,10 +788,8 @@ public class LuminaUtils extends BaseDriver {
 			break;
 		}
 		case ("YES"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementByXPath("//*[@text='Yes']").getText().equalsIgnoreCase("Yes")) {
-				driver.findElementByXPath("//*[@text='Yes']").click();
+			if (ele.byValueKey("delete_confimation_yes") != null) {
+				ele.byValueKey("delete_confimation_yes").click();
 				Keyword.ReportStep_Pass(testCase,
 						"Succesfully clicked one " + button.toUpperCase());
 				flag = true;
@@ -783,14 +798,11 @@ public class LuminaUtils extends BaseDriver {
 						"Could't click on " +  button.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("NO"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementByXPath("//*[@text='No']").getText().equalsIgnoreCase("No")) {
-				driver.findElementByXPath("//*[@text='No']").click();
+			if (ele.byValueKey("delete_confimation_no")!= null) {
+				ele.byValueKey("delete_confimation_no").click();
 				Keyword.ReportStep_Pass(testCase,
 						"Succesfully clicked one " + button.toUpperCase());
 				flag = true;
@@ -799,7 +811,6 @@ public class LuminaUtils extends BaseDriver {
 						"Could't click on " +  button.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("CREATE LOCATION"):{
@@ -819,12 +830,10 @@ public class LuminaUtils extends BaseDriver {
 		case ("LOCATION NAME"):{
 			driver.context("FLUTTER");
 			if (ele.text(inputs.getInputValue("LOCATION1_NAME")).getText().equalsIgnoreCase(inputs.getInputValue("LOCATION1_NAME"))) {
-				
 				ele.text(inputs.getInputValue("LOCATION1_NAME")).click();
 				Keyword.ReportStep_Pass(testCase,
 						"Succesfully clicked one " + button.toUpperCase());
 				flag = true;
-				
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't click on " +  button.toUpperCase());
@@ -870,6 +879,7 @@ public class LuminaUtils extends BaseDriver {
 						"Could't click on " +  button.toUpperCase());
 				flag = false;
 			}
+			driver.context("FLUTTER");
 			break;
 		}
 		case ("SETTINGS OPTION"):{
@@ -940,6 +950,159 @@ public class LuminaUtils extends BaseDriver {
 			driver.context("FLUTTER");
 			break;
 		}
+		case ("CLOSE"):{
+			if (ele.byValueKey("Close_button") != null) {
+				ele.byValueKey("Close_button").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("WATER LEAK ALERT"):{
+			if (ele.byValueKey("alert_buttontrue") != null) {
+				ele.byValueKey("alert_buttontrue").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("MUTE SIREN"):{
+			if (ele.byValueKey("Mute_Siren") != null) {
+				ele.byValueKey("Mute_Siren").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("UNMUTE OPTION"):{
+			if (ele.byValueKey("Mute_Siren") != null) {
+				ele.byValueKey("Mute_Siren").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "Daily (Recommended)" :{
+			if (ele.text(button).getText().equalsIgnoreCase("Daily (Recommended)")) {
+				ele.text(button).click();
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, button + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "Twice daily" :{
+			if (ele.text(button).getText().equalsIgnoreCase("Twice daily")) {
+				ele.text(button).click();
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, button + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "Three times daily" :{
+			if (ele.text(button).getText().equalsIgnoreCase("Three times daily")) {
+				ele.text("Three times daily").click();
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, button + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("ABOVE HUMIDITY RANGE"):{
+			if (ele.byValueKey("humidity_abovetrue") != null) {
+				ele.byValueKey("humidity_abovetrue").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("BELOW HUMIDITY RANGE"):{
+			if (ele.byValueKey("humidity_belowtrue") != null) {
+				ele.byValueKey("humidity_belowtrue").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("ABOVE TEMPERATURE RANGE"):{
+			if (ele.byValueKey("temp_abovetrue") != null) {
+				ele.byValueKey("temp_abovetrue").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked one " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("BELOW TEMPERATURE RANGE"):{
+			if (ele.byValueKey("temp_belowtrue") != null) {
+				ele.byValueKey("temp_belowtrue").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked on " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("DELETE LEAK DETECTOR"):{
+			if (ele.byValueKey("delete_wld") != null) {
+				ele.byValueKey("delete_wld").click();
+				Keyword.ReportStep_Pass(testCase,
+						"Succesfully clicked on " + button.toUpperCase());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  button.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
 		default : {
 			driver.context("FLUTTER");
 			ele.byValueKey(button).click();
@@ -976,6 +1139,18 @@ public class LuminaUtils extends BaseDriver {
 				flag = false;
 			}
 			driver.context("FLUTTER");
+			break;
+		}
+		case ("DELETE DEVICE"):{
+			if (ele.byValueKey("delete_device_description") != null) {
+				Keyword.ReportStep_Pass(testCase,
+						"Delete device Descriptionn is displayed as  " + ele.byValueKey("delete_device_description").getText());
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't click on " +  popup.toUpperCase());
+				flag = false;
+			}
 			break;
 		}
 		default : {
@@ -1019,31 +1194,40 @@ public class LuminaUtils extends BaseDriver {
 		}
 		default : {
 			driver.executeScript("flutter:enterText", input) ;
-			flag = false;
+			flag = true;
 		}
 		}
 		return flag;
 	}
 
-	
-	public void scrollToelement (String element){
+	public void scrollUpToelement (String element){
 		FlutterFinder ele = new FlutterFinder(driver);
-		driver.executeScript("flutter:scrollUntilVisible", ele.byType("ListView"), new HashMap<String, Object>() {{
-			put("item", ele.text(element));
-			put("dxScroll", 90);
-			put("dyScroll", -400);
-		}});
-
+		int num = 0;
+		while (num < 10) {
+			driver.executeScript("flutter:scroll", ele.byType("ListView"), new HashMap<String, Object>() {{
+				put("item", ele.byValueKey(element));
+				put("dx", 50);
+				put("dy", 100);
+				put("durationMilliseconds", 500);
+				put("frequency", 30);
+			}});
+			num++;
+		}
 	}
-	
-	public void scrollToElementByKeyValue (String element){
-		FlutterFinder ele = new FlutterFinder(driver);
-		driver.executeScript("flutter:scrollUntilVisible", ele.byValueKey(element), new HashMap<String, Object>() {{
-			put("item", ele.byValueKey(element));
-			put("dxScroll", 90);
-			put("dyScroll", -400);
-		}});
 
+	public void scrollDownToelement (String element){
+		FlutterFinder ele = new FlutterFinder(driver);
+		int num = 0;
+		while (num < 10) {
+			driver.executeScript("flutter:scroll", ele.byType("ListView"), new HashMap<String, Object>() {{
+				put("item", ele.byValueKey(element));
+				put("dx", 100);
+				put("dy", 400);
+				put("durationMilliseconds", 500);
+				put("frequency", 30);
+			}});
+			num++;
+		}
 	}
 
 	public boolean ElementEnabled (String element){
@@ -1051,101 +1235,112 @@ public class LuminaUtils extends BaseDriver {
 		FlutterFinder ele = new FlutterFinder(driver);
 		switch (element.toUpperCase()) {
 		case "THREE TIMES DAILY": {
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			List<MobileElement> mobelement = driver.findElementsByClassName("android.widget.RadioButton");
-			if (mobelement.size() != 0) {
-				for (int i =0;i<=mobelement.size()-1;i++ ) {
-					if (mobelement.get(i).getAttribute("content-desc").contains(element)) {
-						mobelement.get(i).click();
-						if(mobelement.get(i).getAttribute("Checked").equalsIgnoreCase("true") && mobelement.get(i).getAttribute("content-desc").contains(element)) {
-							Keyword.ReportStep_Pass(testCase, element + " is selected");
-						}
-					}
-				}
-				driver.context("FLUTTER");
-				flag = true;
-			}else {
-				flag = false;
-			}
-			driver.context("FLUTTER");
-			break;
-		}
-		case ("RECOMMENDED"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			List<MobileElement> mobelement = driver.findElementsByClassName("android.widget.RadioButton");
-			if (mobelement.size() != 0) {
-				for (int i =0;i<=mobelement.size()-1;i++ ) {
-					if (mobelement.get(i).getAttribute("content-desc").contains(element)) {
-						mobelement.get(i).click();
-						if(mobelement.get(i).getAttribute("Checked").equalsIgnoreCase("true") && mobelement.get(i).getAttribute("content-desc").contains(element)) {
-							Keyword.ReportStep_Pass(testCase, element + " is selected");
-						}
-					}
-				}
-				driver.context("FLUUTER");
-				flag = true;
-			}else {
-				flag = false;
-			}
-			driver.context("FLUTTER");
-			break;
-		} case "TEMPERATURE ALERTS" :{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Switch").get(0).getAttribute("checked").equalsIgnoreCase("true")) {
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey(8)) != null) {
 				Keyword.ReportStep_Pass(testCase, element + " is selected");
 				flag = true;
 			}else {
-				driver.findElementsByClassName("android.widget.Switch").get(0).click();
-				flag = (driver.findElementsByClassName("android.widget.Switch").get(0).getAttribute("checked").equalsIgnoreCase("true") ? true : false);
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
+			break;
+		}
+		case "TWICE DAILY": {
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey(12)) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is selected");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("RECOMMENDED"):{
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey(24)) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is selected");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
+			break;
+		} case "TEMPERATURE ALERTS" :{
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("temp_switchtrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("TEMPERATURE ABOVE VALUE"):{
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("temp_abovetrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case ("TEMPERATURE BELOW VALUE"):{
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("temp_belowtrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
 			break;
 		}
 		case ("HUMIDITY ALERTS"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Switch").get(1).getAttribute("checked").equalsIgnoreCase("true")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						screen + "in WLD Card Settings");
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_switchtrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
 				flag = true;
 			}else {
-				driver.findElementsByClassName("android.widget.Switch").get(1).click();
-				flag = (driver.findElementsByClassName("android.widget.Switch").get(1).getAttribute("checked").equalsIgnoreCase("true") ? true : false);
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY ABOVE VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("clickable").equalsIgnoreCase("true")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("clickable") + " is default Temp above value");
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_abovetrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY BELOW VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("clickable").equalsIgnoreCase("true")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("clickable") + " is default Temp below value");
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_belowtrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
+			break;
+		}
+		case "EMAIL NOTIFICATION" :{
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("checkbox_emailtrue")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is enabled");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
 			break;
 		}
 		default :{
@@ -1160,89 +1355,80 @@ public class LuminaUtils extends BaseDriver {
 		FlutterFinder ele = new FlutterFinder(driver);
 		switch (element.toUpperCase()) {
 		case "TEMPERATURE ALERTS" :{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Switch").get(0).getAttribute("checked").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass(testCase, element + " is selected");
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("temp_switchfalse")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is disabled");
 				flag = true;
 			}else {
-				driver.findElementsByClassName("android.widget.Switch").get(0).click();
-				flag = (driver.findElementsByClassName("android.widget.Switch").get(0).getAttribute("checked").equalsIgnoreCase("false") ? true : false);
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("TEMPERATURE ABOVE VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(1).getAttribute("clickable").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(1).getAttribute("clickable") + " is default Temp above value");
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("temp_abovefalse")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("temp_abovefalse") + " is default Temp below value");
 				flag = true;
-			}else {
+			} else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("TEMPERATURE BELOW VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(2).getAttribute("clickable").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(2).getAttribute("clickable") + " is default Temp below value");
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("temp_belowfalse")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("temp_belowfalse") + " is default Temp below value");
 				flag = true;
-			}else {
+			} else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case "HUMIDITY ALERTS" :{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Switch").get(1).getAttribute("checked").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass(testCase, element + " is selected");
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_switchfalse")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is disabled");
 				flag = true;
 			}else {
-				driver.findElementsByClassName("android.widget.Switch").get(1).click();
-				flag = (driver.findElementsByClassName("android.widget.Switch").get(1).getAttribute("checked").equalsIgnoreCase("false") ? true : false);
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY ABOVE VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("clickable").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(3).getAttribute("clickable") + " is default Temp above value");
+			if (driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_abovefalse")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("humidity_abovefalse") + " is default Hum Above value");
 				flag = true;
-			}else {
+			} else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		case ("HUMIDITY BELOW VALUE"):{
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			if (driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("clickable").equalsIgnoreCase("false")) {
-				Keyword.ReportStep_Pass_With_ScreenShot(testCase,
-						driver.findElementsByClassName("android.widget.Button").get(4).getAttribute("clickable") + " is default Temp below value");
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("humidity_belowfalse")) != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, ele.byValueKey("humidity_belowfalse") + " is default Hum below value");
+				flag = true;
+			} else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  element.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "EMAIL NOTIFICATION" :{
+			if ( driver.executeScript("flutter:waitFor", ele.byValueKey("checkbox_emailfalse")) != null) {
+				Keyword.ReportStep_Pass(testCase, element + " is disabled");
 				flag = true;
 			}else {
 				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
 						"Could't navigate to " +  element.toUpperCase());
 				flag = false;
 			}
-			driver.context("FLUTTER");
 			break;
 		}
 		default :{
@@ -1256,71 +1442,76 @@ public class LuminaUtils extends BaseDriver {
 	public boolean SetTempUnit(String unit) {
 		boolean flag = false;
 		FlutterFinder ele = new FlutterFinder(driver);
-		this.ClickOnButton("MANAGE ALERTS");
-		for(int j=1;j<=3;j++){  
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			String getUnit = driver.findElementsByClassName("android.widget.Button").get(1).getText();
-			System.out.println("getUnit "+getUnit);
-			if(getUnit.contains(unit)){  
-				Keyword.ReportStep_Pass(testCase, unit + " is selected");
-				driver.context("FLUTTER");
-				flag = true;
-				break;  
-			} else {
-				driver.context("FLUTTER");
-				sleepTime(5000);
-				ele.byValueKey("back").click();
-				this.ClickOnButton("TEMPERATURE UNIT");
-				driver.context("FLUTTER");
-				this.ClickOnButton("MANAGE ALERTS");
-			}
-		}
-		return flag;
-	}
-	
-	public boolean getTempVal(String unit) {
-		boolean flag = false;
-		
-		
-			driver.context("NATIVE_APP");
-			sleepTime(5000);
-			String getString = driver.findElementById("19f3b580-4d1a-4293-baee-0339d628a7c1").getText();
-			//String getUnit = driver.findElementsByClassName("android.widget.Button").get(1).getText();
-			System.out.println("getString:  "+getString);
-			
-		return flag;
-	}
-	
-	
-	
-	// Todo: refactor
-	public boolean SetTemperatureUnitValue(String unit) {
-		boolean flag = false;
-				
-		//this.ClickOnButton("TEMPERATURE UNIT");
-		driver.context("NATIVE_APP");
-		sleepTime(5000);
-		
-		String getUnit = driver.findElementsByClassName("android.widget.Button").get(1).getText();
-		
-		System.out.println("getUnit "+getUnit);
-		if(getUnit.contains(unit)){ 
-			driver.findElementsByClassName("android.widget.Button").get(1).click();
-			Keyword.ReportStep_Pass(testCase, unit + " is selected");
-			System.out.println("UNIT clicked");
-			flag = true;  
+		if (unit.equalsIgnoreCase("C")) {
+			ele.byValueKey("unit_F").click();
+			flag = true;
 		} else {
-			Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
-					unit + " is selected");
-			System.out.println("UNIT clicked");
-			flag = false;
+			ele.byValueKey("unit_C").click();
+			flag = true;
 		}
-		
-		driver.context("FLUTTER");
-		// driver.findElement(By.xpath("//android.widget.Button[@index='0']")).click();;
-		
 		return flag;
+	}
+
+	public String GetTempUnit() {
+		String UntiValue ;
+		FlutterFinder ele = new FlutterFinder(driver);
+		UntiValue = ele.byValueKey("temp_above").getText();
+		return UntiValue;
+	}
+
+	public String GetSirenStatus() {
+		String SirenValue ;
+		FlutterFinder ele = new FlutterFinder(driver);
+		SirenValue = ele.byValueKey("Siren_status").getText();
+		return SirenValue;
+	}
+
+	public boolean VerifyUpdateFrequency(String Frequency) {
+		FlutterFinder ele = new FlutterFinder(driver);
+		boolean flag = false;
+		switch (Frequency) {
+		case "24" :
+		case "Daily" :{
+			if (ele.byValueKey("24") != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, Frequency + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  Frequency.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "12" :
+		case "Twice daily" :{
+			if (ele.byValueKey("12") != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, Frequency + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  Frequency.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		case "8" :
+		case "Three times Daily" :{
+			if (ele.byValueKey("8") != null) {
+				Keyword.ReportStep_Pass_With_ScreenShot(testCase, Frequency + " is selected as Frequency");
+				flag = true;
+			}else {
+				Keyword.ReportStep_Fail_WithOut_ScreenShot(testCase, FailType.FUNCTIONAL_FAILURE , 
+						"Could't navigate to " +  Frequency.toUpperCase());
+				flag = false;
+			}
+			break;
+		}
+		default :{
+			flag = false;
+			break;
+		}
+		}
+		return flag ;
 	}
 
 	public void sleepTime(int timeout) {
@@ -1331,4 +1522,23 @@ public class LuminaUtils extends BaseDriver {
 			e.printStackTrace();
 		}
 	}
+
+	public void getAlertValues(String ValueType) {
+		String aboveValue;
+		String belowValue;
+		FlutterFinder ele = new FlutterFinder(driver);
+		if (ValueType.equalsIgnoreCase("Humidity")) {
+			aboveValue = ele.byValueKey("humidity_above").getText();
+			belowValue = ele.byValueKey("humidity_below").getText();
+			inputs.setInputValue(InputVariables.HUMIDITY_ABOVE_VALUE, aboveValue);
+			inputs.setInputValue(InputVariables.HUMIDITY_BELOW_VALUE, belowValue);
+		} else{
+			aboveValue = ele.byValueKey("temp_above").getText();
+			belowValue = ele.byValueKey("temp_below").getText();
+			inputs.setInputValue(InputVariables.TEMPERATURE_ABOVE_VALUE, aboveValue);
+			inputs.setInputValue(InputVariables.TEMPERATURE_BELOW_VALUE, belowValue);
+		}
+	}
+
+
 }

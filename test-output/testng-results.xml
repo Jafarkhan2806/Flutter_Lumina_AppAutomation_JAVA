@@ -1,52 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Lumina_Buoy_Execution_Suite" duration-ms="11947" started-at="2020-02-03T21:44:50Z" finished-at="2020-02-03T21:45:02Z">
+  <suite name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="36421" started-at="2020-02-06T18:57:54Z" finished-at="2020-02-06T18:58:30Z">
     <groups>
       <group name="Executor">
-        <method signature="TestCasesExecutor.test()[pri:0, instance:[Test: &quot;As a user I should have a quick access to view the status of Home&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" class="com.honeywell.testcases.executor.TestCasesExecutor"/>
+        <method signature="TestCasesExecutor.test()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" class="com.honeywell.testcases.executor.TestCasesExecutor"/>
       </group> <!-- Executor -->
     </groups>
-    <test name="Lumina_Buoy_Execution_Suite" duration-ms="11947" started-at="2020-02-03T21:44:50Z" finished-at="2020-02-03T21:45:02Z">
+    <test name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="36421" started-at="2020-02-06T18:57:54Z" finished-at="2020-02-06T18:58:30Z">
       <class name="com.honeywell.testcases.executor.TestCasesExecutor">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:[Test: &quot;As a user I should have a quick access to view the status of Home&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="setUP" is-config="true" duration-ms="22" started-at="2020-02-03T15:44:50Z" finished-at="2020-02-03T15:44:50Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="setUP" is-config="true" duration-ms="35" started-at="2020-02-06T12:57:54Z" finished-at="2020-02-06T12:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:[Test: &quot;As a user I should have a quick access to view the status of Home&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" duration-ms="11911" started-at="2020-02-03T15:44:50Z" finished-at="2020-02-03T15:45:02Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.fail(Assert.java:101)
-	at com.honeywell.testcases.executor.TestCasesExecutor.test(TestCasesExecutor.java:230)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" duration-ms="36374" started-at="2020-02-06T12:57:54Z" finished-at="2020-02-06T12:58:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:[Test: &quot;As a user I should have a quick access to view the status of Home&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-02-03T15:45:02Z" finished-at="2020-02-03T15:45:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-02-06T12:58:30Z" finished-at="2020-02-06T12:58:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.honeywell.testcases.executor.TestCasesExecutor -->
-    </test> <!-- Lumina_Buoy_Execution_Suite -->
-  </suite> <!-- Lumina_Buoy_Execution_Suite -->
+    </test> <!-- LUMINA_BUOY_TEST_AUTOMATION -->
+  </suite> <!-- LUMINA_BUOY_TEST_AUTOMATION -->
 </testng-results>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<test name="3 As a user I should be able to enable temperature Alert if it is disabled - #9">
-<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
-<msg html="yes" level="INFO" timestamp="20200107 16:51:31.005">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : pavantest@grr.la</msg>
-<status critical="yes" endtime="20200107 16:51:31.007" starttime="20200107 16:51:15.568" status="PASS"/>
-</kw>
-</test>

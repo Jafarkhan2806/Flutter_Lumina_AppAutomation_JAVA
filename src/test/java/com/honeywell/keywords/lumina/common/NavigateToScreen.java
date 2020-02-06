@@ -46,12 +46,10 @@ public class NavigateToScreen extends Keyword {
 	@Override
 	@KeywordStep(gherkins = "^user navigates to \"(.+)\" screen from the \"(.+)\" screen$")
 	public boolean keywordSteps() throws KeywordException {
-		//System.out.println("1. User Navigates:");
 		LuminaUtils lumina = new LuminaUtils(inputs, testCase);
 		//		if (screen.get(1).equalsIgnoreCase("Add New Device Dashboard")) {
 		switch (screen.get(1).toUpperCase()) {
 		case "ADD NEW DEVICE DASHBOARD":{
-			//System.out.println("i. ADD NEW DEVICE");
 			switch (screen.get(0).toUpperCase()) {
 			case ("WATER LEAK DETECTOR SETUP"):{
 				lumina.AddDevice("WATER LEAK DETECTOR SETUP");
@@ -59,7 +57,6 @@ public class NavigateToScreen extends Keyword {
 			}
 			case ("WATER CARD"):{
 				lumina.ClickOnButton("DETECTOR NAME");
-				//System.out.println("WC");
 				break;
 			}
 			default : {
@@ -68,22 +65,9 @@ public class NavigateToScreen extends Keyword {
 			}
 			break;
 		}
-		// case "HOME":{  // Navigate to WLD Dashboard
-		// 	switch (screen.get(0).toUpperCase()) {
-		// 	case ("WATER LEAK DETECTOR"):{
-		// 		lumina.ClickOnButton("DETECTOR NAME");
-		// 		break;
-		// 	}
-		// 	default : {
-		// 		flag = false;
-		// 	}
-		// 	}
-		// 	break;
-		// }
 		case "WATER LEAK DETECTOR" :{
 			switch (screen.get(0).toUpperCase()) {
 			case ("SETTINGS OPTION"):{
-				System.out.println("WLD");
 				lumina.ClickOnButton("DETECTOR NAME");
 				lumina.ClickOnButton("SETTINGS OPTION");
 				break;
@@ -95,7 +79,6 @@ public class NavigateToScreen extends Keyword {
 			break;
 		}
 		case "SETTINGS" :{
-			System.out.println("SETTINGS");
 			switch (screen.get(0).toUpperCase()) {
 			case ("MANAGE ALERTS"):{
 				lumina.ClickOnButton(screen.get(0).toUpperCase());
@@ -116,7 +99,6 @@ public class NavigateToScreen extends Keyword {
 			break;
 		}
 		case "MANAGE ALERTS" :{
-			System.out.println("MANAGE ALERT");
 			switch (screen.get(0).toUpperCase()) {
 			case ("WATER LEAK DETECTOR"):{
 				for(int i=1;i<=2;i++) {

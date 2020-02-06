@@ -50,7 +50,6 @@ public class SelectElementOnAScreen extends Keyword {
 			}	
 			}
 		}else if (parameters.get(1).equalsIgnoreCase("Detector Name")) {
-			
 			switch(parameters.get(0).toUpperCase()) {
 			case ("DETECTOR NAME"):{
 				lumina.ClickOnButton(parameters.get(0).toUpperCase());
@@ -63,12 +62,31 @@ public class SelectElementOnAScreen extends Keyword {
 		}else if (parameters.get(1).equalsIgnoreCase("CONNECT TO NETWORK")) {
 			switch (parameters.get(0).toUpperCase()) {
 			case "ADD A NETWORK": {
+				lumina.ClickOnButton("addNew_network");
 				break;
 			}
 			default: {
-				//lumina.scrollToelement(parameters.get(0));
+//				lumina.scrollToelement(parameters.get(0));
 				lumina.ClickOnButton(parameters.get(0));
 				lumina.ClickOnButton("password_textfield");
+				break;
+			}
+			}
+		} else if (parameters.get(1).equalsIgnoreCase("UPDATE FREQUENCY")) {
+			switch (parameters.get(0).toUpperCase()) {
+			case "DAILY": {
+				lumina.ClickOnButton("Daily (Recommended)");
+				break;
+			}
+			case "TWICE DAILY": {
+				lumina.ClickOnButton(parameters.get(0));
+				break;
+			}
+			case "THREE TIMES DAILY": {
+				lumina.ClickOnButton(parameters.get(0));
+				break;
+			}
+			default: {
 				break;
 			}
 			}

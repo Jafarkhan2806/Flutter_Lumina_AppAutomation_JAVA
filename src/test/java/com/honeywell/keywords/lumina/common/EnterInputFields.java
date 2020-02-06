@@ -48,6 +48,16 @@ public class EnterInputFields extends Keyword {
 				lumina.EnterTestInputs(parameters.get(0).toUpperCase());
 				break;
 			}
+			case ("SSID"):{
+				lumina.ClickOnButton("ssid_textField");
+				lumina.EnterTestInputs(parameters.get(0));
+				break;
+			}
+			case "Password":{
+				lumina.ClickOnButton("password_textField");
+				lumina.EnterTestInputs(parameters.get(0));
+				break;
+			}
 			default : {
 				lumina.EnterTestInputs(parameters.get(0));
 				flag = false;
@@ -55,6 +65,14 @@ public class EnterInputFields extends Keyword {
 			}
 		} else if (parameters.get(1).equalsIgnoreCase("Password")) {
 			lumina.EnterTestInputs(parameters.get(0));
+		} else if (parameters.get(1).equalsIgnoreCase("About Device") ) {
+			if (parameters.get(0).equalsIgnoreCase("Renamed")) {
+				flag = lumina.ClickOnButton("Device_NameGarage");
+				flag = lumina.EnterTestInputs(parameters.get(0));
+			} else {
+				flag =lumina.ClickOnButton("Device_NameRenamed");
+				flag =lumina.EnterTestInputs(inputs.getInputValue("LOCATION1_DEVICE1_NAME"));
+			}
 		}
 		return flag;
 	}

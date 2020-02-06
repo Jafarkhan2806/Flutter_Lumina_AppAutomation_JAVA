@@ -3,7 +3,8 @@ Feature: Water Leak Detector Onboarding to Resideo Account
 As a Resideo user I should be able to onboard water leak detector device using lumina app
 
   Background: 
-    Given  user launches and logs in to the Lumina application
+    Given user "Enroll" wld device
+    And user launches and logs in to the Lumina application
    # Given  user launches and logs in to the Lumina ios application
   
   @WLDDIYAccessToLocationServicesMobileDevice	 @P3
@@ -417,7 +418,7 @@ As a Resideo user I should be able to onboard water leak detector device using l
       | Finalizing the setup      | 
   
   @WLDDIYRegistrationNewaccount @P1 
-  Scenario: As a user I should be able to add WLD device by creating new account using Lumina application  
+  Scenario Outline: As a user I should be able to add WLD device by creating new account using Lumina application  
     Given user "Phone location service" is turned "Off"
       And user "Phone Bluetooth service" is turned "Off"
      When user selects "Create Account" from "Login" screen
@@ -462,13 +463,15 @@ As a Resideo user I should be able to onboard water leak detector device using l
   #Then user should not be displayed with BUOY, Water Leak Detector integration FTUE screens
      Then user should be displayed with "Placement Overview" screen
      When user clicks on "Next" button
-     Then user should be displayed with "WLD card" screen\[===''] @P1 
-  Scenario: As a user I should be able to add WLD device to existing location by using Lumina application   
+     Then user should be displayed with "WLD card" screen
+  
+  @WLDDIYRegistrationToExistingLocation @P1 
+  Scenario: 1 As a user I should be able to add WLD device to existing location by using Lumina application   
   #Given user "Phone location service" is turned "On" 
   #And user "App location service" is turned "On" 
   #And user "Phone Bluetooth service" is turned "On"
   #And user login to Existing account with Location "Home"
-     When user "Enroll" wld device
+     #When user "Enroll" wld device
      And user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen
      Then user should be displayed with the "Water Leak Detector Setup" screen
      And user clicks on "Next" button
@@ -482,16 +485,14 @@ As a Resideo user I should be able to onboard water leak detector device using l
       And user clicks on "Next" button
      And user should be displayed with the "Connect" screen
      And user should be displayed with the "SELECT NETWORK" screen
-      When user selects "ASUS_SYS" from "CONNECT TO NETWORK" screen
-      And user inputs "ASUS_SYS" in the "Password@123" Screen
+      When user selects "appsec2.4" from "CONNECT TO NETWORK" screen
+      And user inputs "Appsecacc24" in the "Password" Screen
       And user clicks on "Next" button
      Then user should be displayed with the "CONNECT WIFI" screen
-     #When user clicks on "Next" button
      Then user should be displayed with the "Congratulations" screen
      When user clicks on "Done" button
      Then user should be displayed with the "Manage Alerts" screen
      And user clicks on "Next" button
-     And user clicks on "Yes" button
      Then user should be displayed with the "Placement Overview" screen
      And user clicks on "Next" button
      And user deletes WLD Device from App
@@ -502,95 +503,85 @@ As a Resideo user I should be able to onboard water leak detector device using l
   #Then user should be displayed with "WLD card" screen 
     
   
-  @WLDDIYRegistrationWithAvailableDetectorName @P4 
+  @WLDDIYRegistrationWithAvailableDetectorName @P4 @UIAutomated
   Scenario Outline: As a user I should be able to add WLD device to existing location using Lumina application by selecting pre populated Water Leak Detector name
-    Given user "Phone location service" is turned "On" 
-      And user "App location service" is turned "On" 
-      And user "Phone Bluetooth service" is turned "On"
-      And user login to Existing account with Location "Home"
-     When user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen
+    Given user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen
      Then user should be displayed with the "Water Leak Detector Setup" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "Choose Location" screen
-     When user clicks on "Home" from "Choose Location" screen
-      And user clicks on "Next" button
+     And user clicks on "Next" button
+     When user should be displayed with the "Choose Location" screen
+     And user selects "LOCATION NAME" from "Choose Location" screen
+  #And user clicks on "Next" button
      Then user should be displayed with the "Detector Name" screen
      When user selects <Detector Name> from "Detector Name" screen
+      And user should be displayed with the "Power Detector" screen
       And user clicks on "Next" button
-     Then user should be displayed with the "Power Detector" screen
-     When user turned one Water Leak detector for bluetooth pairing
+     And user should be displayed with the "Connect" screen
+     And user should be displayed with the "SELECT NETWORK" screen
+      When user selects "appsec2.4" from "CONNECT TO NETWORK" screen
+      And user inputs "Appsecacc24" in the "Password" Screen
       And user clicks on "Next" button
-     Then user should be displayed with "Connect (WLD-8 Screen)" screen
-     When user user navigates to "Select Network" screen
-      And user selects "Network" from "Select Network" screen
-      And user enters "Valid Password"
-      And user clicks on "Next" button
-     Then user should be displayed with "Connect (WLD-12 Screen)" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "Congratulation" screen
+     Then user should be displayed with the "CONNECT WIFI" screen
+     Then user should be displayed with the "Congratulations" screen
+     Then user should be disabled with "Temperature Alerts"
+      And user should be disabled with "Temperature Below value"
+      And user should be disabled with "Temperature Above value"
+      And user should be disabled with "Humidity Alerts"
+      And user should be disabled with "HUMIDITY BELOW VALUE"
+      And user should be disabled with "HUMIDITY ABOVE VALUE"
      When user clicks on "Done" button
-     Then user should be displayed with "Alert Settings" screen
-     When user clicks on "Next" button
-  #Then user should not be displayed with BUOY, Water Leak Detector integration FTUE screens
-     Then user should be displayed with "Placement Overview" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "WLD card" screen
+     Then user should be displayed with the "Manage Alerts" screen
+     And user clicks on "Next" button
+     Then user should be displayed with the "Placement Overview" screen
+     And user clicks on "Next" button
+     And user deletes WLD Device from App
+     And user clicks on "Yes" button
     Examples: 
       | Detector Name   | 
       | Basement        | 
-      | Laundry Room    | 
-      | Garage          | 
-      | Master Bathroom | 
-      | Guest Bathroom  | 
-      | Water Filter    | 
-      | Water Heater    | 
-      | Kitchen Sink    | 
-      | Refrigerator    | 
-      | Dishwasher      | 
-      | Furnance        | 
+      #| Laundry Room    | 
+      #| Garage          | 
+      #| Master Bathroom | 
+      #| Guest Bathroom  | 
+      #| Water Filter    | 
+      #| Water Heater    | 
+      #| Kitchen Sink    | 
+      #| Refrigerator    | 
+      #| Dishwasher      | 
+      #| Furnance        | 
   
-  @WLDDIYRegistrationByAddNetwork @P2 
+  @WLDDIYRegistrationByAddNetwork @P2 @UIAutomated
   Scenario Outline: As a user I should be able to register WLD device by adding network using Lumina application  
-    Given user "Phone location service" is turned "On" 
-      And user "App location service" is turned "On" 
-      And user "Phone Bluetooth service" is turned "On"
-      And user login to Existing account with Location
-     When user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen
+    Given user navigates to "Water Leak Detector Setup" screen from the "Add New Device Dashboard" screen
      Then user should be displayed with the "Water Leak Detector Setup" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "Choose Location" screen
-     When user clicks on "Create Location" button
-     Then user should be displayed with "Create Location" screen
-  #The Create Location screen should have all Location fields auto filled, Country option should be greyed out
-     When user inputs "Location Name" in the "Create Location" screen
-      And user clicks on "Next" button
+     And user clicks on "Next" button
+     When user should be displayed with the "Choose Location" screen
+     And user selects "LOCATION NAME" from "Choose Location" screen
+  #And user clicks on "Next" button
      Then user should be displayed with the "Detector Name" screen
-     When user selects "Basement" from "Detector Name" screen
-      And user clicks on "Next" button
+     When user selects "DETECTOR NAME" from "Detector Name" screen
+  #And user clicks on "Next" button
      Then user should be displayed with the "Power Detector" screen
-     When user turned one Water Leak detector for bluetooth pairing
       And user clicks on "Next" button
-     Then user should be displayed with "Connect (WLD-8 Screen)" screen
-     When user user navigates to "Select Network" screen
-      And user selects "Add New Network" from "Select Network" screen
-     Then user should be displayed with the "New Network" screen 
-      And user enters "SSID"
-      And user selects <Security>
-      And user clicks on "Next" button 
-      And user enters "Valid Password"
+     And user should be displayed with the "Connect" screen
+     And user should be displayed with the "SELECT NETWORK" screen
+      And user selects "Add New Network" from "CONNECT TO NETWORK" screen
+     Then user should be displayed with the "Add New Network" screen 
+     And user clicks on <Security> button
+      And user inputs "A1" in the "SSID" Screen
+      And user inputs "Vijay1987" in the "Password" Screen
       And user clicks on "Next" button
-     Then user should be displayed with "Connect (WLD-12 Screen)" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "Congratulation" screen
+     Then user should be displayed with the "Congratulations" screen
      When user clicks on "Done" button
-     Then user should be displayed with "Alert Settings" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "Placement Overview" screen
-     When user clicks on "Next" button
-     Then user should be displayed with "WLD card" screen
+     Then user should be displayed with the "Manage Alerts" screen
+     And user clicks on "Next" button
+     Then user should be displayed with the "Placement Overview" screen
+     And user clicks on "Next" button
+     And user deletes WLD Device from App
+     And user clicks on "Yes" button
     Examples: 
       | Security             | 
-      | WEP Shared           | 
+      | WEP Personal           | 
+      | WEP Share||
       | WPA Personal(AES)    | 
       | WPA Personal(TKIP)   | 
       | WPA2 Personal(AES)   | 
@@ -823,3 +814,4 @@ As a Resideo user I should be able to onboard water leak detector device using l
       | Connect                   | Power Detector            | 
       | New Network               | Select Network            | 
       | Enter Password            | Select Network            | 
+  

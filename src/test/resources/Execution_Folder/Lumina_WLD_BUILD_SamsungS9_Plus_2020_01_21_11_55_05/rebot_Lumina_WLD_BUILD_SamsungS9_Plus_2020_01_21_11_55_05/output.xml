@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<robot>
-<suite id="Lumina_WLD_BUILD_001" name="Lumina_WLD_BUILD_SamsungS9_Plus">
-<status critical="yes" endtime="20200121 11:55:05.858" starttime="20200121 11:55:05.850" status="FAIL"/>
-</suite>
-</robot>

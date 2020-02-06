@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<test name="As a user I should be albe to see the Device status with timestamp">
-<kw name="Given  : user launches and logs in to the Lumina application" type="kw">
-<msg html="yes" level="INFO" timestamp="20200125 23:55:06.443">&lt;b&gt;[FAIL - Framework Configuration]&lt;/b&gt; Execute Keyword : Not able to execute Step - 'user launches and logs in to the Lumina application'. Error Occured - null</msg>
-<status critical="yes" endtime="20200125 23:55:06.479" starttime="20200125 23:54:41.277" status="FAIL"/>
-</kw>
-</test>

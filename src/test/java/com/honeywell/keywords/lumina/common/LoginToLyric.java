@@ -49,7 +49,6 @@ public class LoginToLyric extends Keyword {
 		flag = flag & LyricUtils.launchAndLoginToApplication(testCase, inputs);
 		return flag;
 	}
-	
 
 	@Override
 	@AfterKeyword
