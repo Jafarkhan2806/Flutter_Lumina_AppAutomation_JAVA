@@ -36,6 +36,7 @@ public class VerifyScreen extends Keyword {
 	@Override
 	@KeywordStep(gherkins = "^user should be displayed with the \"(.+)\" screen$")
 	public boolean keywordSteps() throws KeywordException {
+		
 		  LuminaUtils lumina = new LuminaUtils(inputs, testCase);
 			switch (screen.get(0).toUpperCase()) {
 			case ("WATER LEAK DETECTOR SETUP"):{
@@ -134,6 +135,11 @@ public class VerifyScreen extends Keyword {
 				break;
 			}
 			case "ABOUT DEVICE":{
+				flag = lumina.VerifyScreen(screen.get(0).toUpperCase());
+				break;
+			}
+			case "SPLASH":
+			{
 				flag = lumina.VerifyScreen(screen.get(0).toUpperCase());
 				break;
 			}

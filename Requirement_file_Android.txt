@@ -23,3 +23,4 @@ YES	WLDDIYRegistrationWhenAlreadyWLDisRegistered		Android-Device-Android-8.0	RF8
 	RenameWLDdevice		Android-Device-Android-8.0	RF8M703C8PV	Local	Production	"AcquisitionType=Specific, TestData='USERID=testauto@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Garage'"
 	DeleteLeakDetector		Android-Device-Android-8.0	RF8M703C8PV	Local	Production	"AcquisitionType=Specific, TestData='USERID=testauto@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Garage'"
 	LoginToApplication		Android-Device-Android-9.0	Samsung S9	Local	Production	"AcquisitionType=Specific, TestData='USERID=prod_buoy_slsd1@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Buoy'"
+	VerifySplashScreen		Android-Device-Android-9.0	Samsung S9	Local	Production	"AcquisitionType=Specific, TestData='USERID=prod_buoy_slsd1@grr.la,PASSWORD=Password1,PASSCODE=1245,LOCATION1_NAME=Home,LOCATION1_DEVICE1_NAME=Buoy'"

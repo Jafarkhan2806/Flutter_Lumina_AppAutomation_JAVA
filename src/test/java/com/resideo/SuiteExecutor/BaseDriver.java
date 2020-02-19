@@ -27,7 +27,7 @@ public  class BaseDriver  {
 			capabilities.setCapability("platformVersion", "9");
 			capabilities.setCapability("deviceName", "Samsung s9");
 			capabilities.setCapability("noReset", true);
-			capabilities.setCapability("app", "/Users/e844455/Documents/LANTERN_APP/LUMINA_APP/Android/Debug.apk");
+			capabilities.setCapability("app", "/Users/e844455/Documents/LANTERN_APP/LUMINA_APP/Android/Debug_1486.apk");
 			capabilities.setCapability("automationName", "Flutter");
 			capabilities.setCapability("newCommandTimeout", "36000");
 			driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);

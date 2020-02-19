@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <robot>
 <suite id="Lumina_BUOY_EXECUTION_001" name="LUMINA_BUOY_TEST_AUTOMATION">
-<test name="As a user I want to login to the lyric application">
-<kw name="When  : user launches and logs in to the Lumina application" type="kw">
-<msg html="yes" level="INFO" timestamp="20200206 12:58:30.562">&lt;b&gt;[PASS]&lt;/b&gt; Logged into the Account  : prod_buoy_slsd2@grr.la</msg>
-<status critical="yes" endtime="20200206 12:58:30.593" starttime="20200206 12:57:54.230" status="PASS"/>
+<test name="As a user I want to verify splash screen of lumina">
+<kw name="When  : user launch the application" type="kw">
+<msg html="yes" level="INFO" timestamp="20200218 16:42:04.043">&lt;b&gt;[PASS]&lt;/b&gt; Successfully launch the application</msg>
+<status critical="yes" endtime="20200218 16:42:04.072" starttime="20200218 16:41:50.007" status="PASS"/>
+</kw>
+<kw name="Then  : user should be displayed with the &quot;SPLASH&quot; screen" type="kw">
+<msg html="yes" level="INFO" timestamp="20200218 16:42:06.118">&lt;b&gt;[PASS]&lt;/b&gt; Successfully verified splash screen</msg>
+<status critical="yes" endtime="20200218 16:42:06.120" starttime="20200218 16:42:04.079" status="PASS"/>
 </kw>
 <tags>
-<tag>TestName::As a user I want to login to the lyric application</tag>
-<tag>Group::LoginToApplication</tag>
+<tag>TestName::As a user I want to verify splash screen of lumina</tag>
+<tag>Group::VerifySplashScreen</tag>
 <tag>SolutionCategory::LUMINA_BUOY_DIY_EXECUTION</tag>
 <tag>DeviceType::Local-Device</tag>
 <tag>TargetName::Samsung S9</tag>
 <tag>DeviceSize::Android_Medium</tag>
 <tag>OperatingSystem::Android-9.0</tag>
 <tag>CloudEnvironment::Production</tag>
-<tag>AccessoryName::prod_buoy_slsd2@grr.la</tag>
-<tag>BuildNumber:: Android - Debug</tag>
-<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/LUMINA_BUOY_TEST_AUTOMATION_2020_02_06_12_57_53/rebot/report.html#tags?Group::As a user I want to login to the lyric application</tag>
+<tag>AccessoryName::prod_buoy_slsd1@grr.la</tag>
+<tag>BuildNumber:: Android - Debug_1480</tag>
+<tag>TestReportURL::http://atresultserver.honeywell.com:8080/results/LUMINA_BUOY_TEST_AUTOMATION_2020_02_18_16_41_49/rebot/report.html#tags?Group::As a user I want to verify splash screen of lumina</tag>
 </tags>
-<status critical="yes" endtime="20200206 12:58:30.602" starttime="20200206 12:57:54.223" status="PASS"/>
+<status critical="yes" endtime="20200218 16:42:06.130" starttime="20200218 16:41:50.000" status="PASS"/>
 <kw name="Parameter Information" type="for">
-<status critical="yes" endtime="20200206 12:58:30.603" starttime="20200206 12:57:54.223" status="PASS"/>
+<status critical="yes" endtime="20200218 16:42:06.131" starttime="20200218 16:41:50.000" status="PASS"/>
 <msg html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='3'&gt;Following are the Parameters Passed to the Test Case&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Framework version : &lt;/th&gt;&lt;td colspan='2'&gt;bdd_framework_dev - 2.5.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan='2'&gt;Acquition Type : &lt;/th&gt;&lt;td colspan='2'&gt;Specific&lt;/td&gt;&lt;/tr&gt;</msg>
 </kw>
 </test>
-<status critical="yes" endtime="20200206 12:58:30.728" starttime="20200206 12:58:30.664" status="FAIL"/>
+<status critical="yes" endtime="20200218 16:42:06.254" starttime="20200218 16:42:06.191" status="FAIL"/>
 </suite>
 </robot>

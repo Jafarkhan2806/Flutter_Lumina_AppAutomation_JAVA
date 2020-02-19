@@ -78,6 +78,20 @@ public class LuminaUtils extends BaseDriver {
 				find.clickElementsByXpath("SIGN IN",1);
 				find.swicthContext("FLUTTER");
 
+				try 
+				{
+					Thread.sleep(10000);
+				} catch (InterruptedException e) 
+				{
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				
+				
+				find.clickElementByText("SETTINGS");
+				
+				find.clickElementByText("SIGN OUT");
 		
 				return flag;
 	}
@@ -88,6 +102,23 @@ public class LuminaUtils extends BaseDriver {
 		find.clickElementByText(inputs.getInputValue("APPENV"));
 		return flag;
 
+	}
+	
+	public Boolean launchapp()
+	{
+		boolean flag = true;
+		try 
+		{
+			driver = find.setUp();
+		} 
+		catch (Exception e) 
+		{
+			flag=false;
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return flag;
 	}
 
 	public Boolean AddDevice(String screen) {
@@ -156,7 +187,26 @@ public class LuminaUtils extends BaseDriver {
 	public Boolean VerifyScreen(String screen) {
 		boolean flag = true;
 		FlutterFinder ele = new FlutterFinder(driver);
-		switch (screen.toUpperCase()){
+		switch (screen.toUpperCase())
+		{
+		
+		
+		case ("SPLASH"):
+		{
+			flag=true;
+			
+			System.out.println("INN");
+			if(ele.text("SIGN IN").getText().equalsIgnoreCase("SIGN IN"))
+			{
+				System.out.println("jafar");
+			}
+			else
+			{
+				System.out.println("khan");
+			}
+			Keyword.ReportStep_Pass(testCase,"Successfully verified splash screen");
+			break;
+		}
 		case ("WATER LEAK DETECTOR SETUP"):{
 			if (ele.text("Water Leak Detector Setup Steps").getText().equalsIgnoreCase("Water Leak Detector Setup Steps")) {
 				flag = true;

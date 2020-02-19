@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="36421" started-at="2020-02-06T18:57:54Z" finished-at="2020-02-06T18:58:30Z">
+  <suite name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="65523" started-at="2020-02-19T21:32:27Z" finished-at="2020-02-19T21:33:32Z">
     <groups>
       <group name="Executor">
         <method signature="TestCasesExecutor.test()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" class="com.honeywell.testcases.executor.TestCasesExecutor"/>
       </group> <!-- Executor -->
     </groups>
-    <test name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="36421" started-at="2020-02-06T18:57:54Z" finished-at="2020-02-06T18:58:30Z">
+    <test name="LUMINA_BUOY_TEST_AUTOMATION" duration-ms="65523" started-at="2020-02-19T21:32:27Z" finished-at="2020-02-19T21:33:32Z">
       <class name="com.honeywell.testcases.executor.TestCasesExecutor">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="setUP" is-config="true" duration-ms="35" started-at="2020-02-06T12:57:54Z" finished-at="2020-02-06T12:57:54Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="setUP" is-config="true" duration-ms="36" started-at="2020-02-19T15:32:27Z" finished-at="2020-02-19T15:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="test()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" duration-ms="36374" started-at="2020-02-06T12:57:54Z" finished-at="2020-02-06T12:58:30Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="test" duration-ms="65473" started-at="2020-02-19T15:32:27Z" finished-at="2020-02-19T15:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-02-06T12:58:30Z" finished-at="2020-02-06T12:58:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:[Test: &quot;As a user I want to login to the lyric application&quot; verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-02-19T15:33:32Z" finished-at="2020-02-19T15:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

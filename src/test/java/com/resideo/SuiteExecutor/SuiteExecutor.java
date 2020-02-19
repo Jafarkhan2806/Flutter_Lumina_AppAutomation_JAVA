@@ -23,9 +23,10 @@ public class SuiteExecutor {
 						+ "SauceLabs::CIBamboo:c2ae0ade-53ed-47c5-bd4a-c65a77c7a096",
 						"--jira_credentials","aterbuild:aterbuild@123",
 						"--setResultFolder", "ExecutionResult",
-						"--appToInstall","IOS:Dummy,Android:Debug",
+						"--appToInstall","IOS:Dummy,Android:Debug_1486",
 						"--groups",
 						"LoginToApplication",
+//						"VerifySplashScreen"
 						
 	
 	
