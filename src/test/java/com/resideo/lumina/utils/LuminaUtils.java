@@ -49,12 +49,19 @@ public class LuminaUtils extends BaseDriver {
 				find.swicthContext("NATIVE_APP");
 				try
 				{
-					Thread.sleep(10000);
+					Thread.sleep(5000);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				find.clickElementByXpath("Email Address");
+				try
+				{
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				find.enterEmailID(inputs.getInputValue("USERID"));
 				find.hideKeyboard();
 				find.clickElementsByXpath("Password",0);
@@ -87,7 +94,7 @@ public class LuminaUtils extends BaseDriver {
 					e.printStackTrace();
 				}
 				
-				
+				find.clickElementbyValueKey("navMenuBtnKey");
 				
 				find.clickElementByText("SETTINGS");
 				
